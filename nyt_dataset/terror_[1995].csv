@@ -1,0 +1,201 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 1995-12-31T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,2702,0.0,Spent  Bosnia  Now  Tries  to  Make  Its  Peace 
+ 1995-12-24T00:00:00Z,glocations,RIODEJANEIRO(BRAZIL),1167,0.0,A  Common  Bond:  Fear  of  Each  Other 
+ 1995-12-21T00:00:00Z,glocations,NEWYORKCITYMETROPOLITANAREA,1053,0.0,Jetliner  Mishap  And  Snow  Foil  Holiday  Travel 
+ 1995-12-17T00:00:00Z,glocations,SOUTHAFRICA,230,0.0,Behind  the  Crime  In  South  Africa 
+ 1995-12-12T00:00:00Z,glocations,SOUTHAFRICA,1389,0.0,As  Crime  Soars,  South  African  Whites  Leave 
+ 1995-12-07T00:00:00Z,glocations,SOUTHAFRICA,1643,0.0,Balancing  Profits  And  Principles  In  South  Africa 
+ 1995-12-07T00:00:00Z,glocations,SPAIN,1616,0.0,A  Chronicler  Of  Time's  Slow  March 
+ 1995-12-03T00:00:00Z,glocations,CAMBODIA,1361,0.0,Outsiders  Gone,  Cambodia  Unravels 
+ 1995-12-01T00:00:00Z,glocations,CHINA,704,0.0,On  My  Mind;The  Blockades  Of  Taiwan 
+ 1995-11-20T00:00:00Z,glocations,CROATIA,1176,0.0,U.S.  TELLS  LEADERS  OF  BALKAN  STATES  TO  WIND  UP  TALKS 
+ 1995-11-17T00:00:00Z,glocations,WESTBANK,118,0.0,West  Bank  Settlers  Talking  of  Betrayal 
+ 1995-11-17T00:00:00Z,glocations,WESTBANK,1786,0.0,Religious  or  Not,  West  Bank  Settlers  Feel  Betrayed  by  Israel 
+ 1995-11-11T00:00:00Z,glocations,NEWYORKCITY,720,0.0,Flash  Stairwell  Fire  in  Harlem  Hurts  at  Least  20 
+ 1995-11-09T00:00:00Z,glocations,RUSSIA,491,0.0,What's  Next  In  This  Line,  Scud  Cola? 
+ 1995-11-04T00:00:00Z,glocations,SUDAN,603,0.0,Act  Now  Against  the  Terror  Network 
+ 1995-11-04T00:00:00Z,glocations,BOSNIA&HERZEGOVINA,656,0.0,NEWS  SUMMARY 
+ 1995-10-22T00:00:00Z,glocations,ALGERIA,236,0.0,OCT.  15-21:  Commuter  Train  Bombed;  Algeria's  Civil  War  Brings  New  Terror  to  France 
+ 1995-10-21T00:00:00Z,glocations,ALGERIA,436,0.0,Terror  in  Paris 
+ 1995-10-18T00:00:00Z,glocations,LEBANON,829,0.0,Israel  Denounces  Iran  and  Syria  Over  Attack  in  Lebanon 
+ 1995-10-12T00:00:00Z,glocations,NEWYORK,NY,USA,503,0.0,METRO  DIGEST 
+ 1995-10-10T00:00:00Z,glocations,HYDER(ARIZ),1342,0.0,Sabotage  Derails  Arizona  Train;  One  Is  Killed  and  100  Are  Hurt 
+ 1995-10-09T00:00:00Z,glocations,UNITEDSTATES,715,0.0,Abroad  at  Home;Leadership  And  Duty 
+ 1995-10-02T00:00:00Z,glocations,NEWYORK,NY,USA,671,0.0,METRO  DIGEST 
+ 1995-10-01T00:00:00Z,glocations,CROATIA,1161,0.0,Arson  and  Death  Plague  Serbian  Region  of  Croatia 
+ 1995-09-29T00:00:00Z,glocations,WESTBANK,1239,0.0,Lives  Are  at  Stake;  So  Are  Postal  Services  and  Gas  Tanks 
+ 1995-09-26T00:00:00Z,glocations,WESTBANK,1035,0.0,Living  Apart  in  Mideast 
+ 1995-09-25T00:00:00Z,glocations,CAMBODIA,930,0.0,Survey  of  Cambodia  Abuses  Will  Seek  Input  on  Internet 
+ 1995-09-17T00:00:00Z,glocations,NEWYORKCITY,955,0.0,Gangs  Find  Shop  Owners  Easy  Prey  at  Home 
+ 1995-09-10T00:00:00Z,glocations,MIDDLEEAST,7571,0.0,Passion  Set  in  Stone 
+ 1995-09-07T00:00:00Z,glocations,FRANCE,1339,0.0,A  Wary  France  Cracks  Down  on  Its  Muslims 
+ 1995-09-05T00:00:00Z,glocations,NEWYORKCITY,1359,0.0,Asthma  Common  and  on  Rise  In  the  Crowded  South  Bronx 
+ 1995-09-04T00:00:00Z,glocations,FRANCE,691,0.0,Malfunctioning  Bomb  Wounds  Four  in  Paris 
+ 1995-09-03T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,1274,0.0,Ethnic  Cleansing  Didn't  Start  in  Bosnia 
+ 1995-09-03T00:00:00Z,glocations,TEXAS,1366,0.0,Why  Not  Unconcealed  Guns 
+ 1995-08-23T00:00:00Z,glocations,EUROPE,1505,0.0,Step  Right  Up,  Monsieur! 
+ 1995-08-21T00:00:00Z,glocations,INDIA,994,0.0,Terror  in  Paradise  Keeps  Tourists  From  Kashmir 
+ 1995-08-18T00:00:00Z,glocations,BANJALUKA(BOSNIA),1076,0.0,Croats  Bid  Tearful  Farewell  To  Serb-Held  City  in  Bosnia 
+ 1995-08-18T00:00:00Z,glocations,ARCDETRIOMPHE(PARIS),639,0.0,Bomb  Near  Arc  de  Triomphe  Wounds  17 
+ 1995-08-17T00:00:00Z,glocations,MIDDLEEAST,532,0.0,Israel  Renews  Permission  for  the  Use  of  Force  in  Interrogations 
+ 1995-08-16T00:00:00Z,glocations,BANJALUKA(BOSNIA),1027,0.0,News  From  Front  Grips  Bosnian  Serbs'  Big  City 
+ 1995-08-14T00:00:00Z,glocations,ROMANIA,1304,0.0,Foreign  Workers  Replacing  Arabs  on  Israeli  Farms 
+ 1995-08-05T00:00:00Z,glocations,ISRAEL,1099,0.0,Jerusalem  Journal;  With  Souls  in  Mind,  Israelis  Minister  to  Bodies 
+ 1995-08-02T00:00:00Z,glocations,PETERBOROUGH(NH),908,0.0,Paranoia  on  Main  Street 
+ 1995-07-30T00:00:00Z,glocations,LATINAMERICA,934,0.0,The  World;  The  South  American  Art  of  Name-Calling 
+ 1995-07-30T00:00:00Z,glocations,FRANCE,179,0.0,July  23-29:  Terror  in  Paris;  A  Bomb  Kills  Seven  In  French  Subway  Yet  Leaves  Few  Clues 
+ 1995-07-30T00:00:00Z,glocations,UNITEDSTATES,2570,0.0,Mexican  Connection  Grows  As  Cocaine  Supplier  to  U.S. 
+ 1995-07-30T00:00:00Z,glocations,JAPAN,2199,0.0,Where  Japan  Deifies  Its  War  Dead 
+ 1995-07-27T00:00:00Z,glocations,TELAVIV(ISRAEL),290,0.0,Mindless  Murder  in  Israel 
+ 1995-07-25T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,718,0.0,On  My  Mind;  The  Document  Of  May  30 
+ 1995-07-25T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,621,0.0,Horror  and  Despair  in  the  Balkans 
+ 1995-07-23T00:00:00Z,glocations,NEWJERSEY,961,0.0,Truckers  Carve  a  New  Route,  Crowding  a  Two-Lane  Road 
+ 1995-07-20T00:00:00Z,glocations,MONTANA,708,0.0,Terror  in  Montana 
+ 1995-07-20T00:00:00Z,glocations,EGYPT,532,0.0,Egypt  Arrests  15  in  2-Day  Sweep  Against  Muslim  Brotherhood 
+ 1995-07-17T00:00:00Z,glocations,NEWYORKCITY,739,0.0,In  America;  Tabloid  Troubles 
+ 1995-07-16T00:00:00Z,glocations,DIYARBAKIR(TURKEY),1415,0.0,War  on  Rebel  Kurds  Puts  Turkey's  Ideals  to  Test 
+ 1995-07-15T00:00:00Z,glocations,SREBRENICA(BOSNIA),816,0.0,Terrorized  Human  Tide  Overwhelms  Relief  Camp 
+ 1995-07-12T00:00:00Z,glocations,NEWYORKSTATE,583,0.0,New  York's  Haunted  Houses 
+ 1995-07-10T00:00:00Z,glocations,HAITI,244,0.0,Haiti:  Lessons  for  the  Next  Election 
+ 1995-07-09T00:00:00Z,glocations,WESTBANK,509,0.0,A  Middle  East  Milestone 
+ 1995-07-08T00:00:00Z,glocations,JAPAN,1739,0.0,Gulliver's  Japanese  Travels;  Hitting  the  (Narrow)  Road  in  Two  U.S.  Behemoths 
+ 1995-07-07T00:00:00Z,glocations,IRAQ,525,0.0,Baghdad's  Biological  Arsenal 
+ 1995-07-03T00:00:00Z,glocations,WESTBANK,935,0.0,Goal  Missed,  Israel  and  P.L.O.  Vow  to  Revive  Talks  Soon 
+ 1995-07-02T00:00:00Z,glocations,JAPAN,1803,0.0,Coloring  History  Our  Way 
+ 1995-06-25T00:00:00Z,glocations,SERBIA,1109,0.0,The  World:  ...Or  Else;  Hostage-Taking  Is  a  Weapon  Of  War  Whose  Time  Is  Now 
+ 1995-06-25T00:00:00Z,glocations,PHNOMPENH(CAMBODIA),2654,0.0,Phnom  Penh's  Faded  Beauty 
+ 1995-06-25T00:00:00Z,glocations,TONGMUCHONG(CHINA),1690,0.0,Birth  Control  in  China:  Coercion  and  Evasion 
+ 1995-06-18T00:00:00Z,glocations,NEWYORKCITY,560,0.0,Ideas  &  Trends;  Acting  Like  Men,  Getting  in  Trouble 
+ 1995-06-18T00:00:00Z,glocations,COLOMBIA,565,0.0,New  Terror  Campaign  by  Drug  Traffickers  Feared  in  Colombia 
+ 1995-06-16T00:00:00Z,glocations,ALGERIA,546,0.0,Algeria  in  Secret  Talks  With  Militants,  Dividing  Rebels  Further 
+ 1995-06-15T00:00:00Z,glocations,YONKERS(NY),1740,0.0,Where  the  Quiet  Holds  No  Terror 
+ 1995-06-15T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,964,0.0,A  Ragtag  Bosnian  Army  Becomes  a  Credible  Force 
+ 1995-06-11T00:00:00Z,glocations,NEWYORKSTATE,495,0.0,Votes  in  Congress 
+ 1995-06-11T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,888,0.0,Peacekeeping  vs.  an  Intractable  War 
+ 1995-06-10T00:00:00Z,glocations,ALGERIA,779,0.0,Tipasa  Journal;  Algerian  Anti-Terror  Force  Can  Instill  Terror,  Too 
+ 1995-06-08T00:00:00Z,glocations,RWANDA,570,0.0,Send  the  Peacekeepers  Home,  a  Ravaged  Rwanda  Tells  U.N. 
+ 1995-06-07T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,755,0.0,Snipers  Tighten  Terror's  Grip  on  Bosnia's  Capital 
+ 1995-06-07T00:00:00Z,glocations,SOUTHAFRICA,965,0.0,South  Africa's  Supreme  Court  Abolishes  Death  Penalty 
+ 1995-06-07T00:00:00Z,glocations,NEWYORKCITY,1087,0.0,The  First  to  Meet  Disaster  Are  Also  the  First  to  Meet  the  Dawn 
+ 1995-06-04T00:00:00Z,glocations,NEWYORKCITY,2032,0.0,Police  Frenzy:  Guests  at  Hotel  Offer  Accounts 
+ 1995-06-04T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1076,0.0,Who's  John  Doe? 
+ 1995-06-01T00:00:00Z,glocations,GREATBRITAIN,734,0.0,Bosnian  Serbs  Call  for  Talks;  U.N.  Refuses,  Seeing  a  Ploy 
+ 1995-05-31T00:00:00Z,glocations,GREATBARRINGTON(MASS),930,0.0,Berkshires  Storm  Kills  3,  But  Leaves  Scores  in  Awe 
+ 1995-05-27T00:00:00Z,glocations,SERBIA,1026,0.0,AFTER  2D  STRIKE  FROM  NATO,  SERBS  DETAIN  U.N.  TROOPS 
+ 1995-05-14T00:00:00Z,glocations,RUSSIA,3834,0.0,Revelations,  Secrets,  Gossip  and  Lies:  Sifting  Warily  Through  the  Soviet  Archives 
+ 1995-05-14T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1341,0.0,Americans  See  Strangers  in  Their  Midst 
+ 1995-05-08T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1227,0.0,Nightmares  of  Screams  Haunt  Rescue  Workers 
+ 1995-05-06T00:00:00Z,glocations,OKLAHOMACITY(OKLA),717,0.0,Justice  to  Change  Its  Team  As  Hunt  for  Suspects  Slows 
+ 1995-05-05T00:00:00Z,glocations,OKLAHOMACITY(OKLA),846,0.0,After  15  Days,  the  Search  for  Bombing  Victims  Ends 
+ 1995-05-05T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1235,0.0,As  Hopes  for  Quick  Answers  Fade,  Bombing  Inquiry  Enters  Slower-Moving  Phase 
+ 1995-05-03T00:00:00Z,glocations,TEXASCITY(TEX),300,0.0,An  Explosive  Discovered  in  a  Deadly  Way 
+ 1995-05-03T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1283,0.0,Ideas  Abound,  but  Blocking  Oklahoma-Type  Bombs  Is  Seen  as  Unlikely 
+ 1995-05-03T00:00:00Z,glocations,OKLAHOMACITY(OKLA),670,0.0,With  Rescues  Unlikely,  Search  Is  Scaled  Back 
+ 1995-05-03T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1308,0.0,Tender  Memories  of  Day-Care  Center  Are  All  That  Remain  After  The  Bomb 
+ 1995-05-02T00:00:00Z,glocations,JUNCTIONCITY(KAN),704,0.0,Agents  Find  Possible  Link  To  Bombers  At  Lake  Site 
+ 1995-05-02T00:00:00Z,glocations,OKLAHOMACITY(OKLA),632,0.0,Before  the  Explosion,  Officials  Saw  Little  Risk  for  Building  in  Oklahoma  City 
+ 1995-05-01T00:00:00Z,glocations,OKLAHOMACITY(OKLA),986,0.0,For  the  Dispossessed,  Aid  With  No  Red  Tape 
+ 1995-04-30T00:00:00Z,glocations,OKLAHOMACITY(OKLA),3,0.0,A  Show  of  Support 
+ 1995-04-30T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1193,0.0,Increasingly,  Extremism  Is  Heavily  Armed 
+ 1995-04-30T00:00:00Z,glocations,NEWYORKCITY,116,0.0,75  Years  Ago,  Terror  Hit  Home 
+ 1995-04-30T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1411,0.0,A  Shaken  City,  Ever  Devout,  Turns  to  God 
+ 1995-04-30T00:00:00Z,glocations,EUROPE,1174,0.0,Overseas,  Oklahoma  City  Bombing  Is  Seen  Through  Prism  of  Experience 
+ 1995-04-30T00:00:00Z,glocations,OKLAHOMACITY(OKLA),757,0.0,For  Searchers,  Exhaustion  Grows  as  Hope  Fades 
+ 1995-04-30T00:00:00Z,glocations,OKLAHOMACITY(OKLA),178,0.0,Donations  to  Help  the  Bombing  Victims 
+ 1995-04-29T00:00:00Z,glocations,OKLAHOMACITY(OKLA),374,0.0,Hunt  for  Bodies  Slowed  by  Falling  Debris 
+ 1995-04-29T00:00:00Z,glocations,OKLAHOMACITY(OKLA),3,0.0,A  Survivor  Talks  About  Her  Ordeal 
+ 1995-04-28T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1179,0.0,As  Optimism  Fades,  Those  Waiting  Find  Solace  in  Small  and  Quiet  Ways 
+ 1995-04-28T00:00:00Z,glocations,OKLAHOMACITY(OKLA),746,0.0,Although  Unrestrained  in  a  Crisis,  Television  Is  a  Tie  That  Binds 
+ 1995-04-28T00:00:00Z,glocations,NEWYORKCITY,694,0.0,Design  Could  Have  Been  Another  Enemy 
+ 1995-04-28T00:00:00Z,glocations,OKLAHOMACITY(OKLA),953,0.0,Death  Count  Rises  to  110  At  Blast  Site 
+ 1995-04-27T00:00:00Z,glocations,OKLAHOMACITY(OKLA),290,0.0,Bomb-Threat  Hoaxes  Keep  City  on  Edge 
+ 1995-04-27T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1233,0.0,New  Medium  for  the  Far  Right 
+ 1995-04-27T00:00:00Z,glocations,OKLAHOMACITY(OKLA),976,0.0,Talk  on  Bombs  Surges  On  Computer  Network 
+ 1995-04-26T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1115,0.0,Bomb  Echoes  Extremists'  Tactics 
+ 1995-04-26T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1091,0.0,Federal  Agencies'  Priorities  Grating  as  Time  Wears  On 
+ 1995-04-26T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1133,0.0,500  Downtown  Dwellers  Have  Lost  Their  Homes 
+ 1995-04-26T00:00:00Z,glocations,OKLAHOMACITY(OKLA),3,0.0,Sad  Farewell  to  Bomb  Victims 
+ 1995-04-26T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1206,0.0,Many  Theories  About  Choice  Of  the  Target 
+ 1995-04-26T00:00:00Z,glocations,RUSSIA,2252,0.0,Soviet  Archives:  Half-Open,  Dirty  Window  on  Past 
+ 1995-04-25T00:00:00Z,glocations,OKLAHOMACITY(OKLA),370,0.0,Loss  of  Materials  and  Files  Threaten  Prosecution  of  Cases 
+ 1995-04-25T00:00:00Z,glocations,OKLAHOMACITY(OKLA),601,0.0,Minds  of  Young  Are  Left  in  Turmoil 
+ 1995-04-25T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1336,0.0,Coping  With  Shock  of  Blast:  Lingering  Fear  and  Anguish 
+ 1995-04-25T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1006,0.0,Businesses  Buzz  to  Life,  But  Nothing  Is  the  Same 
+ 1995-04-25T00:00:00Z,glocations,WESTERNSTATES(US),1487,0.0,Federal  Uniforms  Become  Target  Of  Wave  of  Threats  and  Violence 
+ 1995-04-25T00:00:00Z,glocations,OKLAHOMACITY(OKLA),510,0.0,Reporters  Jockeying  For  Space 
+ 1995-04-25T00:00:00Z,glocations,OKLAHOMACITY(OKLA),805,0.0,The  Explosion  Echoes  in  Cyberspace 
+ 1995-04-24T00:00:00Z,glocations,MIDDLEEAST,703,0.0,Bitterness  Over  Early  Finger-Pointing  Toward  the  Middle  East 
+ 1995-04-24T00:00:00Z,glocations,OKLAHOMACITY(OKLA),979,0.0,Muslims  Continue  to  Feel  Apprehensive 
+ 1995-04-24T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1117,0.0,In  Blast's  Aftermath,  Many  Oklahoma  City  Companies  Struggle  to  Survive 
+ 1995-04-24T00:00:00Z,glocations,OKLAHOMACITY(OKLA),745,0.0,Its  Building  Is  Shattered,  But  Church  Survives 
+ 1995-04-23T00:00:00Z,glocations,OKLAHOMACITY(OKLA),3421,0.0,Those  Who  Lived,  Mostly  Just  by  Chance,  Tell  Their  Stories 
+ 1995-04-23T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1206,0.0,Radical  Right's  Fury  Boiling  Over 
+ 1995-04-23T00:00:00Z,glocations,JAPAN,233,0.0,April  16-22;  The  Scent  of  Terror 
+ 1995-04-23T00:00:00Z,glocations,OKLAHOMACITY(OKLA),675,0.0,Enforced  Delays  Take  Toll  on  Morale  of  Rescuers 
+ 1995-04-23T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1585,0.0,Ordinary  Lives  of  Victims,  Remembered  in  Grief 
+ 1995-04-23T00:00:00Z,glocations,OKLAHOMACITY(OKLA),407,0.0,A  Legacy  of  Violent  Anti-Government  Militancy 
+ 1995-04-22T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1215,0.0,A  Slow  and  Gruesome  Search  Through  Unstable  Wreckage 
+ 1995-04-22T00:00:00Z,glocations,DECKER(MICH),697,0.0,With  Helicopters  Above,  Agents  Raid  Michigan  Farmhouse 
+ 1995-04-22T00:00:00Z,glocations,OKLAHOMACITY(OKLA),3,0.0,The  Anxious  Hours 
+ 1995-04-22T00:00:00Z,glocations,OKLAHOMACITY(OKLA),210,0.0,Donations  to  Help  Bomb  Victims 
+ 1995-04-21T00:00:00Z,glocations,OKLAHOMACITY(OKLA),3,0.0,Candlelight  Memorial 
+ 1995-04-21T00:00:00Z,glocations,OKLAHOMACITY(OKLA),209,0.0,Donations  to  Help  Bomb  Victims 
+ 1995-04-21T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1087,0.0,Experts  Search  for  Debris  To  Link  Bomb  to  a  Suspect 
+ 1995-04-21T00:00:00Z,glocations,UNITEDSTATES,928,0.0,Anti-Terrorism  Bill:  Blast  Turns  a  Snail  Into  a  Race  Horse 
+ 1995-04-21T00:00:00Z,glocations,OKLAHOMACITY(OKLA),1134,0.0,Where  Nothing  Ever  Happens,  Terrorism  Did 
+ 1995-04-21T00:00:00Z,glocations,NEWYORKCITY,66,0.0,In  City  After  City,  a  Bad  Case  of  Nerves 
+ 1995-04-21T00:00:00Z,glocations,OKLAHOMACITY(OKLA),916,0.0,Fear  About  Retaliation  Among  Muslim  Groups 
+ 1995-04-21T00:00:00Z,glocations,JUNCTIONCITY(KAN),1019,0.0,A  Piece  of  a  Rented  Truck  Offers  a  Clue  to  2  Suspects 
+ 1995-04-20T00:00:00Z,glocations,WACO(TEX),730,0.0,Remnants  of  Branch  Davidians  Gather  to  Grieve  and  Look  to  Future 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),374,0.0,Other  Bombings  in  America 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),797,0.0,The  Tools  of  a  Terrorist:  Everywhere  for  Anyone 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),969,0.0,In  Shock,  Loathing,  Denial:  'This  Doesn't  Happen  Here' 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),862,0.0,They  Fear  Only  the  Answer  Is  Worse  Than  the  Question 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),707,0.0,Re-thinking  Day  Care  At  the  Job 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),874,0.0,TERROR  IN  OKLAHOMA  CITY:  AROUND  THE  NATION    Aftershocks  of  Terror  Spread  Out  Quickly  After  the  Explosion  in  Oklahoma  City;  Government  Buildings  Close  in  Eight  Cities  As  Extra  Caution  Becomes  Order  of  the  Day 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),732,0.0,Wary  Network  Anchors  Battle  Dubious  Scoops 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),914,0.0,On  the  Radio  a  Call  Goes  Out:  Send  Blankets  and  Body  Bags 
+ 1995-04-20T00:00:00Z,glocations,OKLAHOMACITY(OKLA),65,0.0,About  the  Building 
+ 1995-04-19T00:00:00Z,glocations,BUKHARA(UZBEKISTAN),1235,0.0,Ancient  Mosques  Along  Silk  Road  Are  Falling  Apart 
+ 1995-04-18T00:00:00Z,glocations,GERMANY,1026,0.0,Wartime  Atomic  Strategy  Is  Reassessed 
+ 1995-04-17T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,1053,0.0,A  U.N.  Peacekeeper  Dies;  Bosnia's  Pain  Does  Not 
+ 1995-04-05T00:00:00Z,glocations,FAREAST,SOUTHANDSOUTHEASTASIAANDPACIFICAREAS,1424,0.0,Heroin  Scourges  Million  Pakistanis 
+ 1995-04-01T00:00:00Z,glocations,RUSSIA,812,0.0,Russian  Troops  Take  Last  Chechen  Cities 
+ 1995-03-30T00:00:00Z,glocations,IRAQ,684,0.0,Essay;  Stop  the  Turks 
+ 1995-03-27T00:00:00Z,glocations,WESTBANK,742,0.0,At  Home  Abroad;  A  Garrison  State? 
+ 1995-03-23T00:00:00Z,glocations,JAPAN,774,0.0,Russian  Branch  Attracts  Members  and  a  Lawsuit 
+ 1995-03-23T00:00:00Z,glocations,NEWYORKCITY,1146,0.0,Survivors  of  Collapse  Lose  All  to  Demolition 
+ 1995-03-22T00:00:00Z,glocations,JAPAN,1109,0.0,Japanese  Police  Raid  the  Offices  Of  a  Sect  Linked  to  Poison  Gas 
+ 1995-03-22T00:00:00Z,glocations,JAPAN,982,0.0,Sect  Says  Government  Staged  the  Gas  Attack 
+ 1995-03-22T00:00:00Z,glocations,JAPAN,1210,0.0,Earlier  Victims'  Horror  Revived:  Was  June  Incident  a  Dry  Run? 
+ 1995-03-22T00:00:00Z,glocations,JAPAN,857,0.0,Sarin  Just  One  of  Many  Deadly  Gases  Terrorists  Could  Use 
+ 1995-03-21T00:00:00Z,glocations,JAPAN,1390,0.0,Hundreds  in  Japan  Hunt  Gas  Attackers  After  8  Die 
+ 1995-03-21T00:00:00Z,glocations,NEWYORKCITY,152,0.0,Gas  Threat  Delays  Plane 
+ 1995-03-21T00:00:00Z,glocations,JAPAN,1247,0.0,Fear  Stalks  Tokyo:  Safe  No  More 
+ 1995-03-21T00:00:00Z,glocations,JAPAN,726,0.0,U.S.  Intelligence  Officials  Baffled  Over  Possible  Motives 
+ 1995-03-21T00:00:00Z,glocations,JAPAN,828,0.0,In  Subways  Elsewhere,  A  Heightened  State  of  Alert 
+ 1995-03-21T00:00:00Z,glocations,JAPAN,840,0.0,Nerve  Gas  That  Felled  Tokyo  Subway  Riders  Said  to  Be  One  of  Most  Lethal  Known 
+ 1995-03-21T00:00:00Z,glocations,JAPAN,823,0.0,Survivors'  Stories:  How  a  Morning  Routine  Turned  Into  a  Horror 
+ 1995-03-20T00:00:00Z,glocations,KARACHI(PAKISTAN),1526,0.0,Terror  Network  Traced  to  Pakistan 
+ 1995-03-20T00:00:00Z,glocations,LIMA(PERU),1056,0.0,Shining  Path  Rebels  Step  Up  Terror  Campaign  in  Peru 
+ 1995-03-14T00:00:00Z,glocations,CALIFORNIA,749,0.0,Californians  Try  to  Cope  With  the  Latest  Deluge 
+ 1995-03-12T00:00:00Z,glocations,PHNOMPENH(CAMBODIA),1054,0.0,The  World;  Cambodia  Can't  Shake  The  Legacy  of  Madness 
+ 1995-03-09T00:00:00Z,glocations,ITALY,589,0.0,Wave  of  Killing  in  Sicily  Raises  Fear  of  Mafia  Terror  Campaign 
+ 1995-03-07T00:00:00Z,glocations,ISRAEL,924,0.0,Jerusalem  Journal;  In  a  Museum  of  Hell,  Qualms  About  Decorum 
+ 1995-03-07T00:00:00Z,glocations,ALGERIA,713,0.0,A  Well-Founded  Fear 
+ 1995-03-05T00:00:00Z,glocations,BOHEMIA(CZECHREPUBLIC),3857,0.0,BOHEMIA,  WHERE  FAIRY  TALES  MIGHT  BE  TRUE 
+ 1995-03-05T00:00:00Z,glocations,MIDDLEEAST,983,0.0,The  World;  Arabs,  Too,  Play  the  Ethnic  Card 
+ 1995-03-02T00:00:00Z,glocations,GARDENCITY(NY),737,0.0,Abortion  Clinic  Faces  Eviction  With  Eight  Years  Left  on  Lease 
+ 1995-02-26T00:00:00Z,glocations,EASTTIMOR,591,0.0,Gangs  Terrorizing  East  Timor  Seen  as  Effort  to  Quell  Dissent 
+ 1995-02-26T00:00:00Z,glocations,ROSELAWN(IND),6807,0.0,Warnings  Unheeded  --  A  special  report.;  F.A.A.'s  Fatal  Fumbles  on  Commuter  Plane's  Safety 
+ 1995-02-23T00:00:00Z,glocations,FRANCE,711,0.0,C.I.A.  Faces  Issue  of  Economic  Spying 
+ 1995-02-21T00:00:00Z,glocations,GERMANY,1190,0.0,Attack  on  Austrian  Gypsies  Deepens  Fear  of  Neo-Nazis 
+ 1995-02-20T00:00:00Z,glocations,KABUL(AFGHANISTAN),1588,0.0,With  Kabul  Largely  in  Ruins,  Afghans  Get  Respite  From  War 
+ 1995-02-18T00:00:00Z,glocations,CROATIA,1087,0.0,Foreign  Islamic  Militants  Strain  Bosnian  Alliance 
+ 1995-02-17T00:00:00Z,glocations,ALABAMA,703,0.0,Three  Killed  As  Tornado  Strikes  Town  In  Alabama 
+ 1995-02-16T00:00:00Z,glocations,AFGHANISTAN,1209,0.0,New  Afghan  Force  Takes  Hold,  Turning  to  Peace 
+ 1995-02-06T00:00:00Z,glocations,ALGIERS(ALGERIA),217,0.0,Islamic  Rebels  Admit  Setting  Off  Bomb  In  Algerian  Capital 
+ 1995-02-05T00:00:00Z,glocations,GEORGIA(GEORGIANREPUBLIC),1201,0.0,In  Caucasus,  Separatist  Struggle  Is  Pursued  as  a  Pogrom 
+ 1995-01-24T00:00:00Z,glocations,PITTSBURGH(PA),1223,0.0,USAir  Transcript  Shows  Plunge  Was  a  Complete  Surprise 
+ 1995-01-11T00:00:00Z,glocations,LEBANON,797,0.0,Foz  do  Iguacu  Journal;  Smuggling,  Yes,  but  Darker  Crimes  Are  Disowned 
+ 1995-01-01T00:00:00Z,glocations,SERBIA(YUGOSLAVIA),510,0.0,Sarajevo,  Tired  of  Being  'a  Big  Prison  Camp' 

@@ -1,0 +1,505 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 2016-12-23T03:42:43+0000,glocations,Melbourne(Australia),610,5.3841643e-07,Australia  Says  It  Foiled  a  Terrorist  Plot 
+ 2016-12-16T20:15:38+0000,glocations,Ludwigshafen(Germany),622,3.2221092e-07,Germany  Investigates  if  Boy,  12,  Planted  Bomb  at  Christmas  Market 
+ 2016-12-21T03:02:30+0000,glocations,Syria,1304,3.0881995e-07,Russia,  Iran  and  Turkey  Meet  for  Syria  Talks,  Excluding  U.S. 
+ 2016-12-14T21:52:08+0000,glocations,Syria,979,1.8362186e-07,A  Hotline  for  Americans  and  Russians  to  Avoid  Catastrophe  in  Syrian  Skies 
+ 2016-12-06T21:10:47+0000,glocations,Surt(Libya),979,9.676555e-08,Jubilant  Libyan  Militias  Declare  Victory  Over  ISIS  in  Surt 
+ 2016-12-06T10:00:40+0000,glocations,Afghanistan,3236,8.0733514e-08,Saudis  Bankroll  Taliban,  Even  as  King  Officially  Supports  Afghan  Government 
+ 2016-11-27T16:08:54+0000,glocations,Israel,738,5.301756e-08,Israel  Defense  Forces  Kill  4  ISIS-Linked  Attackers  in  Golan  Heights 
+ 2016-11-24T05:30:24+0000,glocations,Mosul(Iraq),1448,4.6243645e-08,Iraq  Told  Civilians  to  Stay  in  Mosul.  Now  They’re  Paying  With  Their  Lives. 
+ 2016-11-16T18:10:39Z,glocations,Kabul(Afghanistan),376,3.440597e-08,Afghan  Bodyguards  Targeted  in  Bombing  Claimed  by  ISIS  Affiliates 
+ 2016-11-24T12:17:35+0000,glocations,Syria,996,3.4299223e-08,American  Is  Killed  in  First  Casualty  for  U.S.  Forces  in  Syria  Combat 
+ 2016-11-15T13:35:18Z,glocations,Aleppo(Syria),809,1.9448462e-08,Airstrikes  on  Aleppo  Resume  as  Russia  Begins  New  Offensive  in  Syria 
+ 2016-11-11T16:03:54Z,glocations,Mosul(Iraq),1072,1.0462495e-08,ISIS  Is  Massacring  Mosul  Civilians  as  Troops  Advance,  U.N.  Says 
+ 2016-11-06T16:26:17+0000,glocations,Raqqa(Syria),1102,6.992652e-09,U.S.-Backed  Militia  Opens  Drive  on  ISIS  Capital  in  Syria 
+ 2016-11-02T17:32:33Z,glocations,Mosul(Iraq),1156,5.0130837e-09,Mosul  Neighbors  Wake  Up  to  a  Day  Without  ISIS 
+ 2016-10-29T19:56:23+0000,glocations,Mosul(Iraq),829,4.25836e-09,Tal  Afar,  West  of  Mosul,  Becomes  Center  of  Battle  for  Influence  in  Iraq 
+ 2016-10-22T19:33:41+0000,glocations,Mosul(Iraq),965,3.00916e-09,Pentagon  Expects  Mosul  Push  to  Unlock  Trove  of  ISIS  Intelligence 
+ 2016-10-17T18:36:24+0000,glocations,Mosul(Iraq),243,2.698411e-09,Why  Mosul  Is  Critical  in  the  Battle  Against  ISIS 
+ 2016-10-25T18:48:55+0000,glocations,Mosul(Iraq),1115,2.4036249e-09,Mosul  Fight  Unleashes  New  Horrors  on  Civilians 
+ 2016-10-23T22:39:01+0000,glocations,Turkey,1303,1.973225e-09,Turkey’s  Push  to  Join  Battle  for  Mosul  Inflames  Tension  With  Iraq 
+ 2016-10-21T09:25:32+0000,glocations,Kirkuk(Iraq),904,1.8488855e-09,ISIS  Fighters  in  Iraq  Attack  Kirkuk,  Diverting  Attention  From  Mosul 
+ 2016-10-16T23:36:32+0000,glocations,Dabiq(Syria),410,1.7879257e-09,Village  Mythologized  by  ISIS  Is  Recaptured,  Syrian  Rebels  Say 
+ 2016-10-21T20:22:54+0000,glocations,Mosul(Iraq),1252,1.5442971e-09,Flee  or  Stay?  For  Mosul  Residents,  Both  Choices  Are  Risky 
+ 2016-10-08T00:31:19+0000,glocations,Russia,861,5.267479e-10,John  Kerry  Calls  for  War  Crimes  Investigation  of  Russia  and  Assad  Government 
+ 2016-09-14T04:00:00+0000,glocations,Germany,333,7.7954664e-11,Germany  Arrests  3  Syrians  on  Suspicion  of  ISIS  Ties 
+ 2016-09-14T14:06:34+0000,glocations,Libya,766,7.190147e-11,British  Lawmakers  Condemn  2011  Intervention  in  Libya 
+ 2016-09-21T04:00:00+0000,glocations,Syria,2249,5.922619e-11,Straightforward  Answers  to  Basic  Questions  About  Syria’s  War 
+ 2016-09-17T22:04:13+0000,glocations,Syria,1236,5.7177606e-11,U.S.  Admits  Airstrike  in  Syria,  Meant  to  Hit  ISIS,  Killed  Syrian  Troops 
+ 2016-08-29T04:00:00+0000,glocations,Syria,952,1.2761673e-11,In  Syria,  Rebels  Threaten  Kurdish-Controlled  Territory  as  U.S.  Allies  Clash 
+ 2016-08-30T04:00:00+0000,glocations,Turkey,1299,1.1121163e-11,Knowing  the  Risks,  Some  Syrian  Rebels  Seek  a  Lift  From  Turks’  Incursion 
+ 2016-08-26T04:00:00+0000,glocations,Turkey,1342,8.857907e-12,With  Operation  in  Syria,  Erdogan  Shows  His  New  Power  Over  Turkey’s  Military 
+ 2016-08-25T23:34:54+0000,glocations,Turkey,537,7.537033e-12,A  Complicated  Alliance  With  Turkey 
+ 2016-08-14T04:00:00+0000,glocations,Manbij(Syria),939,1.7667039e-12,U.S.  Drones  Record  ISIS  Fighters  Fleeing  Manbij  in  Northern  Syria 
+ 2016-08-12T04:00:00+0000,glocations,Libya,758,1.4056726e-12,ISIS  Fighters  Are  Still  Lurking  in  Surt,  Libyan  Officials  Warn 
+ 2016-08-02T04:00:00+0000,glocations,Turkey,1166,5.138057e-13,In  an  Effort  to  Maintain  U.S.  Ties,  Turkey  Softens  Its  Tone 
+ 2016-07-18T00:00:00Z,glocations,IncirlikAirBase(Turkey),256,1.226208e-13,Turkey  Allows  Resumption  of  U.S.  Missions  From  Incirlik  Air  Base 
+ 2016-07-16T18:53:21+0000,glocations,IncirlikAirBase(Turkey),1335,9.444164e-14,Turkey  Interrupts  U.S.  Air  Missions  Against  ISIS  at  Major  Base 
+ 2016-07-14T21:47:10+0000,glocations,France,1417,4.288341e-14,Scores  Die  in  Nice,  France,  as  Truck  Plows  Into  Bastille  Day  Crowd 
+ 2016-07-07T00:00:00Z,glocations,Afghanistan,1064,1.7017908e-14,Obama  Says  He  Will  Keep  More  Troops  in  Afghanistan  Than  Planned 
+ 2016-06-28T00:00:00Z,glocations,Jordan,488,1.0003811e-14,ISIS  Is  Said  to  Claim  Responsibility  for  Attack  at  Jordan-Syria  Border 
+ 2016-06-30T00:00:00Z,glocations,Turkey,1115,7.500258e-15,Turkey’s  Twin  Terrorist  Threats,  Explained 
+ 2016-06-30T00:53:19+0000,glocations,Turkey,1378,7.366413e-15,Turkey,  a  Conduit  for  Fighters  Joining  ISIS,  Begins  to  Feel  Its  Wrath 
+ 2016-06-25T00:00:00Z,glocations,Syria,389,6.6169003e-15,ISIS  Said  to  Abduct  Hundreds  of  Kurdish  Civilians  in  Syria 
+ 2016-06-30T00:00:00Z,glocations,Surt(Libya),1865,6.277397e-15,A  Slow,  Steady  Siege  on  an  ISIS  Stronghold  in  Libya 
+ 2016-06-29T00:00:00Z,glocations,Turkey,1555,5.663009e-15,Istanbul  Airport  Attack  Leaves  at  Least  41  Dead 
+ 2016-06-19T00:00:00Z,glocations,Iraq,1388,1.7995982e-15,A  War  of  Brothers  in  Iraq:  ‘I  Will  Kill  Him  With  My  Own  Hands’ 
+ 2016-06-17T00:28:37+0000,glocations,Syria,1202,1.4857448e-15,51  U.S.  Diplomats  Urge  Strikes  Against  Assad  in  Syria 
+ 2016-06-10T00:00:00Z,glocations,Libya,861,1.320505e-15,U.N.-Backed  Libyan  Fighters  Push  Toward  ISIS  Stronghold  of  Surt 
+ 2016-06-07T00:00:00Z,glocations,Falluja(Iraq),1366,4.055506e-16,Iraqis  Who  Flee  Fighting  in  Falluja  Find  Hardship  and  Hunger 
+ 2016-06-02T00:00:00Z,glocations,Falluja(Iraq),441,3.9429847e-16,20,000  Iraqi  Children  Are  Trapped  by  Falluja  Battle,  U.N.  Warns 
+ 2016-06-02T00:00:00Z,glocations,Libya,1122,2.1962932e-16,Militias  in  Libya  Advance  on  ISIS  Stronghold  of  Surt  With  Separate  Agendas 
+ 2016-05-31T18:50:53+0000,glocations,Falluja(Iraq),1284,1.9270514e-16,Fear  of  ‘Catastrophe  Unfolding’  Amid  Fighting  in  Falluja 
+ 2016-05-28T17:06:39Z,glocations,Iran,1474,1.2956078e-16,Iran-Led  Push  to  Retake  Falluja  From  ISIS  Worries  U.S. 
+ 2016-05-23T00:00:00Z,glocations,Falluja(Iraq),442,1.03873834e-16,Iraq  Begins  Operation  to  Retake  Falluja  From  ISIS 
+ 2016-05-27T00:00:00Z,glocations,Africa,979,9.916764e-17,U.S.  Increases  Antiterrorism  Exercises  With  African  Militaries 
+ 2016-05-24T00:00:00Z,glocations,Iraq,887,8.6506376e-17,Iraqi  Forces  Try  to  Retake  Falluja  From  ISIS 
+ 2016-05-20T20:06:05Z,glocations,Iraq,784,5.6505283e-17,Iraqi  Protesters  Clash  With  Troops  in  Baghdad’s  Green  Zone 
+ 2016-05-18T00:00:00Z,glocations,Iraq,1166,3.026628e-17,Yes,  ISIS  Is  Losing  in  Iraq.  No,  It’s  Not  in  Its  Death  Throes. 
+ 2016-05-14T00:00:00Z,glocations,Belgium,509,2.7750665e-17,Belgium’s  Anti-ISIS  Airstrikes  Expand  From  Iraq  Into  Syria 
+ 2016-05-06T00:00:00Z,glocations,Australia,327,1.2518189e-17,ISIS  Operative  From  Australia  Is  Killed  in  Iraq  Airstrike,  Officials  Say 
+ 2016-05-04T00:00:00Z,glocations,Iraq,666,8.441453e-18,Navy  SEAL  Is  Killed  in  Northern  Iraq  in  Fight  With  ISIS 
+ 2016-05-06T00:00:00Z,glocations,Russia,1329,6.3035526e-18,In  Syria,  Russia  Plays  Bach  Where  ISIS  Executed  25 
+ 2016-04-26T00:00:00Z,glocations,Iraq,1043,1.5589873e-18,In  Effort  to  Defeat  ISIS,  U.S.  and  Iran  Impede  One  Another 
+ 2016-04-13T20:40:09+0000,glocations,Syria,886,3.6985812e-19,Syrian  Parliamentary  Elections  Highlight  Divisions  and  Uncertainty 
+ 2016-03-25T00:00:00Z,glocations,Malaysia,100,6.0929516e-20,Malaysia:  15  Arrested  in  ISIS  Inquiry 
+ 2016-03-30T00:00:00Z,glocations,Palmyra(Syria),602,5.2313936e-20,ISIS  Fighters  Laid  Mines  Around  Palmyra’s  Ancient  Ruins  Before  Retreating,  Syrians  Say 
+ 2016-03-31T00:00:00Z,glocations,Libya,898,5.0691363e-20,Libya’s  Unity  Government  Defies  Air  Blockade  to  Reach  Tripoli 
+ 2016-03-25T00:00:00Z,glocations,Iraq,469,3.038034e-20,Iraq  Retakes  ISIS-Held  Villages  Outside  Mosul 
+ 2016-03-28T00:00:00Z,glocations,Palmyra(Syria),1065,2.6568408e-20,Syrian  Troops  Said  to  Recapture  Historic  Palmyra  From  ISIS 
+ 2016-03-26T00:00:00Z,glocations,Syria,1222,2.0142667e-20,A  Top  ISIS  Leader  Is  Killed  in  an  Airstrike,  the  Pentagon  Says 
+ 2016-03-25T00:00:00Z,glocations,Syria,970,1.7403386e-20,Syrian  Forces  and  ISIS  Clash  at  Edge  of  Palmyra 
+ 2016-03-19T00:00:00Z,glocations,Afghanistan,1098,1.0070331e-20,U.S.  Steps  Up  Airstrikes  Against  ISIS  After  It  Gains  Territory  in  Afghanistan 
+ 2016-03-22T00:00:00Z,glocations,Belgium,1583,9.840777e-21,The  Arrest  of  Salah  Abdeslam,  a  Paris  Suspect,  Ends  Manhunt,  Not  Questions 
+ 2016-03-15T00:00:00Z,glocations,SaudiArabia,498,8.598903e-21,Saudis  Issue  a  Response  to  Criticism  by  Obama 
+ 2016-03-16T16:43:04+0000,glocations,Syria,1275,5.067607e-21,Syrian  Kurds  Hope  to  Establish  a  Federal  Region  in  Country’s  North 
+ 2016-03-11T00:00:00Z,glocations,Germany,776,2.7845644e-21,Germany  Obtains  List  of  Foreigners  Suspected  of  Fighting  for  ISIS 
+ 2016-03-09T00:00:00Z,glocations,Libya,1407,2.7304992e-21,Pentagon  Has  Plan  to  Cripple  ISIS  in  Libya  With  Air  Barrage 
+ 2016-03-02T01:13:02+0000,glocations,Iraq,826,1.2386759e-21,U.S.  Captures  ISIS  Operative,  Ushering  in  Tricky  Phase 
+ 2016-03-02T00:00:00Z,glocations,Russia,374,9.953663e-22,Russian  Foreign  Minister  Calls  for  New  Chemical  Weapons  Accord 
+ 2016-02-29T00:00:00Z,glocations,Iraq,378,8.396213e-22,Two  Bombings  Kill  Dozens  at  a  Baghdad  Market 
+ 2016-02-29T00:00:00Z,glocations,Syria,440,7.495687e-22,Day  2  of  Syrian  Partial  Truce  Is  Marred  by  Violence 
+ 2016-02-28T00:00:00Z,glocations,Syria,797,6.4934127e-22,Violence  in  Syria  Abates  on  Day  1  of  Cease-Fire 
+ 2016-02-25T00:00:00Z,glocations,Libya,668,2.8857236e-22,Assessing  the  Shifting  Military  and  Political  Calculus  in  Libya 
+ 2016-02-24T17:15:35+0000,glocations,Libya,1202,2.2426952e-22,A  Radical  Idea  to  Rebuild  a  Shattered  Libya:  Restore  the  Monarchy 
+ 2016-02-22T20:29:38+0000,glocations,Russia,1103,1.6501169e-22,U.S.-Russia  Deal  on  a  Partial  Truce  in  Syria  Raises  More  Doubt  Than  Optimism 
+ 2016-02-20T00:00:00Z,glocations,Turkey,604,1.6133513e-22,Obscure  Kurdish  Group  Claims  Hand  in  Bombing  Turks   
+ 2016-02-21T00:00:00Z,glocations,Libya,747,1.585487e-22,Serbian  Hostages  Killed  in  U.S.  Airstrikes  Against  ISIS  in  Libya 
+ 2016-02-22T00:00:00Z,glocations,GreatBritain,1276,1.4812287e-22,London  Mayor  Joins  Chorus  Demanding  Exit  From  E.U. 
+ 2016-02-19T10:28:18+0000,glocations,Libya,1244,1.381448e-22,U.S.  Bombing  in  Libya  Reveals  Limits  of  Strategy  Against  ISIS 
+ 2016-02-19T00:00:00Z,glocations,Ankara(Turkey),1224,1.291926e-22,Turkey  Blames  Kurdish  Militia  for  Ankara  Attack,  Challenging  U.S. 
+ 2016-02-17T00:00:00Z,glocations,Brussels(Belgium),430,1.2316119e-22,Belgian  Police  Charge  3  in  Investigation  of  ISIS  Network 
+ 2016-02-18T00:00:00Z,glocations,France,1322,7.627075e-23,Muslims  in  France  Say  Emergency  Powers  Go  Too  Far 
+ 2016-02-17T00:00:00Z,glocations,Baghdad(Iraq),1244,6.861558e-23,After  25  Years  of  U.S.  Role  in  Iraq,  Scars  Are  Too  Stubborn  to  Fade 
+ 2016-02-16T00:00:00Z,glocations,Syria,1100,5.875713e-23,Syrian  Hospitals  Hit  as  Battlefield  Grows  More  Chaotic 
+ 2016-02-12T00:19:03+0000,glocations,Syria,993,4.4855805e-23,U.S.  and  Russia  Announce  Plan  for  Humanitarian  Aid  and  a  Cease-Fire  in  Syria 
+ 2016-02-13T01:20:33+0000,glocations,Syria,1181,3.732335e-23,Syria  Truce  Deal  Makes  Aid  a  Political  Tool,  Critics  Say 
+ 2016-02-13T00:00:00Z,glocations,Iraq,1461,3.6965265e-23,Sunni  Resentment  Muddles  Prospect  of  Reunifying  Iraq  After  ISIS 
+ 2016-02-05T00:00:00Z,glocations,Germany,323,2.1222586e-23,Germany  Arrests  Algerian  Suspected  of  Planning  Terrorist  Attack 
+ 2016-02-03T00:00:00Z,glocations,Afghanistan,239,1.9376753e-23,Airstrikes  in  Afghanistan  Kill  29  Militants  Affiliated  With  ISIS,  Official  Says 
+ 2016-02-05T01:59:30+0000,glocations,Syria,764,1.3590422e-23,Government  Forces,  Backed  by  Russian  Jets,  Advance  in  Syria 
+ 2016-02-05T00:00:00Z,glocations,Iraq,1172,1.0605027e-23,Disappointed  With  Europe,  Thousands  of  Iraqi  Migrants  Return  Home 
+ 2016-02-03T00:00:00Z,glocations,Libya,764,9.543181e-24,Anti-ISIS  Coalition  to  Intensify  Efforts,  John  Kerry  Says 
+ 2016-02-01T00:00:00Z,glocations,Iraq,1218,5.5885443e-24,Battered  by  War,  Iraq  Now  Faces  Calamity  From  Dropping  Oil  Prices 
+ 2016-02-01T01:22:14+0000,glocations,Afghanistan,1152,5.5866344e-24,U.S.  Broadens  Fight  Against  ISIS  With  Attacks  in  Afghanistan 
+ 2016-01-30T00:00:00Z,glocations,Syria,1047,4.1472595e-24,Syria  Talks  Are  Complicated  by  Competing  Opposition  Groups 
+ 2016-01-23T00:00:00Z,glocations,Iraq,344,2.6717086e-24,U.S.  May  Put  Forces  at  Iraqi  Bases  in  Effort  to  Retake  Mosul 
+ 2016-01-27T00:00:00Z,glocations,Egypt,1258,2.6231017e-24,Hundreds  Vanishing  in  Egypt  as  Crackdown  Widens,  Activists  Say 
+ 2016-01-22T00:00:00Z,glocations,Syria,1420,1.5944805e-24,Russia  and  U.S.,  While  Pushing  for  Peace  Talks,  Jockey  for  Position  in  Syria 
+ 2016-01-19T00:00:00Z,glocations,Libya,1265,1.2130332e-24,In  Libya,  U.S.  Courts  Unreliable  Allies  to  Counter  ISIS 
+ 2016-01-19T00:00:00Z,glocations,Syria,412,1.1856759e-24,ISIS  Captures  Government-Held  Ground  in  Eastern  Syria 
+ 2016-01-19T00:00:00Z,glocations,Iraq,706,8.9856e-25,Missing  Americans  in  Baghdad  Taken  From  Apartment,  Officials  Say 
+ 2016-01-20T00:00:00Z,glocations,Iraq,1059,8.197769e-25,U.N.  Quantifies  the  Suffering  in  an  Iraq  Divided  and  Under  Attack 
+ 2016-01-15T00:00:00Z,glocations,Turkey,498,5.469959e-25,Turkey  Strikes  Islamic  State  Targets  in  Retaliation  for  Istanbul  Bombing 
+ 2016-01-14T00:00:00Z,glocations,Afghanistan,606,4.6648353e-25,ISIS  Claims  Assault  That  Killed  7  Near  Pakistani  Consulate  in  Afghanistan 
+ 2016-01-16T00:00:00Z,glocations,Iraq,1243,4.4291084e-25,Gains  Against  ISIS  Bring  More  Deaths  Elsewhere  in  Iraq 
+ 2016-01-16T00:00:00Z,glocations,Syria,1381,4.300096e-25,One  Syrian’s  Journey  From  Hometown  Rebel  to  ISIS  Bomber 
+ 2016-01-12T00:00:00Z,glocations,Baghdad(Iraq),660,3.44085e-25,ISIS  Attack  on  Baghdad  Mall  Kills  17 
+ 2016-01-12T00:00:00Z,glocations,GreatBritain,645,3.34084e-25,Top  Suspect  in  Paris  Attacks  Had  Traveled  to  Britain,  Officials  Say 
+ 2016-01-13T00:00:00Z,glocations,Istanbul(Turkey),1202,2.6205474e-25,Istanbul  Explosion  Kills  10  Tourists,  and  ISIS  Is  Blamed 
+ 2016-01-10T00:00:00Z,glocations,Egypt,1423,1.650822e-25,Egypt’s  President  Turns  to  Religion  to  Bolster  His  Authority 
+ 2016-01-07T00:00:00Z,glocations,Iraq,675,1.2293748e-25,Iraq  Offers  to  Mediate  Dispute  Between  Saudi  Arabia  and  Iran 
+ 2016-01-06T02:09:55+0000,glocations,Iran,1184,8.3019377e-26,Saudi-Iran  Feud  Poses  Threat  to  Iraq’s  Effort  to  Combat  ISIS 
+ 2016-01-01T00:00:00Z,glocations,NewYorkState,761,6.5794414e-26,Rochester  Man  Charged  With  Planning  Attack  on  Behalf  of  ISIS 
+ 2016-01-02T00:00:00Z,glocations,Israel,1012,4.2332578e-26,Gunman  Kills  2  in  Tel  Aviv  in  Attack  on  a  Busy  Street 
+ 2015-12-30T00:00:00Z,glocations,Iraq,1318,2.771143e-26,Celebrating  Victory  Over  ISIS,  Iraqi  Leader  Looks  to  Next  Battles 
+ 2015-12-27T00:00:00Z,glocations,Syria,823,2.00972e-26,U.N.  Sets  Syrian  Peace  Talks  as  Fighting  Complicates  Task 
+ 2015-12-26T00:00:00Z,glocations,Syria,843,1.7806113e-26,Powerful  Syrian  Rebel  Leader  Reported  Killed  in  Airstrike 
+ 2015-12-24T00:00:00Z,glocations,Iraq,486,1.7605198e-26,Iraq  Sends  More  Troops  to  Fight  ISIS  in  Ramadi 
+ 2015-12-25T00:00:00Z,glocations,Iraq,578,1.7316463e-26,ISIS  Claims  Major  Counterattacks  as  Iraqi  Forces  Lay  Siege  to  Ramadi 
+ 2015-12-20T00:00:00Z,glocations,Turkey,296,9.9589044e-27,Turkey  to  Continue  Withdrawal  of  Troops  From  Northern  Iraq 
+ 2015-12-20T00:00:00Z,glocations,Iraq,899,8.7413715e-27,U.S.  Airstrike  Killed  Iraqis  by  Accident,  Officials  Say 
+ 2015-12-22T10:00:22+0000,glocations,Turkey,1314,7.625641e-27,Turkey  Moves  to  Clamp  Down  on  Border,  Long  a  Revolving  Door 
+ 2015-12-22T12:51:01+0000,glocations,Iraq,1181,7.570493e-27,Iraqi  Forces  Fighting  ISIS  for  Ramadi  Push  Toward  City  Center 
+ 2015-12-21T00:00:00Z,glocations,France,956,5.7334688e-27,French  Ship  Commands  Naval  Task  Force  in  Strikes  Against  ISIS 
+ 2015-12-18T00:00:00Z,glocations,Iraq,830,4.587942e-27,ISIS  Carries  Out  First  &#8216;Serious&#8217;  Attack  in  Northern  Iraq  in  Months,  U.S.  Says   
+ 2015-12-17T06:00:56Z,glocations,UnitedStates,710,3.890449e-27,Poll  Watch:  Americans  Fear  More  Terrorist  Attacks  but  Have  Mixed  Views  on  Gun  Control 
+ 2015-12-17T00:00:00Z,glocations,Iraq,1001,3.0726057e-27,Iraq  Declines  Offer  of  U.S.  Helicopters  for  Fight  Against  ISIS,  Pentagon  Chief  Says 
+ 2015-12-15T00:00:00Z,glocations,Yemen,1241,2.1794247e-27,Islamic  State  Gains  Strength  in  Yemen,  Challenging  Al  Qaeda 
+ 2015-12-12T00:00:00Z,glocations,Ramadi(Iraq),1195,1.3130293e-27,Iraqi  Forces  Advance  in  Campaign  to  Retake  Ramadi  From  ISIS 
+ 2015-12-10T00:00:00Z,glocations,Israel,899,1.1456478e-27,Israel  Holds  5  Arab  Israelis  Suspected  of  Supporting  ISIS 
+ 2015-12-06T00:00:00Z,glocations,Iraq,860,5.7767537e-28,Iraqi  Officials  Angered  by  Influx  of  Turkish  Troops 
+ 2015-12-03T00:00:00Z,glocations,GreatBritain,1284,4.002344e-28,British  Jets  Hit  ISIS  in  Syria  After  Parliament  Authorizes  Airstrikes 
+ 2015-12-02T00:00:00Z,glocations,Russia,737,2.893227e-28,Russians  Unlikely  to  Attack  ISIS  in  Syria,  Obama  Says 
+ 2015-11-27T00:00:00Z,glocations,France,1056,2.1626137e-28,Britain  and  Germany  Test  Support  for  Stronger  Steps  Against  ISIS     
+ 2015-12-01T00:00:00Z,glocations,NewYorkState,1162,2.0024795e-28,New  York  Proposes  New  Banking  Rules  to  Stanch  Flow  of  Illicit  Financing 
+ 2015-12-01T00:00:00Z,glocations,GreatBritain,959,1.9891435e-28,Syria  Question  Exposes  Bitter  Divide  in  Britain’s  Labour  Party 
+ 2015-11-26T00:00:00Z,glocations,France,283,1.6701299e-28,France  Votes  to  Keep  Up  ISIS  Air  War 
+ 2015-11-22T00:00:00Z,glocations,Mali,1393,4.2617655e-29,Hotel  Attack  in  Mali Reverses  Gains  in  Fight  Against  Extremism 
+ 2015-11-17T09:04:55+0000,glocations,Russia,1166,3.6843413e-29,Russia  Allies  With  France  Against  ISIS,  Saying  Jet  That  Crashed  in  Sinai  Was  Bombed 
+ 2015-11-18T00:00:00Z,glocations,NewJersey,780,2.592267e-29,A  Manhattan  Hardware  Store  Welcomes  Refugees  as  Governors  Vow  to  Shut  Them  Out 
+ 2015-11-18T00:00:00Z,glocations,Raqqa(Syria),1413,2.0226638e-29,Strikes  on  Raqqa  in  Syria  Lead  to  More  Questions  Than  Results 
+ 2015-11-14T00:00:00Z,glocations,Turkey,1110,9.967246e-30,In  Hosting  G-20,  Turkey  Strives  to  Bolster  Its  Status 
+ 2015-11-13T08:43:16+0000,glocations,Iraq,1314,8.83705e-30,Kurdish  Fighters  Retake  Iraqi  City  of  Sinjar  From  ISIS 
+ 2015-11-12T00:00:00Z,glocations,Afghanistan,952,7.1303945e-30,Protest  in  Kabul  for  More  Security  After  Seven  Hostages  Are  Beheaded 
+ 2015-11-12T00:00:00Z,glocations,Syria,1499,6.2429e-30,On  the  Road  in  Syria,  Struggle  All  Around 
+ 2015-11-10T00:00:00Z,glocations,Jordan,910,6.1269165e-30,Jordanian  Police  Officer  Kills  Five,  Including  Two  Americans 
+ 2015-11-11T00:00:00Z,glocations,Syria,1369,5.960159e-30,Obama  Turns  to  Diplomacy  and  Military  in  Syria,  and  Is  Met  With  Doubts 
+ 2015-11-10T00:00:00Z,glocations,Afghanistan,1002,4.8959513e-30,Afghan  Fighters  Loyal  to  ISIS  Beheaded  7  Hostages,  Officials  Say 
+ 2015-11-04T13:00:04+0000,glocations,GuantanamoBayNavalBase(Cuba),780,2.3526666e-30,Let’s  Finally  Close  Guantánamo 
+ 2015-10-30T15:10:35+0000,glocations,Syria,1438,1.3858328e-30,Obama  Sends  Special  Operations  Forces  to  Help  Fight  ISIS  in  Syria 
+ 2015-10-31T00:00:00Z,glocations,Bangladesh,1662,7.278292e-31,Bangladesh  Pushes  Back  as  Warnings  of  ISIS  Expansion  Gather  Steam 
+ 2015-10-29T19:46:34+0000,glocations,Syria,1380,6.7464367e-31,Rancor  Between  Saudi  Arabia  and  Iran  Threatens  Talks  on  Syria 
+ 2015-10-23T00:00:00Z,glocations,Israel,275,3.9085427e-31,Jewish  Man  Stabbed  in  Israel  by  Palestinians  as  Violence  Continues 
+ 2015-10-24T00:00:00Z,glocations,Syria,1122,2.3618648e-31,U.S.  and  Russia  Find  Common  Goals  on  Syria,  if  Not  on  Assad 
+ 2015-10-20T00:00:00Z,glocations,GreatBritain,776,1.4167039e-31,Britain  Unveils  Plans  to  Fight  Extremism  in  Young  Muslims 
+ 2015-10-21T00:00:00Z,glocations,Aleppo(Syria),1000,1.3728897e-31,Russia  Makes  an  Impact  in  Syrian  Battle  for  Control  of  Aleppo 
+ 2015-10-17T00:00:00Z,glocations,Iraq,723,8.359718e-32,Iraqi  Forces  and  Shiite  Militias  Retake  Oil  Refinery  From  ISIS 
+ 2015-10-15T00:00:00Z,glocations,Turkey,835,5.644134e-32,Turkey  Fires  Security  Officials  After  Attack  in  Ankara 
+ 2015-10-15T00:00:00Z,glocations,Turkey,1298,4.5665223e-32,Turkey  Expresses  Concern  to  U.S.  and  Russia  Over  Help  for  Syrian  Kurds 
+ 2015-10-14T00:00:00Z,glocations,Syria,999,3.700099e-32,Putin  Says  U.S.  Fails  to  Cooperate  in  Syria 
+ 2015-10-14T00:00:00Z,glocations,Turkey,1647,3.2868347e-32,Turkey  and  the  Aftermath  of  the  Ankara  Bombing 
+ 2015-10-13T09:00:06+0000,glocations,Afghanistan,1463,3.276216e-32,Afghan  ISIS  Branch  Makes  Inroads  in  Battle  Against  Taliban 
+ 2015-10-12T00:00:00Z,glocations,Turkey,903,3.1818596e-32,Ankara  Bombings  Prompt  Rally  Against  Turkish  Government 
+ 2015-10-12T15:57:17+0000,glocations,Turkey,1304,2.7976957e-32,Deadly  Ankara  Attack  Not  Enough  to  Unify  a  Polarized  Turkey 
+ 2015-10-12T14:28:41+0000,glocations,Syria,1392,2.7660737e-32,U.S.  Weaponry  Is  Turning  Syria  Into  Proxy  War  With  Russia 
+ 2015-10-12T00:00:00Z,glocations,Iraq,1307,2.541266e-32,Shiites  in  Iraq  Hailing  Putin  for  Syria  Push 
+ 2015-10-09T00:00:00Z,glocations,Russia,1054,2.1062509e-32,Russia  Denies  U.S.  Claim  That  Missiles  Aimed  at  Syria  Hit  Iran 
+ 2015-10-09T11:39:08+0000,glocations,Syria,1585,1.9218068e-32,Obama  Administration  Ends  Effort  to  Train  Syrians  to  Combat  ISIS 
+ 2015-10-05T00:00:00Z,glocations,Syria,341,1.3984886e-32,ISIS  Destroys  Another  Monument  at  Palmyra  Ruins  in  Syria 
+ 2015-10-07T12:39:06+0000,glocations,Syria,1154,1.1296436e-32,Russian  Cruise  Missiles  Help  Syrians  Go  on  the  Offensive 
+ 2015-10-02T00:00:00Z,glocations,Russia,807,1.00848555e-32,Russian  Foreign  Minister  Defends  Airstrikes  in  Syria 
+ 2015-10-03T23:51:16+0000,glocations,Afghanistan,2105,7.454387e-33,Billions  From  U.S.  Fail  to  Sustain  Foreign  Forces 
+ 2015-09-30T00:00:00Z,glocations,Syria,1313,6.871705e-33,Russia  Buildup  Seen  as  Fanning  Flames  in  Syria   
+ 2015-10-03T00:00:00Z,glocations,Syria,1473,5.9548762e-33,Obama  Sees  Russia  Failing  in  Syria  Effort 
+ 2015-10-01T00:00:00Z,glocations,Syria,660,5.9021858e-33,Parsing  YouTube  Evidence  of  Russian  Strikes  in  Syria 
+ 2015-09-30T08:34:44+0000,glocations,Syria,1362,5.865767e-33,Russians  Strike  Targets  in  Syria,  but  Not  ISIS  Areas 
+ 2015-10-01T11:15:52+0000,glocations,Russia,1175,5.15522e-33,Russia  Carries  Out  Airstrikes  in  Syria  for  2nd  Day 
+ 2015-10-02T00:00:00Z,glocations,Syria,1372,4.0409293e-33,Vladimir  Putin  Plunges  Into  a  Caldron  in  Syria:  Saving  Assad 
+ 2015-09-30T01:04:16+0000,glocations,Syria,1185,2.7397776e-33,John  Kerry  Rushes  In  Where  Obama  Will  Not  Tread 
+ 2015-09-23T00:00:00Z,glocations,Iraq,116,2.5391055e-33,Iraq:  Airstrike  Kills  an  ISIS  Leader 
+ 2015-09-25T00:00:00Z,glocations,Sana(Yemen),324,2.1634614e-33,Bombings  at  Mosque  in  Yemen  Kill  at  Least  25 
+ 2015-09-28T00:00:00Z,glocations,Russia,1107,1.8665783e-33,Russia  Surprises  U.S.  With  Accord  on  Battling  ISIS 
+ 2015-09-27T00:00:00Z,glocations,Syria,1461,1.3806253e-33,Thousands  Enter  Syria  to  Join  ISIS  Despite  Global  Efforts 
+ 2015-09-20T00:00:00Z,glocations,Syria,804,8.648611e-34,Russian  Buildup  in  Syria  Raises  Questions  on  Role 
+ 2015-09-23T00:00:00Z,glocations,Syria,1032,7.593633e-34,David  Petraeus  Urges  Stronger  U.S.  Military  Effort  in  Syria 
+ 2015-09-22T00:00:00Z,glocations,Russia,1011,6.0029337e-34,Russia  Expands  Fleet  in  Syria  With  Jets  That  Can  Attack  Targets  on  Ground 
+ 2015-09-18T13:28:35+0000,glocations,Syria,1227,5.505733e-34,U.S.  Begins  Military  Talks  With  Russia  on  Syria 
+ 2015-09-17T00:00:00Z,glocations,Russia,1224,4.023699e-34,Putin  Sees  Path  to  Diplomacy  Through  Syria 
+ 2015-09-17T00:00:00Z,glocations,France,625,3.5523386e-34,France  Says  It  Will  Join  Air  Campaign  Against  ISIS  in  Syria 
+ 2015-09-17T00:00:00Z,glocations,Syria,760,2.819062e-34,Few  U.S.-Trained  Syrians  Still  Fight  ISIS,  Senators  Are  Told 
+ 2015-09-14T16:38:18+0000,glocations,Egypt,1376,1.4814862e-34,Egyptian  Military  Fires  on  Mexican  Tourists  During  Picnic 
+ 2015-09-12T00:00:00Z,glocations,Turkey,540,1.346662e-34,Shiite  Militia  Releases  Video  of  Turkish  Workers  Kidnapped  in  Iraq 
+ 2015-09-14T00:49:43+0000,glocations,Iran,1544,1.2036241e-34,U.S.  and  Iran  Both  Conflict  and  Converge 
+ 2015-09-09T00:00:00Z,glocations,Bulgaria,914,1.1038705e-34,U.S.  Moves  to  Block  Russian  Military  Buildup  in  Syria 
+ 2015-09-10T00:00:00Z,glocations,Minneapolis(Minn),711,7.72782e-35,Minneapolis  Fighting  Terror  Recruitment   
+ 2015-09-07T00:00:00Z,glocations,Afghanistan,792,4.2465652e-35,Taliban’s  New  Leader  in  Afghanistan  Moves  to  Quash  Dissent 
+ 2015-09-06T00:00:00Z,glocations,Syria,616,4.224568e-35,U.S.  Warns  Russia  Over  Military  Support  for  Assad 
+ 2015-09-06T00:00:00Z,glocations,Syria,944,2.855718e-35,Unrest  Mounts  in  Southern  Syria  After  Druse  Cleric  Dies  in  Blast 
+ 2015-09-04T20:40:00Z,glocations,Europe,670,2.8297627e-35,Freedom  of  Movement  Tests  Continental  Unity 
+ 2015-09-01T00:00:00Z,glocations,Iraq,1285,1.0788044e-35,Protests  in  Iraq  Bring  Fast  Promises,  but  Slower  Changes 
+ 2015-08-28T00:00:00Z,glocations,Iraq,545,7.5117526e-36,ISIS  Suicide  Attack  Kills  2  Iraqi  Generals  Near  Ramadi 
+ 2015-08-26T00:00:00Z,glocations,Syria,1554,3.0038013e-36,In  Syria,  Potential  Ally’s  Islamist  Ties  Challenge  U.S. 
+ 2015-08-25T00:00:00Z,glocations,Turkey,1376,2.6948791e-36,As  Turkey  Targets  Militants,  War  Grips  Kurdish  Lands  Once  Again 
+ 2015-08-19T00:00:00Z,glocations,Libya,971,1.05014715e-36,Libya  Asks  Arab  League  Countries  to  Help  Battle  Islamic  State 
+ 2015-08-19T00:00:00Z,glocations,Turkey,881,1.0386014e-36,Elections  Seem  Likely  in  Turkey  as  ISIS  Threat  Rises 
+ 2015-08-19T00:00:00Z,glocations,Afghanistan,1318,8.5180275e-37,Afghan  Vice  President  Raises  Concerns  by  Turning  to  Militias  in  Taliban  Fight 
+ 2015-08-17T00:00:00Z,glocations,Iraq,625,7.16376e-37,Iraqi  Leader&#8217;s  Overhaul  Cuts  11  Cabinet  Positions   
+ 2015-08-12T00:00:00Z,glocations,Syria,161,6.1566086e-37,Syria:  Islamic  State  Frees  22  Assyrian  Christians 
+ 2015-08-17T00:00:00Z,glocations,Turkey,998,5.5902455e-37,After  Delicate  Negotiations,  U.S.  Says  It  Will  Pull  Patriot  Missiles  From  Turkey 
+ 2015-08-14T00:00:00Z,glocations,Turkey,820,3.892189e-37,Turkish  Coalition  Talks  End  Fruitlessly,  Making  New  Elections  Likely 
+ 2015-08-14T00:00:00Z,glocations,Iraq,713,3.857869e-37,Bomb  Claimed  by  ISIS  Kills  Dozens  in  Baghdad 
+ 2015-08-15T00:00:00Z,glocations,Syria,1058,3.8344997e-37,U.S.-Led  Air  Campaign  Is  Linked  to  Civilian  Deaths  in  Syria 
+ 2015-08-13T00:00:00Z,glocations,Egypt,911,3.2186523e-37,ISIS  Affiliate  in  Egypt  Says  It  Has  Beheaded  Croatian  Prisoner 
+ 2015-08-12T09:00:41+0000,glocations,Iraq,1266,2.2526113e-37,U.S.  Jets  Meet  Limit  as  Iraqi  Ground  Fight  Against  ISIS  Plods  On 
+ 2015-08-12T00:00:00Z,glocations,Iraq,1262,2.0715084e-37,Iraqi  Parliament  Backs  Overhaul  of  Government 
+ 2015-08-07T00:00:00Z,glocations,Macedonia,181,1.9033214e-37,Macedonia  Arrests  9  Suspected  of  Having  Ties  to  ISIS 
+ 2015-08-08T00:00:00Z,glocations,Syria,501,1.6429431e-37,Dozens  of  Syrian  Christians  Missing  From  Town  Attacked  by  ISIS 
+ 2015-08-11T00:00:00Z,glocations,Turkey,1029,1.6356268e-37,Attackers  in  Istanbul  Open  Fire  Outside  U.S.  Consulate 
+ 2015-08-06T00:00:00Z,glocations,GreatBritain,395,1.5549942e-37,Britain  Charges  Anjem  Choudary,  Radical  Preacher,  With  Aiding  ISIS 
+ 2015-08-10T00:00:00Z,glocations,Tunisia,1289,1.4208705e-37,Change  in  Militant  Tactics  Puts  Tunisians  on  Edge 
+ 2015-08-10T00:00:00Z,glocations,Iraq,1144,1.4016751e-37,Premier  Haider  al-Abadi,  Facing  Protests,  Proposes  Iraqi  Government  Overhaul 
+ 2015-08-06T00:00:00Z,glocations,Egypt,497,9.320632e-38,Egyptian  Militants  Tied  to  ISIS  Threaten  to  Kill  Croatian  Hostage 
+ 2015-08-04T06:00:28Z,glocations,Baghdad(Iraq),942,5.532596e-38,Before  ISIS,  a  Resonant  Image  of  a  Captured  Flag  in  Iraq 
+ 2015-08-05T15:38:26+0000,glocations,Turkey,1569,5.030907e-38,Turkey’s  Push  Into  War  Is  Seen  as  Erdogan’s  Political  Strategy 
+ 2015-08-03T00:00:00Z,glocations,Egypt,1006,3.403428e-38,Kerry  Warns  Egypt  Human  Rights  Abuses  Can  Hurt  Fight  Against  Terrorism 
+ 2015-08-02T00:00:00Z,glocations,Iraq,1186,2.7571848e-38,120  Degrees  and  No  Relief?  ISIS  Takes  Back  Seat  for  Iraqis 
+ 2015-07-29T00:00:00Z,glocations,Turkey,435,2.1466358e-38,Turkey’s  Fight  Against  ISIS  Explained 
+ 2015-07-29T14:00:00Z,glocations,London(England),708,1.7614465e-38,Britain  Is  Losing  Against  ISIS  Recruitment  Tactics 
+ 2015-07-29T00:00:00Z,glocations,Turkey,745,1.5648367e-38,Turkey  Wins  NATO  Support  as  It  Steps  Up  ISIS  Fight  in  Syria 
+ 2015-07-27T00:00:00Z,glocations,Turkey,1232,1.4555301e-38,Strikes  on  Kurd  Militias  Elevate  Tensions  in  Turkey 
+ 2015-07-28T23:26:02+0000,glocations,Turkey,1219,1.2556876e-38,Turkey’s  Focus  on  Crushing  Kurdish  Separatists  Complicates  the  Fight  Against  ISIS 
+ 2015-07-26T00:00:00Z,glocations,Syria,457,1.190052e-38,Australia  Arrests  Nurse  Who  Says  He  Worked  With  ISIS  Under  Duress 
+ 2015-07-23T00:00:00Z,glocations,Italy,148,1.1071846e-38,Italy  Arrests  2  Men  Accused  of  Planning  Terrorist  Attacks 
+ 2015-07-27T07:43:54+0000,glocations,Turkey,1512,1.1006461e-38,Turkey  and  U.S.  Plan  to  Create  Syria  ‘Safe  Zone’  Free  of  ISIS 
+ 2015-07-26T00:00:00Z,glocations,Turkey,904,8.346321e-39,Turkey  Attacks  Kurdish  Militant  Camps  in  Northern  Iraq 
+ 2015-07-27T00:00:00Z,glocations,Syria,1090,8.33549e-39,Assad,  in  Rare  Admission,  Says  Syria’s  Army  Lacks  Manpower 
+ 2015-07-25T00:00:00Z,glocations,Syria,719,6.979562e-39,Turkey,  Anticipating  Attack,  Strikes  3  ISIS  Targets  in  Syria  With  Jets 
+ 2015-07-23T00:00:00Z,glocations,Turkey,480,6.525487e-39,Suicide  Bomber  in  Suruc  Is  Said  to  Be  a  Turk  With  Possible  Ties  to  ISIS 
+ 2015-07-23T17:09:01+0000,glocations,Turkey,1290,6.030393e-39,U.S.  Jets  to  Use  Turkish  Bases  in  War  on  ISIS 
+ 2015-07-20T00:00:00Z,glocations,GreatBritain,580,5.188315e-39,David  Cameron  Wants  Britain  to  Do  More  Against  ISIS 
+ 2015-07-24T00:00:00Z,glocations,Iraq,1104,4.523987e-39,U.S.-Trained  Iraqi  Troops  Deployed  to  Help  Retake  Ramadi  From  ISIS 
+ 2015-07-23T00:00:00Z,glocations,Syria,742,4.393155e-39,3  Spanish  Journalists  Missing  in  Syria  and  Feared  Abducted 
+ 2015-07-21T00:00:00Z,glocations,GreatBritain,690,4.329827e-39,David  Cameron  Calls  on  Muslims  in  Britain  to  Help  End  Extremism 
+ 2015-07-20T00:00:00Z,glocations,GazaStrip,311,4.090173e-39,Explosions  in  Gaza  Destroy  Vehicles  of  Hamas  and  Islamic  Jihad  Officials 
+ 2015-07-18T00:00:00Z,glocations,Syria,647,3.920812e-39,British  Pilots  Have  Been  Conducting  Airstrikes  in  Syria,  Defense  Ministry  Confirms 
+ 2015-07-21T00:00:00Z,glocations,Turkey,763,3.058953e-39,Turkey  Says  Suicide  Bombing  Kills  at  Least  30  in Suruc,  Near  Syria 
+ 2015-07-19T00:00:00Z,glocations,SaudiArabia,702,2.003329e-39,Saudis  Cast  Net  for  ISIS  Sympathizers   
+ 2015-07-18T00:00:00Z,glocations,France,752,1.634815e-39,3  in  France  Accused  of  Plotting  a  Beheading  at  a  Naval  Base 
+ 2015-07-16T00:00:00Z,glocations,Syria,1286,1.500784e-39,Syria  Increasingly  Disintegrates  in  Crucible  of  War 
+ 2015-07-16T00:00:00Z,glocations,Afghanistan,1152,8.35385e-40,U.S.  Steps  Up  Airstrikes  in  Afghanistan,  Even  Targeting  ISIS 
+ 2015-07-14T00:00:00Z,glocations,Massachusetts,544,8.29391e-40,Man  Called  ISIS  Devotee,  Son  of  Boston  Police  Officer,  Is  Arrested 
+ 2015-07-14T00:00:00Z,glocations,Iraq,751,7.11927e-40,Iraq  Begins  Military  Operation  to  Drive  ISIS  From  Anbar  Province 
+ 2015-07-13T00:00:00Z,glocations,GreatBritain,587,6.97229e-40,Cameron  Urges  British  Military  to  Spend  More  to  Tackle  ISIS 
+ 2015-07-10T00:00:00Z,glocations,Afghanistan,395,4.43155e-40,ISIS  Leaders  Reported  Killed  in  Drone  Strike  in  Afghanistan 
+ 2015-07-07T01:29:16+0000,glocations,Iraq,1608,2.64279e-40,Iraqi  Forces  Plan  Offensive  to  Retake  Ramadi  From  ISIS 
+ 2015-07-08T00:00:00Z,glocations,Afghanistan,557,2.39109e-40,In  Two  Attacks,  Taliban  Target  NATO  and  Afghan  Forces 
+ 2015-07-07T12:48:31+0000,glocations,Afghanistan,1325,1.49011e-40,Afghan  Officials  and  Taliban  Meet  in  Possible  Step  Toward  Peace  Talks 
+ 2015-07-03T00:00:00Z,glocations,GreatBritain,1033,1.25596e-40,Britain  Hints  It  May  Join  U.S.  Campaign  Against  ISIS  in  Syria 
+ 2015-07-04T00:00:00Z,glocations,Syria,561,1.08973e-40,ISIS  Destroys  More  Artifacts  in  Syria  and  Iraq 
+ 2015-07-01T00:19:40+0000,glocations,GazaStrip,1246,3.9309e-41,ISIS  Allies  Target  Hamas  and  Energize  Gaza  Extremists   
+ 2015-06-30T00:00:00Z,glocations,Turkey,1230,3.1044e-41,Turkey  Uneasy  as  U.S.  Support  of  Syrian  Kurds  Grows 
+ 2015-06-25T00:00:00Z,glocations,Palmyra(Syria),324,2.1534e-41,ISIS  Appears  to  Destroy  2  Palmyra  Tombs,  Flaunting  Wreckage  in  Photos 
+ 2015-06-21T00:00:00Z,glocations,Yemen,334,9.483e-42,Car  Bombing  in  Yemen’s  Capital  Kills  at  Least  2 
+ 2015-06-23T00:00:00Z,glocations,Iraq,1304,7.054e-42,Iraqi  Families  Return  to  Fragile  Stability  in  Tikrit  After  Liberation  From  ISIS 
+ 2015-06-19T00:00:00Z,glocations,Syria,669,3.889e-42,ISIS-Imposed  Fuel  Embargo  Threatens  Syria’s  Medical  Centers 
+ 2015-06-18T00:00:00Z,glocations,Yemen,498,3.772e-42,ISIS  Claims  Responsibility  for  Deadly  Bombings  in  Yemen 
+ 2015-06-17T13:15:33Z,glocations,Baghdad(Iraq),542,3.391e-42,How  The  Times  Covers  ISIS 
+ 2015-06-17T00:00:00Z,glocations,Syria,597,2.974e-42,ISIS  Loses  Control  of  Crucial  Syrian  Border  Town 
+ 2015-06-18T00:00:00Z,glocations,Iraq,1179,2.503e-42,Tracing  a  17-Year-Old’s  Path  From  Britain  to  an  ISIS  Suicide  Attack 
+ 2015-06-16T00:00:00Z,glocations,Syria,1057,2.295e-42,Kurds  and  Syrian  Rebels  Storm  ISIS-Held  Border  Town 
+ 2015-06-15T00:00:00Z,glocations,Syria,459,1.963e-42,Thousands  Flee  Syria  as  Kurds  Gain  on  ISIS 
+ 2015-06-16T00:00:00Z,glocations,Yemen,1085,1.666e-42,No.  2  Qaeda  Leader  May  Have  Died  in  U.S.  Airstrike  in  Yemen 
+ 2015-06-12T00:00:00Z,glocations,Turkey,531,1.036e-42,Erdogan  Urges  Cooperation  in  Forming  New  Turkish  Government 
+ 2015-06-11T00:00:00Z,glocations,Iraq,978,9.64e-43,Trainers  Intended  as  Lift,  but  Quick  Iraq  Turnaround  Is  Unlikely 
+ 2015-06-11T12:12:17+0000,glocations,Iraq,1380,8.79e-43,Obama  Looks  at  Adding  Bases  and  Troops  in  Iraq,  to  Fight  ISIS 
+ 2015-06-11T00:00:00Z,glocations,Libya,563,8.37e-43,Libya  Groups  Vow  to  Crush  Unit  of  ISIS 
+ 2015-06-10T11:43:40+0000,glocations,Egypt,1083,4.92e-43,Militants  Hit Karnak  Temple,  in  2nd  Recent  Attack  on  Egyptian  Tourist  Sites 
+ 2015-06-07T15:08:41+0000,glocations,Turkey,1575,2.38e-43,Erdogan’s  Governing  Party  in  Turkey  Loses  Parliamentary  Majority 
+ 2015-05-30T00:00:00Z,glocations,Iraq,236,1.06e-43,ISIS  Claims  Deadly  Car  Bombings  at  Baghdad  Hotels 
+ 2015-05-30T00:00:00Z,glocations,SaudiArabia,515,6.3e-44,Explosion  Near  Shiite  Mosque  Kills  4  in  Eastern  Saudi  Arabia 
+ 2015-05-25T00:00:00Z,glocations,Iraq,524,4.2e-44,U.S.  Defense  Secretary  Blames  Iraqi  Forces  for  ISIS  Victory  in  Ramadi 
+ 2015-05-29T01:03:46+0000,glocations,Palmyra(Syria),1346,3.4e-44,ISIS  Alternates  Stick  and  Carrot  to  Control  Palmyra 
+ 2015-05-27T00:00:00Z,glocations,Iraq,620,3.2e-44,Iraqi  Army  and  Shiite  Militias  Begin  Push  to  Take  Ramadi  From  ISIS 
+ 2015-05-27T21:41:09+0000,glocations,Iraq,1302,2.7e-44,Sunnis  Fleeing  ISIS  Find  Few  Doors  Open  Elsewhere  in  Iraq 
+ 2015-05-24T00:00:00Z,glocations,SaudiArabia,307,2.24e-44,Saudis  Say  ISIS  Ordered  Suicide  Bombing  of  Mosque   
+ 2015-05-23T00:00:00Z,glocations,Syria,883,1.1e-44,Two  Sides  Claim  Victory  as  Syrian  Troops  Flee  Hospital 
+ 2015-05-18T00:00:00Z,glocations,Egypt,122,1.1e-44,Egypt:  6  Executed  in  Killing  of  Police  Officers 
+ 2015-05-21T00:00:00Z,glocations,Iraq,1212,9.8e-45,U.S.  to  Send  Rockets  to  Iraq  for  ISIS  Fight 
+ 2015-05-20T00:00:00Z,glocations,Iraq,1282,4.2e-45,Iraq’s  Sunni  Strategy  Collapses  in  Ramadi  Rout 
+ 2015-05-19T01:07:00+0000,glocations,Iraq,896,4.2e-45,ISIS  Fighters  Seized  Advantage  in  Iraq  Attack  by  Striking  During  Sandstorm 
+ 2015-05-18T15:59:49+0000,glocations,Iraq,1180,2.8e-45,Fall  of  Ramadi  to  ISIS  Weakens  Rule  of  Iraqi  Premier 
+ 2015-05-19T00:00:00Z,glocations,Nigeria,1612,2.8e-45,Boko  Haram  Militants  Raped  Hundreds  of  Female  Captives  in  Nigeria 
+ 2015-05-15T00:00:00Z,glocations,Syria,656,2.8e-45,ISIS  Advance  in  Syria  Endangers  Ancient  Ruins  at  Palmyra 
+ 2015-05-14T00:00:00Z,glocations,Iraq,477,1.4e-45,No.  2  Leader  of  ISIS  Killed  in  U.S.-Led  Airstrike,  Iraq  Says 
+ 2015-05-11T02:57:38+0000,glocations,SaudiArabia,1511,0.0,King  Salman  Upends  Status  Quo  in  Region  and  the  Royal  Family 
+ 2015-05-10T00:00:00Z,glocations,Iraq,1268,0.0,After  Wresting  Tikrit  From  ISIS,  Iraqis  Face  Sectarian  and  Tribal  Tensions 
+ 2015-05-07T00:00:00Z,glocations,Tikrit(Iraq),1217,0.0,Scene  of  Iraqi  Massacre  Becomes  Shiite  Pilgrimage  Site 
+ 2015-05-05T00:00:00Z,glocations,Philippines,561,0.0,Filipino  Bomb  Maker,  Sought  by  U.S.,  Is  Said  to  Die  in  Fight  With  Rebels 
+ 2015-05-03T00:00:00Z,glocations,Syria,271,0.0,Strikes  on  Syria  Tied  to  Deaths  of  52  Civilians 
+ 2015-05-01T00:00:00Z,glocations,Iraq,1186,0.0,Proposal  to  Arm  Sunnis  Adds  to  Iraqi  Suspicions  of  the  U.S. 
+ 2015-04-29T00:00:00Z,glocations,SaudiArabia,349,0.0,Saudi  Arabia  Accuses  93  of  Terrorist  Links,  Including  to  ISIS 
+ 2015-04-26T00:00:00Z,glocations,Syria,669,0.0,Islamists  Seize  Control  of  Syrian  City  in  Northwest 
+ 2015-04-19T00:00:00Z,glocations,Australia,499,0.0,Australian  Police  Arrest  5  Men  They  Say  Were  Planning  Terror  Attacks 
+ 2015-04-19T00:00:00Z,glocations,Afghanistan,1026,0.0,Afghan  President  Blames  ISIS  for  a  Bombing 
+ 2015-04-18T00:00:00Z,glocations,Iraq,1220,0.0,Humanitarian  Crisis  Grows  as  Iraqis  Flee  ISIS  Threat 
+ 2015-04-18T00:00:00Z,glocations,Iraq,300,0.0,Top  Saddam  Hussein  Aide  Reported  Killed  in  Northern  Iraq 
+ 2015-04-15T00:00:00Z,glocations,Iraq,1388,0.0,U.S.  Soldiers,  Back  in  Iraq,  Find  Security  Forces  in  Disrepair 
+ 2015-04-14T00:00:00Z,glocations,Libya,1430,0.0,As  Libya  Crumbles,  Calls  Grow  for  Feuding  Factions  to  Meet  Halfway 
+ 2015-04-13T00:00:00Z,glocations,Egypt,456,0.0,Sinai  Group  Kills  Officers  in  Bombings 
+ 2015-04-12T00:00:00Z,glocations,Syria,449,0.0,U.N.  Official  Visits  Syria  to  Press  Urgency  of  Besieged  Refuge  Camp 
+ 2015-04-11T00:00:00Z,glocations,Iraq,616,0.0,ISIS  Strikes  Iraqi  Town,  Exacting  Deadly  Toll 
+ 2015-04-10T00:00:00Z,glocations,Iraq,664,0.0,Biden  Cites  Progress  in  Iraq’s  War  With  ISIS 
+ 2015-04-09T00:00:00Z,glocations,Iraq,748,0.0,Iraq  Starts  Drive  Against  ISIS,  but  Reports  on  Scale  Differ 
+ 2015-04-08T00:00:00Z,glocations,Iraq,1334,0.0,After  Victory  Over  ISIS  in  Tikrit,  Next  Battle  Requires  a  New  Template 
+ 2015-04-08T00:00:00Z,glocations,Iraq,726,0.0,Iraq  Empties  Mass  Graves  in  Search  for  Cadets  Killed  by  ISIS 
+ 2015-04-06T00:00:00Z,glocations,Libya,829,0.0,One  of  Libya’s  Rival  Governments  Moves  to  Control  Oil  Revenue 
+ 2015-04-05T00:00:00Z,glocations,Syria,792,0.0,Islamic  State  Seizes  Palestinian  Refugee  Camp  in  Syria 
+ 2015-04-04T12:30:00Z,glocations,Libya,850,0.0,Solving  Libya’s  ISIS  Problem 
+ 2015-04-03T00:00:00Z,glocations,Iraq,1163,0.0,Iraq  Forces,  Pushing  ISIS  Out  of  Tikrit,  Give  Few  Thanks  for  U.S.  Airstrikes 
+ 2015-04-03T00:00:00Z,glocations,Egypt,665,0.0,Militants  Carry  Out  Deadly  Attacks  on  Army  Checkpoints  in  North  Sinai 
+ 2015-04-01T00:00:00Z,glocations,Libya,708,0.0,Provisional  Government  in  Libyan  Capital  Forces  Out  Its  Own  Prime  Minister   
+ 2015-04-01T00:00:00Z,glocations,Tunisia,581,0.0,Group  Linked  to  Islamic  State  Claims  Responsibility  for  Tunisia  Attack 
+ 2015-03-31T00:00:00Z,glocations,Iraq,1178,0.0,Islamic  State’s  Grip  on  City  Appears  Firmer  Than  Iraqis  Acknowledge 
+ 2015-03-30T00:00:00Z,glocations,MiddleEast,879,0.0,Arab  Nations  to  Form  Military  Force  to  Counter  Iran  and  Islamist  Extremists 
+ 2015-03-29T00:00:00Z,glocations,Syria,591,0.0,Insurgents  Seize  Much  of  Key  Syrian  City 
+ 2015-03-29T00:00:00Z,glocations,Iraq,1157,0.0,Iraqi  Forces  in  No  Hurry  to  Expel  ISIS  From  Tikrit 
+ 2015-03-28T00:00:00Z,glocations,Iraq,907,0.0,Shiite  Militias  in  Iraq  Back  Off  Boycott  Over  U.S.  Strikes  on  ISIS 
+ 2015-03-27T01:59:56+0000,glocations,Iran,1199,0.0,A  Policy  Puzzle  of  U.S.  Goals  and  Alliances  in  the  Middle  East 
+ 2015-03-25T15:29:39+0000,glocations,Iraq,1336,0.0,Opening  New  Iraq  Front,  U.S.  Strikes  ISIS  in  Tikrit 
+ 2015-03-25T10:41:48+0000,glocations,SaudiArabia,1018,0.0,Saudi  Arabia  Leads  Air  Assault  in  Yemen 
+ 2015-03-25T00:00:00Z,glocations,Canada,144,0.0,Canada:  Role  Against  ISIS  to  Grow 
+ 2015-03-23T02:11:57+0000,glocations,Yemen,1281,0.0,Out  of  Yemen,  U.S.  Is  Hobbled  in  Terror  Fight 
+ 2015-03-21T00:00:00Z,glocations,Yemen,1376,0.0,Suicide  Attacks  at  Mosques  in  Yemen  Kill  More  Than  130 
+ 2015-03-20T00:00:00Z,glocations,Tunisia,1496,0.0,Militants,  ISIS  Included,  Claim Tunisia  Museum  Attack 
+ 2015-03-18T13:11:13+0000,glocations,Tunisia,1200,0.0,Tunisia  Museum  Attack  Is  Blow  to  Nation’s  Democratic  Shift 
+ 2015-03-19T00:00:00Z,glocations,Iraq,478,0.0,Iraqi  Forces  and  Militias  Said  to  Loot  Sunni  Towns 
+ 2015-03-18T00:00:00Z,glocations,Libya,473,0.0,Brigade  Takes  On  ISIS  Allies  in  Libya 
+ 2015-03-17T00:00:00Z,glocations,Iraq,861,0.0,ISIS  Keeps  Hold  in  Tikrit  as  Iraq  Pauses  Offensive 
+ 2015-03-16T00:00:00Z,glocations,Jordan,1351,0.0,Despite  Good  Intentions,  Vacancies  in  Refugee  Camp  in  Jordan  for  Syrians 
+ 2015-03-15T00:00:00Z,glocations,Syria,1242,0.0,An  Ever-Bleaker  Syria,  From  All  Vantage  Points   
+ 2015-03-14T01:22:37+0000,glocations,Turkey,675,0.0,Turkey&#8217;s  Drift  From  NATO 
+ 2015-03-14T00:00:00Z,glocations,Turkey,1042,0.0,Islamist  Websites  in  Turkey  Manage  to  Evade  Strict  Internet  Censorship 
+ 2015-03-14T00:00:00Z,glocations,NewYorkCity,614,0.0,3  Brooklyn  Men  Accused  of  Plotting  to  Aid  ISIS  Plead  Not  Guilty 
+ 2015-03-14T00:00:00Z,glocations,Iraq,615,0.0,Backstage  Moves  Intensify  as  Fight  Against  Islamic  State  Widens   
+ 2015-03-12T11:41:06+0000,glocations,Iraq,1266,0.0,A  Balancing  Act  as  Iraq  Claims  Gains  in  Tikrit 
+ 2015-03-13T00:00:00Z,glocations,Nigeria,1267,0.0,Mercenaries  Join Nigeria’s  Military  Campaign  Against  Boko  Haram 
+ 2015-03-12T00:00:00Z,glocations,Iraq,1196,0.0,Iraqi  Army  Cements  Hold  on  Tikrit,  but  Islamic  State  Sends  a  Message 
+ 2015-03-11T00:00:00Z,glocations,Libya,1519,0.0,ISIS Finds  New  Frontier  in  Chaotic  Libya 
+ 2015-03-10T00:00:00Z,glocations,Turkey,1400,0.0,A  Path  to  ISIS,  Through  a  Porous  Turkish  Border 
+ 2015-03-08T00:00:00Z,glocations,Chad,1606,0.0,African  Training  Exercise  Turns  Urgent  as  Threats  Grow 
+ 2015-03-07T00:00:00Z,glocations,Iraq,451,0.0,Iraqi  Forces  Said  to  Near  ISIS-Held  Tikrit 
+ 2015-03-07T00:00:00Z,glocations,Syria,863,0.0,Deaths  Reported  in  Syria  of  Top  Figures  in  Group  Affiliated  With  Al  Qaeda 
+ 2015-03-07T00:00:00Z,glocations,Iraq,902,0.0,ISIS  Bulldozing  of  Ancient  Nimrud  Site  in  Iraq  Stirs  Outrage 
+ 2015-03-06T00:00:00Z,glocations,Iraq,707,0.0,ISIS  Attacks  Nimrud,  a  Major  Archaeological  Site  in  Iraq 
+ 2015-03-06T00:00:00Z,glocations,Libya,326,0.0,Attacks  Cripple  11  Oil  Fields,  Libya  Says 
+ 2015-03-05T00:00:00Z,glocations,Iraq,709,0.0,Iraqis  Want  Lead  Role  in  Driving  ISIS  From  Mosul 
+ 2015-03-03T00:00:00Z,glocations,Australia,256,0.0,Australia  to  Send  More  Troops  to  Iraq  as  Trainers  in  ISIS  Fight 
+ 2015-03-02T11:24:42+0000,glocations,Iraq,1084,0.0,Iraqi  Offensive  to  Retake  Tikrit  From  ISIS  Begins 
+ 2015-02-28T00:00:00Z,glocations,Iraq,989,0.0,Destruction  of  Antiquities  by  ISIS  Militants  Is  Denounced 
+ 2015-02-27T11:58:54+0000,glocations,Cuba,1377,0.0,Cuba&#8217;s  Designation  as  a  Sponsor  of  Terrorism  Snarls  Negotiations  With  U.S.   
+ 2015-02-26T14:52:20+0000,glocations,NewYorkCity,1506,0.0,In  Brooklyn,  Eager  to  Join  ISIS,  if  Only  His  Mother  Would  Return  His  Passport 
+ 2015-02-27T00:00:00Z,glocations,Egypt,657,0.0,Obscure  Group  Says  It  Set  Off  Blasts  in  Egypt,  Raising  Alarm 
+ 2015-02-25T00:00:00Z,glocations,Syria,266,0.0,Besieged  Assyrians  Have  Deep  Roots  in  Middle  East 
+ 2015-02-22T00:00:00Z,glocations,Turkey,496,0.0,Turkish  Military  Enters  Syria  to  Evacuate  Soldiers  and  Move  Tomb’s  Remains,  Reports  Say 
+ 2015-02-22T00:00:00Z,glocations,GreatBritain,427,0.0,Concern  in  Britain  as  Schoolgirls  Seek  to  Join  Islamic  State 
+ 2015-02-21T00:00:00Z,glocations,Nigeria,900,0.0,In  Newly  Sophisticated  Boko  Haram  Videos,  Hints  of  Islamic  State  Ties   
+ 2015-02-21T00:00:00Z,glocations,Libya,881,0.0,Ties  to  Islamic  State  Cited  by  Group  in  Libya  Attacks 
+ 2015-02-19T22:39:09+0000,glocations,Egypt,636,0.0,Egypt’s  Crisis  Across  the  Border  With  Libya 
+ 2015-02-20T00:00:00Z,glocations,Turkey,134,0.0,Turkey:  Deal  Set  to  Aid  Syrian  Rebels 
+ 2015-02-20T00:00:00Z,glocations,Iraq,542,0.0,Iraqi  Assault  to  Retake  Mosul  From  Islamic  State  Is  Planned  for  Spring 
+ 2015-02-18T04:12:38+0000,glocations,France,2484,0.0,Gaps  in  France’s  Surveillance  Are  Clear;  Solutions  Aren’t 
+ 2015-02-18T00:00:00Z,glocations,Libya,642,0.0,Islamist  Faction  in  Libya  Now  Strikes  From  the  Sky 
+ 2015-02-15T00:00:00Z,glocations,Iraq,481,0.0,Military  and  ISIS  Clash  Over  Iraqi  Town  Near  a  Base  Housing  U.S.  Troops   
+ 2015-02-14T00:00:00Z,glocations,Iraq,1170,0.0,Signs  of  a  Push  Against  ISIS,  Amid  Doubts  on  Iraqi  Troops   
+ 2015-02-12T17:56:05+0000,glocations,Afghanistan,1319,0.0,U.S.  Is  Escalating  a  Secretive  War  in  Afghanistan 
+ 2015-02-11T00:00:00Z,glocations,Australia,467,0.0,Australia  Arrests  2  on  Suspicion  of  Plotting  ‘Imminent’  Attack 
+ 2015-02-11T00:00:00Z,glocations,UnitedArabEmirates,850,0.0,Jordan  and  Emirates  Carry  Out  Airstrikes  in  Syria  Against  ISIS 
+ 2015-02-08T00:00:00Z,glocations,Iraq,1137,0.0,Shiite  Militia  Drives  Back  Islamic  State,  but  Divides  Much  of  Iraq   
+ 2015-02-07T00:00:00Z,glocations,UnitedArabEmirates,375,0.0,United  Arab  Emirates,  Key  Ally  in  U.S.  Fight  Against  ISIS,  to  Rejoin  Air  Campaign 
+ 2015-02-06T00:00:00Z,glocations,Jordan,638,0.0,Jordan,  Unabashed,  Announces  Latest  Bombing  Raid  on  ISIS  Targets 
+ 2015-02-06T00:00:00Z,glocations,Iraq,311,0.0,Decade-Long  Night  Curfew  to  Be  Lifted  in  Baghdad 
+ 2015-02-04T08:27:21+0000,glocations,Iraq,1022,0.0,ISIS  Is  Losing  in  Iraq.  But  What  Happens  Next? 
+ 2015-02-05T11:30:00Z,glocations,Iraq,860,0.0,How  Iraq  Subsidizes  Islamic  State 
+ 2015-02-04T00:00:00Z,glocations,UnitedArabEmirates,659,0.0,United  Arab  Emirates,  Key  U.S.  Ally  in  ISIS  Effort,  Disengaged  in  December 
+ 2015-02-04T00:00:00Z,glocations,Jordan,1527,0.0,Jordanian  Pilot’s  Death,  Shown  in  ISIS  Video,  Spurs  Jordan  to  Execute  Prisoners 
+ 2015-02-02T00:00:00Z,glocations,Japan,1296,0.0,Departing  From  Japan’s  Pacifism,  Shinzo  Abe  Vows  Revenge  for  Killings 
+ 2015-02-02T00:00:00Z,glocations,Kobani(Syria),1413,0.0,In  Liberated  Kobani,  Kurds  Take  Pride  Despite  the  Devastation 
+ 2015-02-01T00:00:00Z,glocations,Jordan,1242,0.0,Tribal  Loyalties  Drive  Jordan&#8217;s  Effort  to  Free  Pilot   
+ 2015-02-01T00:00:00Z,glocations,Egypt,457,0.0,Sisi  Blames  Muslim  Brotherhood  for  Bombings  in  Sinai 
+ 2015-01-31T19:30:26+0000,glocations,Iraq,685,0.0,Retroactively  Authorizing  War   
+ 2015-01-31T00:00:00Z,glocations,Iraq,644,0.0,Islamic  Militants  Surprise  Kurds  in  Iraq,  Killing  a  Commander  in  a  Day  of  Attacks 
+ 2015-01-30T00:00:00Z,glocations,Iraq,973,0.0,Government  Allies  Are  Said  to  Have  Slaughtered  Dozens  of  Sunnis  in  Iraq 
+ 2015-01-28T22:43:06+0000,glocations,Jordan,1568,0.0,All-but-Forgotten  Prisoner  in  Jordan  Is  at  Center  of  Swap  Demand  by  ISIS 
+ 2015-01-28T00:00:00Z,glocations,Libya,1179,0.0,Group  Linked  to  ISIS  Says  It&#8217;s  Behind  Assault  on  Libyan  Hotel 
+ 2015-01-28T00:00:00Z,glocations,Iraq,828,0.0,Airlines  Suspend  Flights  to  Iraq&#8217;s  Baghdad  Airport  After  Jet  Is  Hit  by  Gunfire   
+ 2015-01-26T00:00:00Z,glocations,Japan,1190,0.0,Two  Japanese  Hostages,  as  Different  as  Can  Be,  Linked  by  Fate  in  Syria 
+ 2015-01-26T00:00:00Z,glocations,Nigeria,1280,0.0,In  Bold  Push  Forward,  Islamist  Militants  Attack  a  Major  Nigerian  City 
+ 2015-01-24T19:30:26+0000,glocations,Syria,812,0.0,Shifting  Realities  in  Syria 
+ 2015-01-25T00:00:00Z,glocations,Japan,1271,0.0,  Video  Appears  to  Show  Decapitated  Body  of  a  Japanese  Hostage  of  ISIS 
+ 2015-01-25T00:00:00Z,glocations,India,634,0.0,Obama  Will  End  India  Trip  Early  to  Visit  Saudi  Arabia 
+ 2015-01-24T00:00:00Z,glocations,Japan,479,0.0,Japanese  Hostage’s  Mother  Urges  Islamic  State  to  Spare  Him 
+ 2015-01-23T00:00:00Z,glocations,Iraq,863,0.0,Citing  Plunge  in  Oil  Prices,  Iraq  Seeks  Arms  on  Credit  to  Fight  ISIS 
+ 2015-01-22T00:00:00Z,glocations,Afghanistan,1422,0.0,Taliban  Fissures  in  Afghanistan  Are  Seen  as  an  Opening  for  ISIS 
+ 2015-01-22T00:00:00Z,glocations,Israel,1152,0.0,Boehner  Invites  Another  Response  to  State  of  Union,  From  Israel&#8217;s  Premier   
+ 2015-01-20T00:00:00Z,glocations,Canada,111,0.0,Canada:  Troops  Clash  With  ISIS  in  Iraq 
+ 2015-01-20T00:00:00Z,glocations,Syria,1343,0.0,U.S.  Signals  Shift  on  How  to  End  Syrian  Civil  War 
+ 2015-01-19T00:00:00Z,glocations,SaudiArabia,803,0.0,Man  Who  Filmed  Execution  Is  Arrested,  Saudi  Outlets  Say   
+ 2015-01-19T00:00:00Z,glocations,Israel,819,0.0,Eight  Israeli  Arab  Men  Are  Charged  With  Aiding  Islamic  State 
+ 2015-01-18T00:00:00Z,glocations,Iraq,266,0.0,Islamic  State  Frees  350  Elderly  and  Ailing  Yazidis   
+ 2015-01-16T00:00:00Z,glocations,Turkey,931,0.0,Killings  Deepen  Rift  as  Turks  Accuse  Netanyahu  of  &#8216;Crimes  Against  Humanity&#8217;   
+ 2015-01-12T09:22:39+0000,glocations,France,1250,0.0,France  Deploys  Troops  to  Guard  ‘Sensitive  Sites’ 
+ 2015-01-10T10:23:02+0000,glocations,France,1941,0.0,French  Premier  Declares  &#8216;War&#8217;  on  Radical  Islam  as  Paris  Girds  for  Rally 
+ 2015-01-07T00:00:00Z,glocations,Iraq,934,0.0,U.S.  Forces,  Returning  to  Iraq,  Encounter  the  Things  Their  Comrades  Carried 
+ 2015-01-06T00:00:00Z,glocations,Turkey,332,0.0,Turkey  Will  Help  Train  Moderate  Syrian  Rebels,  Diplomat  Says 
+ 2015-01-02T00:00:00Z,glocations,Antakya(Turkey),1117,0.0,Vanguard  of  Syria’s  Uprising,  Now  on  the  Run  From  ISIS,  Weighs  a  Bleak  Future 
+ 2014-12-31T00:00:00Z,glocations,Iraq,1204,0.0,U.S.  Troops,  Back  in  Iraq,  Train  a  Force  to  Fight  ISIS 
+ 2014-12-24T00:00:00Z,glocations,France,860,0.0,France  Puts  More  Troops  on  Streets  After  a  String  of  Attacks   
+ 2014-12-22T17:34:25+0000,glocations,Iraq,1284,0.0,In  Struggle  for  National  Identity,  Iraqis  Rally  Around  Many  Flags 
+ 2014-12-19T00:00:00Z,glocations,Tunisia,132,0.0,Tunisia:  ISIS  Fighters  Claim  2  Killings 
+ 2014-12-16T00:00:00Z,glocations,Iraq,1343,0.0,Iraq’s  Premier  Narrows  Divide,  but  Challenges  Loom 
+ 2014-12-16T00:00:00Z,glocations,Turkey,230,0.0,Turkey&#8217;s  Actions  on  Syria 
+ 2014-12-16T00:00:00Z,glocations,France,518,0.0,France  Arrests  10  People  in  Suspected  Jihadist  Network 
+ 2014-12-14T00:00:00Z,glocations,Mosul(Iraq),1242,0.0,Islamic  State  Imposes  Strict  New  Order  in  Mosul,  and  Deprivation  Is  a  Result 
+ 2014-12-14T00:00:00Z,glocations,India,530,0.0,Online  Trail  Leads  to  Arrest  of  Indian  as  Man  Behind  Posts  Backing  the  Islamic  State 
+ 2014-12-08T00:00:00Z,glocations,Israel,634,0.0,Syria  Reports  New  Strikes  From  Israel  Near  Capital 
+ 2014-12-06T00:00:00Z,glocations,Iraq,1185,0.0,Sunnis  Fear  Permanent  Displacement  From  Iraqi  Town 
+ 2014-12-06T00:00:00Z,glocations,GreatBritain,653,0.0,Britain  Puts  2  in  Prison  After  Return  From  Syria   
+ 2014-12-04T19:26:26+0000,glocations,Iraq,1269,0.0,Under  ISIS  Fire,  Love  Conquers 
+ 2014-12-05T00:00:00Z,glocations,Turkey,308,0.0,U.S.  Warns  of  Attack  in  Turkey 
+ 2014-12-05T00:00:00Z,glocations,Yemen,957,0.0,Qaeda  Group  in  Yemen  Threatens  to  Kill  American  Journalist  by  End  of  This  Week 
+ 2014-12-03T14:59:47+0000,glocations,Iran,1256,0.0,U.S.  and  Iran  Both  Attack  ISIS,  but  Try  Not  to  Look  Like  Allies 
+ 2014-12-02T13:26:32+0000,glocations,Iraq,1156,0.0,Iraqi  Government  and  Kurds  Reach  Deal  to  Share  Oil  Revenues 
+ 2014-11-30T00:00:00Z,glocations,Jordan,1292,0.0,Tradition  Saves  Camels’  Spot  in  Jordan’s  Desert  Forces 
+ 2014-11-29T00:00:00Z,glocations,Egypt,727,0.0,6  Are  Killed  in  Egypt  After  a  Call  for  Protests  Rattles  the  Authorities 
+ 2014-11-24T00:00:00Z,glocations,Europe,1278,0.0,Nations  Ponder  How  to  Handle  European  Fighters  Returning  From  Jihad   
+ 2014-11-21T17:46:32Z,glocations,Alabama,641,0.0,Readers  Respond:  On  a  Republican  South 
+ 2014-11-21T00:00:00Z,glocations,Iraq,877,0.0,Amid  Mutual  Suspicion,  Turkish  Premier  Visits  Iraq   
+ 2014-11-20T01:41:31+0000,glocations,Kobani(Syria),1507,0.0,More  Than  a  Battle,  Kobani  Is  a  Publicity  War   
+ 2014-11-17T00:00:00Z,glocations,Ukraine,1314,0.0,Obama  Says  Russia&#8217;s  Arming  of  Separatists  Breaks  Pact  With  Ukraine 
+ 2014-11-16T00:00:00Z,glocations,Iraq,1138,0.0,Iraq  and  U.S.  Find  Some  Potential  Sunni  Allies  Have  Already  Been  Lost 
+ 2014-11-14T00:00:00Z,glocations,Syria,1205,0.0,Strikes  by  U.S.  Blunt  ISIS  but  Anger  Civilians 
+ 2014-11-09T22:42:41+0000,glocations,Iraq,1488,0.0,Obstacles  Limit  Targets  and  Pace  of  Strikes  on  ISIS 
+ 2014-11-09T00:00:00Z,glocations,Iraq,459,0.0,U.S.  Airstrikes  in  Iraq  Target  ISIS  Leaders 
+ 2014-11-08T00:00:00Z,glocations,Iran,576,0.0,Obama  Urged  Iranian  Leader  to  See  Common  Interests   
+ 2014-11-07T20:36:05+0000,glocations,Iraq,1130,0.0,Obama  to  Send  1,500  More  Troops  to  Assist  Iraq 
+ 2014-11-06T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),1099,0.0,Kuwaiti  Released  From  Guant&aacute;namo  Under  New  Review  System   
+ 2014-11-03T02:51:43+0000,glocations,Iraq,1414,0.0,Iraqis  Prepare  ISIS  Offensive,  With  U.S.  Help 
+ 2014-11-02T00:00:00Z,glocations,Lebanon,1175,0.0,Clashes  on  Syrian  Border  Split  Lebanese  Town 
+ 2014-10-31T16:57:59+0000,glocations,Syria,1600,0.0,Syrian’s  Photos  Spur  Outrage,  but  Not  Action 
+ 2014-10-31T00:00:00Z,glocations,Iraq,868,0.0,Sunni  Tribesmen  Say  ISIS  Exacts  Brutal  Revenge 
+ 2014-10-27T01:44:43+0000,glocations,Iraq,1507,0.0,Missiles  of  ISIS  May  Pose  Peril  for  Aircrews  in  Iraq 
+ 2014-10-27T00:00:00Z,glocations,Jordan,1179,0.0,Christians  of  Mosul  Find  Haven  in  Jordan 
+ 2014-10-24T00:00:00Z,glocations,Iraq,884,0.0,Robust  Reponse  to  ISIS  Appears  Far  Off  for  Iraqis   
+ 2014-10-24T00:00:00Z,glocations,Iraq,551,0.0,U.S.  Is  Investigating  Report  That  Islamic  State  Used  Chlorine  Gas   
+ 2014-10-24T00:00:00Z,glocations,Syria,704,0.0,At  Least  500  Militants  Killed  in  U.S.-Led  Strikes  in  Syria,  Observer  Group  Says 
+ 2014-10-23T00:00:00Z,glocations,GreatBritain,479,0.0,British  Police  Arrest  Woman  Suspected  of  Planning  Terrorism 
+ 2014-10-20T11:47:35+0000,glocations,Kobani(Syria),1213,0.0,Turkey  to  Let  Iraqi  Kurds  Cross  to  Syria  to  Fight  ISIS 
+ 2014-10-19T00:00:00Z,glocations,Iraq,1458,0.0,A  Train  Ride  Through  Time:  From  Iraq&#8217;s  Checkered  Past  Into  an  Uncertain  Future   
+ 2014-10-19T00:00:00Z,glocations,Iraq,676,0.0,After  Delay,  Iraq  Appoints  Two  to  Posts  for  Security 
+ 2014-10-18T01:03:13+0000,glocations,Iraq,1292,0.0,ISIS  Keeps  Up  Pressure  Near  Baghdad  as  Iraqi  Troops  Hesitate 
+ 2014-10-18T00:00:00Z,glocations,Syria,954,0.0,ISIS  Militants  in  Syrian  Border  Town  Begin  to  Retreat  After  a  Monthlong  Battle 
+ 2014-10-15T00:00:00Z,glocations,Iraq,291,0.0,  ISIS  Bomber  Hits  Baghdad,  Killing  24 
+ 2014-10-14T13:55:36+0000,glocations,Turkey,1046,0.0,Turkish  Airstrike  Hits  Kurds,  Complicating  Fight  Against  Islamic  State 
+ 2014-10-15T00:00:00Z,glocations,GreatBritain,809,0.0,Britain  Arrests  6  in  Counterterrorism  Raids 
+ 2014-10-14T00:00:00Z,glocations,Turkey,726,0.0,Turkey  Denies  Reports  of  Deal  for  Use  of  Its  Bases  in  Fight  Against  Islamic  State 
+ 2014-10-13T14:00:00Z,glocations,MiddleEast,1356,0.0,Online  Magazine  Brings  New  Life  to  Arab  Studies 
+ 2014-10-13T00:00:00Z,glocations,Turkey,659,0.0,U.S.  Troops  to  Use  Bases  in  Turkey 
+ 2014-10-09T00:00:00Z,glocations,Kobani(Syria),908,0.0,As  Islamic  State  Nears  Conquest  of  Syrian  Town,  U.S.  Presses  Turks 
+ 2014-10-08T00:00:00Z,glocations,Egypt,1455,0.0,As  Egyptians  Grasp  for  Stability,  Sisi  Fortifies  His  Presidency 
+ 2014-10-08T00:00:00Z,glocations,Turkey,626,0.0,Clashes  Across  Turkey  as  Kurds  Demand  Relief  of  Syrian  Kin  Besieged  by  ISIS 
+ 2014-10-08T00:00:00Z,glocations,Syria,1348,0.0,Investigators  in  Syria  Seek  Paper  Trails  That  Could  Prove  War  Crimes 
+ 2014-10-07T10:29:52+0000,glocations,Turkey,1536,0.0,Turkish  Inaction  on  ISIS  Advance  Dismays  the  U.S. 
+ 2014-10-03T00:00:00Z,glocations,Europe,1014,0.0,In  New  Front  Against  Islamic  State,  Dictionary  Becomes  a  Weapon 
+ 2014-10-02T00:00:00Z,glocations,GreatBritain,847,0.0,British  Leader,  With  Eye  on  Next  Election,  Tries  to  Rouse  Conservative  Party 
+ 2014-09-28T00:00:00Z,glocations,GreatBritain,900,0.0,For  Muslims,  Social  Media  Debate  on  Extremism  Is  Reflected  in  Dueling  Hashtags   
+ 2014-09-27T00:00:00Z,glocations,Iran,730,0.0,Iranian  President  Sees  Little  Progress  on  Nuclear  Dispute 
+ 2014-09-27T00:00:00Z,glocations,Australia,1492,0.0,ISIS  Lieutenant  Emerges  From  Australian  Red-Light  District 
+ 2014-09-26T00:00:00Z,glocations,UnitedArabEmirates,358,0.0,Arab  Woman  Led  Airstrikes  Over  Syria 
+ 2014-09-26T00:00:00Z,glocations,Iran,649,0.0,Iran&#8217;s  President  Says  West&#8217;s  &#8216;Blunders&#8217;  Aided  Rise  of  Islamic  State 
+ 2014-09-24T00:00:00Z,glocations,Syria,1098,0.0,U.S.  Is  Carrying  Out  Vast  Majority  of  Strikes  on  ISIS,  Military  Officials  Say 
+ 2014-09-24T00:00:00Z,glocations,Syria,901,0.0,U.S.  Invokes  Iraq’s  Defense  in  Legal  Justification  of  Syria  Strikes 
+ 2014-09-19T00:00:00Z,glocations,Iraq,1339,0.0,U.S.  Faces  Tough  Struggle  on  Ground  to  Oust  ISIS 
+ 2014-09-19T00:00:00Z,glocations,UnitedStates,833,0.0,Congress&#8217;s  Inaction  Could  Be  Legal  Basis  for  Stronger  Executive  War  Powers 
+ 2014-09-18T00:00:00Z,glocations,Australia,123,0.0,Australia:  Sweeping  Raids  Seek  People  Planning  Terrorist  Attacks 
+ 2014-09-18T00:00:00Z,glocations,Iraq,1357,0.0,Obama  Promises  Again  Not  to  Send  Ground  Troops  to  Fight  Militants 
+ 2014-09-18T00:00:00Z,glocations,TimesSquareand42ndStreet(Manhattan,NY),360,0.0,New  York  City  Police  Add  Security  Amid  a  Call  for  Attacks 
+ 2014-09-11T17:42:05+0000,glocations,Iran,1218,0.0,ISIS  Fight  Raises  Fears  That  Efforts  to  Curb  Iran  Will  Slip 
+ 2014-09-11T00:00:00Z,glocations,SaudiArabia,941,0.0,Saudi  Arabia  Will  Grant  U.S.  Request  for  Anti-ISIS  Training  Program 
+ 2014-09-09T00:00:00Z,glocations,Turkey,678,0.0,Turkey  Is  Courted  by  U.S.  to  Help  Fight  ISIS 
+ 2014-09-04T00:00:00Z,glocations,Ukraine,1351,0.0,Obama,  in  Estonia,  Calls  Ukraine  Conflict  a  &#8216;Moment  of  Testing&#8217;   
+ 2014-08-25T23:50:59+0000,glocations,Syria,1088,0.0,Obama  Authorizes  Air  Surveillance  of  ISIS  in  Syria 
+ 2014-08-22T00:00:00Z,glocations,Iraq,1046,0.0,Despite  ISIS  Horror,  Congress  Is  Wary  of  U.S.  Military  Expansion 
+ 2014-08-20T00:00:00Z,glocations,Iraq,1297,0.0,Neither  Obama  Nor  Congress  Seems  Eager  for  a  Vote  on  Military  Action  in  Iraq 
+ 2014-08-09T19:46:38+0000,glocations,Iraq,885,0.0,Back  to  Iraq 
+ 2014-06-20T00:00:00Z,glocations,Iraq,4059,0.0,Text  of  Obama’s  Remarks  on  Iraq 

@@ -1,0 +1,232 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 2015-12-30T00:00:00Z,glocations,NewYorkCity,76,2.7503463e-22,An  Autumn  of  Terror 
+ 2015-12-25T00:00:00Z,glocations,Belgium,819,6.2141224e-23,Ninth  Person  Is  Arrested  in  Belgium  Over  Paris  Attacks 
+ 2015-12-29T00:00:00Z,glocations,California,873,9.7855174e-24,Los  Angeles,  a  City  of  Better  Angels 
+ 2015-12-28T13:06:31Z,glocations,India,686,9.015546e-24,Stars  of  India&#8217;s  Online  Video  Scene  Struggle  to  Make  a  Living 
+ 2015-12-28T00:00:00Z,glocations,China,884,8.2864916e-24,China  Passes  Antiterrorism  Law  That  Critics  Fear  May  Overreach 
+ 2015-12-11T00:00:00Z,glocations,London(England),646,6.697695e-24,Rattled  by  Terror  and  Floods,  Britain  Enters  Era  of  No  Quick  Fixes 
+ 2015-12-26T00:00:00Z,glocations,Syria,843,6.0505198e-24,Powerful  Syrian  Rebel  Leader  Reported  Killed  in  Airstrike 
+ 2015-12-15T16:15:20Z,glocations,LosAngeles(Calif),554,1.4332983e-24,Should  Schools  Err  on  the  Side  of  Caution  When  It  Comes  to  Bomb  Threats? 
+ 2015-12-18T00:00:00Z,glocations,Budapest(Hungary),1282,1.368363e-24,Link  to  Paris  Attack  Roils  Debate  Over  Migrants  in  Hungary 
+ 2015-12-17T00:00:00Z,glocations,Cuba,1145,1.1823266e-24,Year  After  Cuba-U.S.  Thaw,  Obama  Says  Change  Will  Take  Time   
+ 2015-12-17T00:00:00Z,glocations,Belgium,1345,1.177746e-24,Belgium  Says  Law  Limiting  Raids  May  Have  Allowed  Suspect  in  Paris  Attacks  to  Escape 
+ 2015-12-16T00:00:00Z,glocations,Russia,1324,1.0073651e-24,Putin  Gambit  Over  Syria  Proves  to  Be  Dual-Edged  Sword 
+ 2015-12-16T00:00:00Z,glocations,Pakistan,1030,1.0044797e-24,The  Child  Martyrs  of  Pakistan 
+ 2015-11-27T00:00:00Z,glocations,Belgium,798,8.624339e-25,Belgium  Lowers  Terror  Attack  Alert  Level  for  Brussels 
+ 2015-11-25T00:00:00Z,glocations,Belgium,1866,5.0225305e-25,Terrorism  Response  Puts  Belgium  in  a  Harsh  Light 
+ 2015-12-07T15:17:10Z,glocations,UnitedStates,546,3.9489162e-25,Why  ‘Good  Guys’  With  Guns  Won’t  Keep  Us  Safe 
+ 2015-12-06T00:00:00Z,glocations,Iraq,860,3.5516249e-25,Iraqi  Officials  Angered  by  Influx  of  Turkish  Troops 
+ 2015-12-06T00:00:00Z,glocations,Syria,946,3.4925843e-25,Hysteria  About  Refugees,  but  Blindness  on  Guns 
+ 2015-12-03T00:00:00Z,glocations,Nigeria,1091,1.7559591e-25,Terror’s  Nameless  Victims  in  Nigeria 
+ 2015-12-04T00:00:00Z,glocations,Afghanistan,1109,1.452924e-25,Civilian  Deaths  Raise  Questions  About  C.I.A.-Trained  Forces  in  Afghanistan 
+ 2015-11-13T22:47:36Z,glocations,Paris(France),30,1.4147472e-25,Terror  and  Confusion  in  Paris 
+ 2015-11-20T13:11:57Z,glocations,Belgium,21,1.2881037e-25,Belgium’s  Expanded  Security  Operation 
+ 2015-11-17T00:00:00Z,glocations,France,1438,1.1629688e-25,After  Paris  Attacks,  Waiting  for  Shopping  and  Culture  to  Come  Back  to  Life 
+ 2015-11-18T14:30:13Z,glocations,Paris(France),24,9.305007e-26,Paris  Prosecutor  on  Police  Raid 
+ 2015-11-29T00:00:00Z,glocations,Germany,1032,9.100609e-26,Merkel,  While  Refusing  to  Halt  Migrant  Influx,  Works  to  Limit  It 
+ 2015-11-30T00:00:00Z,glocations,Russia,1243,7.6239684e-26,Discord  Between  Turkey  and  Russia  Is  Fueled  by  Leaders’  Similarities 
+ 2015-11-28T00:00:00Z,glocations,Turkey,887,6.8137177e-26,Turkey  Seeks  to  Ease  Tensions  Over  Shooting  Down  of  Russian  Jet 
+ 2015-11-27T00:00:00Z,glocations,France,1056,6.600038e-26,Britain  and  Germany  Test  Support  for  Stronger  Steps  Against  ISIS     
+ 2015-11-27T00:00:00Z,glocations,France,1322,4.6555532e-26,Paris  Attacks  Have  Many  in  France  Eager  to  Join  the  Fight 
+ 2015-11-24T00:00:00Z,glocations,GreatBritain,743,3.5466662e-26,David  Cameron  Says  He  Will  Increase  Britain&#8217;s  Military  Spending 
+ 2015-11-24T11:30:00Z,glocations,Russia,998,3.0746405e-26,Putin's  Emergency  Politics 
+ 2015-11-25T00:00:00Z,glocations,Russia,1548,2.9561345e-26,NATO-Russia  Tensions  Rise  After  Turkey  Downs  Jet 
+ 2015-11-15T06:29:10Z,glocations,England,161,2.0234922e-26,1940:  Worst  Nazi  Raid  Leaves  Coventry  in  Ruin 
+ 2015-11-17T13:03:13Z,glocations,Bowery(Manhattan,NY),256,1.9590025e-26,International  Center  of  Photography  Gets  Grant  from  Mellon  Foundation 
+ 2015-11-19T00:00:00Z,glocations,China,609,1.8742081e-26,Police  in  China  Kill  17  Linked  to  Mine  Attack,  Report  Says 
+ 2015-11-17T00:00:00Z,glocations,Germany,845,1.1193007e-26,Paris  and  Europe’s  Anti-Refugee  Backlash 
+ 2015-11-16T06:24:22Z,glocations,China,886,9.857454e-27,China  Responds  to  Paris  Attacks  Through  a  Domestic  Lens 
+ 2015-11-16T00:00:00Z,glocations,Iowa,1294,7.571104e-27,Iowa  TV  Gets  Its  Close-Up,  Enjoying  Outsize  Influence 
+ 2015-11-16T05:58:15Z,glocations,Ireland,1718,6.920647e-27,Morning  Agenda:  Stocks  Fall  After  Paris  Attacks 
+ 2015-11-12T00:00:00Z,glocations,Israel,627,5.815609e-27,Israeli  Opposition  Leader  Withholds  Judgment  on  Netanyahu’s  U.S.  Visit 
+ 2015-11-13T00:00:00Z,glocations,Europe,745,5.7351343e-27,Coordinated  European  Raids  Target  Ring  Supporting  Terrorist  Groups 
+ 2015-11-11T11:30:00Z,glocations,Turkey,1037,5.01702e-27,Turkey’s  Authoritarian  Drift 
+ 2015-11-13T00:00:00Z,glocations,Israel,1028,4.552752e-27,Palestinian  Dies  as  Undercover  Israelis  Raid  a  Hospital 
+ 2015-11-06T00:00:00Z,glocations,Bahrain,133,4.2252083e-27,Bahrain:  Five  Are  Convicted  of  Conspiring  With  Iran  to  Carry  Out  Attacks 
+ 2015-10-27T00:00:00Z,glocations,Belgium,361,2.8672228e-27,Belgian  Authorities  See  No  Terror  Link  in  Car  Crash  at  Army  Barracks 
+ 2015-11-10T00:00:00Z,glocations,SouthSudan,1359,2.759647e-27,An  Island  Refuge,  Surrounded  by  Bloody  Civil  War,  in  South  Sudan 
+ 2015-11-07T00:00:00Z,glocations,Indonesia,1057,1.6751016e-27,At  a  Bali  Festival,  Indonesia  Enforces  a  Silence  About  Its  Bloody  Past 
+ 2015-11-05T00:00:00Z,glocations,Canada,920,1.4766313e-27,A  Canada  Ready  to  Share  Again 
+ 2015-10-29T17:01:11Z,glocations,Pittsburgh(Pa),344,8.209177e-28,N.F.L.  Player  Punished  for  Purple  Shoes 
+ 2015-10-25T15:20:07Z,glocations,Diaz,Junot,228,5.090124e-28,Junot  D&iacute;az  Criticized  by  Dominican  Republic  Consul 
+ 2015-10-31T00:00:00Z,glocations,Bangladesh,1662,4.474675e-28,Bangladesh  Pushes  Back  as  Warnings  of  ISIS  Expansion  Gather  Steam 
+ 2015-10-28T00:00:00Z,glocations,Syria,913,3.7947787e-28,Iran  Is  Invited  to  Join  U.S.,  Russia  and  Europe  for  Talks  on  Syria’s  Future 
+ 2015-10-23T10:05:55Z,glocations,Afghanistan,961,1.7419745e-28,The  Specter  of  Addiction  and  Suicide  Among  Veterans 
+ 2015-10-24T00:00:00Z,glocations,Syria,1122,1.5278844e-28,U.S.  and  Russia  Find  Common  Goals  on  Syria,  if  Not  on  Assad 
+ 2015-10-22T00:00:00Z,glocations,NorthernIreland,658,1.3642909e-28,In  Northern  Ireland,  Allegations  of  Killings  by  a  British  Agent 
+ 2015-10-23T00:00:00Z,glocations,Syria,1140,1.2961243e-28,U.S.  Is  Debating  Ways  to  Shield  Syrian  Civilians 
+ 2015-10-18T00:00:00Z,glocations,India,704,6.859951e-29,With  Return  of  Prize,  India’s  Literary  Stars  Protest  Rising  Intolerance 
+ 2015-10-10T00:00:00Z,glocations,Bangladesh,139,5.7100176e-29,Attacks  in  Bangladesh 
+ 2015-10-18T00:00:00Z,glocations,MiddleEast,1158,5.461069e-29,As  Conflicts  Flare  Up,  Leaders  Fan  Sectarian  Flames  in  Middle  East 
+ 2015-10-13T00:00:00Z,glocations,Zimbabwe,337,4.5790023e-29,Zimbabwe  Won’t  Charge  Dentist  Who  Killed  Cecil  the  Lion 
+ 2015-10-15T00:00:00Z,glocations,Turkey,1298,3.2312738e-29,Turkey  Expresses  Concern  to  U.S.  and  Russia  Over  Help  for  Syrian  Kurds 
+ 2015-10-14T00:00:00Z,glocations,Syria,999,2.7223035e-29,Putin  Says  U.S.  Fails  to  Cooperate  in  Syria 
+ 2015-10-13T00:00:00Z,glocations,Turkey,1304,2.3000543e-29,Deadly  Ankara  Attack  Not  Enough  to  Unify  a  Polarized  Turkey 
+ 2015-10-07T00:00:00Z,glocations,Afghanistan,165,1.9908065e-29,Afghan  Hospital  Bombing 
+ 2015-10-03T00:00:00Z,glocations,Israel,859,8.421439e-30,Tensions  High  in  West  Bank  After  Killing  of  Israeli  Settler  Couple 
+ 2015-10-02T00:00:00Z,glocations,TwinFalls(Idaho),1163,3.300049e-30,Idaho  City  of  Immigrants  Debates  Taking  In  Middle  Eastern  Refugees 
+ 2015-09-30T12:30:00Z,glocations,Indonesia,1104,2.5223472e-30,Suharto’s  Purge,  Indonesia’s  Silence 
+ 2015-10-01T03:21:43Z,glocations,GreatBritain,2291,2.1197833e-30,What  &#8216;Black  Lives&#8217;  Means  in  Britain 
+ 2015-09-10T00:00:00Z,glocations,Minneapolis(Minn),711,1.896911e-30,Minneapolis  Fighting  Terror  Recruitment   
+ 2015-09-26T12:30:00Z,glocations,Hungary,1034,1.2430704e-30,Hungary’s  Politics  of  Hate 
+ 2015-09-25T06:17:12Z,glocations,Currency,2064,7.3732394e-31,Morning  Agenda:  Dollar  Rises  After  Yellen&#8217;s  Talk 
+ 2015-09-21T00:00:00Z,glocations,USSR(FormerSovietUnion),1273,4.6100697e-31,Russian  Project  Honors  Stalin’s  Victims  and  Stirs  Talk  on  Brutal  Past 
+ 2015-09-18T12:30:00Z,glocations,Syria,818,3.6867438e-31,Little  Syria  in  Lesbos 
+ 2015-09-12T00:00:00Z,glocations,Mumbai(India),550,1.3395137e-31,Indian  Court  Convicts  12  in  2006  Bombings  of  Mumbai  Trains 
+ 2015-09-12T00:00:00Z,glocations,Venezuela,1001,8.9795296e-32,Opposition  in  Venezuela  Is  Unsettled  by  Leader’s  Sentence 
+ 2015-08-28T00:00:00Z,glocations,China,549,1.4929858e-32,China  Sentences  45  in  Restive  Region  of  Xinjiang 
+ 2015-08-28T00:00:00Z,glocations,GujaratState(India),493,1.0007e-32,Days  of  Unrest  Turn  Deadly  in  Indian  State  of  Gujarat 
+ 2015-08-31T00:00:00Z,glocations,India,1305,9.906731e-33,Caste  Quotas  in  India  Come  Under  Attack 
+ 2015-08-22T00:00:00Z,glocations,Syria,646,3.9384527e-33,Israel  Carries  Out  2nd  Round  of  Airstrikes  in  Syria 
+ 2015-08-23T00:00:00Z,glocations,PacificNorthwesternStates(US),810,2.804717e-33,Living  in  the  Ring  of  Fire 
+ 2015-08-23T00:00:00Z,glocations,France,730,2.7873627e-33,3  Who  Stopped  Train  Attack  Were  Boyhood  Friends 
+ 2015-08-22T12:30:00Z,glocations,Afghanistan,1646,1.8085735e-33,The  Harrowing  Road  to  Asylum 
+ 2015-08-11T12:07:41Z,glocations,Nigeria,324,5.1531115e-34,Bomb  at  Nigerian  Market  Kills  24,  Extremists  Attack  Cameroon 
+ 2015-07-29T00:00:00Z,glocations,Florida,143,4.4049382e-34,Florida  Man  Charged  With  Planning  Terror  Bombing   
+ 2015-08-08T12:30:00Z,glocations,Israel,780,3.1633655e-34,Naftali  Bennett  on  Israel’s  Jewish  Terrorists 
+ 2015-08-12T00:00:00Z,glocations,Iraq,1262,2.8265655e-34,Iraqi  Parliament  Backs  Overhaul  of  Government 
+ 2015-08-10T00:00:00Z,glocations,Israel,1199,1.937696e-34,Israel  Continues  Crackdown  on  Jewish  Extremist  Network  in  West  Bank 
+ 2015-08-07T00:00:00Z,glocations,Iran,809,1.3643717e-34,3  U.S.  Defeats:  Vietnam,  Iraq  and  Now  Iran 
+ 2015-08-04T00:00:00Z,glocations,Israel,1273,6.158849e-35,Vigilante  Effort  After  a  Child’s  Death  Underlines  Stark  Change  in  West  Bank 
+ 2015-08-03T00:00:00Z,glocations,Israel,1196,5.1153255e-35,Israeli  Justice  in  West  Bank  Is  Seen  as  Often  Uneven 
+ 2015-07-19T00:00:00Z,glocations,Chad,1177,4.3654425e-35,Surviving  Grenade  and  Terror  to  Bring  Chad’s  Ex-Leader  to  Trial 
+ 2015-07-15T00:00:00Z,glocations,China,492,1.4417201e-35,Chinese  Police  Say  3  Killed  by  Officers  Were  ‘Xinjiang  Terrorists’ 
+ 2015-07-22T00:00:00Z,glocations,Israel,794,6.247734e-36,Iran  Deal  Looms  as  U.S.  Defense  Secretary  Meets  With  Netanyahu 
+ 2015-07-22T00:00:00Z,glocations,Syria,985,4.975682e-36,Leader  of  Qaeda  Cell  in  Syria, Muhsin  al-Fadhli,  Is  Killed  in  Airstrike,  U.S.  Says 
+ 2015-07-21T00:00:00Z,glocations,Burundi,1569,3.5959336e-36,In  Burundi,  President  Pierre  Nkurunziza’s  Push  for  Power  Is  Marked  by  Bloodshed 
+ 2015-07-21T00:00:00Z,glocations,SouthCarolina,1593,3.5773183e-36,Confederate  Flag  Down,  but Black  South  Carolinians  See  Bigger  Fights 
+ 2015-07-16T00:00:00Z,glocations,China,765,1.9362112e-36,China  Says  Detained  Tourists  Were  Watching  Terrorist  Propaganda 
+ 2015-07-16T00:00:00Z,glocations,Iran,930,1.9287027e-36,Obama  Begins  60-Day  Campaign  to  Win  Over  Iran  Deal  Skeptics  at  Home  and  Abroad 
+ 2015-07-03T00:00:00Z,glocations,Bangladesh,405,1.7851612e-36,Bangladesh  Police  Arrest  12  Men  Suspected  of  Qaeda  Ties 
+ 2015-07-15T00:00:00Z,glocations,Taipei(Taiwan),1158,1.2783659e-36,Taiwan  Turns  Light  on  1947  Slaughter  by  Chiang  Kai-shek’s  Troops 
+ 2015-07-09T00:00:00Z,glocations,Minneapolis(Minn),991,6.744181e-37,Minnesota&#8217;s  Somali-Americans  Urge  New  Treatment  for  Would-Be  Terrorists 
+ 2015-06-29T13:11:30Z,glocations,Charleston(SC),284,1.1850651e-37,Bree  Newsome  Removes  a  Symbol  of  Hate 
+ 2015-07-01T00:00:00Z,glocations,Cuba,859,9.968944e-38,U.S.  and  Cuba  Agree  to  Reopen  Embassies,  Officials  Say 
+ 2015-07-01T00:00:00Z,glocations,Greece,877,9.931462e-38,What  Would  Thucydides  Say  About  the  Crisis  in  Greece? 
+ 2015-06-30T00:00:00Z,glocations,Afghanistan,936,8.1269526e-38,Afghans  Protest  After  U.S.  Forces  Carry  Out  Raid  on  Strongman 
+ 2015-06-28T00:00:00Z,glocations,Sudan,808,5.435214e-38,‘He’s  Jesus  Christ’ 
+ 2015-06-27T00:00:00Z,glocations,Tunisia,913,4.4050238e-38,Tunisia  Attack  Kills  at  Least  38  at  Beach  Resort  Hotel 
+ 2015-06-13T00:00:00Z,glocations,Mississippi,910,3.926915e-38,Remembering  a  Moment  of  Terror  in  Mississippi 
+ 2015-06-26T00:00:00Z,glocations,Burundi,857,3.6095677e-38,Burundi  Students  Enter  U.S.  Embassy  as  Political  Tensions  Escalate 
+ 2015-06-25T00:00:00Z,glocations,GreatBritain,1244,2.3546467e-38,Documents  on  2012  Drone  Strike  Detail  How  Terrorists  Are  Targeted 
+ 2015-06-23T00:00:00Z,glocations,Israel,1258,2.2640384e-38,U.N.  Report  on  Gaza  Finds  Evidence  of  War  Crimes  by  Israel  and  by  Palestinian  Militants 
+ 2015-06-20T00:00:00Z,glocations,Greece,973,1.0824048e-38,Greece  and  Its  Creditors  Pummel  Each  Other,  but  Fight  Is  Not  Over  Yet 
+ 2015-06-18T00:00:00Z,glocations,Syria,624,8.65963e-39,Claims  of  Syrian  Chlorine  Bombs  Counter  News  of  Progress  on  Chemical  Arms 
+ 2015-06-16T00:00:00Z,glocations,Israel,1426,6.644898e-39,Israeli  Government  Cartoon  Mocks  Foreign  Coverage  of  Gaza 
+ 2015-06-19T00:00:00Z,glocations,Chile,1584,6.201288e-39,In  Chile’s  National  Stadium,  Dark  Past  Shadows  Copa  América  Matches 
+ 2015-06-08T15:17:00Z,glocations,Boston(Mass),29,5.164825e-39,Surveillance  Video  of  Boston  Shooting 
+ 2015-06-16T00:00:00Z,glocations,Yemen,1085,3.810747e-39,No.  2  Qaeda  Leader  May  Have  Died  in  U.S.  Airstrike  in  Yemen 
+ 2015-06-16T00:00:00Z,glocations,Egypt,954,3.810747e-39,Egypt’s  Vanishing  Youth 
+ 2015-06-15T20:40:00Z,glocations,Shanghai(China),1365,3.769028e-39,Chinese  Festival  Pivots  Back 
+ 2015-06-09T00:00:00Z,glocations,India,889,1.304378e-39,Modi  Under  Fire  for  Calling  Bangladesh’s  Leader  Tough,  ‘Despite  Being  a  Woman’ 
+ 2015-06-10T00:30:00Z,glocations,Germany,1090,1.143209e-39,Unveiling  Third  Reich  Art 
+ 2015-06-10T00:00:00Z,glocations,Tajikistan,990,1.129633e-39,Jihad’s  New  Frontier:  Tajikistan 
+ 2015-05-24T00:00:00Z,glocations,Syria,1307,6.24033e-40,The  Ancient  Ruins  Terror  Can&#8217;t  Destroy 
+ 2015-06-05T00:00:00Z,glocations,Iraq,787,5.07384e-40,The  Separation  Strategy  on  Iraq 
+ 2015-05-30T12:30:00Z,glocations,Russia,846,1.63075e-40,The  Kremlin  vs.  The  NGOs 
+ 2015-05-16T00:00:00Z,glocations,NorthKorea,551,1.00284e-40,South  Korean  Leader  Voices  Alarm  at  Kim  Jong-un’s  ‘Reign  of  Terror’ 
+ 2015-05-21T00:00:00Z,glocations,Iraq,1212,1.7952e-41,U.S.  to  Send  Rockets  to  Iraq  for  ISIS  Fight 
+ 2015-05-19T00:00:00Z,glocations,Pakistan,891,1.1727e-41,Axact,  Fake  Diploma  Company,  Threatens  Pakistani  Bloggers  Who  Laugh  at  Its  Expense 
+ 2015-05-13T00:00:00Z,glocations,NorthKorea,614,4.107e-42,North  Korea  Said  to  Execute  a  Top  Official,  With  an  Antiaircraft  Gun 
+ 2015-05-09T12:30:00Z,glocations,France,411,2.765e-42,The  Spread  of  Surveillance 
+ 2015-04-29T00:00:00Z,glocations,SaudiArabia,349,2.194e-42,Saudi  Arabia  Accuses  93  of  Terrorist  Links,  Including  to  ISIS 
+ 2015-05-09T12:30:00Z,glocations,Russia,1019,1.588e-42,How  Russians  Lost  the  War 
+ 2015-05-06T12:30:00Z,glocations,Russia,824,1.484e-42,Is  It  1937  Yet? 
+ 2015-05-07T00:00:00Z,glocations,Syria,1392,9.19e-43,Syria  Is  Using  Chemical  Weapons  Again,  Rescue  Workers  Say 
+ 2015-04-24T00:00:00Z,glocations,Pakistan,538,9.1e-43,Adam  Gadahn  Was  Propagandist  for  Al  Qaeda  Who  Sold  Terror  in  English 
+ 2015-05-05T20:40:00Z,glocations,Europe,695,9.08e-43,Wars'  Legacy  Endures  for  Belarus  City 
+ 2015-04-30T00:00:00Z,glocations,NorthKorea,552,4.4e-43,North  Korea  Executed  15  Top  Officials  in  2015,  South  Korean  Agency  Says 
+ 2015-04-19T00:00:00Z,glocations,Australia,499,3.55e-43,Australian  Police  Arrest  5  Men  They  Say  Were  Planning  Terror  Attacks 
+ 2015-04-18T00:00:00Z,glocations,Yemen,875,2.87e-43,Under  Bombardment  in  Yemen,  Civilians  Voice  Terror  and  Despair  Online 
+ 2015-04-29T00:00:00Z,glocations,Nigeria,568,2.5e-43,Nigeria  Says  It  Rescued  Hundreds  From  Suspected  Boko  Haram  Territory 
+ 2015-04-15T14:04:03Z,glocations,Colombia,329,1.7e-43,Removing  Cuba  From  the  List  of  Terror  Sponsors,  Finally 
+ 2015-04-26T00:00:00Z,glocations,UnitedStates,1090,8.8e-44,What  Role  Do  You  Want  to  Play?   
+ 2015-04-23T00:00:00Z,glocations,France,742,5.7e-44,Student  Arrested  on  Suspicion  of  Planning  Attack  in  France 
+ 2015-04-10T00:00:00Z,glocations,Cuba,724,5e-44,U.S.  Is  Closer  to  Deciding  Cuba’s  Status  on  Terror  List 
+ 2015-04-23T00:00:00Z,glocations,Yemen,1141,4.6e-44,As  War  Grinds  On,  Yemenis  Share  Their  Anguish  Online 
+ 2015-04-20T00:00:00Z,glocations,Iran,764,2.9e-44,Mohammad  Javad  Zarif:  A  Message  From  Iran 
+ 2015-04-17T12:30:00Z,glocations,Turkey,944,1.8e-44,Paranoia  and  Polarization  in  Turkey 
+ 2015-04-15T00:00:00Z,glocations,Kenya,450,1.4e-44,U.N.  Asks  Kenya  Not  to  Close  Somali  Refugee  Camp  in  Wake  of  Garissa  Killings 
+ 2015-04-15T12:30:00Z,glocations,Nigeria,885,1.1e-44,Muhammadu  Buhari:  We  Will  Stop  Boko  Haram 
+ 2015-04-13T00:00:00Z,glocations,LatinAmerica,1169,5.6e-45,Talks  With  Cuba  Earn  U.S.  Raves  in  Latin  America 
+ 2015-04-09T12:30:00Z,glocations,Nigeria,964,2.8e-45,In  Nigeria,  an  Election  to  Believe  In 
+ 2015-04-08T00:00:00Z,glocations,Iran,304,2.8e-45,Iranian  Border  Guards  Are  Killed  in  Fighting  Near  Pakistan 
+ 2015-04-04T00:00:00Z,glocations,Japan,1219,1.4e-45,Retired  Japanese  Fighter  Pilot  Sees  an  Old  Danger  on  the  Horizon 
+ 2015-03-28T00:00:00Z,glocations,Kenya,257,1.4e-45,Australia  Warns  of  Terror  Threat  in  Kenyan  Capital 
+ 2015-03-23T00:00:00Z,glocations,Yemen,1281,1.4e-45,Out  of  Yemen,  U.S.  Is  Hobbled  in  Terror  Fight 
+ 2015-03-30T00:00:00Z,glocations,Uzbekistan,811,0.0,Uzbeks  Vote  on  Expected  4th  Term  for  Authoritarian  Leader 
+ 2015-03-28T11:30:00Z,glocations,Tunisia,990,0.0,Tunisia’s  Hour  of  Need 
+ 2015-03-27T00:00:00Z,glocations,Yemen,1132,0.0,Yemenis  Share  Reports,  Rumors  and  Wry  Commentary  Online  as  Bombs  Drop 
+ 2015-03-26T00:00:00Z,glocations,Turkey,316,0.0,Court  Blocks  Jihadist  Website  Used  to  Recruit  Turks  to  Islamic  State 
+ 2015-03-25T11:30:00Z,glocations,Crimea(Ukraine),1078,0.0,To  See  Ukraine’s  Future,  Recall  Crimea 
+ 2015-03-20T00:00:00Z,glocations,NewYorkCity,1376,0.0,Spring  Is  So  Close  You  Can  Almost  Taste  It 
+ 2015-03-19T00:00:00Z,glocations,Israel,775,0.0,Netanyahu&#8217;s  Day,  and  Israel&#8217;s  Future   
+ 2015-03-19T11:30:00Z,glocations,Afghanistan,994,0.0,Ghani’s  Gambit 
+ 2015-03-18T11:30:00Z,glocations,Pakistan,712,0.0,Pakistan’s  Moral  Catastrophe 
+ 2015-03-16T00:00:00Z,glocations,GreatBritain,412,0.0,3  British  Teenagers  Detained  on  Suspicion  of  Plotting  Terror 
+ 2015-03-14T00:00:00Z,glocations,Somalia,547,0.0,U.S.  Targets  Shabab  Unit  in  Somalia 
+ 2015-03-11T00:00:00Z,glocations,Syria,884,0.0,The  Carnage  of  Barrel  Bombs  in  Syria 
+ 2015-02-28T11:30:00Z,glocations,SriLanka,714,0.0,What  Sri  Lanka  Must  Do 
+ 2015-03-08T00:00:00Z,glocations,Chad,1606,0.0,African  Training  Exercise  Turns  Urgent  as  Threats  Grow 
+ 2015-03-07T00:00:00Z,glocations,Russia,122,0.0,Russia:  Navalny  Is  Released  From  Jail 
+ 2015-03-07T00:00:00Z,glocations,Israel,103,0.0,Israel:  Palestinian  Held  in  Car  Attack 
+ 2015-03-06T00:00:00Z,glocations,SouthKorea,927,0.0,South  Korea  Says  Attacker  of  U.S.  Ambassador,  Mark  Lippert,  Acted  Alone 
+ 2015-03-05T11:30:00Z,glocations,Romania,1018,0.0,Romania’s  Anti-Corruption  Mania 
+ 2015-02-28T00:00:00Z,glocations,Cuba,1378,0.0,Cuba&#8217;s  Designation  as  a  Sponsor  of  Terrorism  Snarls  Negotiations  With  U.S.   
+ 2015-02-28T11:30:00Z,glocations,Israel,925,0.0,Dividing  the  U.S.  on  Israel 
+ 2015-02-26T11:30:00Z,glocations,France,939,0.0,Europe  Won't  Give  In  to  Doubt 
+ 2015-02-26T11:30:00Z,glocations,Darfur(Sudan),989,0.0,George  Clooney  on  Sudan’s  Rape  of  Darfur 
+ 2015-02-24T10:00:44Z,glocations,Guatemala,101,0.0,1965:  State  of  Siege  Is  Declared 
+ 2015-02-24T20:40:00Z,glocations,Qatar,910,0.0,Qatar’s  Message  to  Obama 
+ 2015-02-24T00:00:00Z,glocations,Israel,544,0.0,Israeli  Views  on  Iran  Diverged,  Reports  Say 
+ 2015-02-24T00:00:00Z,glocations,Kenya,1268,0.0,A  Catch-22  in  Kenya:  Western  Terrorism  Alerts  May  Fuel  Terrorism 
+ 2015-02-23T11:47:13Z,glocations,Kenya,23,0.0,Kenya’s  Unemployed  Face  Terror’s  Lure 
+ 2015-02-22T00:00:00Z,glocations,GreatBritain,427,0.0,Concern  in  Britain  as  Schoolgirls  Seek  to  Join  Islamic  State 
+ 2015-02-21T00:00:00Z,glocations,Nigeria,900,0.0,In  Newly  Sophisticated  Boko  Haram  Videos,  Hints  of  Islamic  State  Ties   
+ 2015-02-18T00:00:00Z,glocations,Turkey,823,0.0,Democracy  Is  in  Recession 
+ 2015-02-17T15:54:13Z,glocations,Nashville(Tenn),1283,0.0,Nashville's  Clandestine  Black  Schools 
+ 2015-02-18T00:00:00Z,glocations,Syria,842,0.0,U.N.  Envoy  to  Syria  Announces  Possible  Truce  in  Aleppo   
+ 2015-02-17T11:30:00Z,glocations,Copenhagen(Denmark),924,0.0,The  Limits  of  Third-Generation  Jihad 
+ 2015-02-17T11:30:00Z,glocations,Denmark,823,0.0,Islam  and  the  West  at  War 
+ 2015-02-16T00:00:00Z,glocations,Nigeria,480,0.0,Nigeria&#8217;s  Miserable  Choices   
+ 2015-02-16T00:00:00Z,glocations,Israel,993,0.0,Netanyahu  Urges  ‘Mass  Immigration’  of  Jews  From  Europe 
+ 2015-02-13T00:00:00Z,glocations,Guerrero(Mexico),1586,0.0,Frustración  y  desconfianza  dominan  temporada  electoral  en  el  estado  de  Guerrero  en  México 
+ 2015-02-16T00:00:00Z,glocations,Denmark,1555,0.0,Terror  Attacks  by  a  Native  Son  Rock  Denmark 
+ 2015-02-13T22:25:12Z,glocations,SouthCarolina,2103,0.0,Dr.  Marcy's  March 
+ 2015-02-14T00:00:00Z,glocations,Jordan,784,0.0,Jordanians  See  U.S.  Reporting  Bias  in  Coverage  of  Student  Killings 
+ 2015-02-13T00:00:00Z,glocations,Guerrero(Mexico),1439,0.0,Mexican  Towns  Galvanized  by  Tragedy 
+ 2015-02-12T11:30:00Z,glocations,Germany,1098,0.0,How  the  West  Turns  on  Itself 
+ 2015-02-11T00:00:00Z,glocations,Australia,467,0.0,Australia  Arrests  2  on  Suspicion  of  Plotting  ‘Imminent’  Attack 
+ 2015-02-11T00:00:00Z,glocations,Ukraine,348,0.0,On  YouTube,  Vivid  Evidence  of  War’s  Horror  in  Ukraine 
+ 2015-02-15T00:00:00Z,glocations,Lebanon,9203,0.0,The  Hezbollah  Connection 
+ 2015-02-06T00:00:00Z,glocations,Nigeria,1522,0.0,Boko  Haram,  and  Massacres  Ruled  by  Whim 
+ 2015-02-05T00:00:00Z,glocations,SaudiArabia,1203,0.0,Pre-9/11  Ties  Haunt  Saudis  as  New  Accusations  Surface 
+ 2015-01-29T00:00:00Z,glocations,France,665,0.0,French  Video  Tries  to  Blunt  Jihad’s  Allure  Among  Youth 
+ 2015-01-29T11:30:00Z,glocations,China,1469,0.0,New  Rules  in  China  Upset  Western  Tech  Companies 
+ 2015-01-26T13:00:00Z,glocations,France,912,0.0,France's  Sunday  Pirouettes 
+ 2015-01-24T00:00:00Z,glocations,France,575,0.0,Court  Upholds  France’s  Move  to  Strip  Citizenship  of  Man  Jailed  on  Terror  Charge 
+ 2015-01-23T11:30:00Z,glocations,Germany,1067,0.0,Germany  Isn't  Turning  Backward 
+ 2015-01-23T00:00:00Z,glocations,Japan,739,0.0,Japan  Faces  a  Deadline  to  Save  Men  Held  by  ISIS 
+ 2015-01-21T00:00:00Z,glocations,Nigeria,253,0.0,Nigeria&#8217;s  Plea  for  Support 
+ 2015-01-20T12:49:00Z,glocations,Paris(France),26,0.0,De  Blasio  Pays  Tribute  to  Paris  Victims 
+ 2015-01-20T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),827,0.0,A  Detainee&#8217;s  Diary 
+ 2015-01-20T20:40:00Z,glocations,UnitedStates,720,0.0,A  Welcome  Chorus  of  Discordant  Disagreement 
+ 2015-01-19T00:00:00Z,glocations,Germany,518,0.0,German  Anti-Immigrant  Rally  Canceled  as  Leader  Is  Threatened 
+ 2015-01-18T00:00:00Z,glocations,Nigeria,601,0.0,In  Nigeria,  the  Terror  Continues   
+ 2015-01-15T16:33:57Z,glocations,Belgium,30,0.0,Belgian  Official  on  Counterterror  Raid 
+ 2015-01-16T00:00:00Z,glocations,Turkey,931,0.0,Killings  Deepen  Rift  as  Turks  Accuse  Netanyahu  of  &#8216;Crimes  Against  Humanity&#8217;   
+ 2015-01-15T10:45:49Z,glocations,France,666,0.0,Rising  Fears  Among  French  Jews  in  Wake  of  Terror  Attack:  Reporter’s  Notebook 
+ 2015-01-16T00:00:00Z,glocations,France,1251,0.0,French  Rein  In  Speech  Backing  Acts  of  Terror 
+ 2015-01-14T14:48:32Z,glocations,Paris(France),867,0.0,Inside  Charlie  Hebdo:  Reporter’s  Notebook 
+ 2015-01-13T00:00:00Z,glocations,France,1409,0.0,Fear  on  Rise,  Jews  in  France  Weigh  an  Exit 
+ 2015-01-13T00:00:00Z,glocations,Russia,1234,0.0,Conspiracy  Theories  Mix  With  Official  Condolences 
+ 2015-01-12T00:00:00Z,glocations,France,1209,0.0,In  Cold  Political  Terms,  Far  Right  and  French  President  Both  Gain 
+ 2015-01-12T00:00:00Z,glocations,Paris(France),1579,0.0,Victims  of  the  Terror  Attacks  in  Paris 
+ 2015-01-11T09:12:05Z,glocations,Paris(France),5433,0.0,Paris  March  Draws  More  Than  1  Million  Into  the  Streets 
+ 2015-01-10T00:00:00Z,glocations,Pakistan,587,0.0,Is  Pakistan  Worth  America&#8217;s  Investment? 
+ 2015-01-10T00:00:00Z,glocations,Israel,1017,0.0,Israelis  Link  Attacks  to  Their  Own  Struggles 
+ 2015-01-10T00:00:00Z,glocations,GreatBritain,823,0.0,In  Britain,  Spy  Chief  Calls  for  More  Power  for  Agency 
+ 2015-01-08T08:23:03Z,glocations,Paris(France),4189,0.0,Updates  on  the  2nd  Day  of  Search  for  Suspects  in  Charlie  Hebdo  Shooting 
+ 2015-01-07T08:05:20Z,glocations,Paris(France),4666,0.0,Updates  on  Search  for  Suspects  in  Paris  Newspaper  Shooting 
+ 2015-01-04T00:00:00Z,glocations,Israel,735,0.0,Tensions  Mount  as  Israel  Freezes  Revenue  Meant  for  Palestinians 
+ 2015-01-02T00:00:00Z,glocations,Antakya(Turkey),1117,0.0,Vanguard  of  Syria’s  Uprising,  Now  on  the  Run  From  ISIS,  Weighs  a  Bleak  Future 
