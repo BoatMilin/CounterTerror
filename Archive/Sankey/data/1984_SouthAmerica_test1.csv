@@ -1,0 +1,18 @@
+,country_txt,attacktype1_txt,counts
+0,Argentina,Bombing/Explosion,1
+1,Chile,Armed Assault,15
+2,Chile,Assassination,1
+3,Chile,Bombing/Explosion,174
+4,Chile,Facility/Infrastructure Attack,1
+5,Chile,Unknown,6
+6,Colombia,Armed Assault,53
+7,Colombia,Assassination,26
+8,Colombia,Bombing/Explosion,20
+9,Colombia,Facility/Infrastructure Attack,4
+10,Colombia,Unknown,16
+11,Ecuador,Armed Assault,1
+12,Peru,Armed Assault,142
+13,Peru,Assassination,46
+14,Peru,Bombing/Explosion,167
+15,Peru,Facility/Infrastructure Attack,9
+16,Peru,Unknown,47

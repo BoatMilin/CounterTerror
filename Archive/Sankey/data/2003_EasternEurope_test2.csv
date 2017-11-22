@@ -1,0 +1,10 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Government (General),3
+1,Armed Assault,Military,5
+2,Assassination,Government (General),3
+3,Bombing/Explosion,Government (General),6
+4,Bombing/Explosion,Military,6
+5,Bombing/Explosion,Police,2
+6,Bombing/Explosion,Transportation,8
+7,Bombing/Explosion,Unknown,4
+8,Facility/Infrastructure Attack,Government (General),5

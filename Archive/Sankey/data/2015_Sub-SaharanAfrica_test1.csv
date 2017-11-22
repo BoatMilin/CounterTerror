@@ -1,0 +1,24 @@
+,country_txt,attacktype1_txt,counts
+0,Cameroon,Armed Assault,14
+1,Cameroon,Assassination,1
+2,Cameroon,Bombing/Explosion,19
+3,Cameroon,Hostage Taking (Kidnapping),14
+4,Cameroon,Unknown,9
+5,Democratic Republic of the Congo,Armed Assault,43
+6,Democratic Republic of the Congo,Bombing/Explosion,2
+7,Democratic Republic of the Congo,Hostage Taking (Kidnapping),38
+8,Democratic Republic of the Congo,Unknown,22
+9,Nigeria,Armed Assault,258
+10,Nigeria,Assassination,5
+11,Nigeria,Bombing/Explosion,121
+12,Nigeria,Hostage Taking (Kidnapping),27
+13,Nigeria,Unknown,25
+14,Somalia,Armed Assault,105
+15,Somalia,Assassination,41
+16,Somalia,Bombing/Explosion,70
+17,Somalia,Hostage Taking (Kidnapping),26
+18,Somalia,Unknown,44
+19,Sudan,Armed Assault,25
+20,Sudan,Bombing/Explosion,5
+21,Sudan,Hostage Taking (Kidnapping),15
+22,Sudan,Unknown,13

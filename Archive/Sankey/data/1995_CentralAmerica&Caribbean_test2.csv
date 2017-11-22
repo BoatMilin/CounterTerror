@@ -1,0 +1,10 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Government (Diplomatic),1
+1,Assassination,Government (General),2
+2,Assassination,Private Citizens & Property,23
+3,Bombing/Explosion,Business,1
+4,Bombing/Explosion,Government (General),2
+5,Bombing/Explosion,Utilities,8
+6,Hostage Taking (Kidnapping),Government (Diplomatic),1
+7,Unknown,Business,1
+8,Unknown,Government (General),16

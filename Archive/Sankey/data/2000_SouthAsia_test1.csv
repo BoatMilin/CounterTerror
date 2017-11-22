@@ -1,0 +1,15 @@
+,country_txt,attacktype1_txt,counts
+0,Bangladesh,Armed Assault,1
+1,India,Armed Assault,33
+2,India,Assassination,6
+3,India,Bombing/Explosion,25
+4,India,Facility/Infrastructure Attack,3
+5,India,Hostage Taking (Kidnapping),11
+6,Nepal,Armed Assault,4
+7,Nepal,Bombing/Explosion,5
+8,Nepal,Hostage Taking (Kidnapping),1
+9,Pakistan,Armed Assault,1
+10,Pakistan,Assassination,1
+11,Sri Lanka,Armed Assault,6
+12,Sri Lanka,Assassination,5
+13,Sri Lanka,Bombing/Explosion,31

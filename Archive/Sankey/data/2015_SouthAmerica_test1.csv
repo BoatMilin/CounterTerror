@@ -1,0 +1,13 @@
+,country_txt,attacktype1_txt,counts
+0,Colombia,Armed Assault,18
+1,Colombia,Bombing/Explosion,59
+2,Colombia,Facility/Infrastructure Attack,14
+3,Colombia,Hostage Taking (Kidnapping),5
+4,Colombia,Unknown,7
+5,Paraguay,Armed Assault,5
+6,Paraguay,Bombing/Explosion,1
+7,Paraguay,Facility/Infrastructure Attack,2
+8,Paraguay,Hostage Taking (Kidnapping),4
+9,Paraguay,Unknown,2
+10,Peru,Bombing/Explosion,1
+11,Peru,Unknown,1

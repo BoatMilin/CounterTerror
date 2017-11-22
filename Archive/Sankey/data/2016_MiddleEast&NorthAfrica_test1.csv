@@ -1,0 +1,26 @@
+,country_txt,attacktype1_txt,counts
+0,Iraq,Armed Assault,56
+1,Iraq,Bombing/Explosion,703
+2,Iraq,Facility/Infrastructure Attack,38
+3,Iraq,Hostage Taking (Kidnapping),118
+4,Iraq,Unknown,175
+5,Libya,Armed Assault,17
+6,Libya,Bombing/Explosion,75
+7,Libya,Facility/Infrastructure Attack,14
+8,Libya,Hostage Taking (Kidnapping),84
+9,Libya,Unknown,18
+10,Syria,Armed Assault,37
+11,Syria,Bombing/Explosion,198
+12,Syria,Facility/Infrastructure Attack,2
+13,Syria,Hostage Taking (Kidnapping),43
+14,Syria,Unknown,15
+15,Turkey,Armed Assault,96
+16,Turkey,Bombing/Explosion,221
+17,Turkey,Facility/Infrastructure Attack,7
+18,Turkey,Hostage Taking (Kidnapping),8
+19,Turkey,Unknown,32
+20,Yemen,Armed Assault,31
+21,Yemen,Bombing/Explosion,191
+22,Yemen,Facility/Infrastructure Attack,2
+23,Yemen,Hostage Taking (Kidnapping),20
+24,Yemen,Unknown,89

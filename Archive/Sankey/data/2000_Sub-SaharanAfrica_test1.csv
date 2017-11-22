@@ -1,0 +1,18 @@
+,country_txt,attacktype1_txt,counts
+0,Angola,Armed Assault,8
+1,Angola,Bombing/Explosion,1
+2,Angola,Hostage Taking (Kidnapping),5
+3,Angola,Unknown,2
+4,Namibia,Armed Assault,6
+5,Namibia,Bombing/Explosion,3
+6,Namibia,Hostage Taking (Kidnapping),7
+7,Sierra Leone,Armed Assault,8
+8,Sierra Leone,Bombing/Explosion,1
+9,Sierra Leone,Hostage Taking (Kidnapping),2
+10,Sierra Leone,Unknown,5
+11,Uganda,Armed Assault,7
+12,Uganda,Assassination,1
+13,Uganda,Bombing/Explosion,2
+14,Uganda,Hostage Taking (Kidnapping),4
+15,Uganda,Unknown,1
+16,Zambia,Armed Assault,8

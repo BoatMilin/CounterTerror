@@ -1,0 +1,12 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Abortion Related,3
+1,Armed Assault,Private Citizens & Property,9
+2,Assassination,Abortion Related,2
+3,Bombing/Explosion,Abortion Related,1
+4,Bombing/Explosion,Private Citizens & Property,1
+5,Bombing/Explosion,Utilities,3
+6,Facility/Infrastructure Attack,Abortion Related,10
+7,Facility/Infrastructure Attack,Business,1
+8,Facility/Infrastructure Attack,Educational Institution,1
+9,Facility/Infrastructure Attack,Private Citizens & Property,1
+10,Hostage Taking (Barricade Incident),Business,9

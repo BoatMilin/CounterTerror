@@ -1,0 +1,15 @@
+,country_txt,attacktype1_txt,counts
+0,Cambodia,Armed Assault,1
+1,Cambodia,Bombing/Explosion,45
+2,Cambodia,Hostage Taking (Kidnapping),1
+3,Indonesia,Armed Assault,2
+4,Indonesia,Facility/Infrastructure Attack,1
+5,Indonesia,Hostage Taking (Kidnapping),3
+6,Myanmar,Bombing/Explosion,2
+7,Philippines,Armed Assault,6
+8,Philippines,Bombing/Explosion,1
+9,Philippines,Hostage Taking (Kidnapping),5
+10,Philippines,Unknown,1
+11,Thailand,Armed Assault,1
+12,Thailand,Bombing/Explosion,1
+13,Thailand,Unknown,2

@@ -1,0 +1,14 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Military,17
+1,Armed Assault,Private Citizens & Property,27
+2,Armed Assault,Transportation,7
+3,Assassination,Police,6
+4,Assassination,Private Citizens & Property,7
+5,Bombing/Explosion,Military,2
+6,Bombing/Explosion,Police,13
+7,Bombing/Explosion,Private Citizens & Property,2
+8,Bombing/Explosion,Transportation,6
+9,Bombing/Explosion,Utilities,8
+10,Hostage Taking (Barricade Incident),Private Citizens & Property,2
+11,Unknown,Military,1
+12,Unknown,Police,4

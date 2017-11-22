@@ -1,0 +1,11 @@
+,country_txt,attacktype1_txt,counts
+0,Angola,Armed Assault,2
+1,Angola,Bombing/Explosion,3
+2,Mozambique,Armed Assault,3
+3,Mozambique,Bombing/Explosion,2
+4,Namibia,Bombing/Explosion,12
+5,South Africa,Armed Assault,8
+6,South Africa,Assassination,15
+7,South Africa,Bombing/Explosion,70
+8,South Africa,Unknown,12
+9,Uganda,Armed Assault,6

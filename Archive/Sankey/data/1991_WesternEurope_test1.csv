@@ -1,0 +1,19 @@
+,country_txt,attacktype1_txt,counts
+0,France,Armed Assault,1
+1,France,Assassination,2
+2,France,Bombing/Explosion,102
+3,Germany,Armed Assault,5
+4,Germany,Assassination,5
+5,Germany,Bombing/Explosion,2
+6,Germany,Facility/Infrastructure Attack,9
+7,Germany,Unknown,4
+8,Greece,Assassination,1
+9,Greece,Bombing/Explosion,19
+10,Spain,Armed Assault,5
+11,Spain,Assassination,18
+12,Spain,Bombing/Explosion,46
+13,United Kingdom,Armed Assault,15
+14,United Kingdom,Assassination,62
+15,United Kingdom,Bombing/Explosion,53
+16,United Kingdom,Facility/Infrastructure Attack,87
+17,United Kingdom,Unknown,2

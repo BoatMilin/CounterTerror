@@ -1,0 +1,14 @@
+,country_txt,attacktype1_txt,counts
+0,France,Bombing/Explosion,1
+1,Greece,Armed Assault,3
+2,Greece,Bombing/Explosion,11
+3,Greece,Facility/Infrastructure Attack,6
+4,Italy,Bombing/Explosion,1
+5,Spain,Armed Assault,2
+6,Spain,Assassination,1
+7,Spain,Bombing/Explosion,8
+8,Spain,Facility/Infrastructure Attack,1
+9,United Kingdom,Armed Assault,1
+10,United Kingdom,Bombing/Explosion,3
+11,United Kingdom,Facility/Infrastructure Attack,1
+12,United Kingdom,Hijacking,3

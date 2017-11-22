@@ -1,0 +1,24 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Business,1
+1,Armed Assault,Government (General),5
+2,Armed Assault,Military,42
+3,Armed Assault,Police,37
+4,Armed Assault,Private Citizens & Property,15
+5,Assassination,Business,6
+6,Assassination,Government (General),2
+7,Assassination,Military,10
+8,Assassination,Police,11
+9,Assassination,Private Citizens & Property,43
+10,Bombing/Explosion,Business,50
+11,Bombing/Explosion,Government (General),16
+12,Bombing/Explosion,Military,24
+13,Bombing/Explosion,Police,8
+14,Bombing/Explosion,Private Citizens & Property,17
+15,Facility/Infrastructure Attack,Business,13
+16,Facility/Infrastructure Attack,Government (General),2
+17,Facility/Infrastructure Attack,Military,6
+18,Facility/Infrastructure Attack,Private Citizens & Property,1
+19,Hostage Taking (Kidnapping),Business,1
+20,Hostage Taking (Kidnapping),Military,2
+21,Hostage Taking (Kidnapping),Police,2
+22,Hostage Taking (Kidnapping),Private Citizens & Property,5

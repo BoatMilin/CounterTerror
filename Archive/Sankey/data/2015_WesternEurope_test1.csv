@@ -1,0 +1,15 @@
+,country_txt,attacktype1_txt,counts
+0,France,Armed Assault,4
+1,France,Bombing/Explosion,4
+2,France,Facility/Infrastructure Attack,1
+3,France,Hostage Taking (Barricade Incident),2
+4,Germany,Armed Assault,2
+5,Germany,Assassination,1
+6,Germany,Facility/Infrastructure Attack,3
+7,Greece,Bombing/Explosion,2
+8,Greece,Facility/Infrastructure Attack,1
+9,Ireland,Bombing/Explosion,2
+10,United Kingdom,Armed Assault,9
+11,United Kingdom,Bombing/Explosion,22
+12,United Kingdom,Facility/Infrastructure Attack,5
+13,United Kingdom,Hostage Taking (Barricade Incident),1

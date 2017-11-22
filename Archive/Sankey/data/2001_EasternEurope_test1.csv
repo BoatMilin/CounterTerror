@@ -1,0 +1,15 @@
+,country_txt,attacktype1_txt,counts
+0,Kosovo,Bombing/Explosion,2
+1,Kosovo,Facility/Infrastructure Attack,1
+2,Macedonia,Armed Assault,19
+3,Macedonia,Bombing/Explosion,3
+4,Macedonia,Facility/Infrastructure Attack,7
+5,Macedonia,Hostage Taking (Kidnapping),7
+6,Russia,Armed Assault,20
+7,Russia,Assassination,5
+8,Russia,Bombing/Explosion,43
+9,Russia,Facility/Infrastructure Attack,4
+10,Russia,Hostage Taking (Kidnapping),1
+11,Yugoslavia,Armed Assault,3
+12,Yugoslavia,Bombing/Explosion,1
+13,Yugoslavia,Hostage Taking (Kidnapping),2

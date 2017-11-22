@@ -1,0 +1,17 @@
+,country_txt,attacktype1_txt,counts
+0,Democratic Republic of the Congo,Armed Assault,2
+1,Democratic Republic of the Congo,Unknown,3
+2,Kenya,Armed Assault,9
+3,Kenya,Bombing/Explosion,15
+4,Kenya,Hostage Taking (Kidnapping),1
+5,Kenya,Unknown,1
+6,Nigeria,Armed Assault,60
+7,Nigeria,Bombing/Explosion,44
+8,Nigeria,Facility/Infrastructure Attack,2
+9,Somalia,Armed Assault,21
+10,Somalia,Bombing/Explosion,28
+11,Somalia,Facility/Infrastructure Attack,1
+12,Somalia,Hostage Taking (Kidnapping),43
+13,Somalia,Unknown,4
+14,Sudan,Armed Assault,3
+15,Sudan,Hostage Taking (Kidnapping),2

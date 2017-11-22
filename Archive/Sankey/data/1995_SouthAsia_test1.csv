@@ -1,0 +1,16 @@
+,country_txt,attacktype1_txt,counts
+0,Bangladesh,Armed Assault,5
+1,Bangladesh,Bombing/Explosion,3
+2,Bangladesh,Unknown,2
+3,India,Armed Assault,7
+4,India,Bombing/Explosion,28
+5,India,Facility/Infrastructure Attack,29
+6,India,Unarmed Assault,20
+7,India,Unknown,7
+8,Pakistan,Armed Assault,27
+9,Pakistan,Unarmed Assault,51
+10,Pakistan,Unknown,5
+11,Sri Lanka,Armed Assault,27
+12,Sri Lanka,Bombing/Explosion,33
+13,Sri Lanka,Unarmed Assault,1
+14,Sri Lanka,Unknown,24

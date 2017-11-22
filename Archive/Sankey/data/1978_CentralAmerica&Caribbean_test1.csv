@@ -1,0 +1,14 @@
+,country_txt,attacktype1_txt,counts
+0,El Salvador,Armed Assault,9
+1,El Salvador,Assassination,10
+2,El Salvador,Bombing/Explosion,22
+3,El Salvador,Facility/Infrastructure Attack,1
+4,El Salvador,Unknown,2
+5,Guatemala,Armed Assault,3
+6,Guatemala,Assassination,3
+7,Guatemala,Bombing/Explosion,2
+8,Nicaragua,Armed Assault,14
+9,Nicaragua,Assassination,16
+10,Nicaragua,Bombing/Explosion,13
+11,Nicaragua,Facility/Infrastructure Attack,3
+12,Nicaragua,Unknown,7

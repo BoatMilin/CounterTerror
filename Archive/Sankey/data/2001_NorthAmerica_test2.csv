@@ -1,0 +1,9 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Bombing/Explosion,Business,1
+1,Bombing/Explosion,Private Citizens & Property,1
+2,Facility/Infrastructure Attack,Abortion Related,1
+3,Facility/Infrastructure Attack,Business,11
+4,Facility/Infrastructure Attack,Educational Institution,3
+5,Facility/Infrastructure Attack,Government (General),2
+6,Hijacking,Government (General),1
+7,Hijacking,Private Citizens & Property,3
