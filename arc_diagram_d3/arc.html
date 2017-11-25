@@ -3,6 +3,7 @@
 
 <!DOCTYPE html>
 <head>
+<!--<meta http-equiv="refresh" content="3" >-->
 <meta charset="utf-8">
 <title>CS 360 Data Visualization</title>
 
@@ -15,17 +16,23 @@
 
 <script>
 /* GLOBALS */
-
-var width  = 960;           // width of svg image
-var height = 600;           // height of svg image
-var margin = 20;            // amount of margin around plot area
-var pad = margin / 2;       // actual padding amount
-var radius = 30;             // fixed node radius
-var yfixed = pad + radius + 500;  // y position for all nodes
+var WIDTH  = 960;           // width of svg image
+var HEIGHT = 600;           // height of svg image
+var MARGIN = 20;            // amount of margin around plot area
+var PAD = MARGIN / 2;       // actual padding amount
+var RADIUS = 30;             // fixed node radius
+var Y_FIXED = PAD + RADIUS + 500;  // y position for all nodes
+var TEST_YEAR = '2015'
+var GRAPH = null;
 
 /* HELPER FUNCTIONS */
-
 // Generates a tooltip for a SVG circle element based on its ID
+function getYearSelectedOption(){
+      var node = d3.select('#dropDown').node();
+      var i = node.selectedIndex;
+      return node[i].value;    
+}
+
 function addTooltip(circle) {
     var x = parseFloat(circle.attr("cx"));
     var y = parseFloat(circle.attr("cy"));
@@ -36,17 +43,17 @@ function addTooltip(circle) {
         .append("text")
         .text(text)
         .attr("x", x)
-        .attr("y", y)
+        .attr("y", y + 130)
         .attr("dy", -r * 2)
         .attr("id", "tooltip");
 
-    var offset = tooltip.node().getBBox().width / 2;
+    var offset = tooltip.node().getBBox().WIDTH / 2;
 
     if ((x - offset) < 0) {
         tooltip.attr("text-anchor", "start");
         tooltip.attr("dx", -r);
     }
-    else if ((x + offset) > (width - margin)) {
+    else if ((x + offset) > (WIDTH - MARGIN)) {
         tooltip.attr("text-anchor", "end");
         tooltip.attr("dx", r);
     }
@@ -54,38 +61,42 @@ function addTooltip(circle) {
         tooltip.attr("text-anchor", "middle");
         tooltip.attr("dx", 0);
     }
+
+    
 }
 
-/* MAIN DRAW METHOD */
 
+
+/* MAIN DRAW METHOD */
 // Draws an arc diagram for the provided undirected graph
 function arcDiagram(graph) {
     // create svg image
     var svg  = d3.select("body")
         .append("svg")
         .attr("id", "arc")
-        .attr("width", width)
-        .attr("height", height);
+        .attr("width", WIDTH)
+        .attr("height", HEIGHT);
 
     // create plot area within svg image
     var plot = svg.append("g")
         .attr("id", "plot")
-        .attr("transform", "translate(" + pad + ", " + pad + ")");
+        .attr("transform", "translate(" + PAD + ", " + (PAD - 170)+ ")");
 
-    // fix graph links to map to objects instead of indices
-    graph.links.forEach(function(d, i) {
-        d.source = isNaN(d.source) ? d.source : graph.nodes[d.source];
-        d.target = isNaN(d.target) ? d.target : graph.nodes[d.target];
-    });
-
-    // must be done AFTER links are fixed
+    // fix graph links to map to objects instead of indices    
+    for(var key in graph.links){
+        graph.links[key].forEach(function(d, i) {
+            d.source = isNaN(d.source) ? d.source : graph.nodes[d.source];
+            d.target = isNaN(d.target) ? d.target : graph.nodes[d.target];
+        });
+    }
+    
+    GRAPH = graph;
     linearLayout(graph.nodes);
 
-    // draw links first, so nodes appear on top
-    drawLinks(graph.links);
-
-    // draw nodes last
-    drawNodes(graph.nodes);
+    //drawArcNode
+    drawArcNode(graph.nodes);
+    drawLinks(graph.links[TEST_YEAR]);
+    // drawInternalArc(graph.links[TEST_YEAR]);
 }
 
 // Layout nodes linearly, sorted by group
@@ -98,15 +109,110 @@ function linearLayout(nodes) {
     // used to scale node index to x position
     var xscale = d3.scale.linear()
         .domain([0, nodes.length - 1])
-        .range([radius, width - margin - radius]);
+        .range([RADIUS, WIDTH - MARGIN - RADIUS]);
 
     // calculate pixel location for each node
     nodes.forEach(function(d, i) {
         d.x = xscale(i);
-        d.y = yfixed;
+        d.y = Y_FIXED;
     });
 }
 
+function drawColorScale(){
+    var body = d3.select("body")
+    length = 100,
+    color = d3.scale.linear().domain([1,length])
+      .interpolate(d3.interpolateHcl)
+      .range([d3.rgb("#007AFF"), d3.rgb('#FFF500')]);
+
+
+  for (var i = 0; i < length; i++) {
+    body.append('div').attr('style', function (d) {
+      return 'background-color: ' + color(i);
+    });
+  }
+}
+
+function drawArcNode(nodes) {
+    var atk_src_arc = d3.svg.arc()
+        .innerRadius(0)   
+        .outerRadius(RADIUS)
+        .startAngle(0) //converting from degs to radians
+        .endAngle(Math.PI/2)
+    
+    var atk_target_arc = d3.svg.arc()
+        .innerRadius(0) 
+        .outerRadius(RADIUS)
+        .startAngle(3*Math.PI/2) //converting from degs to radians
+        .endAngle(2*Math.PI) 
+
+    var internal_arc = d3.svg.arc()
+        .innerRadius(10)    // Scale Internal Attack
+        .outerRadius(RADIUS)
+        .startAngle(Math.PI/2)      
+        .endAngle(Math.PI*3/2)    
+
+    var nodeDiv = d3.select("#plot").selectAll(".node")
+        .data(nodes)
+        .enter();
+
+    nodeDiv                         // started 
+        .append("path")
+        .attr("class", "node")
+        .attr("d", atk_src_arc)
+        .attr("id", function(d, i) { return d.name; })
+        .attr("transform", function(d, i) { return translate_d(d)})
+        .attr("r",  function(d, i) { return RADIUS; })
+        .style("fill", "#C15412")
+       
+
+    nodeDiv                         
+        .append("path")
+        .attr("class", "node")
+        .attr("d", atk_target_arc)
+        .attr("id", function(d, i) { return d.name; })
+        .attr("transform", function(d, i) { return translate_d(d)})
+        .attr("r",  function(d, i) { return RADIUS; })
+        .style("fill", "#00675E")
+
+    
+    nodeDiv    
+        .append("path")
+        .attr("class", "node")
+        .attr("d", internal_arc)
+        .attr("id", function(d, i) { return d.name; })
+        .attr("transform", function(d, i) { return translate_d(d)})
+        .attr("cx", function(d, i) { return d.x; })
+        .attr("cy", function(d, i) { return d.y; })
+        .attr("r",  function(d, i) { return RADIUS; })
+        .style("fill", "black")
+        .text(function(d){ addTooltip(d3.select(this))})
+    
+}
+
+function translate_d(d) {
+    return "translate(" + d.x + "," + (d.y+30) + ")";
+}
+
+function drawInternalArc(links){
+    /*
+        if link: source target same internal attack value
+    */ 
+    var vis = d3.select("body").append("svg")
+            .attr("width", 400)
+            .attr("height", 400);
+
+    var MAX_RADIUS = 25
+    var linearScale = d3.scale.linear()
+                           .domain([18979, 0])
+                           .range([10, MAX_RADIUS]);
+    //test
+    for(var i = 0; i < links.length;i++){
+        if(links[i].source.name === links[i].target.name){
+            //console.log(links[i].value + ' -> ' + linearScale(links[i].value));
+        }
+    } 
+}
 // Draws nodes on plot
 function drawNodes(nodes) {
     // used to assign nodes color by group
@@ -120,21 +226,21 @@ function drawNodes(nodes) {
         .attr("id", function(d, i) { return d.name; })
         .attr("cx", function(d, i) { return d.x; })
         .attr("cy", function(d, i) { return d.y; })
-        .attr("r",  function(d, i) { return radius; })
+        .attr("r",  function(d, i) { return RADIUS; })
         .style("fill",   function(d, i) { return color(d.group); })
         .on("mouseover", function(d, i) { addTooltip(d3.select(this)); })
         .on("mouseout",  function(d, i) { d3.select("#tooltip").remove(); });
+
 }
+
 
 // Draws nice arcs for each link on plot
 function drawLinks(links) {
     // scale to generate radians (just for lower-half of circle)
     var radians = d3.scale.linear()
         .range([-Math.PI / 2, Math.PI / 2]);
-    //-Math.PI / 2, Math.PI / 2
-    //Math.PI / 2, 3 * Math.PI / 2
-    // path generator for arcs (uses polar coordinates)
 
+    // path generator for arcs (uses polar coordinates)
     var arc = d3.svg.line.radial()
         .interpolate("basis")
         .tension(0)
@@ -144,8 +250,21 @@ function drawLinks(links) {
 
     // add links
     var logScale = d3.scale.log()
-                    .domain([1e-6,4000, 8000, 12000, 16000, 20000])
-                    .range([1, 2, 3, 4, 5, 6])
+                    .domain([1e-6, 400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000])
+                    .range([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+                    
+    var colorScale = d3.scale.linear()
+                    .domain([1e-6, 400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000])
+                    .interpolate(d3.interpolateHcl)
+                    .range([d3.rgb("#bdbdbd"), 
+                        d3.rgb("#969696"), 
+                        d3.rgb("#737373"), 
+                        d3.rgb("#525252"), 
+                        d3.rgb("#bdbdbd"), 
+                        d3.rgb("#252525"), 
+                        d3.rgb("#000000")]);
+
+    
 
     d3.select("#plot").selectAll(".link")
         .data(links)
@@ -153,42 +272,65 @@ function drawLinks(links) {
         .append("path")
         .attr("class", "link")
         .style("stroke-width", function(d){
-            //console.log(d.value);
-            //console.log(logScale(d.value));
-            return(logScale(d.value));
+            if(d.value === 1){          // dotted line
+                return d.value;
+            }else{
+                return(logScale(d.value));
+            }
+        }) 
+        .style("stroke", function(d) { 
+            return colorScale(d.value);
         })
         .attr("transform", function(d, i) {
             // arc will always be drawn around (0, 0)
             // shift so (0, 0) will be between source and target
-            var xshift = d.source.x + (d.target.x - d.source.x) / 2;
-            var yshift = yfixed;
-            //console.log('xshift: ' + xshift);
-            //console.log('yshift: ' + yshift);
+            var xshift = d.source.x + (d.target.x - d.source.x)/2;
+            var yshift = Y_FIXED;
+            
             return "translate(" + xshift + ", " + yshift + ")";
         })
         .attr("d", function(d, i) {
             // get x distance between source and target
             var xdist = Math.abs(d.source.x - d.target.x);
-
             // set arc radius based on x distance
-            arc.radius(xdist / 2);
+
+            if (d.source.x < d.target.x) {
+                arc.radius((xdist + RADIUS)/ 2);
+            } else {
+                arc.radius((xdist - RADIUS)/ 2);
+            }
 
             // want to generate 1/3 as many points per pixel in x direction
             var points = d3.range(0, Math.ceil(xdist / 3));
-
             // set radian scale domain
             radians.domain([0, points.length - 1]);
-
             // return path for arc
             return arc(points);
         });
 }
+
+function update_year(){
+    var year = getYearSelectedOption().replace(/ /g,'')
+    d3.select("#plot").selectAll(".link").remove();
+    drawLinks(GRAPH.links[year])
+}
 </script>
 </head>
-
 <body>
+<select id="dropDown" onchange="update_year();">
+    <option value="2016" selected="selected">2016</option>
+    <option value="2015">2015</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+    <option value="2009">2009</option>
+    <option value="2008">2008</option>
+
+</select>
 <script>
-    d3.json("terror.json", arcDiagram);
+d3.json("terror_by_year.json", arcDiagram);
 </script>
 </body>
 </html>
