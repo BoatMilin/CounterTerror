@@ -5,24 +5,24 @@
 <head>
 <!--<meta http-equiv="refresh" content="3" >-->
 <meta charset="utf-8">
-<title>CS 360 Data Visualization</title>
+<title>COUNTERTERROR</title>
 
 <!-- JavaScript Libraries //-->
 <script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="d3.slider.js"></script>   
 
 <!-- CSS Style //-->
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900|Source+Code+Pro:300" rel="stylesheet" type="text/css">
 <link href="style.css" rel="stylesheet" type="text/css">
-
+<link href="d3.slider.css" rel="stylesheet" type="text/css" media="screen" />
 <script>
 /* GLOBALS */
 var WIDTH  = 960;           // width of svg image
-var HEIGHT = 600;           // height of svg image
+var HEIGHT = 700;           // height of svg image
 var MARGIN = 20;            // amount of margin around plot area
 var PAD = MARGIN / 2;       // actual padding amount
 var RADIUS = 30;             // fixed node radius
 var Y_FIXED = PAD + RADIUS + 500;  // y position for all nodes
-var TEST_YEAR = '2015'
+var DEFAULT_YEAR = 2008 // START_YEAR
 var GRAPH = null;
 
 /* HELPER FUNCTIONS */
@@ -61,11 +61,7 @@ function addTooltip(circle) {
         tooltip.attr("text-anchor", "middle");
         tooltip.attr("dx", 0);
     }
-
-    
 }
-
-
 
 /* MAIN DRAW METHOD */
 // Draws an arc diagram for the provided undirected graph
@@ -95,8 +91,7 @@ function arcDiagram(graph) {
 
     //drawArcNode
     drawArcNode(graph.nodes);
-    drawLinks(graph.links[TEST_YEAR]);
-    // drawInternalArc(graph.links[TEST_YEAR]);
+    drawLinks(graph.links[DEFAULT_YEAR]);
 }
 
 // Layout nodes linearly, sorted by group
@@ -134,19 +129,19 @@ function drawColorScale(){
 }
 
 function drawArcNode(nodes) {
-    var atk_src_arc = d3.svg.arc()
+    var atkSrcArc = d3.svg.arc()
         .innerRadius(0)   
         .outerRadius(RADIUS)
         .startAngle(0) //converting from degs to radians
         .endAngle(Math.PI/2)
     
-    var atk_target_arc = d3.svg.arc()
+    var atkTargetArc = d3.svg.arc()
         .innerRadius(0) 
         .outerRadius(RADIUS)
         .startAngle(3*Math.PI/2) //converting from degs to radians
         .endAngle(2*Math.PI) 
 
-    var internal_arc = d3.svg.arc()
+    var internalArc = d3.svg.arc()
         .innerRadius(10)    // Scale Internal Attack
         .outerRadius(RADIUS)
         .startAngle(Math.PI/2)      
@@ -159,9 +154,9 @@ function drawArcNode(nodes) {
     nodeDiv                         // started 
         .append("path")
         .attr("class", "node")
-        .attr("d", atk_src_arc)
+        .attr("d", atkSrcArc)
         .attr("id", function(d, i) { return d.name; })
-        .attr("transform", function(d, i) { return translate_d(d)})
+        .attr("transform", function(d, i) { return translateD(d)})
         .attr("r",  function(d, i) { return RADIUS; })
         .style("fill", "#C15412")
        
@@ -169,9 +164,9 @@ function drawArcNode(nodes) {
     nodeDiv                         
         .append("path")
         .attr("class", "node")
-        .attr("d", atk_target_arc)
+        .attr("d", atkTargetArc)
         .attr("id", function(d, i) { return d.name; })
-        .attr("transform", function(d, i) { return translate_d(d)})
+        .attr("transform", function(d, i) { return translateD(d)})
         .attr("r",  function(d, i) { return RADIUS; })
         .style("fill", "#00675E")
 
@@ -179,9 +174,9 @@ function drawArcNode(nodes) {
     nodeDiv    
         .append("path")
         .attr("class", "node")
-        .attr("d", internal_arc)
+        .attr("d", internalArc)
         .attr("id", function(d, i) { return d.name; })
-        .attr("transform", function(d, i) { return translate_d(d)})
+        .attr("transform", function(d, i) { return translateD(d)})
         .attr("cx", function(d, i) { return d.x; })
         .attr("cy", function(d, i) { return d.y; })
         .attr("r",  function(d, i) { return RADIUS; })
@@ -190,29 +185,26 @@ function drawArcNode(nodes) {
     
 }
 
-function translate_d(d) {
+function translateD(d) {
     return "translate(" + d.x + "," + (d.y+30) + ")";
 }
 
 function drawInternalArc(links){
-    /*
-        if link: source target same internal attack value
-    */ 
-    var vis = d3.select("body").append("svg")
-            .attr("width", 400)
-            .attr("height", 400);
+    var vis = d3.select("body").append("svg").attr("width", 400).attr("height", 400);
 
     var MAX_RADIUS = 25
-    var linearScale = d3.scale.linear()
-                           .domain([18979, 0])
-                           .range([10, MAX_RADIUS]);
-    //test
+    var linearScale = d3.scale.linear().domain([18979, 0]).range([10, MAX_RADIUS]);
+
+    // uncomment for debugging
+    /*
     for(var i = 0; i < links.length;i++){
         if(links[i].source.name === links[i].target.name){
-            //console.log(links[i].value + ' -> ' + linearScale(links[i].value));
+            console.log(links[i].value + ' -> ' + linearScale(links[i].value));
         }
-    } 
+    }
+    */ 
 }
+
 // Draws nodes on plot
 function drawNodes(nodes) {
     // used to assign nodes color by group
@@ -256,7 +248,8 @@ function drawLinks(links) {
     var colorScale = d3.scale.linear()
                     .domain([1e-6, 400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000])
                     .interpolate(d3.interpolateHcl)
-                    .range([d3.rgb("#bdbdbd"), 
+                    .range([
+                        d3.rgb("#bdbdbd"), 
                         d3.rgb("#969696"), 
                         d3.rgb("#737373"), 
                         d3.rgb("#525252"), 
@@ -265,7 +258,6 @@ function drawLinks(links) {
                         d3.rgb("#000000")]);
 
     
-
     d3.select("#plot").selectAll(".link")
         .data(links)
         .enter()
@@ -309,28 +301,58 @@ function drawLinks(links) {
         });
 }
 
-function update_year(){
-    var year = getYearSelectedOption().replace(/ /g,'')
+function updateYearFromSlider(slider) {
+    var year = slider.value();
+    updateYear(year);
+}
+
+function updateYear(year) {
     d3.select("#plot").selectAll(".link").remove();
     drawLinks(GRAPH.links[year])
 }
+
+function incrementSlider() {
+    if (isPlaying) {
+        var sliderValue = slider.value();
+        if (sliderValue == slider.max()) {
+            slider.setValue(slider.min());
+        } else {
+            slider.setValue(++sliderValue);
+        }
+    }
+}
+
 </script>
 </head>
 <body>
-<select id="dropDown" onchange="update_year();">
-    <option value="2016" selected="selected">2016</option>
-    <option value="2015">2015</option>
-    <option value="2014">2014</option>
-    <option value="2013">2013</option>
-    <option value="2012">2012</option>
-    <option value="2011">2011</option>
-    <option value="2010">2010</option>
-    <option value="2009">2009</option>
-    <option value="2008">2008</option>
+<div>
+    <div class="playpause" style="width: 15%; height: 100%;">
+        <input type="checkbox" value="None" id="playpause" name="check" checked/>
+        <label id="play" for="playpause" tabindex=1 style=" margin-top: 15px"></label>
+    </div>
+    <div id="slider" style="float: left;"></div>
+</div>
 
-</select>
 <script>
 d3.json("terror_by_year.json", arcDiagram);
+
+var tickFormatter = function(d) {
+    return d;
+}
+
+var slider = d3.slider().min(DEFAULT_YEAR).max(2016).tickValues([2008,2009,2010,2011,2012,2013,2014,2015,2016]).stepValues([2008,2009,2010,2011,2012,2013,2014,2015,2016]).tickFormat(tickFormatter);
+
+slider.callback(updateYearFromSlider);
+d3.select('#slider').call(slider);
+
+var isPlaying = false;
+document.getElementById("play").addEventListener("click", function() {
+    isPlaying = !isPlaying;
+});
+
+setInterval(incrementSlider, 1200);
+
+
 </script>
 </body>
 </html>
