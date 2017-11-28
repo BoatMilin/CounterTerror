@@ -1,0 +1,156 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 2013-12-29T00:00:00Z,glocations,Iraq,480,0.0,Deadly  Shootout  and  Arrest  in  Iraq  Set  Off  Sunni  Protests 
+ 2013-12-27T00:00:00Z,glocations,Egypt,1064,0.0,Egypt  Broadens  New  Crackdown  on  Brotherhood 
+ 2013-12-22T00:00:00Z,glocations,California,1003,0.0,White  House  Tries  to  Prevent  Judge  From  Ruling  on  Surveillance  Efforts 
+ 2013-12-13T00:00:00Z,glocations,NorthKorea,787,0.0,North  Korea  Says  Leader’s  Uncle  Was  Executed  as  a  Traitor 
+ 2013-12-01T00:00:00Z,glocations,SouthAfrica,2088,0.0,Father  to  a  Nation,  and  to  a  Family 
+ 2013-11-26T01:13:50Z,glocations,Bangalore(India),944,0.0,A  Conversation  With:  Prabhat  Jauhari,  C.E.O.  of  Mumbai  Private  Security  Firm 
+ 2013-11-26T00:00:00Z,glocations,Israel,1047,0.0,The  Iran  Deal:  Praise  and  Blame 
+ 2013-11-24T00:00:00Z,glocations,Afghanistan,6746,0.0,How  Is  Hamid  Karzai  Still  Standing? 
+ 2013-11-19T10:16:18Z,glocations,Israel,523,0.0,Photo  of  Palestinian  Mother  Was  the  Wrong  Choice   
+ 2013-11-18T10:29:07Z,glocations,PacificOcean,547,0.0,On  'Global  Terror'  and  the  Fukushima  Fuel  Move 
+ 2013-11-17T00:00:00Z,glocations,ChristmasIsland(Australia),10199,0.0,The  Impossible  Refugee  Boat  Lift  to  Christmas  Island 
+ 2013-11-13T00:00:00Z,glocations,Germany,671,0.0,2  U.S.  Allies  Diverge  on  Spy  Program 
+ 2013-11-10T15:15:45Z,glocations,Versailles(France),6446,0.0,Lives  During  Wartime,  Vol.  4 
+ 2013-11-09T00:00:00Z,glocations,Brazil,991,0.0,Learning  to  Speak  Brazinglish 
+ 2013-11-02T00:00:00Z,glocations,Pakistan,1154,0.0,How  the  Pakistani  Taliban  Became  a  Deadly  Force 
+ 2013-11-02T00:00:00Z,glocations,NewYorkCity,1702,0.0,Lhota’s  Strengths  and  Weaknesses,  Exposed  on  9/11 
+ 2013-11-02T00:00:00Z,glocations,MiramShah(Pakistan),1204,0.0,Drone  Strikes  Are  Said  to  Kill  Taliban  Chief 
+ 2013-11-02T00:00:00Z,glocations,Israel,501,0.0,Israeli  Strikes  in  Gaza  Kill  4  Hamas  Militants   
+ 2013-10-31T00:00:00Z,glocations,TiananmenSquare(Beijing),697,0.0,5  Suspects  Are  Held  in  Attack  in  Beijing 
+ 2013-10-30T00:00:00Z,glocations,NewYorkCity,1458,0.0,Public  Housing  Residents  Relying  on  Agency  Still  Recovering  From  Storm 
+ 2013-10-29T00:00:00Z,glocations,SaudiArabia,807,0.0,Fury  in  the  Kingdom 
+ 2013-10-29T00:00:00Z,glocations,India,398,0.0,Indian  Officials  Say  Outlawed  Militant  Group  Is  Behind  Patna  Blasts 
+ 2013-10-28T00:00:00Z,glocations,France,449,0.0,Lawmaker  Offers  Strong  Defense  of  U.S.  Surveillance  Efforts  in  Europe 
+ 2013-10-25T13:56:52Z,glocations,Virginia,1447,0.0,No  More  a  Slave 
+ 2013-10-27T00:00:00Z,glocations,SkelligMichael(Ireland),1407,0.0,Off  Ireland,  a  Rugged  Journey  to  Remote  Ruins 
+ 2013-10-22T00:00:00Z,glocations,Pakistan,1419,0.0,Civilian  Deaths  in  Drone  Strikes  Cited  in  Report 
+ 2013-10-19T09:05:22Z,glocations,NorthCarolina,1643,0.0,Life  in  the  Swamp 
+ 2013-10-20T00:00:00Z,glocations,UnitedArabEmirates,1202,0.0,The  Last  of  the  Sheiks? 
+ 2013-10-14T06:04:55Z,glocations,Oakland(Calif),335,0.0,Daily  Report:  Fears  for  Privacy  as  Cities  Widen  Surveillance  Efforts 
+ 2013-10-11T00:00:00Z,glocations,Ethiopia,1217,0.0,A  Sleeping  Giant  in  African  Soccer  Is  Starting  to  Stir 
+ 2013-10-09T00:00:00Z,glocations,Libya,347,0.0,Lawyer  Sought  for  Terror  Suspect  Held  on  Navy  Ship 
+ 2013-10-08T00:00:00Z,glocations,Kashgar(China),1430,0.0,Uighurs  in  China  Say  Bias  Is  Growing 
+ 2013-10-07T00:00:00Z,glocations,Nairobi(Kenya),1067,0.0,U.S.  Said  to  Hold  Qaeda  Suspect  on  Navy  Ship 
+ 2013-10-02T15:16:05Z,glocations,ParkSlope(Brooklyn,NY),706,0.0,A  Park  Slope  Mom  Raises  a  Hunter 
+ 2013-09-28T00:00:00Z,glocations,Iraq,1163,0.0,Rise  in  Deadly  Attacks  on  Shiites  in  Iraq  Stirs  Anger  at  Government 
+ 2013-09-25T00:00:00Z,glocations,Africa,780,0.0,Increase  in  Jihadi  Attacks  in  Africa  May  Reflect  Movement’s  Weakness 
+ 2013-09-25T00:00:00Z,glocations,Syria,5467,0.0,Text  of  Obama’s  Speech  at  the  U.N. 
+ 2013-09-23T00:00:00Z,glocations,Nigeria,943,0.0,Nigeria’s  Long  Emergency 
+ 2013-09-19T00:00:00Z,glocations,Syria,800,0.0,Fawzia’s  Choice 
+ 2013-09-19T00:00:00Z,glocations,Warsaw(Poland),1507,0.0,Marcel  Reich-Ranicki,  Literary  Critic,  Is  Dead  at  93 
+ 2013-09-13T21:38:13Z,glocations,SouthernStates(US),2176,0.0,The  Scourge  of  the  South 
+ 2013-09-13T08:46:18Z,glocations,Brixton(London,England),506,0.0,Margin  of  Terror 
+ 2013-08-30T00:00:00Z,glocations,MiddleEast,906,0.0,Living  in  a  State  of  Seamless  War 
+ 2013-08-24T00:00:00Z,glocations,Manhattan(NYC),959,0.0,Convictions  in  Synagogue  Bombing  Plot  Upheld 
+ 2013-08-23T00:00:00Z,glocations,Lebanon,549,0.0,Rockets  Are  Fired  Toward  Israel  From  Southern  Lebanon 
+ 2013-08-17T09:38:55Z,glocations,Egypt,2885,0.0,Latest  Updates  on  Crackdown  in  Egypt 
+ 2013-08-16T02:56:16Z,glocations,India,1464,0.0,Stepping  Across  the  Line  at  Wagah  Border   
+ 2013-08-15T00:00:00Z,glocations,GazaStrip,782,0.0,Mideast  Talks  Start  After  Rocket  Fire  and  Airstrikes 
+ 2013-08-14T10:43:42Z,glocations,KashmirandJammu(India),1314,0.0,The  Flames  of  Kishtwar   
+ 2013-08-15T00:00:00Z,glocations,Israel,1199,0.0,Israel  Strikes  2  Gaza  Sites  Hours  Before  Start  of  Talks 
+ 2013-08-12T00:00:00Z,glocations,Yemen,1442,0.0,Embassies  Open,  but  Yemen  Stays  on  Terror  Watch 
+ 2013-08-10T00:00:00Z,glocations,Nairobi(Kenya),367,0.0,Kenyan  Inquiries  Find  No  Sign  of  Explosion  in  Airport  Fire,  President  Says 
+ 2013-08-10T00:00:00Z,glocations,Italy,892,0.0,Suburban  London  Father  Is  Revealed  as  a  Fugitive  Italian  Mobster 
+ 2013-08-09T00:00:00Z,glocations,Afghanistan,688,0.0,Bomb  Attacks  Kill  Dozens  of  Mourners  in  Pakistan  and  Afghanistan 
+ 2013-08-05T00:00:00Z,glocations,Yemen,849,0.0,U.S.  Extends  Closing  of  Some  Diplomatic  Posts 
+ 2013-08-04T00:00:00Z,glocations,Iraq,742,0.0,Interpol  Asks  Nations  to  Help  Track  Terror  Suspects  Freed  in  Prison  Breaks 
+ 2013-07-31T00:00:00Z,glocations,Zimbabwe,1477,0.0,Mugabe  Keeps  Grip  Before  Vote,  but  the  Opposition  Grows  Bolder 
+ 2013-07-28T00:00:00Z,glocations,Ukraine,943,0.0,Putin  in  Ukraine  to  Celebrate  a  Christian  Anniversary 
+ 2013-07-27T00:00:00Z,glocations,Russia,342,0.0,Putin’s  Infamous  Forerunner 
+ 2013-07-26T00:00:00Z,glocations,Boston(Mass),678,0.0,In  Boston,  Violence  Is  Backdrop  to  Bulger  Trial 
+ 2013-07-20T18:30:45+0000,glocations,NewYorkCity,954,0.0,What  Do  New  Yorkers  Want? 
+ 2013-07-21T00:00:00Z,glocations,Turkey,1357,0.0,In  Turkey,  Media  Bosses  Are  Undermining  Democracy 
+ 2013-07-16T09:00:56Z,glocations,Iraq,1548,0.0,A  Problematic  Genre,  the  'Kill  Memoir' 
+ 2013-07-12T10:38:10Z,glocations,Bihar(India),1527,0.0,The  Buddha  Is  Smiling  in  Bodh  Gaya 
+ 2013-07-10T00:00:00Z,glocations,UnitedStates,965,0.0,For  Western  Allies,  a  Long  History  of  Swapping  Intelligence 
+ 2013-07-04T00:00:00Z,glocations,SriLanka,105,0.0,Sri  Lanka:  Time  Magazine  Is  Banned 
+ 2013-07-02T00:00:00Z,glocations,Afghanistan,1009,0.0,Critics  Question  Karzai  Choices  for  Human  Rights  Panel 
+ 2013-06-30T00:00:00Z,glocations,Xinjiang(China),618,0.0,Violence  in  Restive  Chinese  Region  Prompts  Crackdown 
+ 2013-06-28T06:00:21Z,glocations,CentralPark(Manhattan,NY),1392,0.0,The  Specialized  Turbo:  An  Electric  Bicycle  With  Scooterlike  Speed 
+ 2013-06-27T00:00:00Z,glocations,China,849,0.0,27  Die  in  Rioting  in  Western  China 
+ 2013-06-25T14:14:59Z,glocations,Gettysburg(Pa),2434,0.0,The  Tigers  Invade  the  Union 
+ 2013-06-26T00:00:00Z,glocations,Belgium,365,0.0,Police  in  3  European  Nations  Conduct  Terror  Raids 
+ 2013-06-26T00:00:00Z,glocations,Berlin(Germany),1318,0.0,Ich  Bin  Ein  Berliner 
+ 2013-06-24T00:00:00Z,glocations,Syria,1333,0.0,Inching  Into  Syria 
+ 2013-06-24T00:00:00Z,glocations,Egypt,816,0.0,Egyptian  General  Warns  Against  Violence  as  Anniversary  Approaches 
+ 2013-06-19T00:00:00Z,glocations,Turkey,569,0.0,Turkey  Arrests  Dozens  in  Crackdown  on  Protests 
+ 2013-06-15T00:00:00Z,glocations,TaksimSquare(Istanbul,Turkey),700,0.0,Some  Protesters  in  Turkey  Disavow  Agreement  With  Premier  to  End  Park  Sit-In 
+ 2013-06-14T00:00:00Z,glocations,Bangladesh,687,0.0,Another  Garment  Factory  Scare  in  Bangladesh 
+ 2013-06-08T00:00:00Z,glocations,Syria,844,0.0,Russia’s  Success,  the  West’s  Failure 
+ 2013-06-06T00:00:00Z,glocations,Nigeria,1142,0.0,In  Nigeria,  ‘Killing  People  Without  Asking  Who  They  Are’ 
+ 2013-05-31T00:00:00Z,glocations,Manhattan(NYC),1173,0.0,On  Tabloid  Tours,  the  View  Is  Tawdry 
+ 2013-05-23T00:00:00Z,glocations,London(England),817,0.0,‘Barbaric  Attack’  in  London  Prompts  Meeting  on  Terror 
+ 2013-05-21T14:53:41Z,glocations,OklahomaCity(Okla),548,0.0,A  Tornado,  a  Tragedy  and  an  Ordinary  Day 
+ 2013-05-18T00:00:00Z,glocations,Nigeria,640,0.0,In  Nigeria,  More  Attacks  on  Militants 
+ 2013-05-14T18:29:43Z,glocations,Syria,892,0.0,Syrian  Rebel  Reportedly  Defends  Sinking  Teeth  Into  Dead  Soldier's  Flesh  on  Camera 
+ 2013-04-17T00:00:00Z,glocations,BOSTON(MASS),928,0.0,Bring  On  The  Next  Marathon 
+ 2013-05-10T00:00:00Z,glocations,Germany,615,0.0,Germans  Boo  Nazi  Scenes  in  an  Opera  by  Wagner 
+ 2013-05-06T00:00:00Z,glocations,Syria,1316,0.0,Syria  Is  Not  Iraq 
+ 2013-05-06T00:00:00Z,glocations,Syria,1183,0.0,Airstrikes  Tied  to  Israel  May  Be  Message  to  Iranians 
+ 2013-05-05T00:00:00Z,glocations,Kentucky,1169,0.0,Seeking  to  Lure  Tourists  to  a  Rugged  Outpost  Famed  for  a  Deadly  Feud 
+ 2013-04-30T21:01:37Z,glocations,Israel,1422,0.0,Critics  of  Israel's  West  Bank  Occupation  Say  Calm  Before  New  Violence  Was  an  Illusion 
+ 2013-05-01T00:00:00Z,glocations,WestBank,919,0.0,Gazan  Killed  After  Israeli  Is  Stabbed  to  Death  in  the  West  Bank 
+ 2013-04-26T00:00:00Z,glocations,Turkey,730,0.0,Kurdish  Rebel  Group  to  Withdraw  From  Turkey 
+ 2013-04-25T00:00:00Z,glocations,NewYorkCity,696,0.0,Gases  to  Be  Dispersed  Across  City  (Exhale:  It’s  a  Test) 
+ 2013-04-20T06:00:43Z,glocations,UnitedStates,271,0.0,The  Weekend  Word:  Developments 
+ 2013-04-19T06:25:31Z,glocations,Massachusetts,14854,0.0,April  19  Updates  on  Aftermath  of  Boston  Marathon  Explosions 
+ 2013-04-18T20:49:51Z,glocations,Boston(Mass),818,0.0,Finish  Line 
+ 2013-04-19T00:00:00Z,glocations,UnitedArabEmirates,393,0.0,Emirates  Said  to  Seize  Qaeda  Supporters 
+ 2013-04-18T00:00:00Z,glocations,Eilat(Israel),627,0.0,Militants  in  Egyptian  Sinai  Fire  Rockets  Into  Israel  but  Do  No  Damage 
+ 2013-04-17T05:04:32Z,glocations,Bangalore(India),329,0.0,Blast  in  Bangalore  Injures  16 
+ 2013-04-16T17:12:03Z,glocations,Paraguay,1856,0.0,In  Asuncion,  Paraguay,  Small-Scale  Charms  and  a  Complex  History 
+ 2013-04-16T07:49:15Z,glocations,Boston(Mass),9416,0.0,April  16  Updates  on  Aftermath  of  Boston  Marathon  Explosions 
+ 2013-04-16T05:14:41Z,glocations,Boston(Mass),508,0.0,Security  Reviewed  Abroad  After  Boston  Bombings 
+ 2013-04-15T15:19:02Z,glocations,Boston(Mass),5435,0.0,April  15  Updates  on  Explosions  at  the  Boston  Marathon   
+ 2013-04-12T00:00:00Z,glocations,Germany,618,0.0,Neo-Nazis  Organizing  in  Prisons  in  Germany 
+ 2013-04-10T00:00:00Z,glocations,NorthKorea,828,0.0,Stay  Cool.  Call  North  Korea’s  Bluff. 
+ 2013-04-09T00:00:00Z,glocations,Syria,1049,0.0,Wider  Use  of  Car  Bombs  Angers  Both  Sides  in  Syrian  Conflict 
+ 2013-04-05T00:00:00Z,glocations,EastHarlem(Manhattan,NY),709,0.0,63  Gang  Members  Indicted  in  East  Harlem  Shootings 
+ 2013-04-02T00:00:00Z,glocations,China,2529,0.0,On  China’s  State-Sponsored  Amnesia 
+ 2013-03-29T00:00:00Z,glocations,Karachi(Pakistan),1234,0.0,Taliban  Spread  Terror  in  Karachi  as  the  New  Gang  in  Town 
+ 2013-03-29T00:00:00Z,glocations,Syria,498,0.0,Ex-Soldier  Is  Charged  With  Aiding  Terrorist  Group 
+ 2013-03-28T00:00:00Z,glocations,China,805,0.0,China  Convicts  and  Sentences  20  Accused  of  Militant  Separatism  in  Restive  Region 
+ 2013-03-23T15:00:23Z,glocations,Kansas,1989,0.0,'Another  Name  for  Death' 
+ 2013-03-24T00:00:00Z,glocations,Philippines,756,0.0,Kidnapped  Australian  Is  Freed  in  Southern  Philippines 
+ 2013-03-22T00:00:00Z,glocations,Warsaw(Poland),1113,0.0,Rainbow  Becomes  a  Prism  to  View  Gay  Rights 
+ 2013-03-20T21:00:13Z,glocations,Iraq,1118,0.0,A  War,  Before  and  After,  Part  5 
+ 2013-03-20T19:08:31Z,glocations,Hebron(WestBank),454,0.0,Israeli  Group  Protests  Detention  of  Palestinian  Children  Suspected  of  Throwing  Rocks   
+ 2013-03-21T00:00:00Z,glocations,Afghanistan,897,0.0,Afghans  Compromise  Over  Ban  on  Elite  U.S.  Troops 
+ 2013-03-21T00:00:00Z,glocations,MiddleEast,881,0.0,Mixed  Expectations 
+ 2013-03-18T00:00:00Z,glocations,Mali,1524,0.0,Terror  Haven  in  Mali  Feared  After  French  Leave 
+ 2013-03-16T00:00:00Z,glocations,Indonesia,126,0.0,Indonesia:  3  Terror  Suspects  Killed 
+ 2013-03-15T00:00:00Z,glocations,Kenya,967,0.0,The  Crushing  of  the  Safari  Ants 
+ 2013-03-12T16:23:30Z,glocations,GazaStrip,1362,0.0,U.N.  Report  Reframes  Debate  Over  Image  of  a  Father's  Agony  in  Gaza 
+ 2013-03-08T00:00:00Z,glocations,Cuba,1343,0.0,After  Chávez,  a  Chance  to  Rethink  Relations  With  Cuba 
+ 2013-03-06T02:02:04Z,glocations,AndhraPradesh(India),1090,0.0,India's  Record  on  Terror  Attacks  Holds  Lessons  for  Hyderabad   
+ 2013-03-01T00:00:00Z,glocations,Haiti,595,0.0,Haitian  Ex-Dictator  Is  Questioned  in  Court  Over  Reign 
+ 2013-03-01T00:00:00Z,glocations,Bangladesh,848,0.0,A  40-Year  Quest  for  Justice 
+ 2013-02-26T00:49:38Z,glocations,Delhi(India),820,0.0,From  Hyderabad,  a  Tale  of  Two  Snack  Bars   
+ 2013-02-24T00:00:00Z,glocations,Africa,1048,0.0,Church  Helps  Fill  a  Void  in  Africa 
+ 2013-02-23T00:00:00Z,glocations,Niger,1178,0.0,New  Drone  Base  in  Niger  Builds  U.S.  Presence  in  Africa 
+ 2013-02-19T15:55:15Z,glocations,Siberia,481,0.0,Meteor  Videos  Set  Online  Viewing  Record 
+ 2013-02-20T00:00:00Z,glocations,SouthAfrica,1226,0.0,In  Affidavit  at  Bail  Hearing,  Track  Star  Denies  He  Intended  to  Kill  Girlfriend 
+ 2013-02-19T00:00:00Z,glocations,Syria,1045,0.0,U.N.  Rights  Officials  Urge  Syria  War  Crimes  Charges 
+ 2013-02-19T00:00:00Z,glocations,Russia,1282,0.0,Russians  Wade  Into  the  Snow  to  Seek  Treasure  From  the  Sky 
+ 2013-02-16T03:44:21Z,glocations,NewYorkCity,7561,0.0,New  York  Panorama 
+ 2013-02-16T00:00:00Z,glocations,WestBank,131,0.0,West  Bank:  Palestinians  Stage  Protests 
+ 2013-02-16T00:00:00Z,glocations,Russia,789,0.0,A  Flash  in  Russian  Skies,  as  Inspiration  for  Fantasy 
+ 2013-02-13T12:39:53Z,glocations,Hawaii,570,0.0,The  Gun  Report:  February  13,  2013 
+ 2013-02-10T00:00:00Z,glocations,India,491,0.0,Amid  Protests,  India  Executes  Man  in  &#8217;01  Parliament  Attack   
+ 2013-02-09T00:00:00Z,glocations,Turkey,907,0.0,A  Look  at  Turkey’s  Past  Gives  Some  Insight  Into  Its  Unresolved  Troubles 
+ 2013-02-07T00:00:00Z,glocations,Syria,1233,0.0,Haunted  by  War,  Syrian  Artists  Put  Raw  Emotions  on  View 
+ 2013-02-05T15:18:42+0000,glocations,Bulgaria,1079,0.0,Bulgaria  Implicates  Hezbollah  in  July  Attack  on  Israelis 
+ 2013-02-02T00:00:00Z,glocations,Ankara(Turkey),921,0.0,Suicide  Blast  Kills  U.S.  Embassy  Guard  in  Turkey 
+ 2013-02-02T00:00:00Z,glocations,Cambodia,783,0.0,A  Spectacle  of  Mourning  for  a  King  in  Cambodia 
+ 2013-02-01T00:00:00Z,glocations,Mali,1617,0.0,Timbuktu  Endured  Terror  Under  Harsh  Shariah  Law 
+ 2013-01-31T00:00:00Z,glocations,Somalia,816,0.0,Somalia  Moves  to  Prosecute  Woman  Who  Accused  Soldiers  of  Rape 
+ 2013-01-31T00:00:00Z,glocations,Syria,890,0.0,Will  Syria  Bleed  Hezbollah  Dry? 
+ 2013-01-24T00:00:00Z,glocations,Mali,928,0.0,The  Taliban  of  Timbuktu 
+ 2013-01-21T00:00:00Z,glocations,Syria,434,0.0,The  Syrian  Refugee  Crisis 
+ 2013-01-16T08:02:35Z,glocations,Mali,698,0.0,The  Road  to  Bamako 
+ 2013-01-15T11:33:26+0000,glocations,Mali,725,0.0,Nationalists  or  Islamists? 
+ 2013-01-11T13:06:56+0000,glocations,Turkey,739,0.0,The  Kurdish  Challenge 
+ 2013-01-10T23:25:00+0000,glocations,Washington(DC),3765,0.0,Washington’s  Economic  Boom,  Financed  by  You 
+ 2013-01-11T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),321,0.0,‘Death  of  a  Prisoner’ 
+ 2013-01-09T07:45:00Z,glocations,India,255,0.0,India  Lodges  Protest  with  Pakistan  Over  Soldiers'  Deaths 

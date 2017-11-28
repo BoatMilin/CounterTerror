@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+        
+</head>
+<body onload="init()">
+        <div style="margin:30;">
+                <div style="display: table-cell; width: 120;">
+                  <label for="yeardropdown">year: </label><select id="yeardropdown">
+                    <option val="2007">2007</option>
+                    <option val="2008">2008</option>
+                    <option val="2009">2009</option>
+                    <option val="2010">2010</option>
+                    <option val="2011">2011</option>
+                    <option val="2012">2012</option>
+                    <option val="2013">2013</option>
+                    <option val="2014">2014</option>
+                    <option val="2015">2015</option>
+                    <option val="2016">2016</option>
+                  </select>
+                </div>
+                <div style="display: table-cell; width: 150;">
+                  <label for="regiondropdown">region: </label><select id="regiondropdown">
+                    <option val="Australasia & Oceania">Australasia & Oceania</option>
+                    <option val="Central America & Caribbean">Central America & Caribbean</option>
+                    <option val="Central Asia">Central Asia</option>                    
+                    <option val="East Asia">East Asia</option>
+                    <option val="South Asia">South Asia</option>
+                    <option val="Southeast Asia">Southeast Asia</option>
+                    <option val="Eastern Europe">Eastern Europe</option>
+                    <option val="Western Europe">Western Europe</option>
+                    <option val="North America">North America</option>
+                    <option val="South America">South America</option>
+                    <option val="Middle East & North Africa">Middle East & North Africa</option>
+                    <option val="Sub-Saharan Africa">Sub-Saharan Africa</option>
+
+                </select>
+                </div>
+                <div style="display: table-cell; width: 150;">
+                  <button id="update" onclick="updateClicked()">Update</button>
+                </div>
+              </div>
+
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="./js/bubble.js"></script>
+</body>

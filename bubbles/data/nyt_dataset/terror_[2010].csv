@@ -1,0 +1,147 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 2010-12-31T00:00:00Z,glocations,Denmark,617,0.0,Terror  Suspects  Appear  in  Danish  Court 
+ 2010-12-30T00:00:00Z,glocations,China,1013,0.0,A  Bridge  to  a  Love  for  Democracy 
+ 2010-12-28T20:55:00Z,glocations,Iran,764,0.0,The  Struggle  for  a  New  Iran 
+ 2010-12-26T00:00:00Z,glocations,Netherlands,150,0.0,Dutch  Arrest  12  Somalis  in  Terror  Plot 
+ 2010-12-26T00:00:00Z,glocations,Hungary,533,0.0,Hungary  Waves  Off  Criticism  Over  Media  Law 
+ 2010-12-25T00:00:00Z,glocations,Mumbai(India),310,0.0,Terror  Fears  Put  Mumbai  on  Alert 
+ 2010-12-17T00:00:00Z,glocations,Pakistan,978,0.0,Report  Shows  How  Pakistan  Still  Bedevils  Obama 
+ 2010-12-16T00:00:00Z,glocations,Kunduz(Afghanistan),1206,0.0,Taliban  Extend  Reach  to  North,  Where  Armed  Groups  Reign 
+ 2010-12-16T13:30:00Z,glocations,China,977,0.0,Mao's  Great  Leap  to  Famine 
+ 2010-12-12T00:00:00Z,glocations,Russia,1166,0.0,A  Massacre  Shows  Power  of  Gangs  in  Rural  Russia 
+ 2010-12-12T00:00:00Z,glocations,LongBranch(NJ),503,0.0,Noir-Infused  Intrigue  at  a  Lonely  Bus  Depot 
+ 2010-12-10T13:24:53Z,glocations,Afghanistan,538,0.0,One  Way  to  Retire  an  Old  Rifle 
+ 2010-12-12T00:00:00Z,glocations,UpperWestSide(NYC),911,0.0,Row  Houses  Gone  Wild 
+ 2010-12-09T14:00:42Z,glocations,Riverdale(NYC),968,0.0,Terrorism  Fighter  Now  Battles  the  School  Next  Door 
+ 2010-12-08T00:00:00Z,glocations,India,397,0.0,India  on  Alert  as  Bomb  Hits  Hindu  Holy  City 
+ 2010-12-08T00:00:00Z,glocations,Georgia(GeorgianRepublic),465,0.0,Georgia  Arrests  Six  People  in  Bombings 
+ 2010-12-06T00:00:00Z,glocations,MiddleEast,1788,0.0,Cash  Flow  to  Terrorists  Evades  U.S.  Efforts 
+ 2010-12-02T00:00:00Z,glocations,Georgia(GeorgianRepublic),1006,0.0,Embracing  Georgia,  U.S.  Misread  Signs  of  Rifts 
+ 2010-12-02T00:00:00Z,glocations,Spain,572,0.0,Police  in  Spain  and  Thailand  Arrest  10  in  Qaeda-Linked  Ring 
+ 2010-11-24T00:00:00Z,glocations,Belgium,316,0.0,Police  Arrest  Suspects  in  Plot  Against  Belgium 
+ 2010-11-22T12:42:55Z,glocations,MilitaryVehicles,1357,0.0,Tanks  to  Afghanistan,  a  Soldier  Writes 
+ 2010-11-23T00:00:00Z,glocations,GreatBritain,877,0.0,As  U.S.  Mumbles,  Britain  Speaks  Out 
+ 2010-11-21T00:00:00Z,glocations,Germany,544,0.0,Germany  Seeks  Suspects  in  Terrorist  Plots 
+ 2010-11-21T00:00:00Z,glocations,China,1462,0.0,Zambia  Uneasily  Balances  Chinese  Investment  and  Workers’  Resentment 
+ 2010-11-19T00:00:00Z,glocations,Germany,657,0.0,Germany  Copes  With  Terror  Alert 
+ 2010-11-18T00:00:00Z,glocations,Germany,852,0.0,Fearing  Terror  Threat,  Germany  Raises  Security 
+ 2010-11-12T00:00:00Z,glocations,Vermont,1349,0.0,In  Vermont,  Taking  the  Roads  Less  Traveled 
+ 2010-11-12T00:00:00Z,glocations,France,300,0.0,French  Minister  Details  Terror  Cell 
+ 2010-11-11T00:00:00Z,glocations,Bronx(NYC),226,0.0,Court  Rules  Terror  Law  Doesn’t  Apply  to  Girl’s  Killer 
+ 2010-11-10T00:00:00Z,glocations,Yemen,1050,0.0,In  Yemen,  Cultural  Propriety  Poses  a  Security  Challenge 
+ 2010-11-09T00:00:00Z,glocations,India,1190,0.0,Countering  China,  Obama  Backs  India  for  U.N.  Council 
+ 2010-11-08T00:00:00Z,glocations,Sudan,615,0.0,U.S.  Revises  Offer  to  Take  Sudan  Off  Terror  List 
+ 2010-11-04T00:00:00Z,glocations,Israel,356,0.0,Israel  Attack  Kills  a  Top  Militant  in  Gaza 
+ 2010-11-03T00:00:00Z,glocations,Greece,1068,0.0,German  Letter  Bomb  Is  Found  After  Athens  Blasts 
+ 2010-10-31T00:00:00Z,glocations,Yemen,1398,0.0,U.S.  Sees  Complexity  of  Bombs  as  Link  to  Al  Qaeda 
+ 2010-10-30T00:00:00Z,glocations,Russia,977,0.0,Russia  vs.  Its  History 
+ 2010-10-29T00:00:00Z,glocations,Texas,761,0.0,GTT 
+ 2010-10-24T00:00:00Z,glocations,NewJersey,3173,0.0,Events  in  New  Jersey 
+ 2010-10-21T00:00:00Z,glocations,Thailand,1322,0.0,A  Poet’s  Return  Home  to  Thailand’s  Violent  South 
+ 2010-10-13T00:00:00Z,glocations,Germany,1016,0.0,Germany,  Unscathed,  Is  in  Eye  of  Terrorism  Scare 
+ 2010-10-13T00:00:00Z,glocations,Ukraine,405,0.0,Ukraine  Bus  Driver  Pulls  Into  Train  Path,  Killing  41 
+ 2010-10-12T00:00:00Z,glocations,France,1070,0.0,France  Faces  Terror  Threats  at  Home  and  Abroad 
+ 2010-10-11T00:00:00Z,glocations,Brazil,1392,0.0,In  Rough  Slum,  Brazil’s  Police  Try  Soft  Touch 
+ 2010-10-10T18:25:34Z,glocations,France,25,0.0,The  World  This  Week 
+ 2010-10-07T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),1039,0.0,Guantánamo  Lawyers  Showed  Their  Moral  Fiber 
+ 2010-10-02T00:00:00Z,glocations,Jordan,742,0.0,A  Show  About  Iraqi  Refugees,  to  an  Audience  That  Can  Relate 
+ 2010-09-29T00:00:00Z,glocations,Norway,135,0.0,Norway:  Admission  in  Bomb  Plot  Against  a  Danish  Newspaper 
+ 2010-09-25T00:00:00Z,glocations,GreatBritain,72,0.0,Britain:  Threat  Level  Raised  for  Irish  Terror  Attacks 
+ 2010-09-23T00:00:00Z,glocations,France,364,0.0,French  Officials  Warn  of  Heightened  Terrorism  Risk 
+ 2010-09-24T00:00:00Z,glocations,Israel,856,0.0,A  Test  of  Israel’s  Character 
+ 2010-09-20T00:00:00Z,glocations,NewDelhi(India),433,0.0,Taiwanese  Tourists  Shot  in  New  Delhi 
+ 2010-09-18T00:00:00Z,glocations,GreatBritain,1074,0.0,British  Police  Hold  6  on  Terror  Charges  as  Pope  Visits 
+ 2010-09-14T00:00:00Z,glocations,Denmark,160,0.0,Denmark:  Suspect  in  Explosion  Won’t  Reveal  Name 
+ 2010-09-09T00:00:00Z,glocations,Kandahar(Afghanistan),1129,0.0,Mixed  Results  as  NATO  Drive  on  Kandahar  Begins 
+ 2010-09-04T00:00:00Z,glocations,Israel,974,0.0,Pessimism  Permeates  Mideast  Media  on  Talks 
+ 2010-09-03T00:00:00Z,glocations,China,999,0.0,A  China  Newly  Rich  and  Still  Quite  Poor 
+ 2010-08-23T17:14:18Z,glocations,Catskills(NYSArea),1019,0.0,Truth  and  Conspiracy  in  the  Catskills 
+ 2010-08-20T00:00:00Z,glocations,Israel,761,0.0,Report  Criticizes  Gaza  Restrictions 
+ 2010-08-13T00:00:00Z,glocations,GreatBritain,531,0.0,British  Officers  Charged  in  Attack  on  Suspect 
+ 2010-08-07T00:00:00Z,glocations,Japan,1085,0.0,Tanker  Damage  Caused  by  Attack,  Inquiry  Finds 
+ 2010-08-04T00:00:00Z,glocations,UnitedStates,1039,0.0,Lawyers  Seeking  Terror  Suspect’s  Case  Sue  U.S. 
+ 2010-08-01T00:00:00Z,glocations,Pakistan,160,0.0,Pakistani  Spy  Chief  Cancels  Britain  Trip  in  Diplomatic  Row 
+ 2010-07-28T00:00:00Z,glocations,London(England),1105,0.0,Onstage  Risks  and  Rewards 
+ 2010-07-23T00:00:00Z,glocations,Beijing(China),1014,0.0,A  Grim  Chapter  in  History  Kept  Closed 
+ 2010-07-09T00:00:00Z,glocations,Israel,858,0.0,The  Israel-Turkey  Imbroglio 
+ 2010-07-11T00:00:00Z,glocations,Yemen,8206,0.0,Is  Yemen  the  Next  Afghanistan? 
+ 2010-07-01T00:00:00Z,glocations,Pakistan,555,0.0,New  Estimate  of  Strength  of  Al  Qaeda  Is  Offered 
+ 2010-06-26T00:00:00Z,glocations,Zimbabwe,105,0.0,Zimbabwe:  Terror  Warrant  Leads  to  the  Detention  of  2  Pakistanis 
+ 2010-06-25T00:00:00Z,glocations,Pakistan,764,0.0,Pakistan  Sentences  Five  Americans  in  Terror  Case 
+ 2010-06-24T00:00:00Z,glocations,Indonesia,49,0.0,Indonesia:  Head  of  Terror  Network  Held 
+ 2010-06-23T00:00:00Z,glocations,Turkey,481,0.0,5  Killed  in  Attack  on  Turkish  Military 
+ 2010-06-22T00:00:00Z,glocations,Mosul(Iraq),1052,0.0,In  Iraqi  Danger  Zone,  Violence  Resists  a  Timetable 
+ 2010-06-21T00:00:00Z,glocations,Osh(Kyrgyzstan),851,0.0,Barriers  Removed  in  Kyrgyzstan  Despite  Uzbek  Protests 
+ 2010-06-19T00:00:00Z,glocations,Chile,1159,0.0,From  Bomb  Traces,  Chile  Terror  Inquiry  Builds 
+ 2010-06-18T00:00:00Z,glocations,Kosovo,94,0.0,Kosovo:  Suspect  Arrested  in  Terror  Plot 
+ 2010-06-15T00:00:00Z,glocations,Indonesia,94,0.0,Indonesia:  Islamist  Militant  Sentenced  in  Hotel  Attacks 
+ 2010-06-12T00:00:00Z,glocations,Turkey,1466,0.0,Turk  Who  Leads  a  Movement  Has  Advocates  and  Critics 
+ 2010-06-10T00:00:00Z,glocations,Afghanistan,608,0.0,Blast  Tears  Through  Afghan  Wedding  Celebration 
+ 2010-06-08T00:00:00Z,glocations,Israel,821,0.0,4  Palestinian  Divers  Killed  Near  Gaza  by  Israeli  Navy 
+ 2010-06-06T00:00:00Z,glocations,KashmirandJammu(India),1118,0.0,Roots  in  Kashmir  Tug  Hindus  Home 
+ 2010-06-01T00:00:00Z,glocations,RiversidePark(NYC),761,0.0,Who  Should  Be  Called  Soldier,  and  Who  Shouldn’t 
+ 2010-05-29T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),537,0.0,No  Terror  Evidence  Against  Some  Detainees 
+ 2010-05-29T00:00:00Z,glocations,SouthAfrica,1044,0.0,Scenes  From  the  Dictatorship 
+ 2010-05-25T00:00:00Z,glocations,Thailand,853,0.0,Off  the  Middle  Path 
+ 2010-05-23T00:00:00Z,glocations,Haiti,4821,0.0,Escape  Attempt  Led  to  Killings  of  Unarmed  Inmates 
+ 2010-05-22T00:00:00Z,glocations,Israel,641,0.0,The  Diplomacy  of  Dance 
+ 2010-05-13T00:00:00Z,glocations,Pakistan,765,0.0,Pakistan  and  Times  Sq. 
+ 2010-05-11T00:00:00Z,glocations,Russia,1101,0.0,Russian  Director  Presents  Grand  Epic  of  World  War  II 
+ 2010-05-10T00:00:00Z,glocations,TimesSquareand42ndStreet(NYC),1316,0.0,Holder  Backs  a  Miranda  Limit  for  Terror  Suspects 
+ 2010-05-04T00:00:00Z,glocations,TimesSquareand42ndStreet(NYC),578,0.0,The  Shudders  From  Times  Square 
+ 2010-05-04T00:00:00Z,glocations,TimesSquareand42ndStreet(NYC),891,0.0,Auto  Businessmen  Briefly  at  Bomb  Inquiry’s  Focus 
+ 2010-05-04T00:00:00Z,glocations,Germany,856,0.0,The  Banality  of  Good 
+ 2010-05-03T00:00:00Z,glocations,TimesSquareand42ndStreet(NYC),850,0.0,Bomb  Squad  Has  Hard-Won  Expertise 
+ 2010-05-03T00:00:00Z,glocations,TimesSquareand42ndStreet(NYC),1115,0.0,A  Dread  Revived:  Terror  in  the  Trunk 
+ 2010-05-03T00:00:00Z,glocations,TimesSquareand42ndStreet(NYC),964,0.0,Vendors  Who  Alerted  Police  Called  Heroes 
+ 2010-05-02T00:00:00Z,glocations,Arizona,492,0.0,Arizona  Deputy  Is  Wounded  by  Suspected  Smugglers 
+ 2010-04-29T00:00:00Z,glocations,Egypt,426,0.0,26  in  Egypt  Are  Convicted  in  Terror  Plot 
+ 2010-04-21T00:00:00Z,glocations,Israel,592,0.0,A  Few  Wishes  on  Israel’s  Birthday 
+ 2010-04-21T00:00:00Z,glocations,Russia,1004,0.0,The  Past,  the  Present  and  the  Future  of  Katyn 
+ 2010-04-17T00:00:00Z,glocations,Lebanon,1230,0.0,10  Years  After  a  Mea  Culpa,  No  Hint  of  a  ‘Me,  Too’ 
+ 2010-04-07T00:00:00Z,glocations,Bangkok(Thailand),755,0.0,Thai  Protesters  Defy  Government  as  Police  Watch  and  Smile 
+ 2010-04-07T00:00:00Z,glocations,Russia,1237,0.0,A  Region’s  Wounds  Fester  on  Russia’s  South  Border 
+ 2010-04-01T00:00:00Z,glocations,Zimbabwe,123,0.0,Zimbabwe:  New  Charge  in  Terror  Trial 
+ 2010-03-30T00:00:00Z,glocations,Moscow(Russia),518,0.0,Moscow  Under  Attack 
+ 2010-03-30T00:00:00Z,glocations,Moscow(Russia),1104,0.0,Moscow  Attack  a  Test  for  Putin  and  His  Record  Against  Terror 
+ 2010-03-29T00:00:00Z,glocations,Israel,1133,0.0,Rift  Exposes  Split  in  Views  on  Mideast 
+ 2010-03-28T00:00:00Z,glocations,Iran,1223,0.0,Imagining  an  Israeli  Strike  on  Iran 
+ 2010-03-26T00:00:00Z,glocations,Haiti,519,0.0,Haiti’s  Misery 
+ 2010-03-24T00:00:00Z,glocations,Somalia,1105,0.0,Somali  Backlash  May  Be  Militants’  Worst  Foe 
+ 2010-03-18T00:00:00Z,glocations,Waziristan(Pakistan),483,0.0,Drone  Strike  Said  to  Kill  a  Leader  of  Al  Qaeda 
+ 2010-03-05T00:00:00Z,glocations,Germany,464,0.0,Germany  Sentences  4  in  Terror  Case 
+ 2010-03-01T00:00:00Z,glocations,Afghanistan,360,0.0,Bomber  Called  C.I.A.  Target  Gift  From  God 
+ 2010-02-25T00:00:00Z,glocations,India,1101,0.0,Balancing  Act  for  India  as  Talks  With  Pakistan  Resume 
+ 2010-02-23T00:00:00Z,glocations,India,380,0.0,India  Will  Step  Up  Security  at  Commonwealth  Games 
+ 2010-02-14T00:00:00Z,glocations,India,686,0.0,India  on  Alert  After  Explosion  Kills  9  at  Bakery  in  Western  City 
+ 2010-02-10T00:00:00Z,glocations,Iran,1103,0.0,Arrests  by  Iran  Are  a  Bid  to  Quell  Wide  Protests 
+ 2010-02-08T00:00:00Z,glocations,Haiti,1232,0.0,Quake  a  Defining  Crisis  for  Two  Priests  in  Queens 
+ 2010-02-04T00:00:00Z,glocations,NorthKorea,124,0.0,U.S.  Keeps  North  Korea  Off  Terror  List 
+ 2010-02-01T00:00:00Z,glocations,Haiti,715,0.0,Thinking  About  a  New  Haiti 
+ 2010-01-30T00:00:00Z,glocations,Manhattan(NYC),800,0.0,Another  Inconvenient  Truth 
+ 2010-01-30T00:00:00Z,glocations,Manhattan(NYC),1532,0.0,U.S.  Drops  Plan  for  a  9/11  Trial  in  New  York  City 
+ 2010-01-27T00:00:00Z,glocations,Haiti,1175,0.0,Haiti’s  Children  Adrift  in  World  of  Chaos 
+ 2010-01-24T00:00:00Z,glocations,Haiti,1005,0.0,Imagining  a  Stronger  Haiti  Past  the  Pain 
+ 2010-01-23T00:00:00Z,glocations,Turkey,307,0.0,Turkey  Arrests  120  With  Suspected  Qaeda  Ties 
+ 2010-01-22T00:00:00Z,glocations,China,854,0.0,Single-Party  Democracy 
+ 2010-01-20T00:00:00Z,glocations,Nigeria,362,0.0,Christian-Muslim  Mayhem  in  Nigeria  Kills  Dozens 
+ 2010-01-19T00:00:00Z,glocations,NewYorkCity,735,0.0,The  Stuff  We  Could  Teach  Jack  Bauer 
+ 2010-01-19T00:00:00Z,glocations,Yemen,1233,0.0,At  Yemen  College,  Scholarship  and  Jihadist  Ideas 
+ 2010-01-19T00:00:00Z,glocations,Pakistan,288,0.0,After  Hearing  in  Pakistan,  5  Americans  Allege  Torture 
+ 2010-01-19T00:00:00Z,glocations,China,850,0.0,Chinese  Openings 
+ 2010-01-17T00:00:00Z,glocations,Guinea,527,0.0,Guinea’s  Military  Backs  Junta’s  No.  2  as  New  Leader 
+ 2010-01-16T00:00:00Z,glocations,Massachusetts,825,0.0,Lend  Me  Your  Ears 
+ 2010-01-15T00:00:00Z,glocations,Israel,400,0.0,Israel  Raids  Polygamist  Compound 
+ 2010-01-12T00:00:00Z,glocations,Darfur(Sudan),207,0.0,Terror  in  Sudan 
+ 2010-01-12T00:00:00Z,glocations,Russia,1314,0.0,Russian  Dissident’s  Passion  Endures  Despite  Tests 
+ 2010-01-09T00:00:00Z,glocations,England,1017,0.0,Who  Is  Winning  the  Terror  War? 
+ 2010-01-04T13:20:14Z,glocations,Dubai(UnitedArabEmirates),1050,0.0,Economy  Is  Down,  but  Dubai  Tower  Tops  All 
+ 2010-01-04T00:00:00Z,glocations,Detroit(Mich),366,0.0,Newspapers  Covered  Terror  Plot  Without  Home  Delivery  Edition 
+ 2010-01-04T00:00:00Z,glocations,Yemen,1263,0.0,Threats  Led  to  Embassy  Closings  in  Yemen,  Officials  Say 
+ 2010-01-02T00:00:00Z,glocations,Copenhagen(Denmark),423,0.0,Attempt  to  Kill  Danish  Cartoonist  Fails 
+ 2010-01-01T00:00:00Z,glocations,TimesSquareand42ndStreet(NYC),710,0.0,Extra  Security  in  Times  Square  for  New  Year’s  Eve 
+ 2010-07-06T00:00:00Z,glocations,WESTBANK,4903,0.0,Tax-Exempt  Funds  Aiding  Settlements  in  West  Bank 
+ 2010-06-14T00:00:00Z,glocations,NEWYORKCITY,665,0.0,A  Big  Lizard  On  a  Roof,  Now  in  Texas 
+ 2010-05-13T00:00:00Z,glocations,NEWYORKCITY,1096,0.0,Dressing  For  Success  In  Defusing  Car  Bombs 
+ 2010-04-18T00:00:00Z,glocations,BERLIN(GERMANY),196,0.0,Berlin's  'Terror'  Exhibit  To  Open  in  New  Space 
+ 2010-03-28T00:00:00Z,glocations,VENEZUELA,2539,0.0,Silent  Days  On  the  Sea 

@@ -1,0 +1,109 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 1990-12-25T00:00:00Z,glocations,MANILA(PHILIPPINES),893,0.0,Manila  Journal;  A  Land  Where  Tinsel  Lies  in  Tatters 
+ 1990-12-23T00:00:00Z,glocations,ITALY,2912,0.0,A  Rarity  Among  Roman  Towns 
+ 1990-12-21T00:00:00Z,glocations,CHINA,644,0.0,Few  Chinese  Hear  About  Political  Dissidents;  Forgetting  History 
+ 1990-12-21T00:00:00Z,glocations,LEBANON,414,0.0,Mistletoe  in  Beirut  Crosses  Religious  Lines 
+ 1990-12-19T00:00:00Z,glocations,IRAQ,903,0.0,Bush  Sees  a  Firm  Coalition  Even  if  Iraq  Attacks  Israel 
+ 1990-12-16T00:00:00Z,glocations,UNIONOFSOVIETSOCIALISTREPUBLICS(USSR),700,0.0,Moscow  Faces  Apocalyptic  Times  in  the  Spring 
+ 1990-12-10T00:00:00Z,glocations,HAITI,261,0.0,Voting  Haiti  Out  of  the  Shadows 
+ 1990-12-06T00:00:00Z,glocations,GEORGIA,717,0.0,Georgia  Supreme  Court  Reinstates  Ban  on  Wearing  of  Klan  Masks 
+ 1990-12-05T00:00:00Z,glocations,NEWYORKCITY,953,0.0,Ledge  Falls,  Killing  Woman  On  a  Busy  Harlem  Sidewalk 
+ 1990-12-02T00:00:00Z,glocations,AMAZONJUNGLE,6813,0.0,TERROR  IN  THE  ANDES:  The  Flight  of  the  Ashaninkas 
+ 1990-11-16T00:00:00Z,glocations,NEWYORKCITY,1203,0.0,Daily  News  Plan  for  Strike:  A  Fundamental  Miscalculation 
+ 1990-11-16T00:00:00Z,glocations,IRAQ,782,0.0,Atomic  Agency  Invited  by  Iraqis  For  Inspections 
+ 1990-11-16T00:00:00Z,glocations,INDIA,794,0.0,Kel  Journal;  In  Torn  Kashmir,  Frontier  Is  Aflame  Once  More 
+ 1990-11-15T00:00:00Z,glocations,GERMANY,1047,0.0,Berlin  Is  Rocked  by  a  Squatters  War 
+ 1990-11-15T00:00:00Z,glocations,NORTHERNIRELAND,511,0.0,British  to  Prosecute  3  Detectives  in  I.R.A.  Case 
+ 1990-11-11T00:00:00Z,glocations,IRAQ,4701,0.0,Days  and  Nights  in  Baghdad. 
+ 1990-11-10T00:00:00Z,glocations,BERLIN(GERMANY),828,0.0,In  Berlin  a  Year  Later,  The  Wall  Still  Lingers 
+ 1990-11-04T00:00:00Z,glocations,LONDONDERRY(NORTHERNIRELAND),825,0.0,Peace  Hopes  Dim  in  Londonderry 
+ 1990-11-04T00:00:00Z,glocations,GHAZIABAD(AFGHANISTAN),510,0.0,Resettled  Afghan  Farmers  Face  Uphill  Task 
+ 1990-10-30T00:00:00Z,glocations,IRAQ,730,0.0,Letters  Sent  by  Americans  in  Hiding 
+ 1990-10-25T00:00:00Z,glocations,MIDDLEEAST,1003,0.0,Jerusalem  as  Tinderbox:  Fury  and  Foreboding  Prevail 
+ 1990-10-23T00:00:00Z,glocations,UNIONOFSOVIETSOCIALISTREPUBLICS(USSR),585,0.0,Soviet  Lawmen  vs.  the  Black  Market 
+ 1990-10-19T00:00:00Z,glocations,IRAQ,470,0.0,Arab  League  Rebuffs  P.L.O.;  Won't  Condemn  U.S. 
+ 1990-10-17T00:00:00Z,glocations,IRAQ,1128,0.0,Kuwaitis  Tell  of  New  Round  of  Terror 
+ 1990-10-17T00:00:00Z,glocations,GERMANY,665,0.0,Foreign  Workers  Leaving  Eastern  Germany 
+ 1990-10-13T00:00:00Z,glocations,PERSIANGULF,939,0.0,Beliefs 
+ 1990-10-13T00:00:00Z,glocations,PERSIANGULF,939,0.0,Beliefs 
+ 1990-10-08T00:00:00Z,glocations,MANGWENI(SOUTHAFRICA),885,0.0,Mangweni  Journal;      Out  of  Mozambique's  Fire  and  Into  a  Frying  Pan 
+ 1990-10-07T00:00:00Z,glocations,GERMANY,840,0.0,Prosecutors  for  Unified  Germany  Seize  Former  Communist  Officials 
+ 1990-10-07T00:00:00Z,glocations,GEORGIA,1491,0.0,In  Domestic  Soviet  Trade,  Russia  Has  the  Most  Chips 
+ 1990-10-01T00:00:00Z,glocations,HAITI,880,0.0,Haiti's  Election  Needs  Help 
+ 1990-10-01T00:00:00Z,glocations,NEWYORKCITY,772,0.0,15th  52d  Street  Festival  Is  Packed,  Man,  but  Fluid 
+ 1990-10-01T00:00:00Z,glocations,IRAQ,807,0.0,The  Phony  War 
+ 1990-09-30T00:00:00Z,glocations,UNIONOFSOVIETSOCIALISTREPUBLICS(USSR),560,0.0,Hard-Headed  Detente 
+ 1990-09-30T00:00:00Z,glocations,LEBANON,262,0.0,Israel's  Gains  In  Lebanon 
+ 1990-09-24T00:00:00Z,glocations,CHINA,806,0.0,Shanghai  Breezes 
+ 1990-09-22T00:00:00Z,glocations,LHASA(TIBET),1737,0.0,Tibet  After  Martial  Law:  Whispers  of  Protest 
+ 1990-09-21T00:00:00Z,glocations,SOUTHAFRICA,638,0.0,Pretoria  Once  More  Pits  Black  Against  Black 
+ 1990-09-17T00:00:00Z,glocations,EGYPT,712,0.0,Egypt  Raises  Its  Guard  Against  Iraqi  Terrorism 
+ 1990-09-14T00:00:00Z,glocations,SOUTHAFRICA,532,0.0,400  Shacks  Burned  in  a  South  African  Township 
+ 1990-09-13T00:00:00Z,glocations,SOWETO(SOUTHAFRICA),829,0.0,Soweto  Journal;      Terror  and  Death  Replace  Hope  in  Squatter  Camp 
+ 1990-09-08T00:00:00Z,glocations,IRAQ,971,0.0,171  Americans  Arrive  In  Jordan  From  Kuwait 
+ 1990-09-07T00:00:00Z,glocations,UNITEDSTATES,2384,0.0,Inside,  Reliving  the  Immigrant's  Experience 
+ 1990-09-05T00:00:00Z,glocations,IRAQ,1006,0.0,Iraqi  Chemical  Arms:  Difficult  Target 
+ 1990-09-03T00:00:00Z,glocations,IRAQ,1034,0.0,IRAQIS  ARE  LIMITING  PURCHASE  OF  FOOD 
+ 1990-08-26T00:00:00Z,glocations,SRILANKA,1350,0.0,Sri  Lankan  Army  Is  Closing  In  on  a  Citadel  of  Resistance  by  Tamil  Rebels 
+ 1990-08-26T00:00:00Z,glocations,MASSACHUSETTS,2990,0.0,The  Essential  Chatham 
+ 1990-08-25T00:00:00Z,glocations,IRAQ,904,0.0,Kuwaitis  Recount  Gunfire  and  Terror 
+ 1990-08-19T00:00:00Z,glocations,AFGHANISTAN,1499,0.0,As  Accord  on  Afghan  Future  Nears,  Refugees  Live  in  Fear  and  Hardship 
+ 1990-08-18T00:00:00Z,glocations,IRAQ,879,0.0,Israelis  Assert  Palestinians  Plan  Terror  Attacks  for  Iraq 
+ 1990-08-16T00:00:00Z,glocations,IRAQ,1008,0.0,Fleeing  Kuwait:  An  American  Tells  of  Four  Hours  of  Terror 
+ 1990-08-12T00:00:00Z,glocations,NEWYORKCITY,220,0.0,Evening  Hours;      Under  a  Tent,  In  a  Museum,  At  a  Factory 
+ 1990-08-12T00:00:00Z,glocations,UGANDA,3259,0.0,Scenes  From  a  Nightmare 
+ 1990-08-09T00:00:00Z,glocations,CAMBODIA,1255,0.0,Once  Again,  Tired  and  Terrified  Internal  Refugees  Wander  Over  Cambodia 
+ 1990-08-02T00:00:00Z,glocations,UNITEDSTATES,835,0.0,A  Plea  for  Help 
+ 1990-07-22T00:00:00Z,glocations,CAMBODIA,292,0.0,Victims  of  A  Hidden  War 
+ 1990-07-15T00:00:00Z,glocations,MANHATTAN(NYC),793,0.0,14  Juillet,  avec  Guillotine,  Storms  the  Meat  Market 
+ 1990-07-08T00:00:00Z,glocations,CANADA,1096,0.0,The  World;      Beyond  Plain  Vanilla:  Immigration  Has  Accentuated  Canada's  Diversity 
+ 1990-07-07T00:00:00Z,glocations,UNIONOFSOVIETSOCIALISTREPUBLICS(USSR),835,0.0,FOREIGN  AFFAIRS  What  A  Crazy  Idea 
+ 1990-06-30T00:00:00Z,glocations,WESTGERMANY,1258,0.0,Evolution  in  Europe;      Edgily,  East  Germans  Await  Economic  Union 
+ 1990-06-24T00:00:00Z,glocations,BUENOSAIRES(ARGENTINA),656,0.0,Staying  on  the  Safe  Side:  Buenos  Aires 
+ 1990-06-20T00:00:00Z,glocations,WESTGERMANY,200,0.0,East  Germans  Arrest  More  Terror  Suspects 
+ 1990-06-18T00:00:00Z,glocations,SANSALVADOR(ELSALVADOR),1055,0.0,San  Salvador  Journal;      After  the  Funerals,  a  University  Mourns  for  Itself 
+ 1990-06-17T00:00:00Z,glocations,NANTES(FRANCE),2970,0.0,Brittany's  Rich  Capital 
+ 1990-06-17T00:00:00Z,glocations,LITHUANIA,1494,0.0,In  Lithuania,  An  Old  Trouper  Called  Resistance 
+ 1990-06-16T00:00:00Z,glocations,WESTGERMANY,190,0.0,Evolution  in  Europe;      East  Germans  Seize  4  Tied  to  Terror  in  West 
+ 1990-06-15T00:00:00Z,glocations,MIDDLEEAST,353,0.0,Only  Washington  Can  Break  Mideast  Stalemate;      Stupid,  Immoral  Act 
+ 1990-06-14T00:00:00Z,glocations,GUATEMALA,217,0.0,While  in  Guatemala  Terror  Goes  Unnoted 
+ 1990-06-12T00:00:00Z,glocations,MIDDLEEAST,342,0.0,U.S.  Voices  Disappointment  at  P.L.O.  Statement 
+ 1990-06-10T00:00:00Z,glocations,EUROPE,1605,0.0,Why  Gorbachev  Frets;      In  Europe,  Peace  Comes  easier  Than  Peace  of  Mind 
+ 1990-06-10T00:00:00Z,glocations,BULGARIA,1009,0.0,Election  Buoys  Bulgaria's  Ethnic  Turks 
+ 1990-05-28T00:00:00Z,glocations,SOUTHKOREA,1030,0.0,Seoul  Journal;      After  All  the  Tear  Gas,  Just  the  Tears  Remain 
+ 1990-05-27T00:00:00Z,glocations,UNITEDSTATES,1244,0.0,Travel  Advisory 
+ 1990-05-21T00:00:00Z,glocations,NEWJERSEY,430,0.0,Faster  Guns  Need  Harsher  Laws 
+ 1990-05-21T00:00:00Z,glocations,NEWYORKCITY,835,0.0,In  N.Y.C.  Streets  Of  Terror 
+ 1990-05-18T00:00:00Z,glocations,UNITEDSTATES,361,0.0,Wild  Swings  in  the  Budget  Ball  Park 
+ 1990-05-08T00:00:00Z,glocations,GULFOFMEXICO,1370,0.0,Ocean  Predator  Is  Preyed  Upon;  Sharks  Need  Help,  Officials  Say 
+ 1990-05-02T00:00:00Z,glocations,SOUTHAFRICA,709,0.0,As  South  African  Rivals  Spar,  Political  Violence  Mushrooms 
+ 1990-04-26T00:00:00Z,glocations,ANGOLA,1102,0.0,Angola  Railway  Attacks  Hit  the  Starving  Hardest 
+ 1990-04-22T00:00:00Z,glocations,NATALPROVINCE(SOUTHAFRICA),1376,0.0,Neutrality  Has  Its  Dangers  in  the  Blood  Feuds  of  a  South  African  Province 
+ 1990-04-19T00:00:00Z,glocations,CZECHOSLOVAKIA,252,0.0,Prague  Communists  Threatened  With  Ban 
+ 1990-04-17T00:00:00Z,glocations,VERDUN(FRANCE),807,0.0,The  Last  War  in  Europe 
+ 1990-04-15T00:00:00Z,glocations,NEWYORKCITY,806,0.0,Youths'  Lesson:  War  Knows  No  Limits 
+ 1990-04-14T00:00:00Z,glocations,NEWYORKCITY,799,0.0,Miracle  All  Over  Town 
+ 1990-04-11T00:00:00Z,glocations,SPAIN,551,0.0,French  Suspects  Held  in  Basque  Terror 
+ 1990-04-07T00:00:00Z,glocations,EUROPE,765,0.0,Practical  Security  For  Europe 
+ 1990-04-01T00:00:00Z,glocations,NEWZEALAND,1454,0.0,Leaping  Into  the  Unknown 
+ 1990-03-23T00:00:00Z,glocations,NEWYORKCITY,2217,0.0,Trapped  in  the  Terror  of  New  York's  Holding  Pens 
+ 1990-03-19T00:00:00Z,glocations,UNITEDSTATES,2728,0.0,'Wars'  Wound  Candidates  and  the  Process 
+ 1990-03-10T00:00:00Z,glocations,PERU,769,0.0,Lima  Journal;      On  the  Front  Line  in  Guerrilla  War:  Power  Pylons 
+ 1990-03-08T00:00:00Z,glocations,GREATBRITAIN,945,0.0,Cagliari  Journal;      Island  Braces  for  Soccer:  Just  You  Wait,  'ooligans! 
+ 1990-03-07T00:00:00Z,glocations,SELMA(ALA),2098,0.0,Selma  1990:  Old  Faces  and  a  New  Spirit 
+ 1990-03-04T00:00:00Z,glocations,SCOTLAND,1463,0.0,Taking  a  Chance  on  Luck 
+ 1990-02-25T00:00:00Z,glocations,BERLIN,3548,0.0,Exploring  a  New  Berlin 
+ 1990-02-25T00:00:00Z,glocations,GUILDFORD(ENG),5388,0.0,WHEN  BRITISH  JUSTICE  FAILED 
+ 1990-02-21T00:00:00Z,glocations,UNITEDSTATES,1687,0.0,Bertelsmann's  Trouble  in  U.S. 
+ 1990-02-11T00:00:00Z,glocations,VENEZUELA,1515,0.0,How  Latin  America's  Economies  Look  After  a  Decade's  Decline 
+ 1990-02-09T00:00:00Z,glocations,ROMANIA,1369,0.0,Upheaval  in  the  East:  Romania;      In  Timisoara,  Doubts  and  Vigils  Amid  Melted  Wax 
+ 1990-02-04T00:00:00Z,glocations,WESTGERMANY,792,0.0,Germany:  Hidden  Words 
+ 1990-01-29T00:00:00Z,glocations,MOSCOW(USSR),948,0.0,Scenes  From  a  Moscow  'Tragi-Farce' 
+ 1990-01-28T00:00:00Z,glocations,LONGISLAND(NY),1427,0.0,For  Women  Who  Build  Bodies:  Brawn  or  Beauty?  Muscle  or  Curves? 
+ 1990-01-21T00:00:00Z,glocations,ELSALVADOR,864,0.0,Are  We  Shielding  the  Killers  of  Salvador's  Priests? 
+ 1990-01-21T00:00:00Z,glocations,YUGOSLAVIA,1712,0.0,Yugoslavia  Catching  East  Europe's  Political  Fever 
+ 1990-01-15T00:00:00Z,glocations,NAGORNO-KARABAKH(USSR),1207,0.0,SOVIET  AZERBAIJAN  IN  ETHNIC  TURMOIL 
+ 1990-01-14T00:00:00Z,glocations,COCOSISLAND(COSTARICA),2963,0.0,Scuba  Diving  With  Sharks 
+ 1990-01-13T00:00:00Z,glocations,NEWYORKCITY,732,0.0,Wilding  Is  a  Crime,  Except  in  Law 
+ 1990-01-10T00:00:00Z,glocations,NEWYORKSTATE,1941,0.0,Addicts  Awaiting  Treatment  Often  Face  Delays  and  Panic 
+ 1990-01-10T00:00:00Z,glocations,GREATBRITAIN,505,0.0,5  Countries  to  Meet  on  Reviving  Cambodia  Peace  Talks,  Paris  Says 
