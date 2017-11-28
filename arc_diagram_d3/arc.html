@@ -13,7 +13,7 @@
 
 <!-- CSS Style //-->
 <link href="style.css" rel="stylesheet" type="text/css">
-<link href="d3.slider.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="d3.slider.css" rel="stylesheet" type="text/css" media="screen" />       <!-- Third party -->
 <script>
 /* GLOBALS */
 var WIDTH  = 960;           // width of svg image
@@ -24,6 +24,21 @@ var RADIUS = 30;             // fixed node radius
 var Y_FIXED = PAD + RADIUS + 500;  // y position for all nodes
 var DEFAULT_YEAR = 2008 // START_YEAR
 var GRAPH = null;
+var FILTER_GROUP = null;
+var FILTER_NODE = null;
+var SLIDE_UPDATE_INTERVAL = 1200;
+
+var groupingNameMap = {
+    1: "Americas",
+    2: "Africa/Middle East",
+    3: "Asia",
+    4: "Oceania & Australia",
+    5: "Europe"
+}
+
+var logScale = d3.scale.log()
+                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+                    .range([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 /* HELPER FUNCTIONS */
 // Generates a tooltip for a SVG circle element based on its ID
@@ -89,8 +104,7 @@ function arcDiagram(graph) {
     GRAPH = graph;
     linearLayout(graph.nodes);
 
-    //drawArcNode
-    drawArcNode(graph.nodes);
+    drawArcNodes(graph.nodes, graph.links[DEFAULT_YEAR]);
     drawLinks(graph.links[DEFAULT_YEAR]);
 }
 
@@ -120,7 +134,6 @@ function drawColorScale(){
       .interpolate(d3.interpolateHcl)
       .range([d3.rgb("#007AFF"), d3.rgb('#FFF500')]);
 
-
   for (var i = 0; i < length; i++) {
     body.append('div').attr('style', function (d) {
       return 'background-color: ' + color(i);
@@ -128,7 +141,235 @@ function drawColorScale(){
   }
 }
 
-function drawArcNode(nodes) {
+function drawInternalArcs(nodeDiv, nodes, links) {
+    var internalArc = d3.svg.arc()
+            .innerRadius(10)    // Scale Internal Attack
+            .outerRadius(RADIUS)
+            .startAngle(Math.PI/2)      
+            .endAngle(Math.PI*3/2);
+
+    // in order to draw internal arc, we have to distinguish internal attacks
+    var internalAttackPerRegionMap = getInternalAttackCountMap(links)
+
+    nodeDiv    
+            .append("path")
+            .attr("class", "node")
+            .attr("d", function(d, i) { 
+                if (d.name in internalAttackPerRegionMap) {
+                    return internalArc.innerRadius(RADIUS - logScale(internalAttackPerRegionMap[d.name]))(d, i); 
+                }
+                return internalArc.innerRadius(RADIUS)(d, i);
+            })
+            .attr("id", function(d, i) { return d.name; })
+            .attr("transform", function(d, i) { return translateD(d)})
+            .attr("cx", function(d, i) { return d.x; })
+            .attr("cy", function(d, i) { return d.y; })
+            .attr("r",  function(d, i) { return RADIUS; })
+            .style("fill", "black")
+            .text(function(d){ addTooltip(d3.select(this))})
+            .on("click", function(d, i) { console.log("node " + d + " clicked")})
+    
+}
+
+function getInternalAttackCountMap(links) {
+    var internalAttackPerRegionMap = {}
+
+    for (var link of links) {
+        if (link.source.name == link.target.name) {
+            internalAttackPerRegionMap[link.source.name] = link.value;
+        }
+    }
+
+    return internalAttackPerRegionMap
+}
+
+function getExternalAttackSourceCountMap(links) {
+    var map = {}
+
+    for (var link of links) {
+        if (link.source.name != link.target.name) {
+            if (link.source.name in map) {
+                map[link.source.name] = map[link.source.name] + link.value;
+            } else {
+                map[link.source.name] = link.value;
+            }
+        }
+    }
+    return map
+}
+
+function getExternalAttackTargetCountMap(links) {
+    var map = {}
+
+    for (var link of links) {
+        if (link.source.name != link.target.name) {
+            if (link.target.name in map) {
+                map[link.target.name] = map[link.target.name] + link.value;
+            } else {
+                map[link.target.name] = link.value;
+            }
+        }
+    }
+    return map
+}
+
+function drawGroupingBrackets(nodeDiv, nodes) {
+    var groupingPoints = getGroupingPoints(nodes);
+
+    /*
+        Since we don't have a separate div for grouping,
+        this is a horrible hack for drawing grouping lines 
+        - since this will draw the same line multiple times
+    */
+    nodeDiv
+        .append("line")
+        .attr("class", function(d) { return d.group + " grouping" })
+        .style("stroke", "black")
+        .style("stroke-width", 4)
+        .attr("x1", function(d) {
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return groupingPoints[d.group]['x1']
+        })
+        .attr("y1", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return d.y + 100;
+        })
+        .attr("x2", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return groupingPoints[d.group]['x2']
+        })
+        .attr("y2", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return d.y + 100;
+        })
+        .on("click", function(d, i) {
+            if (FILTER_GROUP == d.group) {
+                FILTER_GROUP = null
+            } else {
+                FILTER_GROUP = d.group;    
+            }
+            
+            redrawArcs();
+        });
+    
+    // also a horrible hack for drawing square brackets
+    nodeDiv
+        .append("line")
+        .attr("class", function(d) { return d.group + " grouping" })
+        .style("stroke", "black")
+        .style("stroke-width", 5)
+        .attr("x1", function(d) {
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return groupingPoints[d.group]['x1']
+        })
+        .attr("y1", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return d.y + 90;
+        })
+        .attr("x2", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return groupingPoints[d.group]['x1']
+        })
+        .attr("y2", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return d.y + 102;
+        })
+        .on("click", function(d, i) {
+            if (FILTER_GROUP == d.group) {
+                FILTER_GROUP = null
+            } else {
+                FILTER_GROUP = d.group;    
+            }
+            
+            redrawArcs();
+        });
+
+    nodeDiv
+        .append("line")
+        .attr("class", function(d) { return d.group + " grouping" })
+        .style("stroke", "black")
+        .style("stroke-width", 5)
+        .attr("x1", function(d) {
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return groupingPoints[d.group]['x2']
+        })
+        .attr("y1", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return d.y + 90;
+        })
+        .attr("x2", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return groupingPoints[d.group]['x2']
+        })
+        .attr("y2", function(d) { 
+            if (!(d.group in groupingPoints)) {
+                return 0;
+            }
+            return d.y + 102;
+        })
+        .on("click", function(d, i) {
+            if (FILTER_GROUP == d.group) {
+                FILTER_GROUP = null
+            } else {
+                FILTER_GROUP = d.group;    
+            }
+            
+            redrawArcs();
+        });
+
+    nodeDiv
+        .append("text")
+        .attr("class", function(d) { return d.group + " grouping"})
+        .text(function(d) { return groupingNameMap[d.group] })
+        .attr("x", function(d) {
+            if (!(d.group in groupingPoints)) {
+                return -100;
+            }
+            return (groupingPoints[d.group]['x1'] + groupingPoints[d.group]['x2'])/2
+        })
+        .attr("y", function(d) {
+            if (!(d.group in groupingPoints)) {
+                return -100;
+            }
+
+            return d.y + 120;
+        })
+        .attr("text-anchor", "middle")
+        .attr("font-size", 10)
+        .on("click", function(d, i) {
+            if (FILTER_GROUP == d.group) {
+                FILTER_GROUP = null
+            } else {
+                FILTER_GROUP = d.group;    
+            }
+            
+            redrawArcs();
+        });
+}
+
+function drawArcNodes(nodes, links) {
     var atkSrcArc = d3.svg.arc()
         .innerRadius(0)   
         .outerRadius(RADIUS)
@@ -141,16 +382,41 @@ function drawArcNode(nodes) {
         .startAngle(3*Math.PI/2) //converting from degs to radians
         .endAngle(2*Math.PI) 
 
-    var internalArc = d3.svg.arc()
-        .innerRadius(10)    // Scale Internal Attack
-        .outerRadius(RADIUS)
-        .startAngle(Math.PI/2)      
-        .endAngle(Math.PI*3/2)    
-
     var nodeDiv = d3.select("#plot").selectAll(".node")
         .data(nodes)
         .enter();
 
+    
+    var atkSrcColorScale = d3.scale.linear()
+                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+                    .interpolate(d3.interpolateHcl)
+                    .range([
+                        d3.rgb("#FDB47B"), 
+                        d3.rgb("#FD984D"), 
+                        d3.rgb("#DC651C"), 
+                        d3.rgb("#FD812C"), 
+                        d3.rgb("#BB5616"),
+                        d3.rgb("#ba500d"),
+                        d3.rgb("#a34408"),
+                        d3.rgb("#8c3802")
+                    ]);
+
+    var atkTargetColorScale = d3.scale.linear()
+                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+                    .interpolate(d3.interpolateHcl)
+                    .range([
+                        d3.rgb("#C8EAE5"), 
+                        d3.rgb("#83CEC1"), 
+                        d3.rgb("#4FAE9E"), 
+                        d3.rgb("#3A978F"), 
+                        d3.rgb("#0C665E"),
+                        d3.rgb("#065951"),
+                        d3.rgb("#04514a"),
+                        d3.rgb("#014c45")
+                    ]);
+
+    var atkSrcCountMap = getExternalAttackSourceCountMap(links)
+    var atkTargetCountMap = getExternalAttackTargetCountMap(links)
     nodeDiv                         // started 
         .append("path")
         .attr("class", "node")
@@ -158,9 +424,13 @@ function drawArcNode(nodes) {
         .attr("id", function(d, i) { return d.name; })
         .attr("transform", function(d, i) { return translateD(d)})
         .attr("r",  function(d, i) { return RADIUS; })
-        .style("fill", "#C15412")
+        .style("fill", function(d, i) { 
+            if (d.name in atkSrcCountMap) {
+                return atkSrcColorScale(atkSrcCountMap[d.name]) 
+            } 
+            return "#ffcfaa";
+        })
        
-
     nodeDiv                         
         .append("path")
         .attr("class", "node")
@@ -168,21 +438,55 @@ function drawArcNode(nodes) {
         .attr("id", function(d, i) { return d.name; })
         .attr("transform", function(d, i) { return translateD(d)})
         .attr("r",  function(d, i) { return RADIUS; })
-        .style("fill", "#00675E")
+        .style("fill", function(d, i) {
+            if (d.name in atkTargetCountMap) {
+                return atkTargetColorScale(atkTargetCountMap[d.name]) 
+            } 
+            return "#d5efeb";
+        })
 
     
-    nodeDiv    
-        .append("path")
-        .attr("class", "node")
-        .attr("d", internalArc)
-        .attr("id", function(d, i) { return d.name; })
-        .attr("transform", function(d, i) { return translateD(d)})
-        .attr("cx", function(d, i) { return d.x; })
-        .attr("cy", function(d, i) { return d.y; })
-        .attr("r",  function(d, i) { return RADIUS; })
-        .style("fill", "black")
-        .text(function(d){ addTooltip(d3.select(this))})
-    
+    drawInternalArcs(nodeDiv, nodes, links);
+    drawGroupingBrackets(nodeDiv, nodes);
+}
+
+// assumes that nodes are sorted by grouping
+// Also a horrible hack to work with Oceania & Australia
+function getGroupingPoints(nodes) {
+    var currentGroup = 0;
+    var tmpStartPoint = 0;
+    var tmpEndPoint = 0;
+    var tmpGroupCount = 0;
+    var groupingPoints = {}
+
+    for (var i = 0; i < nodes.length; i++) {
+        var node = nodes[i]
+
+        tmpGroupCount++;
+        if (i == 0) {
+            tmpStartPoint = node.x;
+            currentGroup = node.group;
+            tmpGroupCount++;
+        } else if (i == nodes.length - 1) {
+            groupingPoints[currentGroup] = {
+                "x1": tmpStartPoint,
+                "x2": node.x
+            };
+        } else if (currentGroup != node.group) {
+
+            if (tmpGroupCount != 1) {
+                groupingPoints[currentGroup] = {
+                    "x1": tmpStartPoint,
+                    "x2": tmpEndPoint
+                };
+            }             tmpGroupCount = 0;
+            tmpStartPoint = node.x;
+            currentGroup = node.group
+        }
+        tmpEndPoint = node.x;
+    }
+
+    return groupingPoints
 }
 
 function translateD(d) {
@@ -221,10 +525,10 @@ function drawNodes(nodes) {
         .attr("r",  function(d, i) { return RADIUS; })
         .style("fill",   function(d, i) { return color(d.group); })
         .on("mouseover", function(d, i) { addTooltip(d3.select(this)); })
-        .on("mouseout",  function(d, i) { d3.select("#tooltip").remove(); });
+        .on("mouseout",  function(d, i) { d3.select("#tooltip").remove(); })
+        .on("click", function(d, i) { console.log("node " + d + " clicked")});
 
 }
-
 
 // Draws nice arcs for each link on plot
 function drawLinks(links) {
@@ -240,13 +544,9 @@ function drawLinks(links) {
             return radians(d); 
         });
 
-    // add links
-    var logScale = d3.scale.log()
-                    .domain([1e-6, 400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000])
-                    .range([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-                    
+    // add links                    
     var colorScale = d3.scale.linear()
-                    .domain([1e-6, 400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000])
+                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
                     .interpolate(d3.interpolateHcl)
                     .range([
                         d3.rgb("#bdbdbd"), 
@@ -257,9 +557,13 @@ function drawLinks(links) {
                         d3.rgb("#252525"), 
                         d3.rgb("#000000")]);
 
+    filteredLinks = links
+    if (FILTER_GROUP != null) {
+        filteredLinks = filterLinksByGroup(links);
+    }
     
     d3.select("#plot").selectAll(".link")
-        .data(links)
+        .data(filteredLinks)
         .enter()
         .append("path")
         .attr("class", "link")
@@ -278,7 +582,6 @@ function drawLinks(links) {
             // shift so (0, 0) will be between source and target
             var xshift = d.source.x + (d.target.x - d.source.x)/2;
             var yshift = Y_FIXED;
-            
             return "translate(" + xshift + ", " + yshift + ")";
         })
         .attr("d", function(d, i) {
@@ -308,7 +611,9 @@ function updateYearFromSlider(slider) {
 
 function updateYear(year) {
     d3.select("#plot").selectAll(".link").remove();
+    d3.select("#plot").selectAll(".node").remove();
     drawLinks(GRAPH.links[year])
+    drawArcNodes(GRAPH.nodes, GRAPH.links[year])
 }
 
 function incrementSlider() {
@@ -319,7 +624,39 @@ function incrementSlider() {
         } else {
             slider.setValue(++sliderValue);
         }
+    } 
+}
+
+function redrawArcs() {
+    updateYearFromSlider(slider);
+}
+
+function filterByGroup(group) {
+    if (group == FILTER_GROUP) {
+        FILTER_GROUP = null;
+    } else {
+        FILTER_GROUP = group    
     }
+
+    console.log(FILTER_GROUP)
+    
+}
+
+// TODO: figure out a way to get this called
+function clearFiltering() {
+    FILTER_NODE = null;
+    FILTER_GROUP = null;
+}
+
+function filterLinksByGroup(links) {
+    var filteredLinks = []
+    for (link of links) {
+        if (link.source.group == FILTER_GROUP || link.target.group == FILTER_GROUP) {
+            filteredLinks.push(link)
+        }
+    }
+
+    return filteredLinks;
 }
 
 </script>
@@ -349,10 +686,9 @@ var isPlaying = false;
 document.getElementById("play").addEventListener("click", function() {
     isPlaying = !isPlaying;
 });
-
-setInterval(incrementSlider, 1200);
-
-
+setInterval(incrementSlider, SLIDE_UPDATE_INTERVAL);
+// setInterval(redrawArcs, 400)
+// hack to wait for the browser to finish drawing everything
 </script>
 </body>
 </html>
