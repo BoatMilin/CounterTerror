@@ -1,0 +1,15 @@
+,country_txt,attacktype1_txt,counts
+0,Angola,Armed Assault,1
+1,Angola,Unknown,1
+2,Burundi,Armed Assault,4
+3,Burundi,Bombing/Explosion,3
+4,Burundi,Facility/Infrastructure Attack,36
+5,Burundi,Unknown,10
+6,Rwanda,Armed Assault,3
+7,Rwanda,Unknown,6
+8,Senegal,Armed Assault,10
+9,Senegal,Bombing/Explosion,4
+10,Senegal,Unknown,2
+11,Uganda,Armed Assault,4
+12,Uganda,Hostage Taking (Kidnapping),1
+13,Uganda,Unknown,9

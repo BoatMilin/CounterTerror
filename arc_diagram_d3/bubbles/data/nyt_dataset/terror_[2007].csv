@@ -1,0 +1,292 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 2007-12-31T00:00:00Z,glocations,Morocco,2335,0.0,Jihadists  in  Jails  Win  Leverage  Over  Their  Keepers 
+ 2007-12-27T00:00:00Z,glocations,Mauritania,623,0.0,Hunt  for  Suspects  in  Mauritania  Killing 
+ 2007-12-26T00:00:00Z,glocations,Turkey,932,0.0,Turkey  Says  Its  Raids  in  Iraq  Killed  150  Rebels 
+ 2007-12-26T00:00:00Z,glocations,Iraq,421,0.0,Turkey  Says  150  Killed  in  Strikes  on  Rebel  Kurds 
+ 2007-12-24T00:00:00Z,glocations,Israel,904,0.0,Israel  Angers  Palestinians  With  Housing  Plan 
+ 2007-12-21T00:00:00Z,glocations,GreatBritain,69,0.0,Britain:  3  From  Guanánamo  Freed  in  London 
+ 2007-12-21T00:00:00Z,glocations,Israel,550,0.0,Gaza  Missiles  and  Israeli  Operations  Continue 
+ 2007-12-19T00:00:00Z,glocations,Bali(Indonesia),839,0.0,What  Was  That  All  About? 
+ 2007-12-17T00:00:00Z,glocations,Turkey,670,0.0,Turkey  Bombs  Kurdish  Militants  in  Northern  Iraq 
+ 2007-12-17T00:00:00Z,glocations,Israel,748,0.0,Palestinian  Rocket  Injures  Child  in  an  Israeli  Kibbutz 
+ 2007-12-16T00:00:00Z,glocations,Egypt,177,0.0,Egypt  and  Human  Rights 
+ 2007-12-13T00:00:00Z,glocations,Algeria,869,0.0,An  Appeal  for  Calm  After  Suicide  Bombings  in  Algeria 
+ 2007-12-12T00:00:00Z,glocations,Egypt,385,0.0,Rights  Group  Says  Egypt  Used  Torture  in  Terror  Case 
+ 2007-12-07T00:00:00Z,glocations,GreatBritain,93,0.0,Britain:  Terror  Detention  Plan  Draws  Fire 
+ 2007-12-06T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),788,0.0,Defense  Challenges  Status  of  Guantánamo  Detainee 
+ 2007-11-30T00:00:00Z,glocations,Syria,921,0.0,A  Payoff  for  Syrians:  Seats  at  the  Table,  at  Least 
+ 2007-11-28T00:00:00Z,glocations,Israel,2003,0.0,Ex-Commander  of  NATO  Named  Mideast  Liaison 
+ 2007-11-28T00:00:00Z,glocations,Israel,1355,0.0,Israel  and  Palestinians  Set  Goal  of  a  Treaty  in  2008 
+ 2007-11-27T00:00:00Z,glocations,Annapolis(Md),2442,0.0,Text  of  Bush’s  Remarks  at  Annapolis  Conference 
+ 2007-11-27T00:00:00Z,glocations,Israel,1347,0.0,Framework  Set  by  Palestinians  and  Israelis  for  Peace  Talks 
+ 2007-11-26T00:00:00Z,glocations,Syria,922,0.0,Syria  Says  It  Will  Join  Conference  in  Maryland 
+ 2007-11-26T00:00:00Z,glocations,Syria,961,0.0,Syria  Plans  to  Attend  Meeting  on  Mideast  Peace 
+ 2007-11-24T00:00:00Z,glocations,India,531,0.0,Courthouse  Bombings  Strike  3  Indian  Cities 
+ 2007-11-22T00:00:00Z,glocations,Israel,811,0.0,Israel  Allows  Some  Gaza  Exports 
+ 2007-11-21T00:00:00Z,glocations,Cambodia,1097,0.0,Khmer  Rouge  Hearing  Ends 
+ 2007-11-21T00:00:00Z,glocations,Israel,757,0.0,Egypt’s  Leader  Endorses  Peace  Meeting 
+ 2007-11-19T00:00:00Z,glocations,Pakistan,1529,0.0,U.S.  Considers  Enlisting  Tribes  in  Pakistan  to  Fight  Al  Qaeda 
+ 2007-11-17T00:00:00Z,glocations,Belgium,1145,0.0,In  Fight  Against  Terror,  Keen  Ears  Undistracted  by  Sight 
+ 2007-11-17T00:00:00Z,glocations,Colombia,678,0.0,Finding  Her  Haven  From  Terror,  a  Continent  Away 
+ 2007-11-15T00:00:00Z,glocations,GreatBritain,602,0.0,Britain  Plans  to  Upgrade  Terror  Security  Measures 
+ 2007-11-12T00:00:00Z,glocations,NorthernIreland,445,0.0,War  Ends  for  Militant  Group  in  Northern  Ireland 
+ 2007-11-11T00:00:00Z,glocations,Pakistan,1416,0.0,So,  What  About  Those  Nukes? 
+ 2007-11-06T00:00:00Z,glocations,Pakistan,1201,0.0,A  Detour  From  a  Battle  Against  Terror 
+ 2007-11-05T00:00:00Z,glocations,Pakistan,1460,0.0,U.S.  Is  Likely  to  Continue  Aid  to  Pakistan 
+ 2007-11-05T00:00:00Z,glocations,Pakistan,1187,0.0,U.S.  Is  Likely  to  Continue  Aid  to  Pakistan 
+ 2007-11-05T00:00:00Z,glocations,Pakistan,1302,0.0,Pakistan  Rounds  Up  Musharraf’s  Political  Foes 
+ 2007-11-04T00:00:00Z,glocations,Turkey,853,0.0,Turkey  Skeptical  of  Iraqi  Vows  to  Stop  Kurdish  Raids 
+ 2007-11-02T00:00:00Z,glocations,GazaStrip,103,0.0,Israel  and  Gaza 
+ 2007-10-30T00:00:00Z,glocations,Azerbaijan,81,0.0,Azerbaijan:  U.S.  Embassy  Shuts  Over  Threat 
+ 2007-10-30T00:00:00Z,glocations,Moscow(Russia),348,0.0,Purge  Victims  Remembered  in  Moscow  Rite 
+ 2007-10-27T00:00:00Z,glocations,FortDix(NJ),339,0.0,Defendant  in  Fort  Dix  Terror  Plot  Expected  to  Plead  Guilty 
+ 2007-10-27T00:00:00Z,glocations,Iraq,639,0.0,The  Democratic  Enablers  of  This  War 
+ 2007-10-25T00:00:00Z,glocations,Iran,647,0.0,New  Steps  by  U.S.  Against  Iranians 
+ 2007-10-25T00:00:00Z,glocations,Cuba,883,0.0,How  the  Applause  Meter  Rates  Bush’s  Pressure  on  Cuba 
+ 2007-10-25T00:00:00Z,glocations,Turkey,704,0.0,Turkish  Warplanes  Attack  Kurds  Near  Border 
+ 2007-10-25T00:00:00Z,glocations,Afghanistan,763,0.0,Time  for  the  Bundesmacht 
+ 2007-10-24T00:00:00Z,glocations,Cuba,705,0.0,Bush  to  Warn  Cuba  on  Plan  for  Transition 
+ 2007-10-24T00:00:00Z,glocations,Iran,797,0.0,Madness  as  Method 
+ 2007-10-22T00:00:00Z,glocations,Turkey,1497,0.0,Iraq  and  Turkey  See  Tensions  Rise  After  Ambush 
+ 2007-10-21T00:00:00Z,glocations,Myanmar,850,0.0,Through  Myanmar  Darkly 
+ 2007-10-21T00:00:00Z,glocations,Turkey,1235,0.0,Turkey  Tells  Rice  It  Will  Wait  Despite  Ambush 
+ 2007-10-21T00:00:00Z,glocations,Pakistan,1507,0.0,In  Pakistan  Quandary,  U.S.    Reviews  Stance 
+ 2007-10-21T00:00:00Z,glocations,Myanmar,1580,0.0,In  Myanmar,  Fear  Is  Ever  Present 
+ 2007-10-19T00:00:00Z,glocations,Turkey,1459,0.0,Kurds  Protest  Turkish  Vote  on  Iraq  Raids 
+ 2007-10-18T00:00:00Z,glocations,Turkey,1381,0.0,Turkey  Resolves  to  Give  Go-Ahead  for  Raids  in  Iraq 
+ 2007-10-17T00:00:00Z,glocations,Turkey,1199,0.0,Support  Wanes  in  House  for  Genocide  Vote 
+ 2007-10-17T00:00:00Z,glocations,Eritrea,359,0.0,The  Horn,  the  List  and  the  Risks 
+ 2007-10-15T00:00:00Z,glocations,Turkey,580,0.0,Turk  Warns  Against  House  Genocide  Motion 
+ 2007-10-15T00:00:00Z,glocations,Iraq,794,0.0,Coalition  of  the  Reluctant 
+ 2007-10-14T00:00:00Z,glocations,Myanmar,521,0.0,Myanmar  Arrests  4  Top  Dissidents,  Human  Rights  Group  Says 
+ 2007-10-14T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),1245,0.0,Portable  Halls  of  Justice  Are  Rising  in  Guantánamo 
+ 2007-10-14T00:00:00Z,glocations,Congo(FormerlyZaire),970,0.0,Rape  and  War:  An  African  Tragedy 
+ 2007-10-14T00:00:00Z,glocations,Myanmar,1157,0.0,A  Few  Voices  From  the  Deepening  Silence 
+ 2007-10-12T00:00:00Z,glocations,Turkey,1024,0.0,Turks  Angry  Over  House  Armenian  Genocide  Vote 
+ 2007-10-11T00:00:00Z,glocations,Turkey,1349,0.0,House  Panel  Raises  Furor  on  Armenian  Genocide 
+ 2007-10-10T00:00:00Z,glocations,Iraq,730,0.0,Turkey  Authorizes  Troops  to  Enter  Iraq  to  Fight  Rebels 
+ 2007-10-06T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),807,0.0,War-Crimes  Prosecutor  Quits  in  Pentagon  Clash 
+ 2007-10-06T00:00:00Z,glocations,Myanmar,853,0.0,U.N.  Chief  Calls  Crackdown  in  Myanmar  ‘Abhorrent’ 
+ 2007-10-06T00:00:00Z,glocations,Spain,526,0.0,Basque  Leaders  Arrested  in  Spain 
+ 2007-10-05T00:00:00Z,glocations,Spain,503,0.0,Basque  Leaders  Arrested  in  Spain 
+ 2007-10-04T00:00:00Z,glocations,Baltimore(Md),1580,0.0,For  Baltimore,  Housing  Slump  Slows  a  Revival 
+ 2007-10-02T00:00:00Z,glocations,London(England),176,0.0,Britain:  London  Police  ‘Failures’  in  Shooting 
+ 2007-10-01T00:00:00Z,glocations,Ukraine,650,0.0,2  Parties  in  Tight  Race  in  Ukraine  Vote 
+ 2007-09-28T00:00:00Z,glocations,Jena(LA),1017,0.0,In  Jena,  Nooses  on  a  Schoolyard  Tree 
+ 2007-09-28T00:00:00Z,glocations,Darfur(Sudan),291,0.0,International  Justice 
+ 2007-09-27T00:00:00Z,glocations,Israel,961,0.0,Israel  Pulls  Back  After  Gaza  Raid 
+ 2007-09-27T00:00:00Z,glocations,Germany,138,0.0,Germany:  Iraqi  Sentenced  in  Terror  Financing 
+ 2007-09-27T00:00:00Z,glocations,GazaStrip,862,0.0,Israelis  Kill  Up  to  9  in  Gaza 
+ 2007-09-26T00:00:00Z,glocations,GazaStrip,1599,0.0,For  Gaza’s  Young  at  Play,  Fields  Can  Be  Deadly 
+ 2007-09-25T00:00:00Z,glocations,Iran,1021,0.0,Ahmadinejad,  at  Columbia,  Parries  and  Puzzles 
+ 2007-09-24T00:00:00Z,glocations,Iran,1115,0.0,Facing  Scorn,  President  of  Iran  Is  Defiant  to  His  Critics 
+ 2007-09-24T00:00:00Z,glocations,Iraq,112,0.0,Congress  and  Iraq 
+ 2007-09-24T00:00:00Z,glocations,Pakistan,1866,0.0,Glimpses  of  a  Shadowy  World  in  Pakistan 
+ 2007-09-22T00:00:00Z,glocations,Europe,179,0.0,What  Motivates  Jihadists 
+ 2007-09-19T00:00:00Z,glocations,Turkey,331,0.0,Turkey  Keeps  Military  Options  Open  on  Kurdish  Separatists  Across  Iraq  Border 
+ 2007-09-13T00:00:00Z,glocations,Pakistan,901,0.0,U.S.  Official  in  Pakistan  for  Talks 
+ 2007-09-12T00:00:00Z,glocations,Iraq,855,0.0,For  Iraqis,  General’s  Report  Offers  Bitter  Truth 
+ 2007-09-12T00:00:00Z,glocations,Iraq,1302,0.0,The  General  on  the  Hill:  Some  Reviews  (9  Letters) 
+ 2007-09-11T00:00:00Z,glocations,Europe,1157,0.0,Seeking  Terror’s  Causes,  Europe  Looks  Within 
+ 2007-09-10T00:00:00Z,glocations,Germany,1483,0.0,Europeans  Get  Terror  Training  Inside  Pakistan 
+ 2007-09-09T00:00:00Z,glocations,Iraq,4305,0.0,At  Street  Level,  Unmet  Goals  of  Troop  Buildup 
+ 2007-09-09T00:00:00Z,glocations,Algeria,308,0.0,Bomb  Leaves  28  Dead  in  Algeria 
+ 2007-09-09T00:00:00Z,glocations,Germany,1110,0.0,Germany  on  Tiptoe  Over  Terror 
+ 2007-09-09T00:00:00Z,glocations,Iran,1172,0.0,Molding  the  Ideal  Islamic  Citizen 
+ 2007-09-05T00:00:00Z,glocations,Iraq,842,0.0,Letter  From  Baghdad 
+ 2007-09-04T00:00:00Z,glocations,NorthKorea,442,0.0,North  Korea  Says  U.S.  Will  Lift  Sanctions 
+ 2007-09-03T00:00:00Z,glocations,Ethiopia,356,0.0,Ethiopian  Rebels  to  Refrain  From  Attacks 
+ 2007-09-01T00:00:00Z,glocations,Iraq,363,0.0,Living  in  Fear  for  Helping  America 
+ 2007-08-30T00:00:00Z,glocations,AbuGhraib(Iraq),597,0.0,Abu  Ghraib  Swept  Under  the  Carpet 
+ 2007-08-29T00:00:00Z,glocations,Greece,764,0.0,Greek  Government  Faces  Political  Fallout  From  Fires 
+ 2007-08-29T00:00:00Z,glocations,Iraq,799,0.0,Watch  the  Sunni  Tribes 
+ 2007-08-28T00:00:00Z,glocations,Israel,991,0.0,Israeli  Says  Hamas  Is  Training  Hundreds  Abroad 
+ 2007-08-26T00:00:00Z,glocations,India,307,0.0,Terror  Bombings  Kill  Dozens  in  South  India 
+ 2007-08-26T00:00:00Z,glocations,France,1278,0.0,Make  Wine,  Not  War 
+ 2007-08-25T00:00:00Z,glocations,Antarctica,945,0.0,A  Guiding  Hand  on  Icy  Terrain 
+ 2007-08-25T00:00:00Z,glocations,Pakistan,921,0.0,Pakistan  Prepares  for  Former  Prime  Ministers’  Return 
+ 2007-08-21T00:00:00Z,glocations,GreatBritain,1013,0.0,British  Civics  Class  Asks,  What  Would  Muhammad  Do? 
+ 2007-08-19T00:00:00Z,glocations,Afghanistan,616,0.0,In  Afghanistan,  a  War  Gone  Sour  ...  (3  Letters) 
+ 2007-08-19T00:00:00Z,glocations,Iraq,1148,0.0,A  U.S.-Backed  Plan  for  Sunni  Neighborhood  Guards  Is  Tested 
+ 2007-08-17T00:00:00Z,glocations,MiddleEast,910,0.0,Events  Prod  U.S.  to  Make  New  Push  for  Mideast  Deal 
+ 2007-08-09T00:00:00Z,glocations,Russia,480,0.0,Church  Remembers  Stalin’s  Victims,  While  Kremlin  Looks  Away 
+ 2007-08-09T00:00:00Z,glocations,Iraq,655,0.0,Is  There  an  Iran  Connection  in  Iraq?  (6  Letters) 
+ 2007-08-05T00:00:00Z,glocations,Cuba,1413,0.0,Fate  of  5  in  U.S.  Prisons  Weighs  on  Cubans’  Minds 
+ 2007-08-05T00:00:00Z,glocations,Montana,743,0.0,Montana’s  Terror  Economy 
+ 2007-08-05T00:00:00Z,glocations,Iraq,2531,0.0,Getting  Iraq  Wrong 
+ 2007-08-03T00:00:00Z,glocations,ArcticRegions,1022,0.0,Russians  Plant  Flag  on  the  Arctic  Seabed 
+ 2007-08-03T00:00:00Z,glocations,LasVegas(Nev),889,0.0,A  Question  Recurs:  How  Safe  Is  Las  Vegas? 
+ 2007-08-02T00:00:00Z,glocations,Minneapolis(Minn),2143,0.0,Dozens  Missing  as  Minneapolis  Search  Efforts  Are  Halted 
+ 2007-08-01T00:00:00Z,glocations,Iraq,1043,0.0,Violence  Rages  in  Iraq  as  Sunni  Bloc  Leaves  Cabinet 
+ 2007-07-31T00:00:00Z,glocations,GreatBritain,1051,0.0,Bush  and  Brown  Are  Allies  if  Not  Buddies 
+ 2007-07-26T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),809,0.0,Pentagon  Study  Sees  Threat  in  Guantánamo  Detainees 
+ 2007-07-26T00:00:00Z,glocations,GreatBritain,810,0.0,British  Leader  Seeks  New  Terrorism  Laws 
+ 2007-07-25T00:00:00Z,glocations,UnitedStates,873,0.0,U.S.  and  Iran  Trade  Blame  in  Second  Round  of  Iraq  Talks 
+ 2007-07-24T00:00:00Z,glocations,Pakistan,453,0.0,U.S.  Military  Options  Draw  a  Chorus  of  Protests  in  Pakistan 
+ 2007-07-23T00:00:00Z,glocations,Perugia(Italy),452,0.0,Italian  Police  Charge  Imam  and  2  Aides  With  Training  Terrorists 
+ 2007-07-20T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),337,0.0,Court  Orders  Government  to  Turn  Over  Files  on  Detainees 
+ 2007-07-18T00:00:00Z,glocations,Iraq,548,0.0,The  Politics  of  Fear 
+ 2007-07-17T00:00:00Z,glocations,SierraLeone,336,0.0,Long  Sentences  Sought  for  Heads  of  Rebel  Forces  in  Sierra  Leone 
+ 2007-07-15T00:00:00Z,glocations,Montreal(Quebec),855,0.0,Back  to  the  Streets 
+ 2007-07-13T00:00:00Z,glocations,Cologne(Germany),95,0.0,A  Mosque  in  Cologne  (1  Letter) 
+ 2007-07-13T00:00:00Z,glocations,Iraq,774,0.0,The  Endgame  Deadlock 
+ 2007-07-12T00:00:00Z,glocations,Afghanistan,309,0.0,Schoolgirls  Under  Fire 
+ 2007-07-10T00:00:00Z,glocations,Afghanistan,1722,0.0,As  War  Enters  Classrooms,  Fear  Grips  Afghans 
+ 2007-07-08T09:17:00Z,glocations,WestBank,761,0.0,Sweet  Cakes  With  a  Terrorist 
+ 2007-07-08T00:00:00Z,glocations,GreatBritain,1608,0.0,British  Identify  Two  ‘Principal’  Suspects 
+ 2007-07-06T00:00:00Z,glocations,GreatBritain,1636,0.0,British  Police  Charge  Suspect  in  Car  Bombings 
+ 2007-07-05T09:15:00Z,glocations,Iran,759,0.0,Time  to  Call  In  the  Iran  Chips 
+ 2007-07-05T00:00:00Z,glocations,GreatBritain,970,0.0,British  Cut  Threat  Level  After  Bomb  Plot  Arrests 
+ 2007-07-04T00:00:00Z,glocations,MiddleEast,808,0.0,At  a  Theater  Near  You  ... 
+ 2007-07-03T00:00:00Z,glocations,London(England),461,0.0,Security  Is  Tightened  Across  London  and  at  All  British  Airports 
+ 2007-07-02T00:00:00Z,glocations,London(England),525,0.0,Alerts  Do  Not  Keep  Public  From  Diana  Tribute 
+ 2007-07-01T00:00:00Z,glocations,Afghanistan,1614,0.0,Bomber’s  End:  Flash  of  Terror,  Humble  Grave 
+ 2007-07-01T00:00:00Z,glocations,Glasgow(Scotland),1622,0.0,4  Held  in  Scottish  Attack  as  British  See  Broader  Plot 
+ 2007-06-30T08:24:00Z,glocations,Afghanistan,15,0.0,Burial  of  Suicide  Bombers 
+ 2007-06-29T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),242,0.0,Reality  at  Guantánamo  (1  Letter) 
+ 2007-06-27T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),988,0.0,All  Is  Not  Well  at  Guantánamo  (6  Letters) 
+ 2007-06-25T00:00:00Z,glocations,Israel,725,0.0,Middle  East  Summit  Supporting  Abbas  Begins 
+ 2007-06-24T00:00:00Z,glocations,Iran,1434,0.0,Iran  Cracks  Down  on  Dissent 
+ 2007-06-24T00:00:00Z,glocations,Iraq,1535,0.0,They’ll  Break  the  Bad  News  on  9/11 
+ 2007-06-24T00:00:00Z,glocations,Iran,5087,0.0,Hard  Realities  of  Soft  Power 
+ 2007-06-20T00:00:00Z,glocations,Afghanistan,883,0.0,Karzai  Cites  Taliban  Shift  to  Terror  Attacks 
+ 2007-06-19T00:00:00Z,glocations,Iraq,203,0.0,Iraq  Ranks  No.  2  of  Failed  States 
+ 2007-06-18T00:00:00Z,glocations,Ethiopia,2175,0.0,In  Ethiopia,  Fear  and  Cries  of  Army  Brutality 
+ 2007-06-18T00:00:00Z,glocations,Indonesia,958,0.0,Indonesian  Terror  Group  Limits  Attacks 
+ 2007-06-17T00:00:00Z,glocations,Israel,1255,0.0,Olmert  Assails  Hamas  and  Vows  Cooperation  With  Abbas 
+ 2007-06-17T00:00:00Z,glocations,Connecticut,1115,0.0,Recycling  With  a  Twist:  When  Trash  Becomes  Art 
+ 2007-06-17T00:00:00Z,glocations,Afghanistan,554,0.0,5  Die  in  Kabul  Suicide  Blast;  U.S.  Gunfire  Kills  Afghan 
+ 2007-06-17T00:00:00Z,glocations,Pakistan,966,0.0,Can  Pakistan  Mix  Well  With  Democracy? 
+ 2007-06-17T00:00:00Z,glocations,Washington(DC),911,0.0,White  House  and  Lawmakers  Alike  Face  Risks  in  an  Executive  Privilege  Fight 
+ 2007-06-16T00:00:00Z,glocations,Iraq,850,0.0,Blast  Destroys  Sunni  Mosque  in  Iraq,  Raising  Fears  of  Reprisals 
+ 2007-06-16T00:00:00Z,glocations,FortDix(NJ),298,0.0,Clerk  Accused  of  Fixing  Tickets  for  Suspect  in  Ft.  Dix  Terror  Plot 
+ 2007-06-15T00:00:00Z,glocations,GreatBritain,589,0.0,Britain  Sentences  7  in  Terror  Plot 
+ 2007-06-15T00:00:00Z,glocations,France,952,0.0,Remembering  French  Hero  of  the  American  Revolution 
+ 2007-06-15T00:00:00Z,glocations,GreatBritain,125,0.0,British  Court  Names  Terror  Case  Escapee 
+ 2007-06-08T00:00:00Z,glocations,Europe,936,0.0,Secret  Prisons  in  2  Countries  Held  Qaeda  Suspects,  Report  Says 
+ 2007-06-07T00:00:00Z,glocations,Madrid(Spain),98,0.0,Spain:  A  Madrid  Terror  Defendant  Is  Freed 
+ 2007-06-06T00:00:00Z,glocations,Iraq,1286,0.0,Baghdad  Gallery  Owner  Hopes  Culture  Can  Dispel  Hate 
+ 2007-06-06T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),559,0.0,Gitmo:  A  National  Disgrace 
+ 2007-06-05T00:00:00Z,glocations,TrinidadandTobago,306,0.0,4th  Suspect  Surrenders  in  Airport  Plot   
+ 2007-06-03T00:00:00Z,glocations,Somalia,614,0.0,U.S.  Strikes  Inside  Somalia,  Bombing  Suspected  Militant  Hide-Out 
+ 2007-06-02T00:00:00Z,glocations,GreatBritain,1209,0.0,A  Journey  to,  and  From,  the  Heart  of  Radical  Islam  in  Britain 
+ 2007-06-01T00:00:00Z,glocations,Israel,1161,0.0,Rockets  Fray  Nerves  in  Israeli  ‘Bull’s-Eye’  City 
+ 2007-05-30T00:00:00Z,glocations,FortDix(NJ),402,0.0,After  Day  of  Uncertainty,  Clerk  Told  Police  of  Terror  Case  Video 
+ 2007-05-28T00:00:00Z,glocations,Iraq,2142,0.0,Militants  Widen  Reach  as  Terror  Seeps  Out  of  Iraq 
+ 2007-05-28T00:00:00Z,glocations,Israel,909,0.0,Olmert  Warns  Hamas,  as  Rocket  Kills  Civilian 
+ 2007-05-26T00:00:00Z,glocations,Israel,595,0.0,Israel  Hits  Hamas  Posts  in  Gaza  With  Airstrikes 
+ 2007-05-25T00:00:00Z,glocations,GreatBritain,485,0.0,After  7  Years  in  Prison,  Muslim  Cleric  Is  Deported  From  Britain 
+ 2007-05-25T00:00:00Z,glocations,Iraq,884,0.0,U.S.  Casualties  May  Spike  This  Summer,  Bush  Warns 
+ 2007-05-25T00:00:00Z,glocations,Israel,1015,0.0,Israel  Seizes  33  Palestinians  in  Crackdown 
+ 2007-05-25T00:00:00Z,glocations,GreatBritain,820,0.0,Openness  Sought  in  British  Terror  Trials 
+ 2007-05-25T00:00:00Z,glocations,Yemen,285,0.0,U.S.  Fugitive  Born  in  Yemen  Surrenders  in  Terror  Case 
+ 2007-05-24T00:00:00Z,glocations,Israel,922,0.0,Israel  Arrests  33  West  Bank  Palestinians 
+ 2007-05-24T00:00:00Z,glocations,Iraq,780,0.0,Bush  Says  Iraq  Pullout  Would  Leave  U.S.  at  Risk 
+ 2007-05-24T00:00:00Z,glocations,Turkey,410,0.0,Turkey  Vows  to  Pursue  Militant  Kurds  Into  Iraq 
+ 2007-05-24T00:00:00Z,glocations,GreatBritain,338,0.0,Britain  Tracks  3  Who  Fled  in  Terror  Case 
+ 2007-05-23T00:00:00Z,glocations,Turkey,730,0.0,Bombing  Kills  Six  in  Turkish  Capital’s  Shopping  District 
+ 2007-05-22T00:00:00Z,glocations,Iraq,293,0.0,How  to  Fight  the  Insurgents  (2  Letters) 
+ 2007-05-21T00:00:00Z,glocations,Lebanon,1028,0.0,Lebanon  Pounds  Refugee  Camp;  Fighting  Kills  60 
+ 2007-05-20T00:00:00Z,glocations,Pakistan,1738,0.0,U.S.  Pays  Pakistan  to  Fight  Terror,  but  Patrols  Ebb 
+ 2007-05-12T00:00:00Z,glocations,FortDix(NJ),1152,0.0,A  Father’s  Pain  and  an  Empty  Pizzeria 
+ 2007-05-12T00:00:00Z,glocations,Iran,872,0.0,Cheney,  on  Carrier,  Sends  Warning  to  Iran 
+ 2007-05-10T00:00:00Z,glocations,Iraq,835,0.0,Visiting  Troops,  Cheney  Gives  Sober  Case  for  Iraq  War 
+ 2007-05-08T00:00:00Z,glocations,NorthernIreland,1025,0.0,Sounds  of  Silence  in  Northern  Ireland 
+ 2007-05-03T00:00:00Z,glocations,Israel,565,0.0,Taking  Risks  for  Mideast  Peace  (4  Letters) 
+ 2007-04-27T00:00:00Z,glocations,SaudiArabia,993,0.0,Saudis  Arrest  172  in  Anti-Terror  Sweep 
+ 2007-04-27T00:00:00Z,glocations,Israel,1061,0.0,Give  Them  Shelter:  Where  Rockets,  and  Drums,  Go  Boom 
+ 2007-04-26T00:00:00Z,glocations,Iraq,649,0.0,Petraeus  Eyes  Long  Commitment  in  Iraq 
+ 2007-04-25T00:00:00Z,glocations,Iraq,1288,0.0,House  Nearing  Vote  on  Setting  Timetable  for  Iraq  Pullback 
+ 2007-04-25T00:00:00Z,glocations,GreatBritain,906,0.0,Britain’s  Anti-Terror  Chief  Offers  Somber  View 
+ 2007-04-23T00:00:00Z,glocations,SouthAfrica,1077,0.0,South  Africa  vs.  Itself,  in  Race  to  Get  Ready  for  World  Cup 
+ 2007-04-17T00:00:00Z,glocations,GreatBritain,450,0.0,Briton  Criticizes  U.S.’s  Use  of  ‘War  on  Terror’ 
+ 2007-04-17T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),721,0.0,Detainee  Denies  Membership  in  Al  Qaeda 
+ 2007-04-16T00:00:00Z,glocations,Tennessee,1047,0.0,Paying  Homage  to  a  Workhorse  That’s  Half  One 
+ 2007-04-14T00:00:00Z,glocations,Indonesia,1209,0.0,A  Rebel-Turned-Governor  Takes  the  Wheel  in  Indonesia 
+ 2007-04-12T00:00:00Z,glocations,Algeria,1314,0.0,Blasts  by  Qaeda  Unit  Are  Deadliest  Attack  in  Algiers  in  Years 
+ 2007-04-11T00:00:00Z,glocations,Algeria,885,0.0,Islamists  Bring  Fight  to  Capital  of  Algeria 
+ 2007-04-06T00:00:00Z,glocations,Pakistan,1098,0.0,As  Musharraf’s  Woes  Grow,  Enter  an  Old  Rival,  Again 
+ 2007-04-02T00:00:00Z,glocations,Iran,872,0.0,California  Seeks  to  Ban  Investment  in  Iran 
+ 2007-04-01T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),1073,0.0,Some  Bumps  at  Start  of  War  Tribunals  at  Guantánamo 
+ 2007-04-01T00:00:00Z,glocations,Afghanistan,753,0.0,The  Hand  Behind  the  Taliban 
+ 2007-03-28T00:00:00Z,glocations,Iraq,1285,0.0,Sweeps  in  Iraq  Cram  Two  Jails  With  Detainees 
+ 2007-03-27T00:00:00Z,glocations,Pakistan,1118,0.0,Pakistan’s  Silent  Majority  Is  Not  to  Be  Feared 
+ 2007-03-27T00:00:00Z,glocations,Iraq,626,0.0,House  Iraq  Vote:  ‘Political  Theater’?  (6  Letters) 
+ 2007-03-26T00:00:00Z,glocations,Iraq,1798,0.0,Sunni  Baghdad  Becomes  Land  of  Silent  Ruins 
+ 2007-03-26T00:00:00Z,glocations,NewYorkCity,714,0.0,Dear  Diary 
+ 2007-03-25T00:00:00Z,glocations,Juneau(Alaska),902,0.0,In  Avalanche  Capital,  the  Spring  Thaw  Brings  Worry 
+ 2007-03-25T00:00:00Z,glocations,Pakistan,742,0.0,The  General  and  the  Housewife 
+ 2007-03-22T00:00:00Z,glocations,Pakistan,544,0.0,Fighting  Between  Tribes  and  Outside  Militants  Grows  in  Largely  Lawless  Region  of  Pakistan 
+ 2007-03-21T00:00:00Z,glocations,Iraq,652,0.0,Bush’s  Call  for  Patience  on  the  War  (5  Letters) 
+ 2007-03-17T00:00:00Z,glocations,Italy,791,0.0,Man  Wrongly  Held  in  &#8217;02  Italy  Terror  Raid  Wins  Damages 
+ 2007-03-16T00:00:00Z,glocations,Lebanon,2357,0.0,New  Face  of  Jihad  Vows  Attacks 
+ 2007-03-15T00:00:00Z,glocations,GreatBritain,743,0.0,Blair  Wins  Vote  to  Renew  Atom  Arsenal 
+ 2007-03-14T00:00:00Z,glocations,Pakistan,1561,0.0,Pakistani  Militants  Hit  Targets  Close  to  Home 
+ 2007-03-08T00:00:00Z,glocations,Israel,652,0.0,Israelis  Arrest  18  Suspects  in  Raid  on  Palestinian  Site 
+ 2007-03-03T00:00:00Z,glocations,Australia,1258,0.0,Growing  Calls  in  Australia  for  Terror  Suspect’s  Return 
+ 2007-03-02T00:00:00Z,glocations,GuantanamoBayNavalBase(Cuba),305,0.0,Australian  Is  Charged  in  Terror  Case 
+ 2007-02-28T00:00:00Z,glocations,Iraq,775,0.0,Divided  Congress  Prepares  to  Debate  Financing  and  Strategy  for  Iraq  War 
+ 2007-02-27T00:00:00Z,glocations,Afghanistan,889,0.0,Cheney  Unhurt  After  Bombing  in  Afghanistan 
+ 2007-02-27T00:00:00Z,glocations,Pakistan,1124,0.0,Cheney  Warns  Pakistan  to  Act  Against  Terrorists 
+ 2007-02-27T00:00:00Z,glocations,GreatBritain,710,0.0,British  Court  Affirms  Order  to  Deport  Cleric  to  Jordan 
+ 2007-02-26T00:00:00Z,glocations,Pakistan,1126,0.0,Cheney  Warns  Pakistan  to  Act  on  Terrorism 
+ 2007-02-26T00:00:00Z,glocations,Pakistan,1006,0.0,Bush  to  Warn  Pakistan  to  Act  on  Terror 
+ 2007-02-26T00:00:00Z,glocations,Thailand,1278,0.0,Thais  Struggle  With  Violent  Insurgency 
+ 2007-02-24T00:00:00Z,glocations,Canada,1344,0.0,Canadian  Court  Limits  Detention  in  Terror  Cases 
+ 2007-02-23T00:00:00Z,glocations,Iraq,563,0.0,The  Coalition  of  the  Less  Willing  (5  Letters) 
+ 2007-02-22T00:00:00Z,glocations,India,577,0.0,India  and  Pakistan,  at  Peace  Talks,  Pledge  to  Unite  Against  Terror 
+ 2007-02-20T00:00:00Z,glocations,Iraq,810,0.0,Pentagon  to  Fill  Iraq  Reconstruction  Jobs  Temporarily   
+ 2007-02-20T00:00:00Z,glocations,Tunisia,1769,0.0,North  Africa  Feared  as  Staging  Ground  for  Terror 
+ 2007-02-20T00:00:00Z,glocations,India,1076,0.0,Old  Foes  Join  in  Anger  as  Train  Bombing’s  Toll  Rises  to  66 
+ 2007-02-19T00:00:00Z,glocations,India,1086,0.0,Old  Foes  Join  in  Anger  Over  India  Train  Bombing 
+ 2007-02-19T00:00:00Z,glocations,India,481,0.0,Fire  Kills  at  Least  64  on  India  Train;  Officials  Say  Explosives  Are  Found 
+ 2007-02-19T00:00:00Z,glocations,Afghanistan,1626,0.0,Terror  Officials  See  Al  Qaeda  Chiefs  Regaining  Power 
+ 2007-02-17T00:00:00Z,glocations,Italy,916,0.0,Italy  Indicts  C.I.A.  Operatives  in  ’03  Abduction 
+ 2007-02-15T00:00:00Z,glocations,Canada,575,0.0,Canada  Is  Set  to  Allow  Expiration  of  2  Broad  Antiterrorism  Laws 
+ 2007-02-14T00:00:00Z,glocations,NorthKorea,1161,0.0,Pact  With  North  Korea  Draws  Fire  From  a  Wide  Range  of  Critics  in  U.S. 
+ 2007-02-13T00:00:00Z,glocations,NorthKorea,1471,0.0,North  Korea  to  Close  Reactor  in  Exchange  for  Aid 
+ 2007-02-13T00:00:00Z,glocations,Italy,73,0.0,Italy:  Police  Arrest  15  in  Leftist  Raids 
+ 2007-02-13T00:00:00Z,glocations,Germany,475,0.0,German  Court  Frees  Leader  of  Terror  Group 
+ 2007-02-11T00:00:00Z,glocations,NewJersey,2420,0.0,Calendar  of  Events 
+ 2007-02-10T00:00:00Z,glocations,Haiti,1480,0.0,U.N.  Troops  Fight  Haiti  Gangs  One  Street  at  a  Time 
+ 2007-02-09T00:00:00Z,glocations,Iraq,1044,0.0,Prewar  Intelligence  Unit  at  Pentagon  Is  Criticized 
+ 2007-02-09T00:00:00Z,glocations,GreatBritain,648,0.0,British  Deny  ‘Witch  Hunt’  in  Arrest  of  Muslim 
+ 2007-02-07T00:00:00Z,glocations,Germany,1098,0.0,Germany  Relives  1970s  Terror  as  2  Seek  Release  From  Jail 
+ 2007-02-07T00:00:00Z,glocations,Pakistan,276,0.0,Suicide  Bomber  Dies  at  Airport  in  Pakistan 
+ 2007-02-05T00:00:00Z,glocations,Afghanistan,1336,0.0,American  Takes  Over  Command  of  NATO  Force  in  Afghanistan 
+ 2007-02-04T00:00:00Z,glocations,NewJersey,2706,0.0,Calendar  of  Events 
+ 2007-02-02T00:00:00Z,glocations,Afghanistan,1749,0.0,An  Afghan’s  Path  From  U.S.  Ally  to  Drug  Suspect 
+ 2007-02-02T00:00:00Z,glocations,Birmingham(England),1119,0.0,Neighbors  of  British  Terror  Suspects  Skeptical  of  Charges 
+ 2007-02-02T00:00:00Z,glocations,China,532,0.0,Chinese  Official  Publishes  Rebuke  of  Bush 
+ 2007-01-30T00:00:00Z,glocations,Turkey,285,0.0,Turks  Arrest  47  on  Suspicion  of  Terror  Links 
+ 2007-01-29T00:00:00Z,glocations,Israel,939,0.0,Suicide  Bomb  Kills  3  in  Bakery  in  Israel 
+ 2007-01-28T00:00:00Z,glocations,Iraq,736,0.0,Mortar  Hits  Baghdad  School,  Killing  5  Girls 
+ 2007-01-28T00:00:00Z,glocations,Iraq,647,0.0,Mortar  Strike  Hits  Girls’  School  in  Baghdad   
+ 2007-01-28T00:00:00Z,glocations,NewJersey,1977,0.0,Calendar  of  Events 
+ 2007-01-28T00:00:00Z,glocations,Iraq,735,0.0,Parting  Ways  in  Iraq 
+ 2007-01-25T00:00:00Z,glocations,Somalia,500,0.0,U.S.  Conducts  Somalia  Airstrike;  Envoy  Urges  Talks  With  Islamists 
+ 2007-01-21T00:00:00Z,glocations,Philippines,592,0.0,DNA  Test  Confirms  Death  of  Philippine  Separatist  Leader 
+ 2007-01-20T00:00:00Z,glocations,Israel,751,0.0,Israel  Releases  $100  Million  Withheld  From  Palestinians 
+ 2007-01-14T00:00:00Z,glocations,Iraq,857,0.0,An  Uphill  Push  for  Public  Opinion  on  Iraq 
+ 2007-01-14T00:00:00Z,glocations,Pakistan,1546,0.0,Kin  and  Rights  Groups  Search  for  Pakistan’s  Missing 
+ 2007-01-13T00:00:00Z,glocations,Greece,753,0.0,Grenade  Hits  U.S.  Embassy  in  Athens 
+ 2007-01-12T02:58:00Z,glocations,Iraq,2225,0.0,Analysis:  Bush's  Iraq  Plan,  Between  the  Lines   
+ 2007-01-12T00:00:00Z,glocations,Greece,860,0.0,U.S.  Embassy  in  Athens  Is  Attacked   
+ 2007-01-10T00:00:00Z,glocations,China,152,0.0,China:  Muslim  Terror  Raid  Finds  ‘International’  Ties 
+ 2007-01-09T00:00:00Z,glocations,Somalia,493,0.0,U.S.  Airstrike  Aims  at  Qaeda  Cell  in  Somalia 
+ 2007-01-09T00:00:00Z,glocations,NewYorkCity,930,0.0,Man  Gets  30  Years  in  Subway  Bomb  Plot 
+ 2007-01-09T00:00:00Z,glocations,Iraq,865,0.0,The  Coming  Escalation  in  Iraq  (7  Letters) 
+ 2007-01-07T00:00:00Z,glocations,SriLanka,239,0.0,Bomb  Attack  on  Bus  in  Sri  Lanka  Kills  11 
+ 2007-01-07T00:00:00Z,glocations,NewJersey,2195,0.0,Calendar  of  Events 
+ 2007-01-07T00:00:00Z,glocations,HudsonRiver,1632,0.0,Deals  With  River  Views  (Yes,  There’s  a  Catch) 
+ 2007-01-06T00:00:00Z,glocations,MiddleEast,603,0.0,Scowcroft’s  Strategy  for  the  Middle  East  (4  Letters) 
+ 2007-09-16T00:00:00Z,glocations,NEWYORKCITY,565,0.0,IN  OTHER  WORDS 
+ 2007-08-18T00:00:00Z,glocations,TENNESSEE,138,0.0,CORRECTIONS:  FOR  THE  RECORD 
+ 2007-08-08T00:00:00Z,glocations,NEWYORKCITY,111,0.0,Manhattan:  Airlines  Seek  Agents'  Testimony 
+ 2007-07-19T00:00:00Z,glocations,IRAQ,718,0.0,To  Democrats,  Report  Proves  War  in  Iraq  Is  Misguided 
+ 2007-07-12T00:00:00Z,glocations,GREATBRITAIN,58,0.0,Corrections:  For  the  Record 
+ 2007-06-05T00:00:00Z,glocations,NEWHAMPSHIRE,248,0.0,Your  Turn,  G.O.P. 
+ 2007-01-16T00:00:00Z,glocations,ISLAMABAD(PAKISTAN),538,0.0,Asleep  in  Exhaustion,  on  a  Sofa  or  on  Pavement 
+ 2007-01-14T00:00:00Z,glocations,NEWYORKSTATE,2034,0.0,In  Control  on  Capitol  Hill 
+ 2007-01-14T00:00:00Z,glocations,NEWYORKSTATE,2018,0.0,In  Control  on  Capitol  Hill 
+ 2007-01-14T00:00:00Z,glocations,NEWYORKSTATE,2018,0.0,In  Control  on  Capitol  Hill 

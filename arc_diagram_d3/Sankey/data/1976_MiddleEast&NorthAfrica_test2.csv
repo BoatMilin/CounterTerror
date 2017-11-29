@@ -1,0 +1,11 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Police,1
+1,Assassination,Business,1
+2,Assassination,Government (Diplomatic),3
+3,Bombing/Explosion,Airports & Aircraft,4
+4,Bombing/Explosion,Business,5
+5,Bombing/Explosion,Government (Diplomatic),2
+6,Bombing/Explosion,Military,2
+7,Bombing/Explosion,Police,3
+8,Hostage Taking (Barricade Incident),Business,1
+9,Unknown,Military,2

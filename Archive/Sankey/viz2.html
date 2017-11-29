@@ -1,76 +1,65 @@
-<html >
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title></title>
-  <script src="../lib/d3.v3.min.js"></script>
-  <script src="../lib/d3.v3.min.js"></script>
-<script src="../lib/sankey.js"></script>
-<script src="../lib/d3.tip.v0.6.3.js"></script>
-<style>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../lib/d3.v3.min.js"></script>
+    <script src="../lib/sankey.js"></script>
+    <script src="../lib/d3.tip.v0.6.3.js"></script>
+    <style>
+        .node rect {
+            cursor: move;
 
-.node rect {
-  cursor: move;
+            fill-opacity: .9;
+            shape-rendering: crispEdges;
+        }
 
-  fill-opacity: .9;
-  shape-rendering: crispEdges;
-}
+        .node text {
+            pointer-events: none;
+            text-shadow: 0 1px 0 #fff;
+        }
 
-.node text {
-  pointer-events: none;
-  text-shadow: 0 1px 0 #fff;
-}
+        .link {
+            fill: none;
+            stroke: #000;
+            stroke-opacity: .2;
+        }
 
-.link {
-  fill: none;
-  stroke: #000;
-  stroke-opacity: .2;
-}
+        .link:hover {
+            stroke-opacity: 0.4;
+        }
 
-.link:hover {
-  stroke-opacity: 0.4;
-}
+        .tip-class {
+            line-height: 1;
+            font-weight: bold;
+            padding: 12px;
+            background: black;
 
-.tip-class {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: black;
+            color: #fff;
+            border-radius: 4px;
+        }
+    </style>
 
-  color: #fff;
-  border-radius: 4px;
-}
+    <script>
 
-</style>
-  
- 
-  <script>
+        // sources used for reference: 
+        // http://bl.ocks.org/tjdecke/5558084  
+        // https://bl.ocks.org/Bl3f/cdb5ad854b376765fa99
+        // http://bl.ocks.org/mbostock/3202354
 
-     // sources used for reference: 
-    //    http://bl.ocks.org/tjdecke/5558084  
-   //     https://bl.ocks.org/Bl3f/cdb5ad854b376765fa99
-  //      http://bl.ocks.org/mbostock/3202354
-  
+        var margin = { top: 50, right: 100, bottom: 100, left: 10 };
+        var width = 700 - margin.left - margin.right;
+        var height = 450 - margin.top - margin.bottom;
+        var chart;
+        var file1, file2;
+        var color = d3.scale.category20();
+        var sankey;
+        var path;
+        var graph;
 
-    var margin = { top: 50, right: 100, bottom: 100, left: 10 };
-    var width = 700 - margin.left - margin.right;
-    var height = 450 - margin.top - margin.bottom;
-    var chart;
-    var file1,file2;
+        function init() {
 
-    var color = d3.scale.category20();
-
-
-    var sankey;
-
-    var path;
-    var graph;
-  
-  function init(){
-   
-
-
-      
-      chart = d3.select('#chart1')
+            chart = d3.select('#chart1')
                 .append('svg').attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
@@ -78,267 +67,225 @@
 
 
 
-      call_update();      
+            call_update();
 
-     
-      
-    }
-   function call_update()   
-   {
-  
+        }
 
-    sankey = d3.sankey()
-    .nodeWidth(10)
-    .nodePadding(5)
-    .size([width, height]);
+        function call_update() {
+            sankey = d3.sankey()
+                .nodeWidth(10)
+                .nodePadding(5)
+                .size([width, height]);
 
-    path = sankey.link();
+            path = sankey.link();
 
-    graph = {"nodes" : [], "links" : []};
+            graph = { "nodes": [], "links": [] };
 
+            var year = getxSelectedOption().replace(/ /g, '');
+            var region = getySelectedOption().replace(/ /g, '');
 
+            var path1 = '../Sankey/data/';
+            file1 = path1 + year + '_' + region + '_test2.csv';
+            file2 = path1 + year + '_' + region + '_test1.csv';
+            // console.log(file1);
+            // console.log(file2);
+            d3.select('#chart1').selectAll('svg').remove();
+            d3.select('#head').selectAll('svg').remove();
 
-    var year = getxSelectedOption().replace(/ /g,'');
-    var region = getySelectedOption().replace(/ /g,'');
-
-    var path1 = '/Sankey/data/';
-    file1 = path1+year+'_'+region+'_test2.csv';
-    file2 = path1+year+'_'+region+'_test1.csv';
-    console.log(file1);
-    console.log(file2);
-    d3.select('#chart1').selectAll('svg').remove();
-    d3.select('#head').selectAll('svg').remove();
-    
-    chart = d3.select('#chart1')
+            chart = d3.select('#chart1')
                 .append('svg').attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-   
-    
-    
+            d3.csv(file1, update);
 
-  d3.csv(file1,update);
-  
-  } 
-    
-  function update(d) {
+        }
 
-  
+        function update(d) {
 
+            d.forEach(function (d) {
+                graph.nodes.push({ "name": d.targtype1_txt });
+                graph.nodes.push({ "name": d.attacktype1_txt });
+                graph.links.push({
+                    "source": d.attacktype1_txt,
+                    "target": d.targtype1_txt,
+                    "value": +d.counts
+                });
+            });
 
-    d.forEach(function (d) {
+            d3.csv(file2, update1);
 
-            graph.nodes.push({ "name": d.targtype1_txt });
-            graph.nodes.push({ "name": d.attacktype1_txt});
-            graph.links.push({ "source": d.attacktype1_txt,
-                          "target": d.targtype1_txt ,
-                          "value": +d.counts });
-    
+            function update1(d1) {
+                d1.forEach(function (d) {
+                    graph.nodes.push({ "name": d.country_txt });
+                    graph.nodes.push({ "name": d.attacktype1_txt });
+                    graph.links.push({
+                        "source": d.country_txt,
+                        "target": d.attacktype1_txt,
+                        "value": +d.counts
+                    });
+                });
 
-        
-      
-        });
+                graph.nodes = d3.keys(d3.nest()
+                    .key(function (d) { return d.name; })
+                    .map(graph.nodes));
 
+                graph.links.sort(function (a, b) {
+                    return a.value - b.value;
+                })
 
-  d3.csv(file2,update1);
-
-  function update1(d1)
-   {
-
-
-     d1.forEach(function (d) {
-       graph.nodes.push({ "name": d.country_txt });
-        graph.nodes.push({ "name": d.attacktype1_txt});
-        graph.links.push({ "source": d.country_txt,
-                         "target": d.attacktype1_txt,
-                         "value": +d.counts });
-    });
-
-     graph.nodes = d3.keys(d3.nest()
-       .key(function (d) { return d.name; })
-       .map(graph.nodes));
-
-     graph.links.sort(function(a,b)
-     {
-        return a.value-b.value;
-     })
+                graph.links.forEach(function (d, i) {
+                    graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
+                    graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
+                });
 
 
-     
-     graph.links.forEach(function (d, i) {
-       graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
-       graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
-     });
+                graph.nodes.forEach(function (d, i) {
+                    graph.nodes[i] = { "name": d };
+                });
 
-     
-     graph.nodes.forEach(function (d, i) {
-       graph.nodes[i] = { "name": d};
-     });
-
-     console.log(graph.nodes);
-     console.log(graph.links);
+                // console.log(graph.nodes);
+                // console.log(graph.links);
 
 
-     // var tip1 = d3.tip()
-     //          .attr('class', 'tip-class')
-     //          .html(function(d) {
-     //            return d.source.name+" - "+d.target.name+" - "+d.value+" points";
-     //          });
-     //  var tip2 = d3.tip()
-     //          .attr('class', 'tip-class')
-     //          .html(function(d) {
-     //            return d.name+" "+d.value+" points";
-     //          });        
+                // var tip1 = d3.tip()
+                //          .attr('class', 'tip-class')
+                //          .html(function(d) {
+                //            return d.source.name+" - "+d.target.name+" - "+d.value+" points";
+                //          });
+                //  var tip2 = d3.tip()
+                //          .attr('class', 'tip-class')
+                //          .html(function(d) {
+                //            return d.name+" "+d.value+" points";
+                //          });        
 
-      // svg.call(tip1); 
-      // svg.call(tip2);       
+                // svg.call(tip1); 
+                // svg.call(tip2);       
 
-    sankey
-    .nodes(graph.nodes)
-    .links(graph.links)
-    .layout(100);
+                sankey
+                    .nodes(graph.nodes)
+                    .links(graph.links)
+                    .layout(100);
 
 
-  var link = chart.append("g").selectAll(".link")
-      .data(graph.links)
-      .enter().append("path")
-      .attr("class", "link")
-      .attr("d", path)
-      .style('stroke',"#FD812C")
-      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-      .sort(function(a, b) { return b.dy - a.dy; });
-      // .on('mouseover', tip1.show)
-      // .on('mouseout', tip1.hide);
+                var link = chart.append("g").selectAll(".link")
+                    .data(graph.links)
+                    .enter().append("path")
+                    .attr("class", "link")
+                    .attr("d", path)
+                    .style('stroke', "#FD812C")
+                    .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+                    .sort(function (a, b) { return b.dy - a.dy; });
+                // .on('mouseover', tip1.show)
+                // .on('mouseout', tip1.hide);
 
 
 
- console.log(graph.nodes);
-  var node = chart.append("g").selectAll(".node")
-      .data(graph.nodes)
-    .enter().append("g")
-      .attr("class", "node")
-      .attr("transform", function(d) { 
-      return "translate(" + d.x + "," + d.y + ")"; })
-
-    
-  node.append("rect")
-      .attr("height", function(d) { return d.dy; })
-      .attr("width", sankey.nodeWidth())
-      .style("fill","black")
-      .style("stroke", "black");
-      // .on('mouseover', tip2.show)
-      // .on('mouseout', tip2.hide);
-
-  node.append("text")
-      .attr("y", function(d) { return d.dy / 2; })
-      .attr("dy", ".35em")
-      .attr("text-anchor", "end")
-      .attr("transform", null)
-      .text(function(d) { return d.name; })
-      //.filter(function(d) { return d.x < width / 2; })
-      .attr("x", sankey.nodeWidth()+5)
-      .attr("text-anchor", "start")
-      ;
-  
-}
-}
-         
-
-    function getxSelectedOption(){
-      var node = d3.select('#xdropdown').node();
-      var i = node.selectedIndex;
-      return node[i].value;    
-    }
-
-    function getySelectedOption(){
-      var node = d3.select('#ydropdown').node();
-      var i = node.selectedIndex;
-      return node[i].value;    
-    }
+                // console.log(graph.nodes);
+                var node = chart.append("g").selectAll(".node")
+                    .data(graph.nodes)
+                    .enter().append("g")
+                    .attr("class", "node")
+                    .attr("transform", function (d) {
+                        return "translate(" + d.x + "," + d.y + ")";
+                    })
 
 
+                node.append("rect")
+                    .attr("height", function (d) { return d.dy; })
+                    .attr("width", sankey.nodeWidth())
+                    .style("fill", "black")
+                    .style("stroke", "black");
+                // .on('mouseover', tip2.show)
+                // .on('mouseout', tip2.hide);
+
+                node.append("text")
+                    .attr("y", function (d) { return d.dy / 2; })
+                    .attr("dy", ".35em")
+                    .attr("text-anchor", "end")
+                    .attr("transform", null)
+                    .text(function (d) { return d.name; })
+                    //.filter(function(d) { return d.x < width / 2; })
+                    .attr("x", sankey.nodeWidth() + 5)
+                    .attr("text-anchor", "start");
+
+            }
+        }
+
+        function getxSelectedOption() {
+            var node = d3.select('#xdropdown').node();
+            var i = node.selectedIndex;
+            return node[i].value;
+        }
+
+        function getySelectedOption() {
+            var node = d3.select('#ydropdown').node();
+            var i = node.selectedIndex;
+            return node[i].value;
+        }
 
     </script>
 
     <style>
-         
-            p{
-                font-family: sans-serif;
-                font-size: 45px;
-                padding-left: 100px;
+        p {
+            font-family: sans-serif;
+            font-size: 45px;
+            padding-left: 100px;
 
-            }
-            .axisclass path,
-            .axisclass line {
-                fill: none;
-                stroke: black;
-                shape-rendering: crispEdges;
-            }
+        }
 
-            .axisclass text {
-                font-family: sans-serif;
-                font-size: 15px;
-            }
+        .axisclass path,
+        .axisclass line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
 
-            div.absolute {
-                  position: absolute;
-                  left: 300px;
-              }
+        .axisclass text {
+            font-family: sans-serif;
+            font-size: 15px;
+        }
 
+        div.absolute {
+            position: absolute;
+            left: 300px;
+        }
+    </style>
 
-            
-
-        </style> 
-
-
-
-
-  
 </head>
-<body onload="init()"> 
-  
-  
 
-  
-  <div id="head"></div>
-  <div id = "selectbox1" >
-  
-  <div style="display: table-cell; width: 120;" class="absolute" >
-    <label for="xdropdown">Year: </label><select id="xdropdown" onchange="call_update();">
-    
-      <option val="2010" selected="selected">2010</option>
-      <option val="2011">2011</option>
-      <option val="2012">2012</option>
-      <option val="2013">2013</option>
-      <option val="2014">2014</option>
-      <option val="2015">2015</option>
-    </select>
+<body onload="init()">
+
+    <div id="head"></div>
+    <div id="selectbox1">
+        <div style="display: table-cell; width: 120;" class="absolute">
+            <label for="xdropdown">Year: </label>
+            <select id="xdropdown" onchange="call_update();">
+                <option val="2010">2010</option>
+                <option val="2011" selected="selected">2011</option>
+                <option val="2012">2012</option>
+                <option val="2013">2013</option>
+                <option val="2014">2014</option>
+                <option val="2015">2015</option>
+            </select>
+        </div>
     </div>
-  </div>
 
-  <div id = "selectbox2" >
-  
-  <div style="display: table-cell; width: 120;" class="absolute" >
-    <label for="ydropdown">Region: </label><select id="ydropdown" onchange="call_update();">
-    
-      <option val="NorthAmerica" selected="selected">North America</option>
-      <option val="SouthAmerica">South America</option>
-      <option val="SouthAsia">South Asia</option>
-     
-    </select>
+    <div id="selectbox2">
+
+        <div style="display: table-cell; width: 120;" class="absolute">
+            <label for="ydropdown">Region: </label>
+            <select id="ydropdown" onchange="call_update();">
+                <option val="SouthAmerica">South America</option>
+                <option val="NorthAmerica">North America</option>
+                <option val="SouthAmerica">South America</option>
+                <option val="SouthAsia">South Asia</option>
+
+            </select>
+        </div>
     </div>
-  </div>
-  <div id="chart1"></div>
-
-
-
- 
-
-
-
-
+    <div id="chart1"></div>
 
 </body>
 </html>

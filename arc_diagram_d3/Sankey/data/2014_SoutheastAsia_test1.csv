@@ -1,0 +1,18 @@
+,country_txt,attacktype1_txt,counts
+0,Indonesia,Armed Assault,10
+1,Indonesia,Facility/Infrastructure Attack,1
+2,Indonesia,Hostage Taking (Kidnapping),3
+3,Malaysia,Hostage Taking (Kidnapping),3
+4,Myanmar,Armed Assault,1
+5,Myanmar,Bombing/Explosion,2
+6,Myanmar,Hostage Taking (Kidnapping),1
+7,Myanmar,Unknown,2
+8,Philippines,Armed Assault,196
+9,Philippines,Bombing/Explosion,81
+10,Philippines,Facility/Infrastructure Attack,39
+11,Philippines,Hostage Taking (Kidnapping),44
+12,Philippines,Unknown,22
+13,Thailand,Armed Assault,21
+14,Thailand,Bombing/Explosion,44
+15,Thailand,Facility/Infrastructure Attack,6
+16,Thailand,Unknown,1

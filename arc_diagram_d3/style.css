@@ -14,7 +14,7 @@ b {
 }
 
 #tooltip {
-    font-size: 6pt;
+    font-size: 5pt;
     font-weight: 900;
 
     fill: #000000;
@@ -32,11 +32,14 @@ b {
     font: 10px sans-serif;
 }
 
-
 .link {
     fill: none;
     stroke: #888888;
     stroke-weight: 1px;
+    stroke-opacity: 0.7;
+}
+
+.link:hover {
     stroke-opacity: 1;
 }
 
@@ -46,6 +49,9 @@ b {
     stroke-opacity: 1.0;
 }
 
+#arc {
+    padding-left: 10px
+}
 /* play button related */
 .playpause label {
   display: block;
@@ -71,3 +77,82 @@ b {
   box-shadow: 0 0 5px lightblue;
 }
 
+
+/* Sankey */
+#chart1 {
+    position: absolute;
+    top: 650px;
+    width: 800px;
+    padding-right: 50px;
+}
+.sankey_node rect {
+    cursor: move;
+
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+}
+
+.sankey_node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.sankey_link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+}
+
+.sankey_link:hover {
+    stroke-opacity: 0.4;
+}
+
+.tip-class {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: black;
+
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Bubbles */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+#first {
+  fill: steelblue;
+}
+
+#second {
+  fill: orange;
+}
+
+#third {
+  fill: forestgreen;
+}
+
+#fourth {
+  fill: crimson;
+}
+
+#svg1 {
+    position: absolute;
+    left: 1050px;
+    top: 100px;
+}
+
+#svg2 {
+    position: absolute;
+    left: 1500px;
+    top: 100px;
+}

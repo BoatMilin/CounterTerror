@@ -1,0 +1,17 @@
+,country_txt,attacktype1_txt,counts
+0,Bolivia,Bombing/Explosion,3
+1,Chile,Armed Assault,2
+2,Chile,Assassination,5
+3,Chile,Bombing/Explosion,17
+4,Colombia,Armed Assault,65
+5,Colombia,Assassination,20
+6,Colombia,Bombing/Explosion,10
+7,Colombia,Hostage Taking (Kidnapping),28
+8,Colombia,Unknown,11
+9,Peru,Armed Assault,139
+10,Peru,Assassination,49
+11,Peru,Bombing/Explosion,130
+12,Peru,Hostage Taking (Kidnapping),5
+13,Peru,Unknown,29
+14,Venezuela,Armed Assault,2
+15,Venezuela,Hostage Taking (Kidnapping),2

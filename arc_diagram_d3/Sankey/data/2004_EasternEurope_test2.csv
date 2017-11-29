@@ -1,0 +1,9 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Military,1
+1,Armed Assault,Police,1
+2,Assassination,Government (General),5
+3,Bombing/Explosion,Government (General),1
+4,Bombing/Explosion,Military,2
+5,Bombing/Explosion,Police,1
+6,Bombing/Explosion,Private Citizens & Property,1
+7,Hostage Taking (Barricade Incident),Educational Institution,1

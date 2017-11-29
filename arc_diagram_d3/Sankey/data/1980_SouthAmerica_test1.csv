@@ -1,0 +1,13 @@
+,country_txt,attacktype1_txt,counts
+0,Brazil,Assassination,1
+1,Brazil,Bombing/Explosion,2
+2,Chile,Armed Assault,6
+3,Chile,Assassination,1
+4,Chile,Bombing/Explosion,6
+5,Chile,Facility/Infrastructure Attack,8
+6,Colombia,Armed Assault,30
+7,Colombia,Assassination,9
+8,Colombia,Bombing/Explosion,4
+9,Colombia,Facility/Infrastructure Attack,1
+10,Colombia,Hostage Taking (Kidnapping),16
+11,Peru,Bombing/Explosion,18

@@ -1,0 +1,22 @@
+,country_txt,attacktype1_txt,counts
+0,France,Armed Assault,1
+1,France,Assassination,1
+2,France,Bombing/Explosion,135
+3,France,Facility/Infrastructure Attack,11
+4,Ireland,Armed Assault,2
+5,Ireland,Assassination,3
+6,Ireland,Hostage Taking (Kidnapping),1
+7,Italy,Armed Assault,18
+8,Italy,Assassination,14
+9,Italy,Bombing/Explosion,9
+10,Italy,Facility/Infrastructure Attack,5
+11,Spain,Armed Assault,34
+12,Spain,Assassination,66
+13,Spain,Bombing/Explosion,57
+14,Spain,Facility/Infrastructure Attack,2
+15,Spain,Hostage Taking (Kidnapping),8
+16,United Kingdom,Armed Assault,33
+17,United Kingdom,Assassination,33
+18,United Kingdom,Bombing/Explosion,72
+19,United Kingdom,Facility/Infrastructure Attack,32
+20,United Kingdom,Hostage Taking (Kidnapping),1

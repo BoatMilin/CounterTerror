@@ -1,0 +1,17 @@
+,country_txt,attacktype1_txt,counts
+0,Iran,Assassination,1
+1,Iran,Bombing/Explosion,2
+2,Iran,Unknown,1
+3,Israel,Armed Assault,3
+4,Israel,Bombing/Explosion,13
+5,Israel,Facility/Infrastructure Attack,1
+6,Kuwait,Bombing/Explosion,3
+7,Lebanon,Armed Assault,19
+8,Lebanon,Assassination,1
+9,Lebanon,Bombing/Explosion,71
+10,Lebanon,Facility/Infrastructure Attack,1
+11,Lebanon,Unknown,1
+12,West Bank and Gaza Strip,Armed Assault,5
+13,West Bank and Gaza Strip,Assassination,3
+14,West Bank and Gaza Strip,Bombing/Explosion,8
+15,West Bank and Gaza Strip,Facility/Infrastructure Attack,4

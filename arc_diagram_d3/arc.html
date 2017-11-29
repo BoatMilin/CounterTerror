@@ -1,694 +1,1029 @@
-<!-- python -m SimpleHTTPServer 8080 //-->
-<!-- TODO: Convert reusable chart approach. //-->
+<!-- python -m SimpleHTTPServer 8080 -->
+<!-- or -->
+<!-- python3 -m http.server -->
+<!-- to see the page -->
 
 <!DOCTYPE html>
+
 <head>
-<!--<meta http-equiv="refresh" content="3" >-->
-<meta charset="utf-8">
-<title>COUNTERTERROR</title>
+    <!--<meta http-equiv="refresh" content="3" >-->
+    <meta charset="utf-8">
+    <title>COUNTERTERROR</title>
 
-<!-- JavaScript Libraries //-->
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="d3.slider.js"></script>   
+    <!-- JavaScript Libraries //-->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="d3.slider.js"></script>
+    <script src="lib/sankey.js"></script>
+    <script src="lib/d3.tip.v0.6.3.js"></script>
 
-<!-- CSS Style //-->
-<link href="style.css" rel="stylesheet" type="text/css">
-<link href="d3.slider.css" rel="stylesheet" type="text/css" media="screen" />       <!-- Third party -->
-<script>
-/* GLOBALS */
-var WIDTH  = 960;           // width of svg image
-var HEIGHT = 700;           // height of svg image
-var MARGIN = 20;            // amount of margin around plot area
-var PAD = MARGIN / 2;       // actual padding amount
-var RADIUS = 30;             // fixed node radius
-var Y_FIXED = PAD + RADIUS + 500;  // y position for all nodes
-var DEFAULT_YEAR = 2008 // START_YEAR
-var GRAPH = null;
-var FILTER_GROUP = null;
-var FILTER_NODE = null;
-var SLIDE_UPDATE_INTERVAL = 1200;
+    <!-- CSS Style //-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="d3.slider.css" rel="stylesheet" type="text/css" media="screen" />
+    <!-- Third party -->
+    <script>
+        /* GLOBALS */
+        var WIDTH = 960;           // width of svg image
+        var HEIGHT = 720;           // height of svg image
+        var MARGIN = 20;            // amount of margin around plot area
+        var PAD = MARGIN / 2;       // actual padding amount
+        var RADIUS = 30;             // fixed node radius
+        var Y_FIXED = PAD + RADIUS + 500;  // y position for all nodes
+        var DEFAULT_YEAR = 2008 // START_YEAR
+        var GRAPH = null;
+        var FILTER_GROUP = null;
+        var FILTER_NODE = null;
+        var SLIDE_UPDATE_INTERVAL = 1200;
 
-var groupingNameMap = {
-    1: "Americas",
-    2: "Africa/Middle East",
-    3: "Asia",
-    4: "Oceania & Australia",
-    5: "Europe"
-}
+        var groupingNameMap = {
+            1: "Americas",
+            2: "Africa/Middle East",
+            3: "Asia",
+            4: "Oceania & Australia",
+            5: "Europe"
+        }
 
-var logScale = d3.scale.log()
-                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
-                    .range([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+        var logScale = d3.scale.log()
+            .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+            .range([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
-/* HELPER FUNCTIONS */
-// Generates a tooltip for a SVG circle element based on its ID
-function getYearSelectedOption(){
-      var node = d3.select('#dropDown').node();
-      var i = node.selectedIndex;
-      return node[i].value;    
-}
+        /* HELPER FUNCTIONS */
+        // Generates a tooltip for a SVG circle element based on its ID
+        function getYearSelectedOption() {
+            var node = d3.select('#dropDown').node();
+            var i = node.selectedIndex;
+            return node[i].value;
+        }
 
-function addTooltip(circle) {
-    var x = parseFloat(circle.attr("cx"));
-    var y = parseFloat(circle.attr("cy"));
-    var r = parseFloat(circle.attr("r"));
-    var text = circle.attr("id");
+        function addTooltip(circle) {
+            var x = parseFloat(circle.attr("cx"));
+            var y = parseFloat(circle.attr("cy"));
+            var r = parseFloat(circle.attr("r"));
+            var text = circle.attr("id");
 
-    var tooltip = d3.select("#plot")
-        .append("text")
-        .text(text)
-        .attr("x", x)
-        .attr("y", y + 130)
-        .attr("dy", -r * 2)
-        .attr("id", "tooltip");
+            var tooltip = d3.select("#plot")
+                .append("text")
+                .text(text)
+                .attr("x", x)
+                .attr("y", y + 130)
+                .attr("dy", -r * 2)
+                .attr("id", "tooltip");
 
-    var offset = tooltip.node().getBBox().WIDTH / 2;
+            var offset = tooltip.node().getBBox().WIDTH / 2;
 
-    if ((x - offset) < 0) {
-        tooltip.attr("text-anchor", "start");
-        tooltip.attr("dx", -r);
-    }
-    else if ((x + offset) > (WIDTH - MARGIN)) {
-        tooltip.attr("text-anchor", "end");
-        tooltip.attr("dx", r);
-    }
-    else {
-        tooltip.attr("text-anchor", "middle");
-        tooltip.attr("dx", 0);
-    }
-}
+            if ((x - offset) < 0) {
+                tooltip.attr("text-anchor", "start");
+                tooltip.attr("dx", -r);
+            }
+            else if ((x + offset) > (WIDTH - MARGIN)) {
+                tooltip.attr("text-anchor", "end");
+                tooltip.attr("dx", r);
+            }
+            else {
+                tooltip.attr("text-anchor", "middle");
+                tooltip.attr("dx", 0);
+            }
+        }
 
-/* MAIN DRAW METHOD */
-// Draws an arc diagram for the provided undirected graph
-function arcDiagram(graph) {
-    // create svg image
-    var svg  = d3.select("body")
-        .append("svg")
-        .attr("id", "arc")
-        .attr("width", WIDTH)
-        .attr("height", HEIGHT);
+        /* MAIN DRAW METHOD */
+        // Draws an arc diagram for the provided undirected graph
+        function arcDiagram(graph) {
+            // create svg image
+            var svg = d3.select("body")
+                .append("svg")
+                .attr("id", "arc")
+                .attr("width", WIDTH)
+                .attr("height", HEIGHT);
 
-    // create plot area within svg image
-    var plot = svg.append("g")
-        .attr("id", "plot")
-        .attr("transform", "translate(" + PAD + ", " + (PAD - 170)+ ")");
+            // create plot area within svg image
+            var plot = svg.append("g")
+                .attr("id", "plot")
+                .attr("transform", "translate(" + PAD + ", " + (PAD - 170) + ")");
 
-    // fix graph links to map to objects instead of indices    
-    for(var key in graph.links){
-        graph.links[key].forEach(function(d, i) {
-            d.source = isNaN(d.source) ? d.source : graph.nodes[d.source];
-            d.target = isNaN(d.target) ? d.target : graph.nodes[d.target];
-        });
-    }
-    
-    GRAPH = graph;
-    linearLayout(graph.nodes);
+            // fix graph links to map to objects instead of indices    
+            for (var key in graph.links) {
+                graph.links[key].forEach(function (d, i) {
+                    d.source = isNaN(d.source) ? d.source : graph.nodes[d.source];
+                    d.target = isNaN(d.target) ? d.target : graph.nodes[d.target];
+                });
+            }
 
-    drawArcNodes(graph.nodes, graph.links[DEFAULT_YEAR]);
-    drawLinks(graph.links[DEFAULT_YEAR]);
-}
+            GRAPH = graph;
+            linearLayout(graph.nodes);
 
-// Layout nodes linearly, sorted by group
-function linearLayout(nodes) {
-    // sort nodes by group
-    nodes.sort(function(a, b) {
-        return a.group - b.group;
-    })
+            drawArcNodes(graph.nodes, graph.links[DEFAULT_YEAR]);
+            drawLinks(graph.links[DEFAULT_YEAR]);
+        }
 
-    // used to scale node index to x position
-    var xscale = d3.scale.linear()
-        .domain([0, nodes.length - 1])
-        .range([RADIUS, WIDTH - MARGIN - RADIUS]);
-
-    // calculate pixel location for each node
-    nodes.forEach(function(d, i) {
-        d.x = xscale(i);
-        d.y = Y_FIXED;
-    });
-}
-
-function drawColorScale(){
-    var body = d3.select("body")
-    length = 100,
-    color = d3.scale.linear().domain([1,length])
-      .interpolate(d3.interpolateHcl)
-      .range([d3.rgb("#007AFF"), d3.rgb('#FFF500')]);
-
-  for (var i = 0; i < length; i++) {
-    body.append('div').attr('style', function (d) {
-      return 'background-color: ' + color(i);
-    });
-  }
-}
-
-function drawInternalArcs(nodeDiv, nodes, links) {
-    var internalArc = d3.svg.arc()
-            .innerRadius(10)    // Scale Internal Attack
-            .outerRadius(RADIUS)
-            .startAngle(Math.PI/2)      
-            .endAngle(Math.PI*3/2);
-
-    // in order to draw internal arc, we have to distinguish internal attacks
-    var internalAttackPerRegionMap = getInternalAttackCountMap(links)
-
-    nodeDiv    
-            .append("path")
-            .attr("class", "node")
-            .attr("d", function(d, i) { 
-                if (d.name in internalAttackPerRegionMap) {
-                    return internalArc.innerRadius(RADIUS - logScale(internalAttackPerRegionMap[d.name]))(d, i); 
-                }
-                return internalArc.innerRadius(RADIUS)(d, i);
+        // Layout nodes linearly, sorted by group
+        function linearLayout(nodes) {
+            // sort nodes by group
+            nodes.sort(function (a, b) {
+                return a.group - b.group;
             })
-            .attr("id", function(d, i) { return d.name; })
-            .attr("transform", function(d, i) { return translateD(d)})
-            .attr("cx", function(d, i) { return d.x; })
-            .attr("cy", function(d, i) { return d.y; })
-            .attr("r",  function(d, i) { return RADIUS; })
-            .style("fill", "black")
-            .text(function(d){ addTooltip(d3.select(this))})
-            .on("click", function(d, i) { console.log("node " + d + " clicked")})
-    
-}
 
-function getInternalAttackCountMap(links) {
-    var internalAttackPerRegionMap = {}
+            // used to scale node index to x position
+            var xscale = d3.scale.linear()
+                .domain([0, nodes.length - 1])
+                .range([RADIUS, WIDTH - MARGIN - RADIUS]);
 
-    for (var link of links) {
-        if (link.source.name == link.target.name) {
-            internalAttackPerRegionMap[link.source.name] = link.value;
+            // calculate pixel location for each node
+            nodes.forEach(function (d, i) {
+                d.x = xscale(i);
+                d.y = Y_FIXED;
+            });
         }
-    }
 
-    return internalAttackPerRegionMap
-}
-
-function getExternalAttackSourceCountMap(links) {
-    var map = {}
-
-    for (var link of links) {
-        if (link.source.name != link.target.name) {
-            if (link.source.name in map) {
-                map[link.source.name] = map[link.source.name] + link.value;
-            } else {
-                map[link.source.name] = link.value;
-            }
-        }
-    }
-    return map
-}
-
-function getExternalAttackTargetCountMap(links) {
-    var map = {}
-
-    for (var link of links) {
-        if (link.source.name != link.target.name) {
-            if (link.target.name in map) {
-                map[link.target.name] = map[link.target.name] + link.value;
-            } else {
-                map[link.target.name] = link.value;
-            }
-        }
-    }
-    return map
-}
-
-function drawGroupingBrackets(nodeDiv, nodes) {
-    var groupingPoints = getGroupingPoints(nodes);
-
-    /*
-        Since we don't have a separate div for grouping,
-        this is a horrible hack for drawing grouping lines 
-        - since this will draw the same line multiple times
-    */
-    nodeDiv
-        .append("line")
-        .attr("class", function(d) { return d.group + " grouping" })
-        .style("stroke", "black")
-        .style("stroke-width", 4)
-        .attr("x1", function(d) {
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return groupingPoints[d.group]['x1']
-        })
-        .attr("y1", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return d.y + 100;
-        })
-        .attr("x2", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return groupingPoints[d.group]['x2']
-        })
-        .attr("y2", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return d.y + 100;
-        })
-        .on("click", function(d, i) {
-            if (FILTER_GROUP == d.group) {
-                FILTER_GROUP = null
-            } else {
-                FILTER_GROUP = d.group;    
-            }
-            
-            redrawArcs();
-        });
-    
-    // also a horrible hack for drawing square brackets
-    nodeDiv
-        .append("line")
-        .attr("class", function(d) { return d.group + " grouping" })
-        .style("stroke", "black")
-        .style("stroke-width", 5)
-        .attr("x1", function(d) {
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return groupingPoints[d.group]['x1']
-        })
-        .attr("y1", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return d.y + 90;
-        })
-        .attr("x2", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return groupingPoints[d.group]['x1']
-        })
-        .attr("y2", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return d.y + 102;
-        })
-        .on("click", function(d, i) {
-            if (FILTER_GROUP == d.group) {
-                FILTER_GROUP = null
-            } else {
-                FILTER_GROUP = d.group;    
-            }
-            
-            redrawArcs();
-        });
-
-    nodeDiv
-        .append("line")
-        .attr("class", function(d) { return d.group + " grouping" })
-        .style("stroke", "black")
-        .style("stroke-width", 5)
-        .attr("x1", function(d) {
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return groupingPoints[d.group]['x2']
-        })
-        .attr("y1", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return d.y + 90;
-        })
-        .attr("x2", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return groupingPoints[d.group]['x2']
-        })
-        .attr("y2", function(d) { 
-            if (!(d.group in groupingPoints)) {
-                return 0;
-            }
-            return d.y + 102;
-        })
-        .on("click", function(d, i) {
-            if (FILTER_GROUP == d.group) {
-                FILTER_GROUP = null
-            } else {
-                FILTER_GROUP = d.group;    
-            }
-            
-            redrawArcs();
-        });
-
-    nodeDiv
-        .append("text")
-        .attr("class", function(d) { return d.group + " grouping"})
-        .text(function(d) { return groupingNameMap[d.group] })
-        .attr("x", function(d) {
-            if (!(d.group in groupingPoints)) {
-                return -100;
-            }
-            return (groupingPoints[d.group]['x1'] + groupingPoints[d.group]['x2'])/2
-        })
-        .attr("y", function(d) {
-            if (!(d.group in groupingPoints)) {
-                return -100;
-            }
-
-            return d.y + 120;
-        })
-        .attr("text-anchor", "middle")
-        .attr("font-size", 10)
-        .on("click", function(d, i) {
-            if (FILTER_GROUP == d.group) {
-                FILTER_GROUP = null
-            } else {
-                FILTER_GROUP = d.group;    
-            }
-            
-            redrawArcs();
-        });
-}
-
-function drawArcNodes(nodes, links) {
-    var atkSrcArc = d3.svg.arc()
-        .innerRadius(0)   
-        .outerRadius(RADIUS)
-        .startAngle(0) //converting from degs to radians
-        .endAngle(Math.PI/2)
-    
-    var atkTargetArc = d3.svg.arc()
-        .innerRadius(0) 
-        .outerRadius(RADIUS)
-        .startAngle(3*Math.PI/2) //converting from degs to radians
-        .endAngle(2*Math.PI) 
-
-    var nodeDiv = d3.select("#plot").selectAll(".node")
-        .data(nodes)
-        .enter();
-
-    
-    var atkSrcColorScale = d3.scale.linear()
-                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+        function drawColorScale() {
+            var body = d3.select("body")
+            length = 100,
+                color = d3.scale.linear().domain([1, length])
                     .interpolate(d3.interpolateHcl)
-                    .range([
-                        d3.rgb("#FDB47B"), 
-                        d3.rgb("#FD984D"), 
-                        d3.rgb("#DC651C"), 
-                        d3.rgb("#FD812C"), 
-                        d3.rgb("#BB5616"),
-                        d3.rgb("#ba500d"),
-                        d3.rgb("#a34408"),
-                        d3.rgb("#8c3802")
-                    ]);
+                    .range([d3.rgb("#007AFF"), d3.rgb('#FFF500')]);
 
-    var atkTargetColorScale = d3.scale.linear()
-                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
-                    .interpolate(d3.interpolateHcl)
-                    .range([
-                        d3.rgb("#C8EAE5"), 
-                        d3.rgb("#83CEC1"), 
-                        d3.rgb("#4FAE9E"), 
-                        d3.rgb("#3A978F"), 
-                        d3.rgb("#0C665E"),
-                        d3.rgb("#065951"),
-                        d3.rgb("#04514a"),
-                        d3.rgb("#014c45")
-                    ]);
-
-    var atkSrcCountMap = getExternalAttackSourceCountMap(links)
-    var atkTargetCountMap = getExternalAttackTargetCountMap(links)
-    nodeDiv                         // started 
-        .append("path")
-        .attr("class", "node")
-        .attr("d", atkSrcArc)
-        .attr("id", function(d, i) { return d.name; })
-        .attr("transform", function(d, i) { return translateD(d)})
-        .attr("r",  function(d, i) { return RADIUS; })
-        .style("fill", function(d, i) { 
-            if (d.name in atkSrcCountMap) {
-                return atkSrcColorScale(atkSrcCountMap[d.name]) 
-            } 
-            return "#ffcfaa";
-        })
-       
-    nodeDiv                         
-        .append("path")
-        .attr("class", "node")
-        .attr("d", atkTargetArc)
-        .attr("id", function(d, i) { return d.name; })
-        .attr("transform", function(d, i) { return translateD(d)})
-        .attr("r",  function(d, i) { return RADIUS; })
-        .style("fill", function(d, i) {
-            if (d.name in atkTargetCountMap) {
-                return atkTargetColorScale(atkTargetCountMap[d.name]) 
-            } 
-            return "#d5efeb";
-        })
-
-    
-    drawInternalArcs(nodeDiv, nodes, links);
-    drawGroupingBrackets(nodeDiv, nodes);
-}
-
-// assumes that nodes are sorted by grouping
-// Also a horrible hack to work with Oceania & Australia
-function getGroupingPoints(nodes) {
-    var currentGroup = 0;
-    var tmpStartPoint = 0;
-    var tmpEndPoint = 0;
-    var tmpGroupCount = 0;
-    var groupingPoints = {}
-
-    for (var i = 0; i < nodes.length; i++) {
-        var node = nodes[i]
-
-        tmpGroupCount++;
-        if (i == 0) {
-            tmpStartPoint = node.x;
-            currentGroup = node.group;
-            tmpGroupCount++;
-        } else if (i == nodes.length - 1) {
-            groupingPoints[currentGroup] = {
-                "x1": tmpStartPoint,
-                "x2": node.x
-            };
-        } else if (currentGroup != node.group) {
-
-            if (tmpGroupCount != 1) {
-                groupingPoints[currentGroup] = {
-                    "x1": tmpStartPoint,
-                    "x2": tmpEndPoint
-                };
-            }             tmpGroupCount = 0;
-            tmpStartPoint = node.x;
-            currentGroup = node.group
-        }
-        tmpEndPoint = node.x;
-    }
-
-    return groupingPoints
-}
-
-function translateD(d) {
-    return "translate(" + d.x + "," + (d.y+30) + ")";
-}
-
-function drawInternalArc(links){
-    var vis = d3.select("body").append("svg").attr("width", 400).attr("height", 400);
-
-    var MAX_RADIUS = 25
-    var linearScale = d3.scale.linear().domain([18979, 0]).range([10, MAX_RADIUS]);
-
-    // uncomment for debugging
-    /*
-    for(var i = 0; i < links.length;i++){
-        if(links[i].source.name === links[i].target.name){
-            console.log(links[i].value + ' -> ' + linearScale(links[i].value));
-        }
-    }
-    */ 
-}
-
-// Draws nodes on plot
-function drawNodes(nodes) {
-    // used to assign nodes color by group
-    var color = d3.scale.category20();
-
-    d3.select("#plot").selectAll(".node")
-        .data(nodes)
-        .enter()
-        .append("circle")
-        .attr("class", "node")
-        .attr("id", function(d, i) { return d.name; })
-        .attr("cx", function(d, i) { return d.x; })
-        .attr("cy", function(d, i) { return d.y; })
-        .attr("r",  function(d, i) { return RADIUS; })
-        .style("fill",   function(d, i) { return color(d.group); })
-        .on("mouseover", function(d, i) { addTooltip(d3.select(this)); })
-        .on("mouseout",  function(d, i) { d3.select("#tooltip").remove(); })
-        .on("click", function(d, i) { console.log("node " + d + " clicked")});
-
-}
-
-// Draws nice arcs for each link on plot
-function drawLinks(links) {
-    // scale to generate radians (just for lower-half of circle)
-    var radians = d3.scale.linear()
-        .range([-Math.PI / 2, Math.PI / 2]);
-
-    // path generator for arcs (uses polar coordinates)
-    var arc = d3.svg.line.radial()
-        .interpolate("basis")
-        .tension(0)
-        .angle(function(d) { 
-            return radians(d); 
-        });
-
-    // add links                    
-    var colorScale = d3.scale.linear()
-                    .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
-                    .interpolate(d3.interpolateHcl)
-                    .range([
-                        d3.rgb("#bdbdbd"), 
-                        d3.rgb("#969696"), 
-                        d3.rgb("#737373"), 
-                        d3.rgb("#525252"), 
-                        d3.rgb("#bdbdbd"), 
-                        d3.rgb("#252525"), 
-                        d3.rgb("#000000")]);
-
-    filteredLinks = links
-    if (FILTER_GROUP != null) {
-        filteredLinks = filterLinksByGroup(links);
-    }
-    
-    d3.select("#plot").selectAll(".link")
-        .data(filteredLinks)
-        .enter()
-        .append("path")
-        .attr("class", "link")
-        .style("stroke-width", function(d){
-            if(d.value === 1){          // dotted line
-                return d.value;
-            }else{
-                return(logScale(d.value));
+            for (var i = 0; i < length; i++) {
+                body.append('div').attr('style', function (d) {
+                    return 'background-color: ' + color(i);
+                });
             }
-        }) 
-        .style("stroke", function(d) { 
-            return colorScale(d.value);
-        })
-        .attr("transform", function(d, i) {
-            // arc will always be drawn around (0, 0)
-            // shift so (0, 0) will be between source and target
-            var xshift = d.source.x + (d.target.x - d.source.x)/2;
-            var yshift = Y_FIXED;
-            return "translate(" + xshift + ", " + yshift + ")";
-        })
-        .attr("d", function(d, i) {
-            // get x distance between source and target
-            var xdist = Math.abs(d.source.x - d.target.x);
-            // set arc radius based on x distance
+        }
 
-            if (d.source.x < d.target.x) {
-                arc.radius((xdist + RADIUS)/ 2);
-            } else {
-                arc.radius((xdist - RADIUS)/ 2);
+        function drawInternalArcs(nodeDiv, nodes, links) {
+            var internalArc = d3.svg.arc()
+                .innerRadius(10)    // Scale Internal Attack
+                .outerRadius(RADIUS)
+                .startAngle(Math.PI / 2)
+                .endAngle(Math.PI * 3 / 2);
+
+            // in order to draw internal arc, we have to distinguish internal attacks
+            var internalAttackPerRegionMap = getInternalAttackCountMap(links)
+
+            nodeDiv
+                .append("path")
+                .attr("class", "node")
+                .attr("d", function (d, i) {
+                    if (d.name in internalAttackPerRegionMap) {
+                        return internalArc.innerRadius(RADIUS - logScale(internalAttackPerRegionMap[d.name]))(d, i);
+                    }
+                    return internalArc.innerRadius(RADIUS)(d, i);
+                })
+                .attr("id", function (d, i) { return d.name; })
+                .attr("transform", function (d, i) { return translateD(d) })
+                .attr("cx", function (d, i) { return d.x; })
+                .attr("cy", function (d, i) { return d.y; })
+                .attr("r", function (d, i) { return RADIUS; })
+                .style("fill", "black")
+                .text(function (d) { addTooltip(d3.select(this)) })
+
+        }
+
+        function getInternalAttackCountMap(links) {
+            var internalAttackPerRegionMap = {}
+
+            for (var link of links) {
+                if (link.source.name == link.target.name) {
+                    internalAttackPerRegionMap[link.source.name] = link.value;
+                }
             }
 
-            // want to generate 1/3 as many points per pixel in x direction
-            var points = d3.range(0, Math.ceil(xdist / 3));
-            // set radian scale domain
-            radians.domain([0, points.length - 1]);
-            // return path for arc
-            return arc(points);
-        });
-}
-
-function updateYearFromSlider(slider) {
-    var year = slider.value();
-    updateYear(year);
-}
-
-function updateYear(year) {
-    d3.select("#plot").selectAll(".link").remove();
-    d3.select("#plot").selectAll(".node").remove();
-    drawLinks(GRAPH.links[year])
-    drawArcNodes(GRAPH.nodes, GRAPH.links[year])
-}
-
-function incrementSlider() {
-    if (isPlaying) {
-        var sliderValue = slider.value();
-        if (sliderValue == slider.max()) {
-            slider.setValue(slider.min());
-        } else {
-            slider.setValue(++sliderValue);
+            return internalAttackPerRegionMap
         }
-    } 
-}
 
-function redrawArcs() {
-    updateYearFromSlider(slider);
-}
+        function getExternalAttackSourceCountMap(links) {
+            var map = {}
 
-function filterByGroup(group) {
-    if (group == FILTER_GROUP) {
-        FILTER_GROUP = null;
-    } else {
-        FILTER_GROUP = group    
-    }
-
-    console.log(FILTER_GROUP)
-    
-}
-
-// TODO: figure out a way to get this called
-function clearFiltering() {
-    FILTER_NODE = null;
-    FILTER_GROUP = null;
-}
-
-function filterLinksByGroup(links) {
-    var filteredLinks = []
-    for (link of links) {
-        if (link.source.group == FILTER_GROUP || link.target.group == FILTER_GROUP) {
-            filteredLinks.push(link)
+            for (var link of links) {
+                if (link.source.name != link.target.name) {
+                    if (link.source.name in map) {
+                        map[link.source.name] = map[link.source.name] + link.value;
+                    } else {
+                        map[link.source.name] = link.value;
+                    }
+                }
+            }
+            return map
         }
-    }
 
-    return filteredLinks;
-}
+        function getExternalAttackTargetCountMap(links) {
+            var map = {}
 
-</script>
+            for (var link of links) {
+                if (link.source.name != link.target.name) {
+                    if (link.target.name in map) {
+                        map[link.target.name] = map[link.target.name] + link.value;
+                    } else {
+                        map[link.target.name] = link.value;
+                    }
+                }
+            }
+            return map
+        }
+
+        function drawGroupingBrackets(nodeDiv, nodes) {
+            var groupingPoints = getGroupingPoints(nodes);
+
+            /*
+                Since we don't have a separate div for grouping,
+                this is a horrible hack for drawing grouping lines 
+                - since this will draw the same line multiple times
+            */
+            nodeDiv
+                .append("line")
+                .attr("class", function (d) { return d.group + " grouping" })
+                .style("stroke", "black")
+                .style("stroke-width", 4)
+                .attr("x1", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return groupingPoints[d.group]['x1']
+                })
+                .attr("y1", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return d.y + 100;
+                })
+                .attr("x2", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return groupingPoints[d.group]['x2']
+                })
+                .attr("y2", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return d.y + 100;
+                })
+                .on("click", function (d, i) {
+                    if (FILTER_GROUP == d.group) {
+                        clearFiltering();
+                    } else {
+                        FILTER_GROUP = d.group;
+                        FILTER_NODE = null;
+                    }
+
+                    redrawArcs();
+                });
+
+            // also a horrible hack for drawing square brackets
+            nodeDiv
+                .append("line")
+                .attr("class", function (d) { return d.group + " grouping" })
+                .style("stroke", "black")
+                .style("stroke-width", 5)
+                .attr("x1", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return groupingPoints[d.group]['x1']
+                })
+                .attr("y1", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return d.y + 90;
+                })
+                .attr("x2", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return groupingPoints[d.group]['x1']
+                })
+                .attr("y2", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return d.y + 102;
+                })
+                .on("click", function (d, i) {
+                    if (FILTER_GROUP == d.group) {
+                        clearFiltering();
+                    } else {
+                        FILTER_GROUP = d.group;
+                        FILTER_NODE = null;
+                    }
+
+                    redrawArcs();
+                });
+
+            nodeDiv
+                .append("line")
+                .attr("class", function (d) { return d.group + " grouping" })
+                .style("stroke", "black")
+                .style("stroke-width", 5)
+                .attr("x1", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return groupingPoints[d.group]['x2']
+                })
+                .attr("y1", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return d.y + 90;
+                })
+                .attr("x2", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return groupingPoints[d.group]['x2']
+                })
+                .attr("y2", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return 0;
+                    }
+                    return d.y + 102;
+                })
+                .on("click", function (d, i) {
+                    if (FILTER_GROUP == d.group) {
+                        clearFiltering();
+                    } else {
+                        FILTER_GROUP = d.group;
+                        FILTER_NODE = null;
+                    }
+
+                    redrawArcs();
+                });
+
+            nodeDiv
+                .append("text")
+                .attr("class", function (d) { return d.group + " grouping" })
+                .text(function (d) { return groupingNameMap[d.group] })
+                .attr("x", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return -100;
+                    }
+                    return (groupingPoints[d.group]['x1'] + groupingPoints[d.group]['x2']) / 2
+                })
+                .attr("y", function (d) {
+                    if (!(d.group in groupingPoints)) {
+                        return -100;
+                    }
+
+                    return d.y + 120;
+                })
+                .attr("text-anchor", "middle")
+                .attr("font-size", 10)
+                .on("click", function (d, i) {
+                    if (FILTER_GROUP == d.group) {
+                        clearFiltering();
+                    } else {
+                        FILTER_GROUP = d.group;
+                        FILTER_NODE = null;
+                    }
+
+                    redrawArcs();
+                });
+        }
+
+        function drawArcNodes(nodes, links) {
+            var atkSrcArc = d3.svg.arc()
+                .innerRadius(0)
+                .outerRadius(RADIUS)
+                .startAngle(0) //converting from degs to radians
+                .endAngle(Math.PI / 2)
+
+            var atkTargetArc = d3.svg.arc()
+                .innerRadius(0)
+                .outerRadius(RADIUS)
+                .startAngle(3 * Math.PI / 2) //converting from degs to radians
+                .endAngle(2 * Math.PI)
+
+            var nodeDiv = d3.select("#plot").selectAll(".node")
+                .data(nodes)
+                .enter();
+
+
+            var atkSrcColorScale = d3.scale.linear()
+                .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+                .interpolate(d3.interpolateHcl)
+                .range([
+                    d3.rgb("#FDB47B"),
+                    d3.rgb("#FD984D"),
+                    d3.rgb("#DC651C"),
+                    d3.rgb("#FD812C"),
+                    d3.rgb("#BB5616"),
+                    d3.rgb("#ba500d"),
+                    d3.rgb("#a34408"),
+                    d3.rgb("#8c3802")
+                ]);
+
+            var atkTargetColorScale = d3.scale.linear()
+                .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+                .interpolate(d3.interpolateHcl)
+                .range([
+                    d3.rgb("#C8EAE5"),
+                    d3.rgb("#83CEC1"),
+                    d3.rgb("#4FAE9E"),
+                    d3.rgb("#3A978F"),
+                    d3.rgb("#0C665E"),
+                    d3.rgb("#065951"),
+                    d3.rgb("#04514a"),
+                    d3.rgb("#014c45")
+                ]);
+
+            var atkSrcCountMap = getExternalAttackSourceCountMap(links)
+            var atkTargetCountMap = getExternalAttackTargetCountMap(links)
+            nodeDiv                         // started 
+                .append("path")
+                .attr("class", "node")
+                .attr("d", atkSrcArc)
+                .attr("id", function (d, i) { return d.name; })
+                .attr("transform", function (d, i) { return translateD(d) })
+                .attr("r", function (d, i) { return RADIUS; })
+                .style("fill", function (d, i) {
+                    if (d.name in atkSrcCountMap) {
+                        return atkSrcColorScale(atkSrcCountMap[d.name])
+                    }
+                    return "#ffcfaa";
+                }).on("click", function (d, i) {
+                    if (FILTER_NODE == d.name) {
+                        clearFiltering();
+                    } else {
+                        FILTER_NODE = d.name;
+                        FILTER_GROUP = null
+                    }
+                    updateRegionDropdown();
+                    redrawArcs();
+                    call_update();
+                });
+
+            nodeDiv
+                .append("path")
+                .attr("class", "node")
+                .attr("d", atkTargetArc)
+                .attr("id", function (d, i) { return d.name; })
+                .attr("transform", function (d, i) { return translateD(d) })
+                .attr("r", function (d, i) { return RADIUS; })
+                .style("fill", function (d, i) {
+                    if (d.name in atkTargetCountMap) {
+                        return atkTargetColorScale(atkTargetCountMap[d.name])
+                    }
+                    return "#d5efeb";
+                }).on("click", function (d, i) {
+                    if (FILTER_NODE == d.name) {
+                        clearFiltering();
+                    } else {
+                        FILTER_NODE = d.name;
+                        FILTER_GROUP = null
+                    }
+                    updateRegionDropdown();
+                    redrawArcs();
+                    call_update();
+                });
+
+
+            drawInternalArcs(nodeDiv, nodes, links);
+            drawGroupingBrackets(nodeDiv, nodes);
+        }
+
+        // assumes that nodes are sorted by grouping
+        // Also a horrible hack to work with Oceania & Australia
+        function getGroupingPoints(nodes) {
+            var currentGroup = 0;
+            var tmpStartPoint = 0;
+            var tmpEndPoint = 0;
+            var tmpGroupCount = 0;
+            var groupingPoints = {}
+
+            for (var i = 0; i < nodes.length; i++) {
+                var node = nodes[i]
+
+                tmpGroupCount++;
+                if (i == 0) {
+                    tmpStartPoint = node.x;
+                    currentGroup = node.group;
+                    tmpGroupCount++;
+                } else if (i == nodes.length - 1) {
+                    groupingPoints[currentGroup] = {
+                        "x1": tmpStartPoint,
+                        "x2": node.x
+                    };
+                } else if (currentGroup != node.group) {
+
+                    if (tmpGroupCount != 1) {
+                        groupingPoints[currentGroup] = {
+                            "x1": tmpStartPoint,
+                            "x2": tmpEndPoint
+                        };
+                    } tmpGroupCount = 0;
+                    tmpStartPoint = node.x;
+                    currentGroup = node.group
+                }
+                tmpEndPoint = node.x;
+            }
+
+            return groupingPoints
+        }
+
+        function translateD(d) {
+            return "translate(" + d.x + "," + (d.y + 30) + ")";
+        }
+
+        function drawInternalArc(links) {
+            var vis = d3.select("body").append("svg").attr("width", 400).attr("height", 400);
+
+            var MAX_RADIUS = 25
+            var linearScale = d3.scale.linear().domain([18979, 0]).range([10, MAX_RADIUS]);
+
+            // uncomment for debugging
+            /*
+            for(var i = 0; i < links.length;i++){
+                if(links[i].source.name === links[i].target.name){
+                    console.log(links[i].value + ' -> ' + linearScale(links[i].value));
+                }
+            }
+            */
+        }
+
+        // Draws nodes on plot
+        function drawNodes(nodes) {
+            // used to assign nodes color by group
+            var color = d3.scale.category20();
+
+            d3.select("#plot").selectAll(".node")
+                .data(nodes)
+                .enter()
+                .append("circle")
+                .attr("class", "node")
+                .attr("id", function (d, i) { return d.name; })
+                .attr("cx", function (d, i) { return d.x; })
+                .attr("cy", function (d, i) { return d.y; })
+                .attr("r", function (d, i) { return RADIUS; })
+                .style("fill", function (d, i) { return color(d.group); })
+                .on("mouseover", function (d, i) { addTooltip(d3.select(this)); })
+                .on("mouseout", function (d, i) { d3.select("#tooltip").remove(); })
+                .on("click", function (d, i) { console.log("node " + d + " clicked") });
+
+        }
+
+        // Draws nice arcs for each link on plot
+        function drawLinks(links) {
+            // scale to generate radians (just for lower-half of circle)
+            var radians = d3.scale.linear()
+                .range([-Math.PI / 2, Math.PI / 2]);
+
+            // path generator for arcs (uses polar coordinates)
+            var arc = d3.svg.line.radial()
+                .interpolate("basis")
+                .tension(0)
+                .angle(function (d) {
+                    return radians(d);
+                });
+
+            // add links                    
+            var colorScale = d3.scale.linear()
+                .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
+                .interpolate(d3.interpolateHcl)
+                .range([
+                    d3.rgb("#bdbdbd"),
+                    d3.rgb("#969696"),
+                    d3.rgb("#737373"),
+                    d3.rgb("#525252"),
+                    d3.rgb("#bdbdbd"),
+                    d3.rgb("#252525"),
+                    d3.rgb("#000000")]);
+
+            filteredLinks = links
+            if (FILTER_GROUP != null) {
+                filteredLinks = filterLinksByGroup(links);
+            } else if (FILTER_NODE != null) {
+                filteredLinks = filterByNode(links);
+            }
+
+            d3.select("#plot").selectAll(".link")
+                .data(filteredLinks)
+                .enter()
+                .append("path")
+                .attr("class", "link")
+                .style("stroke-width", function (d) {
+                    if (d.value === 1) {          // dotted line
+                        return d.value;
+                    } else {
+                        return (logScale(d.value));
+                    }
+                })
+                .style("stroke", function (d) {
+                    return colorScale(d.value);
+                })
+                .attr("transform", function (d, i) {
+                    // arc will always be drawn around (0, 0)
+                    // shift so (0, 0) will be between source and target
+                    var xshift = d.source.x + (d.target.x - d.source.x) / 2;
+                    var yshift = Y_FIXED;
+                    return "translate(" + xshift + ", " + yshift + ")";
+                })
+                .attr("d", function (d, i) {
+                    // get x distance between source and target
+                    var xdist = Math.abs(d.source.x - d.target.x);
+                    // set arc radius based on x distance
+
+                    if (d.source.x < d.target.x) {
+                        arc.radius((xdist + RADIUS) / 2);
+                    } else {
+                        arc.radius((xdist - RADIUS) / 2);
+                    }
+
+                    // want to generate 1/3 as many points per pixel in x direction
+                    var points = d3.range(0, Math.ceil(xdist / 3));
+                    // set radian scale domain
+                    radians.domain([0, points.length - 1]);
+                    // return path for arc
+                    return arc(points);
+                });
+        }
+
+        function updateYearFromSlider(slider) {
+            var year = slider.value();
+            updateYear(year);
+
+            var s = document.getElementById('xdropdown');
+
+            for (var i = 0; i < s.options.length; i++) {
+                if (s.options[i].text == '' + year) {
+                    s.options[i].selected = true;
+                    break;
+                }
+            }
+
+            s = document.getElementById('yeardropdown');
+            for (var i = 0; i < s.options.length; i++) {
+                if (s.options[i].text == '' + year) {
+                    s.options[i].selected = true;
+                    break;
+                }
+            }
+
+            call_update();
+            updateClicked();
+        }
+
+        function updateYear(year) {
+            d3.select("#plot").selectAll(".link").remove();
+            d3.select("#plot").selectAll(".node").remove();
+            drawLinks(GRAPH.links[year])
+            drawArcNodes(GRAPH.nodes, GRAPH.links[year])
+        }
+
+        function incrementSlider() {
+            if (isPlaying) {
+                var sliderValue = slider.value();
+                if (sliderValue == slider.max()) {
+                    slider.setValue(slider.min());
+                } else {
+                    slider.setValue(++sliderValue);
+                }
+            }
+        }
+
+        function redrawArcs() {
+            updateYearFromSlider(slider);
+        }
+
+        // TODO: figure out a way to get this called
+        function clearFiltering() {
+            FILTER_NODE = null;
+            FILTER_GROUP = null;
+        }
+
+        function filterLinksByGroup(links) {
+            var filteredLinks = []
+            for (link of links) {
+                if (link.source.group == FILTER_GROUP || link.target.group == FILTER_GROUP) {
+                    filteredLinks.push(link)
+                }
+            }
+
+            return filteredLinks;
+        }
+
+        function filterByNode(links) {
+            var filteredLinks = []
+            for (link of links) {
+                if (link.source.name == FILTER_NODE || link.target.name == FILTER_NODE) {
+                    filteredLinks.push(link)
+                }
+            }
+
+            return filteredLinks;
+        }
+
+        function updateRegionDropdown() {
+            var s = document.getElementById('ydropdown');
+            for (var i = 0; i < s.options.length; i++) {
+                if (s.options[i].text == FILTER_NODE) {
+                    s.options[i].selected = true;
+                    break;
+                }
+            }
+
+            s = document.getElementById('regiondropdown');
+            for (var i = 0; i < s.options.length; i++) {
+                if (s.options[i].text == FILTER_NODE) {
+                    s.options[i].selected = true;
+                    break;
+                }
+            }
+        }
+
+    </script>
+
+    <script>
+
+        // sources used for reference: 
+        // http://bl.ocks.org/tjdecke/5558084  
+        // https://bl.ocks.org/Bl3f/cdb5ad854b376765fa99
+        // http://bl.ocks.org/mbostock/3202354
+
+        var margin = { top: 50, right: 100, bottom: 100, left: 10 };
+        var width = 700 - margin.left - margin.right;
+        var height = 450 - margin.top - margin.bottom;
+        var chart;
+        var file1, file2;
+        var color = d3.scale.category20();
+        var sankey;
+        var path;
+        var graph;
+
+        function init() {
+            initSankey();
+            initBubbles();
+        }
+
+        function initSankey() {
+            chart = d3.select('#chart1')
+                .append('svg').attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            call_update();
+        }
+
+        function call_update() {
+            sankey = d3.sankey()
+                .nodeWidth(10)
+                .nodePadding(5)
+                .size([width, height]);
+
+            sankeyPath = sankey.link();
+
+            graph = { "nodes": [], "links": [] };
+
+            var year = getxSelectedOption().replace(/ /g, '');
+            var region = getySelectedOption().replace(/ /g, '');
+
+            var path1 = './Sankey/data/';
+            file1 = path1 + year + '_' + region + '_test2.csv';
+            file2 = path1 + year + '_' + region + '_test1.csv';
+            // console.log(file1);
+            // console.log(file2);
+            d3.select('#chart1').selectAll('svg').remove();
+            d3.select('#head').selectAll('svg').remove();
+
+            chart = d3.select('#chart1')
+                .append('svg').attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv(file1, updateSankey);
+        }
+
+        function updateSankey(d) {
+
+            d.forEach(function (d) {
+                graph.nodes.push({ "name": d.targtype1_txt });
+                graph.nodes.push({ "name": d.attacktype1_txt });
+                graph.links.push({
+                    "source": d.attacktype1_txt,
+                    "target": d.targtype1_txt,
+                    "value": +d.counts
+                });
+            });
+
+            d3.csv(file2, update1);
+
+            function update1(d1) {
+                d1.forEach(function (d) {
+                    graph.nodes.push({ "name": d.country_txt });
+                    graph.nodes.push({ "name": d.attacktype1_txt });
+                    graph.links.push({
+                        "source": d.country_txt,
+                        "target": d.attacktype1_txt,
+                        "value": +d.counts
+                    });
+                });
+
+                graph.nodes = d3.keys(d3.nest()
+                    .key(function (d) { return d.name; })
+                    .map(graph.nodes));
+
+                graph.links.sort(function (a, b) {
+                    return a.value - b.value;
+                })
+
+                graph.links.forEach(function (d, i) {
+                    graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
+                    graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
+                });
+
+
+                graph.nodes.forEach(function (d, i) {
+                    graph.nodes[i] = { "name": d };
+                });
+
+                // console.log(graph.nodes);
+                // console.log(graph.links);
+
+
+                // var tip1 = d3.tip()
+                //          .attr('class', 'tip-class')
+                //          .html(function(d) {
+                //            return d.source.name+" - "+d.target.name+" - "+d.value+" points";
+                //          });
+                //  var tip2 = d3.tip()
+                //          .attr('class', 'tip-class')
+                //          .html(function(d) {
+                //            return d.name+" "+d.value+" points";
+                //          });        
+
+                // svg.call(tip1); 
+                // svg.call(tip2);       
+
+                sankey
+                    .nodes(graph.nodes)
+                    .links(graph.links)
+                    .layout(100);
+
+
+                var link = chart.append("g").selectAll(".sankey_link")
+                    .data(graph.links)
+                    .enter().append("path")
+                    .attr("class", "sankey_link")
+                    .attr("d", sankeyPath)
+                    .style('stroke', "#FD812C")
+                    .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+                    .sort(function (a, b) { return b.dy - a.dy; });
+                // .on('mouseover', tip1.show)
+                // .on('mouseout', tip1.hide);
+
+                // console.log(graph.nodes);
+                var node = chart.append("g").selectAll(".nsankey_ode")
+                    .data(graph.nodes)
+                    .enter().append("g")
+                    .attr("class", "sankey_node")
+                    .attr("transform", function (d) {
+                        return "translate(" + d.x + "," + d.y + ")";
+                    })
+
+
+                node.append("rect")
+                    .attr("height", function (d) { return d.dy; })
+                    .attr("width", sankey.nodeWidth())
+                    .style("fill", "black")
+                    .style("stroke", "black");
+                // .on('mouseover', tip2.show)
+                // .on('mouseout', tip2.hide);
+
+                node.append("text")
+                    .attr("y", function (d) { return d.dy / 2; })
+                    .attr("dy", ".35em")
+                    .attr("text-anchor", "end")
+                    .attr("transform", null)
+                    .text(function (d) { return d.name; })
+                    //.filter(function(d) { return d.x < width / 2; })
+                    .attr("x", sankey.nodeWidth() + 5)
+                    .attr("text-anchor", "start");
+
+            }
+        }
+
+        function getxSelectedOption() {
+            var node = d3.select('#xdropdown').node();
+            var i = node.selectedIndex;
+            return node[i].value;
+        }
+
+        function getySelectedOption() {
+            var node = d3.select('#ydropdown').node();
+            var i = node.selectedIndex;
+            return node[i].value;
+        }
+
+    </script>
 </head>
-<body>
-<div>
-    <div class="playpause" style="width: 15%; height: 100%;">
-        <input type="checkbox" value="None" id="playpause" name="check" checked/>
-        <label id="play" for="playpause" tabindex=1 style=" margin-top: 15px"></label>
+
+<body onload="init()">
+    <div>
+        <div class="playpause" style="width: 15%; height: 100%;">
+            <input type="checkbox" value="None" id="playpause" name="check" checked/>
+            <label id="play" for="playpause" tabindex=1 style=" margin-top: 15px"></label>
+        </div>
+        <div id="slider" style="float: left;"></div>
     </div>
-    <div id="slider" style="float: left;"></div>
-</div>
 
-<script>
-d3.json("terror_by_year.json", arcDiagram);
+    <div id="head"></div>
 
-var tickFormatter = function(d) {
-    return d;
-}
+    <!-- sankey -->
+    <div id="selectbox1">
+        <div style="display: none; width: 120;" class="absolute">
+            <label for="xdropdown">Year: </label>
+            <select id="xdropdown" onchange="call_update();">
+                <option val="2010" selected>2008</option>
+                <option val="2010">2009</option>
+                <option val="2010">2010</option>
+                <option val="2011">2011</option>
+                <option val="2012">2012</option>
+                <option val="2013">2013</option>
+                <option val="2014">2014</option>
+                <option val="2015">2015</option>
+                <option val="2016">2016</option>
+            </select>
+        </div>
+    </div>
 
-var slider = d3.slider().min(DEFAULT_YEAR).max(2016).tickValues([2008,2009,2010,2011,2012,2013,2014,2015,2016]).stepValues([2008,2009,2010,2011,2012,2013,2014,2015,2016]).tickFormat(tickFormatter);
+    <div id="selectbox2">
 
-slider.callback(updateYearFromSlider);
-d3.select('#slider').call(slider);
+        <div style="display: none; width: 120;" class="absolute">
+            <label for="ydropdown">Region: </label>
+            <select id="ydropdown" onchange="call_update();">
+                <option val="CentralAmerica&Caribbean">Central America &amp; Caribbean</option>
+                <option val="SouthAmerica" selected>South America</option>
+                <option val="NorthAmerica">North America</option>
+                <option val="Sub-SaharanAfrica">Sub-Saharan Africa</option>
+                <option val="MiddleEast&NorthAfrica">Middle East & North Africa</option>
+                <option val="SouthAsia">South Asia</option>
+                <option val="SouthEastAsia">Southeast Asia</option>
+                <option val="EastAsia">East Asia</option>
+                <option val="CentralAsia">Central Asia</option>
+                <option val="Australasia&Oceania">Australia & Oceania</option>
+                <option val="EasternEurope">Eastern Europe</option>
+                <option val="WesternEurope">Western Europe</option>
+            </select>
+        </div>
+    </div>
+    <div id="chart1"></div>
 
-var isPlaying = false;
-document.getElementById("play").addEventListener("click", function() {
-    isPlaying = !isPlaying;
-});
-setInterval(incrementSlider, SLIDE_UPDATE_INTERVAL);
-// setInterval(redrawArcs, 400)
-// hack to wait for the browser to finish drawing everything
-</script>
+    <!-- bubbles -->
+    <div style="margin:30;">
+        <div style="display: none;">
+            <label for="yeardropdown">year: </label>
+            <select id="yeardropdown">
+                <option val="2008">2008</option>
+                <option val="2009">2009</option>
+                <option val="2010">2010</option>
+                <option val="2011">2011</option>
+                <option val="2012">2012</option>
+                <option val="2013">2013</option>
+                <option val="2014">2014</option>
+                <option val="2015">2015</option>
+                <option val="2016">2016</option>
+            </select>
+        </div>
+        <div style="display: none;">
+            <label for="regiondropdown">region: </label>
+            <select id="regiondropdown">
+                <option val="Australasia & Oceania">Australasia & Oceania</option>
+                <option val="Central America & Caribbean">Central America & Caribbean</option>
+                <option val="Central Asia">Central Asia</option>
+                <option val="East Asia">East Asia</option>
+                <option val="South Asia">South Asia</option>
+                <option val="Southeast Asia">Southeast Asia</option>
+                <option val="Eastern Europe">Eastern Europe</option>
+                <option val="Western Europe">Western Europe</option>
+                <option val="North America">North America</option>
+                <option val="South America" selected>South America</option>
+                <option val="Middle East & North Africa">Middle East & North Africa</option>
+                <option val="Sub-Saharan Africa">Sub-Saharan Africa</option>
+
+            </select>
+        </div>
+        <div style="display: none">
+            <button id="update" onclick="updateClicked()">Update</button>
+        </div>
+    </div>
+    <script>
+        d3.json("terror_by_year.json", arcDiagram);
+
+        var tickFormatter = function (d) {
+            return d;
+        }
+
+        var slider = d3.slider().min(DEFAULT_YEAR).max(2016).tickValues([2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]).stepValues([2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]).tickFormat(tickFormatter);
+
+        slider.callback(updateYearFromSlider);
+        d3.select('#slider').call(slider);
+
+        var isPlaying = false;
+        document.getElementById("play").addEventListener("click", function () {
+            isPlaying = !isPlaying;
+        });
+        setInterval(incrementSlider, SLIDE_UPDATE_INTERVAL);
+    </script>
+    <script src="bubbles/js/bubble.js"></script>
 </body>
+
 </html>

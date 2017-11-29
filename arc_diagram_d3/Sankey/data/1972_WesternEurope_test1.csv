@@ -1,0 +1,15 @@
+,country_txt,attacktype1_txt,counts
+0,Ireland,Armed Assault,1
+1,Ireland,Bombing/Explosion,1
+2,Spain,Armed Assault,3
+3,Spain,Assassination,2
+4,Spain,Bombing/Explosion,5
+5,Spain,Facility/Infrastructure Attack,2
+6,Spain,Hostage Taking (Kidnapping),1
+7,United Kingdom,Armed Assault,41
+8,United Kingdom,Assassination,169
+9,United Kingdom,Bombing/Explosion,59
+10,United Kingdom,Hostage Taking (Kidnapping),5
+11,West Germany (FRG),Armed Assault,1
+12,West Germany (FRG),Assassination,2
+13,West Germany (FRG),Bombing/Explosion,3

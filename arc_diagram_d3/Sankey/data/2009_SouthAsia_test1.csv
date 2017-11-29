@@ -1,0 +1,22 @@
+,country_txt,attacktype1_txt,counts
+0,Afghanistan,Armed Assault,53
+1,Afghanistan,Bombing/Explosion,92
+2,Afghanistan,Facility/Infrastructure Attack,13
+3,Afghanistan,Hostage Taking (Kidnapping),31
+4,Afghanistan,Unknown,8
+5,India,Armed Assault,156
+6,India,Bombing/Explosion,123
+7,India,Facility/Infrastructure Attack,45
+8,India,Hostage Taking (Kidnapping),29
+9,India,Unknown,25
+10,Nepal,Armed Assault,2
+11,Nepal,Bombing/Explosion,4
+12,Nepal,Hostage Taking (Kidnapping),1
+13,Nepal,Unknown,2
+14,Pakistan,Armed Assault,41
+15,Pakistan,Bombing/Explosion,75
+16,Pakistan,Facility/Infrastructure Attack,4
+17,Pakistan,Hostage Taking (Kidnapping),21
+18,Pakistan,Unknown,13
+19,Sri Lanka,Armed Assault,8
+20,Sri Lanka,Bombing/Explosion,4

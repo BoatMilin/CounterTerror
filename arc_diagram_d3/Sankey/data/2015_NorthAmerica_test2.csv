@@ -1,0 +1,9 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Military,2
+1,Armed Assault,Private Citizens & Property,1
+2,Armed Assault,Religious Figures/Institutions,3
+3,Bombing/Explosion,Business,1
+4,Bombing/Explosion,Transportation,9
+5,Facility/Infrastructure Attack,Business,3
+6,Facility/Infrastructure Attack,Religious Figures/Institutions,2
+7,Unarmed Assault,Private Citizens & Property,1

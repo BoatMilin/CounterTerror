@@ -1,0 +1,310 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 2003-12-31T00:00:00Z,glocations,GERMANY,770,0.0,German  Police  Seal  Off  Hospital  in  Hamburg  in  Terror  Alert 
+ 2003-12-31T00:00:00Z,glocations,WESTBANK,715,0.0,Israel  Says  Settlement  Population  Has  Doubled  Since  '93 
+ 2003-12-29T00:00:00Z,glocations,IRAQ,300,0.0,THE  YEAR  IN  PICTURES:  IRAQ 
+ 2003-12-28T00:00:00Z,glocations,NEWYORKCITY,1429,0.0,It's  a  Long  New  Year's  Eve  That  Starts  at  Thanksgiving 
+ 2003-12-27T00:00:00Z,glocations,ISRAEL,1002,0.0,Bombing  After  Lull:  Israel  Still  Believes  the  Worst  Is  Over 
+ 2003-12-26T00:00:00Z,glocations,ISTANBUL(TURKEY),359,0.0,Turkey  Seizes  Explosives  Linked  to  Terror  Plot 
+ 2003-12-25T00:00:00Z,glocations,NEWYORKCITY,324,0.0,Security  Violation  Causes  Evacuation  of  a  Terminal  at  La  Guardia 
+ 2003-12-25T00:00:00Z,glocations,BUCHANAN(NY),750,0.0,Indian  Point  Is  Criticized  For  Shutdowns 
+ 2003-12-24T00:00:00Z,glocations,RUSSIA,744,0.0,The  Pain  Of  Good  Intentions 
+ 2003-12-24T00:00:00Z,glocations,NEWYORKCITY,124,0.0,Intelligence  Cites  Some  U.S.  Cities 
+ 2003-12-21T00:00:00Z,glocations,IRAQ,1604,0.0,The  World:  Traps  Ahead;  Iraq  and  Its  Patron,  Growing  Apart 
+ 2003-12-20T00:00:00Z,glocations,NEWYORKSTATE,625,0.0,A  Center  For  Command  Offers  Study  In  Contrasts 
+ 2003-12-16T00:00:00Z,glocations,CHINA,400,0.0,China  Brands  Muslim  Groups  As  Terrorists 
+ 2003-12-12T00:00:00Z,glocations,ISRAEL,364,0.0,6  Palestinians  Reported  Killed  In  Gaza  Clash 
+ 2003-12-11T00:00:00Z,glocations,KARACHI(PAKISTAN),72,0.0,World  Briefing  |  Asia:  Pakistan:  Terror  Suspects  To  Indonesia 
+ 2003-12-10T00:00:00Z,glocations,UNITEDSTATES,654,0.0,UAL  Said  to  Be  Near  to  Gaining  $2  Billion  in  Exit  Financing 
+ 2003-12-10T00:00:00Z,glocations,GREECE,478,0.0,Experts  Say  Greek  Verdicts  Don't  Dispel  Olympic  Threat 
+ 2003-12-08T00:00:00Z,glocations,RUSSIA,537,0.0,Russians  Inch  Toward  Democracy 
+ 2003-12-07T00:00:00Z,glocations,NEWYORKCITY,2681,0.0,In  Rockaways,  a  Tide  Is  Coming  In 
+ 2003-12-06T00:00:00Z,glocations,JAPAN,650,0.0,One  More  Seat  at  the  Table 
+ 2003-12-05T00:00:00Z,glocations,DULUTH(MINN),373,0.0,A  Lynching  Memorial  Unveiled  in  Duluth 
+ 2003-12-03T00:00:00Z,glocations,FAREAST,SOUTHANDSOUTHEASTASIAANDPACIFICAREAS,972,0.0,China  Is  Romping  With  the  Neighbors  (U.S.  Is  Distracted) 
+ 2003-11-30T00:00:00Z,glocations,NEWYORKCITY,689,0.0,Unbearable  Lightness  Of  Memory 
+ 2003-11-30T00:00:00Z,glocations,IRAQ,1931,0.0,The  World:  Engineering  Change;  Rebuilding  Iraq  Takes  Courage,  Cash  and  Improvisation 
+ 2003-11-29T00:00:00Z,glocations,UNITEDSTATES,742,0.0,The  Promised  Land 
+ 2003-11-26T00:00:00Z,glocations,NEWYORKCITY,647,0.0,Senate  Rejects  Bid  for  Extra  Year  for  Sept.  11  Compensation 
+ 2003-11-26T00:00:00Z,glocations,KENYA,994,0.0,The  Lesson  of  Somalia:  Just  a  Humpty  Dumpty  Story? 
+ 2003-11-24T00:00:00Z,glocations,NEWYORKCITY,779,0.0,Metro  Matters;  Gentle  Waters,  Reflecting  This  City? 
+ 2003-11-22T00:00:00Z,glocations,NEWYORKCITY,1220,0.0,As  Deadline  for  9/11  Aid  Nears,  Many  Relatives  Haven't  Filed 
+ 2003-11-21T00:00:00Z,glocations,GREATBRITAIN,921,0.0,In  the  Balance:  Attacks  on  Turkey  Aim  to  Sever  a  Bridge  Between  Islam  and  the  West 
+ 2003-11-20T00:00:00Z,glocations,NEWYORKCITY,1080,0.0,8  Designs  Confront  Many  Agendas  at  Ground  Zero 
+ 2003-11-20T00:00:00Z,glocations,NEWYORKCITY,549,0.0,For  a  Construction  Project  Underneath  West  Street,  the  Long  Line  of  Opposition  Forms  Here 
+ 2003-11-16T00:00:00Z,glocations,IRAQ,1201,0.0,Iraq  Goes  Sour 
+ 2003-11-14T00:00:00Z,glocations,PASSAICCOUNTY(NJ),148,0.0,Metro  Briefing  |  New  Jersey:  Paterson:  Legal  Services  For  Detainees 
+ 2003-11-14T00:00:00Z,glocations,NEWYORKCITY,766,0.0,Twilight  Zone  For  ZIP  Code  At  Ground  Zero 
+ 2003-11-13T00:00:00Z,glocations,NEWYORKCITY,850,0.0,A  16-Acre  Memorial  That'll  Never  Be 
+ 2003-11-12T00:00:00Z,glocations,IRAQ,418,0.0,Senate  Follows  House  and  Votes  to  Impose  Sanctions  Against  Syria 
+ 2003-11-11T00:00:00Z,glocations,ARIZONA,1391,0.0,After  the  Crossing,  Danger  to  Migrants  Isn't  Over 
+ 2003-10-31T00:00:00Z,glocations,NEWYORKCITY,145,0.0,Metro  Briefing  |  New  York:  Manhattan:  City  May  Release  9/11  Documents 
+ 2003-10-31T00:00:00Z,glocations,BROOKLYN(NYC),723,0.0,Not  Poifect,  Dem  Movies  Of  Brooklyn 
+ 2003-10-29T00:00:00Z,glocations,SANDIEGO(CALIF),1142,0.0,Praying  Amid  the  Ashes  For  Any  Precious  Artifact 
+ 2003-10-28T00:00:00Z,glocations,IRAQ,1436,0.0,Suicide  Bombers  in  Baghdad  Kill  at  Least  34 
+ 2003-10-26T00:00:00Z,glocations,CONGO(FORMERLYZAIRE),4001,0.0,The  Most  Unconventional  Weapon 
+ 2003-10-25T00:00:00Z,glocations,NEWYORKCITY,885,0.0,Les  Misérables 
+ 2003-10-23T00:00:00Z,glocations,IRAQ,1040,0.0,New  Spy  Gear  Aims  to  Thwart  Attacks  in  Iraq 
+ 2003-10-18T00:00:00Z,glocations,FAREAST,SOUTHANDSOUTHEASTASIAANDPACIFICAREAS,1168,0.0,Asian  Leaders  Find  China  A  More  Cordial  Neighbor 
+ 2003-10-15T00:00:00Z,glocations,NEWYORKCITY,350,0.0,Fire  Dept.  Drill  On  Bioterror  Is  Set  for  Today 
+ 2003-10-12T00:00:00Z,glocations,BALI(INDONESIA),1457,0.0,In  Bali,  All  the  Post-9/11  World's  a  Stage 
+ 2003-10-12T00:00:00Z,glocations,NEPAL,1156,0.0,Nepal  Maoist  Rebels  Move  Their  Attacks  Into  Cities 
+ 2003-10-12T00:00:00Z,glocations,IRAQ,1144,0.0,Aid  Workers  Leaving  Iraq,  Fearing  They  Are  Targets 
+ 2003-10-11T00:00:00Z,glocations,UNITEDSTATES,620,0.0,Deficit  Falls  Below  Prediction,  But  the  Year  Still  Sets  a  Record 
+ 2003-10-09T00:00:00Z,glocations,COLOMBIA,358,0.0,Bomb  in  Colombian  Capital  Kills  6,  Wounds  19 
+ 2003-10-07T00:00:00Z,glocations,LEBANON,354,0.0,Israeli  Soldier  Shot  to  Death  Near  Lebanon 
+ 2003-10-07T00:00:00Z,glocations,SAUDIARABIA,793,0.0,Homeland  Security  Dept.  Planning  7  Offices  Overseas  to  Screen  Visas 
+ 2003-10-07T00:00:00Z,glocations,IRAQ,996,0.0,Arabs'  Fear:  A  New  Crisis 
+ 2003-10-05T00:00:00Z,glocations,NEWYORKCITY,2399,0.0,The  City  of  Stories  Again 
+ 2003-10-03T00:00:00Z,glocations,MOGADISHU(SOMALIA),2104,0.0,The  Legacy  of  Black  Hawk  Down 
+ 2003-10-01T00:00:00Z,glocations,MOROCCO,51,0.0,World  Briefing  |  Africa:  Morocco:  Girls,  14,  Convicted  On  Terror  Charges 
+ 2003-09-28T00:00:00Z,glocations,SIERRALEONE,1332,0.0,The  English  Lesson 
+ 2003-09-28T00:00:00Z,glocations,NEWYORKSTATE,1036,0.0,Threshold  for  Dangerous  Schools  Under  New  Law  Is  Too  High,  Critics  Say 
+ 2003-09-26T00:00:00Z,glocations,VIRGINIA,79,0.0,New  Terror-Cell  Charges 
+ 2003-09-25T00:00:00Z,glocations,ASTANA(KAZAKHSTAN),427,0.0,Kazakhstan  Faith  Talks  Seek  To  Subdue  Religious  Clashes 
+ 2003-09-23T00:00:00Z,glocations,NEWYORKCITY,1109,0.0,On  Display  at  Thrift  Shop:  Distress;  In  Ozone  Park,  a  Symbol  of  a  Weakened  City  Economy 
+ 2003-09-23T00:00:00Z,glocations,IRAQ,1015,0.0,Plenty  of  Clues  In  Iraqi  Crimes,  But  Few  Trails 
+ 2003-09-18T00:00:00Z,glocations,GERMANY,1387,0.0,After  Heat  Wave,  Europe  Gives  Nuclear  Power  a  Second  Look 
+ 2003-09-17T00:00:00Z,glocations,UNITEDSTATES,719,0.0,The  Senate  Says  No 
+ 2003-09-14T00:00:00Z,glocations,NEWYORKCITY,1218,0.0,Using  the  Gavel  to  Strike  at  Terror;  Victims'  Families  Turn  to  Lawsuits  for  Justice  and  Answers 
+ 2003-09-14T00:00:00Z,glocations,NEWYORKCITY,1094,0.0,Some  Wall  Street  Jobs  Are  Now  on  Main  Street 
+ 2003-09-14T00:00:00Z,glocations,GREATBRITAIN,1445,0.0,Yankee,  Leave  Home! 
+ 2003-09-14T00:00:00Z,glocations,EUROPE,848,0.0,Proposal  at  W.T.O.  Meeting  Rejects  Changes  in  Subsidies 
+ 2003-09-12T00:00:00Z,glocations,SPAIN,554,0.0,Sports  Briefing 
+ 2003-09-10T00:00:00Z,glocations,IRAQ,1449,0.0,War  Budget  Request  More  Realistic  but  Still  Uncertain 
+ 2003-09-10T00:00:00Z,glocations,UNITEDSTATES,1156,0.0,Finding  The  Face  Of  Terror  In  Data 
+ 2003-09-10T00:00:00Z,glocations,SAUDIARABIA,55,0.0,World  Briefing  |  Middle  East:  Saudi  Arabia:  Parents  Urged  To  Report  Missing  Sons 
+ 2003-09-09T00:00:00Z,glocations,CALIFORNIA,1242,0.0,Hotels  Are  Tilting  Toward  Luxury  to  Lure  Convention  Business 
+ 2003-09-08T00:00:00Z,glocations,NEWYORKCITY,3077,0.0,9/11  STILL  STRAINS  NEW  YORK  PSYCHE 
+ 2003-09-08T00:00:00Z,glocations,IRAQ,682,0.0,The  Failuremongers 
+ 2003-09-07T00:00:00Z,glocations,NEWYORKCITY,2215,0.0,Love,  Terror  and  the  Chance  of  Love  Again 
+ 2003-09-07T00:00:00Z,glocations,NEWYORKCITY,431,0.0,Where  Are  the  Victims'  Families? 
+ 2003-09-07T00:00:00Z,glocations,IRAQ,7242,0.0,Why  Are  We  In  Iraq?;  (And  Liberia?  And  Afghanistan?) 
+ 2003-09-07T00:00:00Z,glocations,ISRAEL,344,0.0,Hamas  Placed  On  Terror  List  By  Europeans 
+ 2003-09-06T00:00:00Z,glocations,GREECE,72,0.0,World  Briefing  |  Europe:  Greece:  Blasts  At  Athens  Courthouse 
+ 2003-09-05T00:00:00Z,glocations,NEWYORKCITY,779,0.0,A  Refresher  On  Tragedies  And  Resilience 
+ 2003-09-03T00:00:00Z,glocations,NEWYORKCITY,559,0.0,Families  of  Uniformed  Victims  Are  Urged  to  File  9/11  Claims 
+ 2003-09-01T00:00:00Z,glocations,IRAQ,724,0.0,Home  Alone 
+ 2003-08-30T00:00:00Z,glocations,GREATBRITAIN,185,0.0,Terror  Alert  Strands  Passengers  at  Dover 
+ 2003-08-25T00:00:00Z,glocations,AFGHANISTAN,442,0.0,Kabul  Troops  Die  in  Ambush  And  Taliban  Claim  Role 
+ 2003-08-24T00:00:00Z,glocations,NEWYORKCITY,1373,0.0,For  Some  Fitness  Trainers,  The  Job  Was  Learned  in  Jail 
+ 2003-08-21T00:00:00Z,glocations,IRAQ,732,0.0,A  Price  Too  High 
+ 2003-08-20T00:00:00Z,glocations,IRAQ,780,0.0,Waiting  for  the  Inevitable  in  Baghdad 
+ 2003-08-19T00:00:00Z,glocations,WESTBANK,1158,0.0,Israelis  Worry  About  Terror,  By  Jews  Against  Palestinians 
+ 2003-08-19T00:00:00Z,glocations,CROATIA,1451,0.0,Down  the  River  to  the  Sullen  Balkans 
+ 2003-08-18T00:00:00Z,glocations,NORTHEASTERNSTATES(US),707,0.0,Staying  in  the  Dark 
+ 2003-08-17T00:00:00Z,glocations,COLOMBIA,553,0.0,Report  Calls  U.S.  a  Top  Target  for  Terror  Attack  Within  a  Year 
+ 2003-08-16T00:00:00Z,glocations,NORTHEASTERNSTATES(US),916,0.0,Lessons  Learned  on  9/11  Help  Hospitals  Respond 
+ 2003-08-16T00:00:00Z,glocations,NORTHEASTERNSTATES(US),992,0.0,Getting  Off  the  Ground  Remains  a  Big  Challenge 
+ 2003-08-16T00:00:00Z,glocations,NORTHEASTERNSTATES(US),454,0.0,When  You  Get  Caught  Between  a  Clear  Moon  And  New  York  City  .  .  . 
+ 2003-08-15T00:00:00Z,glocations,NEWYORKCITY,1333,0.0,In  Frustration,  Humor  and  Greed,  A  Powerless  New  York  Endures 
+ 2003-08-09T00:00:00Z,glocations,EUROPE,681,0.0,Some  Trade  Barriers  Won't  Fall 
+ 2003-08-06T00:00:00Z,glocations,NEWYORKCITY,564,0.0,Smoke  and  Dust  at  Ground  Zero  Is  Linked  to  Smaller  Babies 
+ 2003-08-05T00:00:00Z,glocations,BURKINAFASO,988,0.0,The  Long  Reach  of  King  Cotton 
+ 2003-08-04T00:00:00Z,glocations,NEWYORKCITY,898,0.0,A  Fresh  Start  Against  Terror 
+ 2003-08-03T00:00:00Z,glocations,WESTBANK,991,0.0,The  World:  Fencing  Off;  In  the  Middle  East,  Even  Words  Go  to  War 
+ 2003-08-03T00:00:00Z,glocations,ISRAEL,1061,0.0,Israelis,  and  Visitors,  Revel  in  a  Summer  of  Calm 
+ 2003-08-02T00:00:00Z,glocations,RUSSIA,976,0.0,Truck  Bombing  at  Russian  Military  Hospital  Kills  35;  Officials  Blame  Chechen  Separatists 
+ 2003-07-30T00:00:00Z,glocations,RUSSIA,898,0.0,Russia  Finds  No  Corner  Is  Safe  From  Chechnya's  War 
+ 2003-07-27T00:00:00Z,glocations,NEWJERSEY,1190,0.0,What's  Good  for  the  Geese? 
+ 2003-07-27T00:00:00Z,glocations,NEWYORKCITY,1372,0.0,Word  for  Word/Revisiting  9/11;  The  Warnings  Were  There.  But  Who  Was  Listening? 
+ 2003-07-23T00:00:00Z,glocations,ISRAEL,562,0.0,On  Alert  for  an  Attack,  Israeli  Police  Shoot  2  Unarmed  Arabs 
+ 2003-07-23T00:00:00Z,glocations,IRAQ,646,0.0,Send  in  the  Peace  Corps 
+ 2003-07-20T00:00:00Z,glocations,IRAQ,1495,0.0,The  World:  Remaking  History;  Britain  Tried  First.  Iraq  Was  No  Picnic  Then. 
+ 2003-07-13T00:00:00Z,glocations,HAMPTONS,THE(NY),1907,0.0,Enforcing  a  Quieter,  Calmer  Hamptons 
+ 2003-07-11T00:00:00Z,glocations,RUSSIA,460,0.0,Bomb  Kills  Russian  Security  Agent  in  Moscow 
+ 2003-07-08T00:00:00Z,glocations,IRAQ,852,0.0,Water  and  Electricity  in  Baghdad  Are  Still  Below  Prewar  Levels,  Officials  Say 
+ 2003-07-04T00:00:00Z,glocations,LIBERIA,1328,0.0,Graduates  Hope  They,  and  Liberia,  Have  a  Future 
+ 2003-07-03T00:00:00Z,glocations,BUCHANAN(NY),776,0.0,Study  Sees  a  Longer  Time  For  Evacuating  Indian  Pt. 
+ 2003-07-02T00:00:00Z,glocations,IRAN,166,0.0,French  Court  Releases  2  Terror  Suspects 
+ 2003-07-02T00:00:00Z,glocations,ISRAEL,962,0.0,Skepticism  Lives  on  Scarred  Jerusalem  Street 
+ 2003-06-29T00:00:00Z,glocations,NEWYORKCITY,374,0.0,Closed  Since  9/11,  a  PATH  Station  Is  Set  to  Reopen  Today 
+ 2003-06-28T00:00:00Z,glocations,ISRAEL,1256,0.0,ACCORD  REPORTED  ON  ISRAELI  PULLOUT  FROM  GAZA  AREAS 
+ 2003-06-26T00:00:00Z,glocations,RUSSIA,113,0.0,RUSSIA:  GROUP  SAYS  TERROR  ARRESTS  WERE  STAGED 
+ 2003-06-24T00:00:00Z,glocations,INDONESIA,1165,0.0,Investors  Clamor  for  Stake  in  Biggest  Indonesian  Bank 
+ 2003-06-23T00:00:00Z,glocations,BUNIA(CONGO),1262,0.0,Innocence  of  Youth  Is  Victim  of  Congo  War 
+ 2003-06-21T00:00:00Z,glocations,NAIROBI(KENYA),67,0.0,World  Briefing  |  Africa:  Kenya:  Terror  Warning 
+ 2003-06-20T00:00:00Z,glocations,THAILAND,677,0.0,Pattaya  Journal;  A  Famed  Resort  Where  Tourists  Fear  to  Tread 
+ 2003-06-19T00:00:00Z,glocations,IRAQ,938,0.0,In  Every  Alley,  Soldiers  Search  for  Household  Weapons 
+ 2003-06-17T00:00:00Z,glocations,ATHENS(GREECE),1407,0.0,Athens  Puts  Its  Games  Face  On 
+ 2003-06-15T00:00:00Z,glocations,ROSSLAKE(WASHINGTON),2024,0.0,Beat  Inspiration,  Fishing  and  Hiking 
+ 2003-06-15T00:00:00Z,glocations,YEMEN,870,0.0,The  World:  When  Laws  Don't  Apply;  Cracking  Down  on  the  Terror-Arms  Trade 
+ 2003-06-13T00:00:00Z,glocations,NEWYORKCITY,1181,0.0,U.S.  WILL  TIGHTEN  RULES  ON  HOLDING  TERROR  SUSPECTS 
+ 2003-06-11T00:00:00Z,glocations,NEWYORKCITY,571,0.0,Union  Questions  Tax  Breaks  For  Wall  St.  Building's  Owner 
+ 2003-06-08T00:00:00Z,glocations,NEWJERSEY,1088,0.0,National  Insecurity 
+ 2003-06-07T00:00:00Z,glocations,MOJAVE(CA),1427,0.0,Airlines'  Unwanted  Fleet  Grows  in  the  Desert 
+ 2003-06-06T00:00:00Z,glocations,BALI(INDONESIA),795,0.0,Ubud  Journal;  Bomb  That  Killed  202  Goes  On  Destroying  Lives 
+ 2003-06-04T00:00:00Z,glocations,BUNIA(CONGO),1052,0.0,Terror  Persists  as  Congolese  Await  U.N.  Force 
+ 2003-06-03T00:00:00Z,glocations,LATINAMERICA,940,0.0,It's  Boeing  Vs.  Airbus  In  Big  Battle  Over  Brazil 
+ 2003-06-01T00:00:00Z,glocations,NEWYORKCITY,808,0.0,Fees  From  Visas  Now  Train  Americans 
+ 2003-06-01T00:00:00Z,glocations,NEWYORKCITY,491,0.0,Hams  on  Alert 
+ 2003-06-01T00:00:00Z,glocations,AFGHANISTAN,7955,0.0,Unreconstructed 
+ 2003-05-30T00:00:00Z,glocations,SWITZERLAND,1336,0.0,U.S.  Cautiously  Begins  to  Seize  Millions  in  Foreign  Banks 
+ 2003-05-30T00:00:00Z,glocations,GREATBRITAIN,605,0.0,Muslim  Charity  Is  Tied  to  Terror  Group 
+ 2003-05-29T00:00:00Z,glocations,NEWYORKCITY,277,0.0,Amnesty  Calls  World  Less  Safe 
+ 2003-05-27T00:00:00Z,glocations,NEWYORKCITY,1544,0.0,Boom  Times  in  the  City's  Housing  Courts 
+ 2003-05-27T00:00:00Z,glocations,IRAQ,762,0.0,Old  Soldiers  And  Voices  Fading  Away 
+ 2003-05-25T00:00:00Z,glocations,NEWYORKCITY,807,0.0,The  World:  I.R.A.  to  Al  Qaeda;  Where  Threats  Are  Always  Orange 
+ 2003-05-24T00:00:00Z,glocations,NEWYORKCITY,818,0.0,Terror  Scare  On  a  Cruise  Leads  Police  To  a  Voyeur 
+ 2003-05-21T00:00:00Z,glocations,GERMANY,947,0.0,U.S.  Diplomatic  Outposts  To  Be  Shut  in  Saudi  Arabia 
+ 2003-05-21T00:00:00Z,glocations,NEWYORKSTATE,660,0.0,Civil  Service  Exam  Bonus  Is  Resisted  for  9/11  Siblings 
+ 2003-05-19T00:00:00Z,glocations,NEWYORKCITY,952,0.0,Metropolitan  Diary 
+ 2003-05-18T00:00:00Z,glocations,BRIDGEHAMPTON(NY),820,0.0,New  Sounds  and  Spirit  at  Chamber  Fest 
+ 2003-05-18T00:00:00Z,glocations,GREATBRITAIN,926,0.0,A  Bombing  Shatters  the  Saudi  Art  of  Denial 
+ 2003-05-18T00:00:00Z,glocations,LEBANON,837,0.0,Video  Game  Created  by  Militant  Group  Mounts  Simulated  Attacks  Against  Israeli  Targets 
+ 2003-05-17T00:00:00Z,glocations,NEWYORKSTATE,663,0.0,The  Smell  Was  Everywhere,  But  It  Was  Nothing  Sinister 
+ 2003-05-17T00:00:00Z,glocations,EUROPE,1372,0.0,Mutating  Virus:  Hatred  of  Jews 
+ 2003-05-17T00:00:00Z,glocations,RIYADH(SAUDIARABIA),319,0.0,Unheeded  Alarms  in  Saudi  Arabia 
+ 2003-05-15T00:00:00Z,glocations,GERMANY,710,0.0,The  Bush  Polonaise 
+ 2003-05-14T00:00:00Z,glocations,RIYADH(SAUDIARABIA),677,0.0,Compound  Was  a  Lure  for  Terror,  Experts  Say 
+ 2003-05-14T00:00:00Z,glocations,NEWYORKCITY,1127,0.0,New  Challenge  to  Saudis:  Royal  Family's  Resolve  Against  Terrorism  Questioned 
+ 2003-05-14T00:00:00Z,glocations,LEBANON,811,0.0,Paving  the  Past,  Keeping  an  Ear  to  the  Ground 
+ 2003-05-13T00:00:00Z,glocations,SEATTLE(WASH),1007,0.0,Terror  Scenes  Follow  Script  of  No  More  9/11's 
+ 2003-05-08T00:00:00Z,glocations,IRAQ,373,0.0,Free  Fall  in  Iraq 
+ 2003-05-07T00:00:00Z,glocations,IRAQ,867,0.0,Iraqi  Documents  on  Israel  Surface  on  a  Cultural  Hunt 
+ 2003-05-01T00:00:00Z,glocations,RUSSIA,605,0.0,Russia  Closes  File  on  Three  1999  Bombings 
+ 2003-05-01T00:00:00Z,glocations,WESTBANK,2326,0.0,Proposal  for  'Final  and  Comprehensive  Settlement'  to  Middle  East  Conflict 
+ 2003-04-30T00:00:00Z,glocations,BUCHANAN(NY),835,0.0,Problems  Are  Compounded  At  Indian  Point  Plants 
+ 2003-04-29T00:00:00Z,glocations,BROOKLYN(NYC),510,0.0,Brooklyn  Critics  Win  Delay  Of  Vote  on  Disaster  Center 
+ 2003-04-28T00:00:00Z,glocations,FRANCE,1166,0.0,565  Million  Acres,  Riv  Vu 
+ 2003-04-27T00:00:00Z,glocations,IRAQ,1498,0.0,Instruction  and  Methods  From  Al  Qaeda  Took  Root  in  North  Iraq  With  Islamic  Fighters 
+ 2003-04-27T00:00:00Z,glocations,IRAQ,2830,0.0,How  the  West  Can  Be  One 
+ 2003-04-27T00:00:00Z,glocations,SOUTHKOREA,7956,0.0,The  Flight  Of  the  Fluttering  Swallows 
+ 2003-04-26T00:00:00Z,glocations,IRAQ,1071,0.0,On  a  Friday  in  Baghdad,  Shiites  Gather  for  Prayer  for  First  Time  in  Four  Years 
+ 2003-04-25T00:00:00Z,glocations,IRAQ,381,0.0,Guard  and  Reserve  Members  Likely  to  Begin  Return  Home 
+ 2003-04-24T00:00:00Z,glocations,EUROPE,563,0.0,Europe  Sues  Greece  Over  Airline  Subsidy 
+ 2003-04-23T00:00:00Z,glocations,BROOKLYN(NYC),398,0.0,Free  Brooklyn-Manhattan  Ferry  to  End  Soon 
+ 2003-04-23T00:00:00Z,glocations,JAPAN,593,0.0,Pentagon  Reports  Raising  $1.7  Billion  to  Assist  Relief  Effort 
+ 2003-04-20T00:00:00Z,glocations,HONGKONG,903,0.0,Viral  Terrors 
+ 2003-04-20T00:00:00Z,glocations,NEWYORKCITY,1379,0.0,Shuddering  Through  the  Season  of  Hope;  War  and  Worry  Dampen  Spring's  Theme  of  Renewal  in  New  York 
+ 2003-04-20T00:00:00Z,glocations,IRAQ,1685,0.0,PENTAGON  EXPECTS  LONG-TERM  ACCESS  TO  KEY  IRAQ  BASES 
+ 2003-04-20T00:00:00Z,glocations,IRAQ,3568,0.0,Scenes  That  Linger:  An  Iraq  Chronicle  by  the  Witnesses  to  a  War 
+ 2003-04-20T00:00:00Z,glocations,RUSSIA,2125,0.0,ST.  PETERSBURG'S  REGILDED  AGE 
+ 2003-04-20T00:00:00Z,glocations,NEWYORKCITY,1443,0.0,Hitting  The  Road,  At  Home 
+ 2003-04-19T00:00:00Z,glocations,ISRAEL,909,0.0,Israel  Offers  Concessions,  but  Palestinians  Are  Wary 
+ 2003-04-18T00:00:00Z,glocations,NEWYORKCITY,1071,0.0,Ferry  Operator  Is  the  Target  Of  U.S.  Inquiry 
+ 2003-04-18T00:00:00Z,glocations,IRAQ,1109,0.0,In  the  Skies  Over  Iraq,  Silent  Observers  Become  Futuristic  Weapons 
+ 2003-04-17T00:00:00Z,glocations,ESTONIA,679,0.0,10  Countries  Sign  to  Join  European  Union 
+ 2003-04-16T00:00:00Z,glocations,BASEL(SWITZERLAND),992,0.0,Travel  Slump  Imperils  Swissair's  Successor 
+ 2003-04-16T00:00:00Z,glocations,NEWYORKCITY,812,0.0,Inquiry  Faults  Chemical  Mixers  and  City  For  'Witch's  Brew'  in  2002  Chelsea  Blast 
+ 2003-04-14T00:00:00Z,glocations,UNITEDSTATES,575,0.0,Advocates'  Groups  to  Fight  Local  Pursuit  of  Immigrants 
+ 2003-04-13T00:00:00Z,glocations,RUSSIA,1224,0.0,Fire  and  Silence:  Children's  Terror  in  Russia 
+ 2003-04-13T00:00:00Z,glocations,IRAQ,1653,0.0,The  Spoils  of  War  Coverage 
+ 2003-04-13T00:00:00Z,glocations,NEWYORKCITY,480,0.0,No  More  Secret  Identities 
+ 2003-04-13T00:00:00Z,glocations,IRAQ,4293,0.0,Who  Owns  the  Rules  of  War? 
+ 2003-04-13T00:00:00Z,glocations,IRAQ,3229,0.0,The  Next  Resolution 
+ 2003-04-13T00:00:00Z,glocations,GERMANY,1188,0.0,Commentary  Divided  On  Fall  of  Baghdad 
+ 2003-04-12T00:00:00Z,glocations,NEWYORKCITY,1375,0.0,Crisis  Plans  Being  Redrawn  By  Schools  Across  Nation 
+ 2003-04-11T00:00:00Z,glocations,IRAQ,851,0.0,In  Far  East  of  Many  Muslims,  Press  Is  Anti-U.S.  but  Hardly  Pro-Jihad 
+ 2003-04-11T00:00:00Z,glocations,NEWYORKCITY,248,0.0,More  Arrests  Made  In  9/11  Fraud  Cases 
+ 2003-04-10T00:00:00Z,glocations,NEWYORKCITY,1644,0.0,In  Many  Co-Ops,  Ordering  In  Becomes  'Go  Fetch' 
+ 2003-04-10T00:00:00Z,glocations,NEWYORKCITY,467,0.0,U.S.  Plan  for  Wall  St.  Firms  Drops  Provision  for  a  Move 
+ 2003-04-09T00:00:00Z,glocations,IRAQ,825,0.0,Attacks  in  Baghdad,  Hussein's  Uncertain  Fate  and  a  Lowered  U.S.  Alert 
+ 2003-04-09T00:00:00Z,glocations,IRAQ,1051,0.0,Study  Abroad,  Nail-Biting  at  Home 
+ 2003-04-07T00:00:00Z,glocations,NEWYORKCITY,928,0.0,A  Single  Alphabet  Bridges  Children's  Two  Cultures 
+ 2003-04-06T00:00:00Z,glocations,IRAQ,2741,0.0,Many  Took  Arms  in  Iraq  With  Images  of  Sept.  11  Etched  in  Their  Memories 
+ 2003-04-06T00:00:00Z,glocations,IRAQ,775,0.0,A  Nation  at  War 
+ 2003-04-06T00:00:00Z,glocations,IRAQ,1428,0.0,Captive  Audience 
+ 2003-04-06T00:00:00Z,glocations,IRAQ,1161,0.0,Amid  Ruins  of  Baath  Party's  Headquarters,  a  Town's  Pervasive  Sense  of  Fear  Remains 
+ 2003-04-04T00:00:00Z,glocations,NEWYORKCITY,88,0.0,World  Briefing  |  Asia:  China:  Hitting  Back 
+ 2003-04-03T00:00:00Z,glocations,NEWYORKCITY,312,0.0,From  the  House,  a  Pulse 
+ 2003-04-02T00:00:00Z,glocations,NEWYORKCITY,817,0.0,Terrorism  Panel  Hears  Advice  on  Methods  of  Prevention 
+ 2003-04-01T00:00:00Z,glocations,NEWYORKCITY,973,0.0,Beyond  Numbers,  9/11  Panel  Hears  Families'  Anguish 
+ 2003-03-31T00:00:00Z,glocations,GERMANY,1250,0.0,Learning  Not  to  Love  Saddam 
+ 2003-03-30T00:00:00Z,glocations,IRAQ,974,0.0,As  the  Conflict  in  Iraq  Deepens,  So  Does  the  Debate  About  Coverage 
+ 2003-03-30T00:00:00Z,glocations,DOVER(ENG),835,0.0,Britain,  1940-44 
+ 2003-03-30T00:00:00Z,glocations,IRAQ,1052,0.0,A  Woman's  Work? 
+ 2003-03-30T00:00:00Z,glocations,IRAQ,303,0.0,At  Home,  Pursuing  Terror 
+ 2003-03-29T00:00:00Z,glocations,IRAQ,1014,0.0,As  the  Battles  Heat  Up,  War  Buffs  Turn  to  Maps  And  Play  Board  Games 
+ 2003-03-28T00:00:00Z,glocations,NEWYORKCITY,660,0.0,Fire  Dept.  Weighs  Plan  For  37  Nighttime  Closings 
+ 2003-03-27T00:00:00Z,glocations,IRAQ,1029,0.0,Delays  Are  Rare  at  U.S.  Borders 
+ 2003-03-27T00:00:00Z,glocations,IRAQ,482,0.0,Words  of  War 
+ 2003-03-27T00:00:00Z,glocations,IRAQ,1607,0.0,Press  and  Public  Abroad  Seem  to  Grow  Ever  Angrier  About  the  U.S. 
+ 2003-03-25T00:00:00Z,glocations,NEWYORKCITY,715,0.0,Air  Patrols  Are  Resumed  Over  the  City 
+ 2003-03-24T00:00:00Z,glocations,RUSSIA,943,0.0,Chechens  Turn  Out  in  Huge  Numbers  for  a  Vote  on  a  Moscow-Backed  Constitution 
+ 2003-03-23T00:00:00Z,glocations,SANFRANCISCOBAY,580,0.0,Prosaic  San  Mateo  Bridge  Across  San  Francisco  Bay  Is  Now  a  Possible  Terror  Target 
+ 2003-03-23T00:00:00Z,glocations,IRAQ,525,0.0,Hunting  for  Iraq's  Terror  Weapons 
+ 2003-03-23T00:00:00Z,glocations,MEXICO,806,0.0,U.S.  and  Mexico  Coordinate  Military  Efforts  for  Mutual  Protection  Against  Terror 
+ 2003-03-23T00:00:00Z,glocations,RUSSIA,1384,0.0,Chechnya  Weighs  a  Russian  Offer  of  Self-Rule 
+ 2003-03-23T00:00:00Z,glocations,IRAQ,966,0.0,The  Nation;  Weighing  Your  Risks  of  Becoming  a  Terror  Victim 
+ 2003-03-23T00:00:00Z,glocations,IRAQ,732,0.0,In  Europe,  War  Coverage  Is  Everywhere,  All  the  Time 
+ 2003-03-22T00:00:00Z,glocations,NEWYORKCITY,633,0.0,Baghdad  Bombing  Brings  Back  Memories  of  9/11 
+ 2003-03-22T00:00:00Z,glocations,IRAQ,787,0.0,Papers  Debate  Use  of  Teams  To  React  Quickly  to  Terror 
+ 2003-03-21T00:00:00Z,glocations,NEWYORKCITY,764,0.0,Terror  TV?  Just  Change  The  Channel 
+ 2003-03-20T00:00:00Z,glocations,IRAQ,799,0.0,Sports  of  The  Times;  Game  Offers  Some  Respite  For  a  Moment 
+ 2003-03-19T00:00:00Z,glocations,NEWYORKCITY,1330,0.0,Running  Away  to  the  Circus;  In  Anxious  Times,  Crowds  Get  Thrills  and  Catharsis 
+ 2003-03-18T00:00:00Z,glocations,IRAQ,693,0.0,Diplomatic  Impasse,  a  U.S.  Ultimatum  to  Iraq,  and  Civilian  Fears 
+ 2003-03-18T00:00:00Z,glocations,NEWYORKCITY,1033,0.0,For  Immigrants,  Mixed  View  Of  War  and  a  World  of  Hate 
+ 2003-03-18T00:00:00Z,glocations,IRAQ,1100,0.0,Stock  Prices  Rise  as  War  In  Iraq  Appears  Inevitable 
+ 2003-03-17T00:00:00Z,glocations,NEWYORKCITY,805,0.0,Spring?  No,  but  Only  Calendar  Can  Tell  the  Difference 
+ 2003-03-16T00:00:00Z,glocations,IRAQ,970,0.0,Out  of  the  Mouths  of  Students:  Talk  of  Iraq 
+ 2003-03-16T00:00:00Z,glocations,NEWYORKCITY,113,0.0,FERRY  SLIPS  TO  BE  REBUILT 
+ 2003-03-16T00:00:00Z,glocations,IRAQ,1087,0.0,The  World:  Idealism  and  Power;  America's  Long  Middle  Eastern  Romance 
+ 2003-03-16T00:00:00Z,glocations,GERMANY,1486,0.0,Anger  on  Iraq  Seen  as  New  Qaeda  Recruiting  Tool 
+ 2003-03-15T00:00:00Z,glocations,NEWYORKCITY,455,0.0,9/11  Claims  By  Firefighters  Could  Cost  $12  Billion 
+ 2003-03-14T00:00:00Z,glocations,WHITEMOUNTAINS(NH),1024,0.0,The  Hunt  for  a  Shared  Pastime  Takes  an  Unexpected  Turn 
+ 2003-03-13T00:00:00Z,glocations,NEWYORKCITY,694,0.0,As  Divided  as  the  U.N.,  the  City  Council  Goes  on  Record  Against  an  Iraq  War,  for  Now 
+ 2003-03-11T00:00:00Z,glocations,NEWYORKCITY,121,0.0,Metro  Briefing  |  New  Jersey:  Hoboken:  Ferry  Terminal  To  Be  Renovated 
+ 2003-03-10T00:00:00Z,glocations,JAPAN,701,0.0,The  Asian  Front 
+ 2003-03-09T00:00:00Z,glocations,IRAQ,877,0.0,Saying  No  to  War 
+ 2003-03-09T00:00:00Z,glocations,IRAQ,1223,0.0,Uncertainty  of  War  Unsettles  Oil  Industry  and  the  Economy 
+ 2003-03-07T00:00:00Z,glocations,SEDEROT(ISRAEL),1102,0.0,Israelis  Storm  a  Gaza  Camp;  11  Palestinians  Are  Killed 
+ 2003-03-07T00:00:00Z,glocations,GREECE,422,0.0,Greece  Confronts  Its  Past 
+ 2003-03-06T00:00:00Z,glocations,NEWYORKCITY,776,0.0,Metro  Matters;  Hawks,  Doves  And  a  Flock  On  the  Line 
+ 2003-03-06T00:00:00Z,glocations,BROOKLYN(NYC),858,0.0,Brooklynites  Protest  Choice  Of  Site  to  House  Emergency  Hub 
+ 2003-03-06T00:00:00Z,glocations,WESTBANK,411,0.0,Two  Studies  Find  the  Palestinian  People  Impoverished  and  the  Economy  in  a  Shambles 
+ 2003-03-05T00:00:00Z,glocations,GREATBRITAIN,127,0.0,TERROR  DRILL  FOR  LONDON 
+ 2003-03-05T00:00:00Z,glocations,YEMEN,599,0.0,Brooklyn  Muslims  Disputing  Any  Ties  to  Terror 
+ 2003-03-05T00:00:00Z,glocations,NEWYORKCITY,686,0.0,COMMERCIAL  REAL  ESTATE:  Regional  Market  --  Manhattan;  Advancing  Technology  Tightens  Building  Security 
+ 2003-03-05T00:00:00Z,glocations,PHILIPPINES,404,0.0,Fighting  Terror  in  the  Philippines 
+ 2003-03-03T00:00:00Z,glocations,NEWZEALAND,708,0.0,Swiss  Reaction  to  Cup  Is  More  or  Less  Neutral 
+ 2003-03-02T00:00:00Z,glocations,NEWYORKCITY,2330,0.0,Financial  Backup  Sites:  How  Dispersed? 
+ 2003-03-01T00:00:00Z,glocations,KARACHI(PAKISTAN),619,0.0,Pakistani  Guards  Shot  Dead  at  U.S.  Office 
+ 2003-02-28T00:00:00Z,glocations,IRAQ,890,0.0,Oxford  Journal;  America  the  Monster?  Not  Altogether,  Oxford  Says 
+ 2003-02-23T00:00:00Z,glocations,IRAQ,7795,0.0,Fortress  America 
+ 2003-02-23T00:00:00Z,glocations,NEWYORKSTATE,809,0.0,The  Nation;  What  Should  America  Pay  to  Protect  New  York? 
+ 2003-02-23T00:00:00Z,glocations,NEWYORKSTATE,785,0.0,Off  Lower  Manhattan,  a  Historic  Stronghold  Hopes  for  an  Invasion  .  .  .  by  Sightseers 
+ 2003-02-23T00:00:00Z,glocations,CONNECTICUT,1976,0.0,Preparing  For  the  Unthinkable 
+ 2003-02-23T00:00:00Z,glocations,IRAQ,987,0.0,Lone  Terrorists  May  Strike  In  the  U.S.,  Agencies  Warn 
+ 2003-02-22T00:00:00Z,glocations,NEWYORKCITY,514,0.0,New  York  Seeks  Looser  Police  Surveillance  Rules 
+ 2003-02-22T00:00:00Z,glocations,IRAQ,1516,0.0,Fear  on  the  Home  Front 
+ 2003-02-18T00:00:00Z,glocations,IRAQ,666,0.0,Airline  Alliance  Welcomes  Korean  Member 
+ 2003-02-18T00:00:00Z,glocations,NEWYORKCITY,882,0.0,A  City's  Jitters,  Muffled  in  the  Swirling  Drifts 
+ 2003-02-17T00:00:00Z,glocations,IRAQ,747,0.0,Strategic  Advice  From  the  Public 
+ 2003-02-17T00:00:00Z,glocations,IRAQ,747,0.0,On  Day  of  Their  Own,  Thousands  Rally  in  San  Francisco 
+ 2003-02-16T00:00:00Z,glocations,IRAQ,793,0.0,Talk  of  War  Brings  Changes  in  Travel  Plans 
+ 2003-02-16T00:00:00Z,glocations,IRAQ,1054,0.0,Personal  Business;  Today,  Good  Advice  Is  the  First  Stop  for  Travelers 
+ 2003-02-16T00:00:00Z,glocations,RUSSIA,1028,0.0,Making  Music  in  the  Shadow  of  Stalin 
+ 2003-02-16T00:00:00Z,glocations,MECCA(SAUDIARABIA),1354,0.0,Pilgrims  Find  Changes  on  Both  Ends  of  Journey 
+ 2003-02-16T00:00:00Z,glocations,NEWJERSEY,780,0.0,Striking  Doctors,  a  Sick  Child  and  a  New  Appreciation 
+ 2003-02-14T00:00:00Z,glocations,GREATBRITAIN,684,0.0,British  Police  Arrest  Air  Traveler  With  Grenade,  but  See  No  Terror  Link 
+ 2003-02-13T00:00:00Z,glocations,NEWYORKCITY,1472,0.0,With  Eyes  and  Noses  Open,  New  York  Lives  With  Threat 
+ 2003-02-13T00:00:00Z,glocations,IRAQ,1266,0.0,Pro-Qaeda  Oil  Workers  A  Sabotage  Risk  for  Saudis 
+ 2003-02-12T00:00:00Z,glocations,WESTBANK,897,0.0,Violence  Follows  a  Ban  on  Palestinians'  Holiday  Travel 
+ 2003-02-12T00:00:00Z,glocations,COLOMBIA,104,0.0,World  Briefing  |  Americas:  Colombia:  U.S.  Experts  Help  At  Bomb  Site 
+ 2003-02-11T00:00:00Z,glocations,IRAQ,533,0.0,Divisive  Diplomacy  With  Europe 
+ 2003-02-11T00:00:00Z,glocations,NEWYORKCITY,0,0.0,Alert  for  Terror 
+ 2003-02-11T00:00:00Z,glocations,NEWYORKCITY,760,0.0,Normal,  But  Not  Too  Normal 
+ 2003-02-10T00:00:00Z,glocations,COLOMBIA,970,0.0,Bogotá  Journal;  A  Nice  Place  to  Live  if  You  Can  Live  With  Terror 
+ 2003-02-09T00:00:00Z,glocations,GERMANY,801,0.0,German  Demonstrators  Oppose  War,  Not  U.S. 
+ 2003-02-09T00:00:00Z,glocations,IRAQ,1926,0.0,War:  Still  Good  Business  on  the  Island 
+ 2003-02-07T00:00:00Z,glocations,NEWYORKCITY,962,0.0,Progress  Seen  in  Border  Tests  of  ID  System 
+ 2003-02-07T00:00:00Z,glocations,MUNSTER(GERMANY),645,0.0,Arrests  Reported  in  Britain  and  Germany 
+ 2003-02-06T00:00:00Z,glocations,NEWYORKCITY,103,0.0,Metro  Briefing  |  New  York:  Manhattan:  9/11  Aid  For  Nonprofit  Groups 
+ 2003-02-06T00:00:00Z,glocations,IRAQ,838,0.0,Confidential  Advisory  Warns  Officials  of  Rise  in  Possible  Terror  Threats 
+ 2003-02-05T00:00:00Z,glocations,NEWYORKCITY,105,0.0,Metro  Briefing  |  New  York:  No  Refund  Sought  Of  Extra  9/11  Aid 
+ 2003-02-03T00:00:00Z,glocations,IRAQ,1261,0.0,Once  a  Site  of  Death,  Now  a  Whirl  of  Fun 
+ 2003-02-02T00:00:00Z,glocations,PAKISTAN,488,0.0,The  World:  The  Pashtunistan  Front;  In  Wild  Mountains,  the  Threat  to  G.I.'s  Rises 
+ 2003-02-01T00:00:00Z,glocations,IRAQ,1965,0.0,Citizen  Soldiers  Are  Leaving  Big  Gaps  on  the  Home  Front 
+ 2003-01-30T00:00:00Z,glocations,IRAQ,1054,0.0,Iran  Veers  Between  Admiration  and  Resentment  of  American  Power 
+ 2003-01-30T00:00:00Z,glocations,RUSSIA,553,0.0,Rights  Group  Cites  Abuses  by  Moscow  and  Chechen  Guerrillas 
+ 2003-01-29T00:00:00Z,glocations,NEWYORKHARBOR,834,0.0,It  Wouldn't  Sink  Titanic,  but  It  Can  Stop  a  Ferry 
+ 2003-01-26T00:00:00Z,glocations,BUCHANAN(NY),738,0.0,Our  Towns;  Gospel  of  Armageddon  Finds  Fertile  Ground  Near  Indian  Point 
+ 2003-01-26T00:00:00Z,glocations,GAZA,606,0.0,Fierce  Fighting  as  Israelis  Storm  Into  Gaza,  Killing  12 
+ 2003-01-24T00:00:00Z,glocations,NEWYORKCITY,95,0.0,Metro  Briefing  |  New  York:  Manhattan:  Housing  Aid  For  Jobless 
+ 2003-01-23T00:00:00Z,glocations,DAVOS(SWITZERLAND),873,0.0,World  Forum,  Back  at  Davos,  Faces  Tough  Economic  Skiing 
+ 2003-01-21T00:00:00Z,glocations,GREATBRITAIN,995,0.0,Mosque  Raid  in  London  Results  in  7  Arrests  in  Connection  With  Discovery  of  Poison 
+ 2003-01-18T00:00:00Z,glocations,GERMANY,1941,0.0,The  Germans  Are  Breaking  An  Old  Taboo 
+ 2003-01-17T00:00:00Z,glocations,IRAQ,906,0.0,Increase  in  Electronic  Attacks  Leads  to  Warning  on  Iraqi  Hackers  and  U.S.  Safety 
+ 2003-01-16T00:00:00Z,glocations,INDONESIA,241,0.0,Indonesia  Rescinds  Rise  in  Phone  Rates 
+ 2003-01-16T00:00:00Z,glocations,NEWYORKCITY,575,0.0,New  York  Police  Send  an  Investigator  to  London  to  Focus  on  a  Poison  Threat 
+ 2003-01-15T00:00:00Z,glocations,MANCHESTER(ENG),678,0.0,British  Officer  Slain,  4  Hurt  As  Terror  Suspects  Are  Seized 

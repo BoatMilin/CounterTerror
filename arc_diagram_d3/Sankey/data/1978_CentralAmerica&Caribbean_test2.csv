@@ -1,0 +1,23 @@
+,attacktype1_txt,targtype1_txt,counts
+0,Armed Assault,Business,7
+1,Armed Assault,Government (General),2
+2,Armed Assault,Military,8
+3,Armed Assault,Police,7
+4,Armed Assault,Private Citizens & Property,2
+5,Assassination,Business,3
+6,Assassination,Government (General),12
+7,Assassination,Military,7
+8,Assassination,Police,3
+9,Assassination,Private Citizens & Property,4
+10,Bombing/Explosion,Business,10
+11,Bombing/Explosion,Government (General),13
+12,Bombing/Explosion,Military,6
+13,Bombing/Explosion,Police,2
+14,Bombing/Explosion,Private Citizens & Property,6
+15,Facility/Infrastructure Attack,Business,1
+16,Facility/Infrastructure Attack,Government (General),1
+17,Facility/Infrastructure Attack,Military,2
+18,Unknown,Business,3
+19,Unknown,Government (General),2
+20,Unknown,Military,2
+21,Unknown,Private Citizens & Property,2

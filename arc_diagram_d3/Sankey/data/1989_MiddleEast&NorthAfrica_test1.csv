@@ -1,0 +1,24 @@
+,country_txt,attacktype1_txt,counts
+0,Egypt,Armed Assault,1
+1,Egypt,Assassination,1
+2,Egypt,Bombing/Explosion,2
+3,Egypt,Facility/Infrastructure Attack,1
+4,Israel,Armed Assault,5
+5,Israel,Assassination,14
+6,Israel,Bombing/Explosion,13
+7,Israel,Facility/Infrastructure Attack,3
+8,Israel,Hostage Taking (Kidnapping),4
+9,Lebanon,Armed Assault,29
+10,Lebanon,Assassination,1
+11,Lebanon,Bombing/Explosion,18
+12,Lebanon,Hostage Taking (Kidnapping),1
+13,Turkey,Armed Assault,53
+14,Turkey,Assassination,4
+15,Turkey,Bombing/Explosion,18
+16,Turkey,Facility/Infrastructure Attack,5
+17,Turkey,Hostage Taking (Kidnapping),7
+18,West Bank and Gaza Strip,Armed Assault,7
+19,West Bank and Gaza Strip,Assassination,52
+20,West Bank and Gaza Strip,Bombing/Explosion,2
+21,West Bank and Gaza Strip,Facility/Infrastructure Attack,2
+22,West Bank and Gaza Strip,Hostage Taking (Kidnapping),2

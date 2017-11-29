@@ -1,0 +1,126 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 1992-12-24T00:00:00Z,glocations,CZECHOSLOVAKIA,1653,0.0,Czechoslovak  Colleges  Fight  the  ABC's:  Apathy,  Bureaucracy,  Communism 
+ 1992-12-22T00:00:00Z,glocations,GREATBRITAIN,538,0.0,Britain  to  Help  Insurers  Cover  Terrorism  Risks 
+ 1992-12-20T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),1052,0.0,What  Has  the  World  Done  for  Bosnia?;  A  Diary  of  Disgrace 
+ 1992-12-20T00:00:00Z,glocations,SOMALIA,1115,0.0,Somalia,  We  Are  Here!  (Now  What  Do  We  Do?) 
+ 1992-12-17T00:00:00Z,glocations,WESTBANK,1102,0.0,Top  Israel  Court  Halts  Expulsion  Of  Palestinians 
+ 1992-12-10T00:00:00Z,glocations,INDIA,1208,0.0,Frail  Social  Compact  Is  Broken  in  Bombay 
+ 1992-12-09T00:00:00Z,glocations,GREATBRITAIN,927,0.0,London  Journal;  With  Its  Bombs,  Will  the  I.R.A.  Steal  Christmas? 
+ 1992-12-08T00:00:00Z,glocations,SERBIA,728,0.0,On  My  Mind;  The  Lucky  Americans 
+ 1992-12-05T00:00:00Z,glocations,CAMBODIA,433,0.0,Khmer  Rouge  Frees  6  U.N.  Soldiers  in  Cambodia 
+ 1992-12-05T00:00:00Z,glocations,SOUTHAFRICA,368,0.0,Pretoria  Blames  Rebels  in  Attack 
+ 1992-12-03T00:00:00Z,glocations,GERMANY,715,0.0,German  Parliament  Ratifies  European  Union  Pact 
+ 1992-11-30T00:00:00Z,glocations,GERMANY,673,0.0,NEO-NAZIS  TO  FIGHT  BANNING  IN  COURT 
+ 1992-11-25T00:00:00Z,glocations,SERBIA,428,0.0,Save  at  Least  Some  Bosnians 
+ 1992-11-24T00:00:00Z,glocations,GERMANY,1044,0.0,3  Turks  Killed;  Germans  Blame  A  Neo-Nazi  Plot 
+ 1992-11-22T00:00:00Z,glocations,NEWYORKCITY,1897,0.0,Alone,  Undercover  and  Black:  Hazards  of  Mistaken  Identity 
+ 1992-11-22T00:00:00Z,glocations,WESTCHESTERCOUNTY(NY),2167,0.0,Carjacking  Finds  Its  Way  To  the  County 
+ 1992-11-12T00:00:00Z,glocations,LEBANON,529,0.0,Israeli  Planes  Hit  Back  at  Muslim  Guerrillas 
+ 1992-11-10T00:00:00Z,glocations,BERLIN(GERMANY),1118,0.0,No  Ordinary  Reunion;  Berlin  Stories  From  Special  Alumni 
+ 1992-11-09T00:00:00Z,glocations,PERU,336,0.0,Peruvians  Refuse  to  Give  Up  Hope 
+ 1992-11-08T00:00:00Z,glocations,NASSAUCOUNTY(NY),1492,0.0,Legal  Aid  for  Breast-Cancer  Queries 
+ 1992-11-06T00:00:00Z,glocations,CROATIA,878,0.0,Better-Armed  Muslims  Warn  Croats 
+ 1992-11-03T00:00:00Z,glocations,SERBIA,1153,0.0,35,000  Join  the  Depressing  Roll  of  Bosnia  Refugees 
+ 1992-10-19T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),642,0.0,Serbs'  Heavy  New  Artillery  Attack  Deprives  Sarajevo  of  Its  Flour  Mill 
+ 1992-10-16T00:00:00Z,glocations,PERU,264,0.0,Washington  Backs  Secret  Latin  Courts 
+ 1992-10-11T00:00:00Z,glocations,SOUTHAFRICA,3562,0.0,Apartheid's  Children:  Afrikaner  Writers  Today 
+ 1992-10-11T00:00:00Z,glocations,RUSSIA,2402,0.0,Journey  Into  the  Heart  of  Russia 
+ 1992-10-07T00:00:00Z,glocations,SARAJEVO,1438,0.0,Sarajevo  Paper  Defies  War  by  Staying  in  Print 
+ 1992-10-06T00:00:00Z,glocations,SARAJEVO,892,0.0,Serbian  Guns  Resume  Heavy  Shelling  of  Sarajevo 
+ 1992-10-02T00:00:00Z,glocations,YUGOSLAVIA,1237,0.0,500  Muslims  Driven  by  Serbs  Through  a  Gantlet  of  Terror 
+ 1992-09-28T00:00:00Z,glocations,MIAMI(FLA),798,0.0,Miami  Journal;  Drawbridge  Slowly  Vexes  One  and  All 
+ 1992-09-22T00:00:00Z,glocations,GERMANY,703,0.0,On  My  Mind;  Our  German  Business 
+ 1992-09-21T00:00:00Z,glocations,CROATIA,849,0.0,A  'Wild  East'  Revival  In  Serbian-Held  Croatia 
+ 1992-09-20T00:00:00Z,glocations,SOWETO(SOUTHAFRICA),5228,0.0,Island  of  Fear:  Inside  a  Soweto  Hostel 
+ 1992-09-16T00:00:00Z,glocations,SUDAN,1598,0.0,A  Hidden  Disaster  Grows  In  Sudan,  Aid  Officials  Say 
+ 1992-09-11T00:00:00Z,glocations,JOLO(WESTVA),951,0.0,Jolo  Journal;  When  the  Faithful  Tempt  the  Serpent 
+ 1992-09-07T00:00:00Z,glocations,NEWYORKSTATE,1155,0.0,Mentally  Ill:  Unmet  Goals  For  Albany 
+ 1992-09-06T00:00:00Z,glocations,NICARAGUA,206,0.0,Wall  of  Death  Slams  the  Coast  Of  Nicaragua 
+ 1992-09-04T00:00:00Z,glocations,HOMESTEAD(FLA),1823,0.0,Hurricane  Haunts  Children  Long  After  Winds  Have  Died 
+ 1992-08-29T00:00:00Z,glocations,IRAQ,625,0.0,Skies  Over  Turkey  Hold  Terror  for  Kurds  in  Iraq 
+ 1992-08-27T00:00:00Z,glocations,NEWYORKCITY,1115,0.0,Fierce  Shootout  Wounds  12  On  Drug-Filled  Bronx  Street 
+ 1992-08-23T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),751,0.0,Can  Images  of  Bosnia's  Victims  Change  the  World? 
+ 1992-08-23T00:00:00Z,glocations,CAMBODIA,711,0.0,Cambodian  Riviera  Revival  Threatens  Poor 
+ 1992-08-19T00:00:00Z,glocations,YUGOSLAVIA,112,0.0,Situation  in  Bosnia  Isn't  Like  Holocaust;  Chetniks  and  Partisans 
+ 1992-08-18T00:00:00Z,glocations,CAMBODIA,1992,0.0,Cambodia  Pact  Founders  on  Attacks  and  Distrust 
+ 1992-08-16T00:00:00Z,glocations,LONGISLAND(NY),1575,0.0,Growing  Numbers  Recount  Histories  of  Incest 
+ 1992-08-16T00:00:00Z,glocations,CROATIA,2974,0.0,CONFLICT  IN  THE  BALKANS:  IN  ENEMY  HANDS  -  A  Special  Report;  Clearer  Picture  of  Bosnia  Camps:  A  Brutal  Piece  of  a  Larger  Plan 
+ 1992-08-10T00:00:00Z,glocations,NEWARK(NJ),2521,0.0,On  Stolen  Wheels,  Newark  Youths  Defy  Authority 
+ 1992-08-09T00:00:00Z,glocations,GUADALCANAL,1528,0.0,Veterans  Relive  Guadalcanal's  Terror  and  Heroism 
+ 1992-08-09T00:00:00Z,glocations,YUGOSLAVIA,516,0.0,Serbs  in  Bosnia  Allow  Red  Cross  To  Visit  Camps 
+ 1992-08-07T00:00:00Z,glocations,CROATIA,1331,0.0,Refugees  From  Camps  Tell  of  Agony  and  Terror 
+ 1992-08-06T00:00:00Z,glocations,CONNECTICUT,1496,0.0,Violence  at  Home:  'They  Don't  Want  Anyone  to  Know' 
+ 1992-08-05T00:00:00Z,glocations,SERBIA,1184,0.0,Shellfire  Hits  Sarajevo  Funeral  for  Slain  Children 
+ 1992-08-05T00:00:00Z,glocations,NIGERIA,876,0.0,Akwana  Journal;  Dawn  Brings  Death:  One  More  Day  of  Ethnic  War 
+ 1992-08-02T00:00:00Z,glocations,LITHUANIA,3635,0.0,'Is  This  What  the  15  People  at  the  TV  Tower  Died  For?' 
+ 1992-08-02T00:00:00Z,glocations,BOSNIA,1080,0.0,'Ethnic  Cleansing.'  Europe's  Old  Horror,  With  New  Victims 
+ 1992-07-30T00:00:00Z,glocations,YUGOSLAVIA,750,0.0,Aid  but  Not  Homes  Offered  To  Refugees  From  Balkans 
+ 1992-07-26T00:00:00Z,glocations,PERU,179,0.0,July  19-25:  40  Killed;  Shining  Path  Guerrillas  Shut  Down  Much  of  Lima 
+ 1992-07-26T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),750,0.0,The  Dying  City  of  Sarajevo 
+ 1992-07-26T00:00:00Z,glocations,YUGOSLAVIA,680,0.0,Serbs  Force  An  Exodus  From  Plain 
+ 1992-07-26T00:00:00Z,glocations,GERMANY,1918,0.0,A  'Saxon  Switzerland'  in  Germany 
+ 1992-07-20T00:00:00Z,glocations,ALGERIA,937,0.0,Toulon  Journal;  Still  Aching  for  Algeria,  30  Years  After  the  Rage 
+ 1992-07-20T00:00:00Z,glocations,SANANDREASFAULT(CALIFORNIA),682,0.0,Californians  Confront  Wave  of  Quake  Rumors 
+ 1992-07-17T00:00:00Z,glocations,MONGOLIA,1078,0.0,Karakorum  Journal;  Red  Tide  Ebbs,  Exposing  Buddhism 
+ 1992-07-12T00:00:00Z,glocations,LOSANGELES(CALIF),1745,0.0,Los  Angeles  Tourism  After  the  Riots 
+ 1992-07-09T00:00:00Z,glocations,NEWYORKCITY,304,0.0,New  York  Deserves  Better  Than  the  News  Coverage  It  Gets 
+ 1992-07-09T00:00:00Z,glocations,SOUTHAFRICA,732,0.0,Pretoria  Can  Stop  the  Killings  at  Any  Time 
+ 1992-07-08T00:00:00Z,glocations,COMMONWEALTHOFINDEPENDENTSTATES,1484,0.0,In  the  Caucasus,  Ancient  Blood  Feuds  Threaten  to  Engulf  2  New  Republics 
+ 1992-07-06T00:00:00Z,glocations,COMMONWEALTHOFINDEPENDENTSTATES,2355,0.0,NUCLEAR  ACCORDS  BRING  NEW  FEARS  ON  ARMS  DISPOSAL 
+ 1992-07-01T00:00:00Z,glocations,LOSANGELES(CALIF),732,0.0,Los  Angeles  Journal;  Quake  Spares  Buildings  but  Undermines  Denials 
+ 1992-06-30T00:00:00Z,glocations,YUCCAVALLEY(CALIF),1276,0.0,Having  Fled  City  Ills,  People  Stay  Despite  Quakes 
+ 1992-06-28T00:00:00Z,glocations,NEWYORKCITY,812,0.0,Knapp  Commission  Reunion  Has  an  Unexpected  Currency 
+ 1992-06-28T00:00:00Z,glocations,ONTARIO(CANADA),2256,0.0,Ontario's  Lode  of  Black  History 
+ 1992-06-23T00:00:00Z,glocations,SARAJEVO,1637,0.0,Sarajevo  Tries  A  Normal  Life;  Bombs  Forbid  It 
+ 1992-06-22T00:00:00Z,glocations,NEWYORKCITY,1319,0.0,Talk  in  Washington  Heights:  Fear,  Drugs,  and  Now  Corruption 
+ 1992-06-21T00:00:00Z,glocations,AHATOVICI(BOSNIA),2251,0.0,BOSNIAN  SURVIVORS  RECOUNT  BRUTALITY  AND  MASS  SLAYINGS 
+ 1992-06-21T00:00:00Z,glocations,CAMBODIA,4607,0.0,Washing  Buddha's  Face 
+ 1992-06-19T00:00:00Z,glocations,BOIPATONG(SOUTHAFRICA),850,0.0,39  IN  SOUTH  AFRICA  DIE  IN  A  MASSACRE 
+ 1992-06-14T00:00:00Z,glocations,NEWYORKCITY,3251,0.0,A  Grim  Wasteland  on  News  at  Six 
+ 1992-06-12T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),1840,0.0,U.N.  Envoys  Resume  Effort  To  Get  Food  Into  Sarajevo 
+ 1992-06-10T00:00:00Z,glocations,SERBIA,1216,0.0,Underground  in  Sarajevo,  the  Ethnic  Groups  Share  the  Terror  and  the  Hope 
+ 1992-06-08T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),2572,0.0,The  Death  of  a  City:  Elegy  for  Sarajevo  --  A  special  report.;  A  People  Under  Artillery  Fire  Manage  to  Retain  Humanity 
+ 1992-06-07T00:00:00Z,glocations,YUGOSLAVIA,968,0.0,Serbs,  Shunned  by  World,  Say  They  Are  Victims 
+ 1992-06-07T00:00:00Z,glocations,LOSANGELES(CALIF),1099,0.0,Los  Angeles  Journal;  After  Riots,  a  Return  to  the  Extremes  That  Pass  for  Normality 
+ 1992-05-31T00:00:00Z,glocations,NEWYORKSTATE,1057,0.0,Arson  Rate,  After  Decline  in  80's,  Jumps  in  Northeast  Recession 
+ 1992-05-26T00:00:00Z,glocations,INGENIO(PERU),932,0.0,Ingenio  Journal;  Roadblock  on  the  Shining  Path:  Angry  Peasants 
+ 1992-05-25T00:00:00Z,glocations,HAITI,1112,0.0,Haitians  Still  Determined  to  Get  Out 
+ 1992-05-24T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),976,0.0,Bosnia's  Nightmare;  Fear  and  Unreason  Twist  a  Spiral  of  Death 
+ 1992-05-23T00:00:00Z,glocations,CROATIA,550,0.0,3  Ex-Yugoslav  Republics  Are  Accepted  Into  U.N. 
+ 1992-05-22T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),2047,0.0,Bosnian  Strife  Cuts  Old  Bridges  of  Trust 
+ 1992-05-19T00:00:00Z,glocations,NEWYORKCITY,514,0.0,BUSINESS  DIGEST 
+ 1992-05-17T00:00:00Z,glocations,CONNECTICUT,845,0.0,Victor  Borge  Plays  the  Stamford  Palace 
+ 1992-05-13T00:00:00Z,glocations,SERBIA,1545,0.0,Fear  of  Serb  Onslaught  Increases  As  Europe's  Monitors  Quit  Bosnia 
+ 1992-05-12T00:00:00Z,glocations,BOSNIA-HERZEGOVINA(YUGOSLAVIA),1394,0.0,Pessimism  Is  Overshadowing  Hope  In  Effort  to  End  Yugoslav  Fighting 
+ 1992-05-05T00:00:00Z,glocations,EASTON(CONN),773,0.0,The  Attack  of  the  8-Legged  Vampires  of  Doom! 
+ 1992-05-03T00:00:00Z,glocations,SERBIA,621,0.0,In  Sarajevo,  a  Barrage  of  Terror 
+ 1992-04-30T00:00:00Z,glocations,KABUL(AFGHANISTAN),882,0.0,Debris  of  War  and  Politics  on  Road  to  Kabul 
+ 1992-04-27T00:00:00Z,glocations,FERNDALE(CALIF),1147,0.0,Amid  Quake's  Aftershocks,  Affirmations  in  California 
+ 1992-04-14T00:00:00Z,glocations,SANFRANCISCOBAYAREA,2265,0.0,Quake  Theory  Attacks  Prevailing  Wisdom  On  How  Faults  Slip  and  Slide 
+ 1992-04-13T00:00:00Z,glocations,IRAQ,751,0.0,The  Soil  Yields  Terror  for  Iraq's  Kurds 
+ 1992-04-11T00:00:00Z,glocations,JAPAN,734,0.0,Japan's  Economy  Turns  Hollow 
+ 1992-04-07T00:00:00Z,glocations,PERU,2150,0.0,A  Lethal  Army  of  Insurgents  Lima  Could  Not  Stamp  Out 
+ 1992-04-06T00:00:00Z,glocations,NEWYORKCITY,555,0.0,Allies  in  Anger  Pack  a  Train  to  Washington 
+ 1992-04-05T00:00:00Z,glocations,RAFA(GAZASTRIP),343,0.0,SECURITY  COUNCIL  CONDEMNS  ISRAEL 
+ 1992-04-04T00:00:00Z,glocations,COMMONWEALTHOFINDEPENDENTSTATES,1539,0.0,'Citizen  Ch.':  Russia  Opens  Files  on  Serial  Killings 
+ 1992-03-30T00:00:00Z,glocations,CAMBODIA,1267,0.0,Peppered  With  Mines,  Awash  in  Civil  War,  It  Still  Is  Home  for  Cambodians 
+ 1992-03-29T00:00:00Z,glocations,PARMA(ITALY),1215,0.0,Where  the  Audience  Is  the  Star 
+ 1992-03-27T00:00:00Z,glocations,ALBANIA,793,0.0,ALBANIA'S  CLERICS  LEAD  A  REBIRTH 
+ 1992-03-22T00:00:00Z,glocations,PERU,874,0.0,In  Peru's  Shining  Path,  U.S.  Sees  Road  to  Ruin 
+ 1992-03-15T00:00:00Z,glocations,NEWYORKCITY,6062,0.0,TOURS 
+ 1992-03-13T00:00:00Z,glocations,CHICAGO(ILL),706,0.0,Priestly  Silence  on  Pedophilia 
+ 1992-03-05T00:00:00Z,glocations,CAMBODIA,2433,0.0,Coping  With  Peace  --  A  Special  Report.;  Cambodia,  Bleak  and  Fearful,  Yearns  for  U.N.  Peacekeepers 
+ 1992-03-04T00:00:00Z,glocations,CROATIA,1782,0.0,Yugoslav  Town's  Memorial  to  Hatred:  New  Strife  Deepens  Bloody  Heritage 
+ 1992-03-04T00:00:00Z,glocations,UNITEDSTATES,469,0.0,Senate  Republicans  Announce  New  Campaign  for  Anticrime  Bill 
+ 1992-03-01T00:00:00Z,glocations,FRANCE,3471,0.0,A  Leisurely  Meandor  Along  the  River  Lot 
+ 1992-02-17T00:00:00Z,glocations,EASTTIMOR,308,0.0,East  Timor  Needs  Elections  and  End  to  Terror 
+ 1992-02-10T00:00:00Z,glocations,MIDDLEEAST,308,0.0,In  Palestinian-Israeli  Talks,  Parties  Are  Unequal 
+ 1992-02-09T00:00:00Z,glocations,UNITEDSTATES,1515,0.0,Driven  By  Fear;  Crime  and  Its  Amplified  Echoes  Are  Rearranging  People's  Lives 
+ 1992-02-03T00:00:00Z,glocations,LOSANGELES(CALIF),1506,0.0,The  Talk  of  Hollywood;  New  Films  Depicting  A  Tougher  Los  Angeles 
+ 1992-02-02T00:00:00Z,glocations,UNIONOFSOVIETSOCIALISTREPUBLICS(USSR),1526,0.0,Long  Conflict  Deeply  Marked  the  Self-Image  of  Americans 
+ 1992-01-26T00:00:00Z,glocations,EGYPT,1190,0.0,Sudan  Is  Seen  as  Safe  Base  for  Mideast  Terror  Groups 
+ 1992-01-25T00:00:00Z,glocations,SERBIA(YUGOSLAVIA),841,0.0,Evidence  in  Massacre  Points  to  Croats 
+ 1992-01-21T00:00:00Z,glocations,RAMATGAN(ISRAEL),1391,0.0,Scuds  Are  Gone,  but  the  Israelis'  Fears  Linger 
+ 1992-01-17T00:00:00Z,glocations,NEWYORKCITY,580,0.0,The  Larger  Crime 
+ 1992-01-12T00:00:00Z,glocations,NEWYORKCITY,1757,0.0,Big  Shelters  Hold  Terrors  for  the  Mentally  Ill 
+ 1992-01-07T00:00:00Z,glocations,WESTBANK,1065,0.0,WASHINGTON  JOINS  U.N.  IN  CONDEMNING  ISRAELI  EXPULSIONS 

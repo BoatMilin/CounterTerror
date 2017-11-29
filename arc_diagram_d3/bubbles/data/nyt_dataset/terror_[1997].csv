@@ -1,0 +1,67 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 1997-12-21T00:00:00Z,glocations,CONGO(FORMERLYZAIRE),1233,0.0,The  World;  Searching  in  Vain  for  Rwanda's  Moral  High  Ground 
+ 1997-12-17T00:00:00Z,glocations,JAPAN,533,0.0,After  Lima  Crisis,  Skeptics  Deplore  Japan's  Response  to  Terror 
+ 1997-12-16T00:00:00Z,glocations,NEWYORKCITY,553,0.0,Homemade  Bomb  Explodes  Outside  Planet  Hollywood 
+ 1997-12-15T00:00:00Z,glocations,GINSEYI(RWANDA),1674,0.0,Machete  Returns  to  Rwanda,  Rekindling  a  Genocidal  War 
+ 1997-11-30T00:00:00Z,glocations,ALGERIA,718,0.0,In  America;  Terrorism  by  the  Book 
+ 1997-11-24T00:00:00Z,glocations,IRAN,643,0.0,Editorial  Observer;  The  Profane  and  Defiant  World  of  the  Iranians 
+ 1997-11-23T00:00:00Z,glocations,IRAQ,569,0.0,No  Time  to  Ease  Up  on  Iraq 
+ 1997-11-21T00:00:00Z,glocations,IRAQ,1019,0.0,Germ  Weapons:  Deadly  but  Hard  to  Use 
+ 1997-11-18T00:00:00Z,glocations,EGYPT,684,0.0,Despite  Crackdown,  Islamic  Group  Keeps  Killing 
+ 1997-11-14T00:00:00Z,glocations,NEWYORKSTATE,1519,0.0,Between  a  Rock  And  the  Way  Down 
+ 1997-11-10T00:00:00Z,glocations,NEWYORKCITY,525,0.0,Blast  Shatters  Windows  Near  Mock  Attack 
+ 1997-11-09T00:00:00Z,glocations,CONNECTICUT,943,0.0,A  Tragedy  Recalled  in  Dance 
+ 1997-11-09T00:00:00Z,glocations,HANOI(VIETNAM),3715,0.0,To  Hanoi  by  Train,  a  Journey  Of  1,000  Miles 
+ 1997-11-02T00:00:00Z,glocations,NORTHERNIRELAND,2181,0.0,Ulster  Ex-Militants  Press  New  Cause:  Nonviolence 
+ 1997-10-30T00:00:00Z,glocations,NEWYORKCITY,562,0.0,24  Members  of  Crips  Gang  Are  Arrested  in  a  Sweep  by  Police 
+ 1997-10-26T00:00:00Z,glocations,NASSAUCOUNTY(NY),1713,0.0,Off-Year  Elections  Handicap  Challengers 
+ 1997-10-24T00:00:00Z,glocations,ALGERIA,1587,0.0,Algeria  Votes,  Recalling  Fateful  Election  of  1992 
+ 1997-10-03T00:00:00Z,glocations,NEWYORKCITY,1046,0.0,On  a  Soaring  Ride  Of  Reminiscence,  Speed  and  Wonder 
+ 1997-09-28T00:00:00Z,glocations,GREENBURGH(NY),1088,0.0,The  View  From:  Greenburgh;  Volunteers  Put  the  Fright  in  Halloween  but  No  Real  Horror 
+ 1997-09-16T00:00:00Z,glocations,CALIFORNIA,1001,0.0,Tiniest  Terror  Plaguing  Los  Angeles 
+ 1997-09-08T00:00:00Z,glocations,WESTBANK,334,0.0,To  Palestinians  Without  Hope,  Peace  Is  a  Mirage 
+ 1997-08-19T00:00:00Z,glocations,LEBANON,1156,0.0,Militia  Attack  in  Lebanon  Kills  6  and  Sets  Off  a  Battle 
+ 1997-08-15T00:00:00Z,glocations,TURKEY,562,0.0,Turkey  Grants  an  Amnesty  for  Imprisoned  Editors 
+ 1997-08-14T00:00:00Z,glocations,COLOGNE(GERMANY),1013,0.0,Stripping  Away  Layers  of  a  Wistful  Anti-Nazi  Myth 
+ 1997-08-12T00:00:00Z,glocations,BURUNDI,1576,0.0,Hutu  Families  Pay  Price  in  Burundi's  Crackdown  Against  Guerrillas 
+ 1997-08-10T00:00:00Z,glocations,GERMANY,1843,0.0,Berlin 
+ 1997-08-03T00:00:00Z,glocations,SWITZERLAND,466,0.0,More  Blundering  by  Swiss  Banks 
+ 1997-08-03T00:00:00Z,glocations,ISRAEL,1049,0.0,The  Cold  Comfort  of  Hot-Headed  Enemies 
+ 1997-08-03T00:00:00Z,glocations,NEWYORKSTATE,1232,0.0,Trying  to  Avoid  Giving  Up  on  Young  Offenders 
+ 1997-07-23T00:00:00Z,glocations,UNITEDSTATES,673,0.0,Broadcast  Lobby  Triumphs 
+ 1997-07-22T00:00:00Z,glocations,NORTHERNIRELAND,1029,0.0,New  Truce,  New  Questions 
+ 1997-07-21T00:00:00Z,glocations,NEWYORKCITY,679,0.0,No  Room  for  Doubt 
+ 1997-07-14T00:00:00Z,glocations,NEWYORKCITY,720,0.0,City  Has  a  Plan  to  Sweep  Bicyclists  Off  Their  Feet 
+ 1997-07-11T00:00:00Z,glocations,NEWYORKCITY,776,0.0,'77  Blackout:  The  Heart  Of  Darkness 
+ 1997-07-02T00:00:00Z,glocations,GAZA,777,0.0,Palestinians  Protest  Over  Arafat  and  Gaza  Security  Force 
+ 1997-06-27T00:00:00Z,glocations,CONEYISLAND(NYC),505,0.0,Suitable  Tumult  for  Cyclone's  70th 
+ 1997-06-26T00:00:00Z,glocations,ALBANIA,799,0.0,Albania's  Lawless  Anguish 
+ 1997-06-22T00:00:00Z,glocations,NEWYORKCITY,1574,0.0,Is  There  a  Doctor  in  the  House?  Whatever  Kind  You  Need 
+ 1997-06-20T00:00:00Z,glocations,GREATBRITAIN,731,0.0,'You  Can't  Despair' 
+ 1997-06-05T00:00:00Z,glocations,ALGERIA,932,0.0,Algeria  Vote  Nears,  With  Democracy  in  Ruins 
+ 1997-05-25T00:00:00Z,glocations,HAVANA(CUBA),1613,0.0,An  Art  World  Emerging  Into  the  Cuban  Sun 
+ 1997-05-13T00:00:00Z,glocations,ATLANTICCITY(NJ),77,0.0,Poodle  Still  at  Large 
+ 1997-05-08T00:00:00Z,glocations,ISRAEL,2661,0.0,In  Israel,  Coercing  Prisoners  Is  Becoming  Law  of  the  Land 
+ 1997-05-01T00:00:00Z,glocations,SRILANKA,576,0.0,Terrorism's  Worldwide  Toll  Was  High  in  1996,  U.S.  Report  Says 
+ 1997-04-27T00:00:00Z,glocations,GERMANY,397,0.0,A  United  Front  Against  Iran 
+ 1997-04-27T00:00:00Z,glocations,LIMA(PERU),873,0.0,In  Peru,  a  Brilliant  Rescue  Shines  No  Light  on  Terror 
+ 1997-04-23T00:00:00Z,glocations,ISRAEL,710,0.0,A  Passover  Sermon 
+ 1997-04-15T00:00:00Z,glocations,CROATIA,701,0.0,Back  From  the  Grave 
+ 1997-04-13T00:00:00Z,glocations,NEWYORKCITY,2290,0.0,Can  New  York  Make  You  Crazy? 
+ 1997-03-25T00:00:00Z,glocations,TELAVIV(ISRAEL),677,0.0,In  Resilient  Tel  Aviv,  'Antibodies'  to  Terror  Act  Fast 
+ 1997-03-23T00:00:00Z,glocations,ISRAEL,309,0.0,A  Frightening  Week  For  Mideast  Peace 
+ 1997-03-17T00:00:00Z,glocations,ALGERIA,1003,0.0,Many  journalists  overseas  face  danger  and  death  each  day  as  they  try  to  do  their  jobs. 
+ 1997-03-16T00:00:00Z,glocations,CANTERBURY(CONN),1750,0.0,Desegregation:  The  Legislature's  19th-Century  Failure 
+ 1997-03-11T00:00:00Z,glocations,QUEENANNE'SCOUNTY(MD),1653,0.0,Revival  of  Chain  Gangs  Takes  a  Twist 
+ 1997-03-08T00:00:00Z,glocations,TURKEY,1841,0.0,Kurdish  Rebels  in  Turkey  Are  Down  but  Not  Out 
+ 1997-03-05T00:00:00Z,glocations,VLORE(ALBANIA),846,0.0,Albania's  Government  and  a  City  Prepare  for  Showdown 
+ 1997-02-28T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,1500,0.0,On  Bosnia's  Ethnic  Fault  Lines,  It's  Still  Tense,  but  World  Is  Silent 
+ 1997-02-25T00:00:00Z,glocations,NEWYORKCITY,801,0.0,Tourists  See  A  Sad  Fluke,  Not  a  Menace 
+ 1997-02-04T00:00:00Z,glocations,JAPAN,1647,0.0,Germ  War,  a  Current  World  Threat,  Is  a  Remembered  Nightmare  in  China 
+ 1997-02-02T00:00:00Z,glocations,AFRICA,464,0.0,The  New  Mercenaries  of  Africa 
+ 1997-01-25T00:00:00Z,glocations,NEWYORKCITY,997,0.0,An  AIDS  Nursing  Home  Finds  It  Is  No  Longer  the  Last  Stop 
+ 1997-01-18T00:00:00Z,glocations,SWITZERLAND,378,0.0,Swiss  Stonewalling 
+ 1997-01-17T00:00:00Z,glocations,ATLANTA(GA),1222,0.0,2  Bomb  Blasts  Rock  Abortion  Clinic  at  Atlanta;  6  Are  Injured 
+ 1997-01-07T00:00:00Z,glocations,JAPAN,852,0.0,Peru  Turns  A  Deaf  Ear  To  Rebels 
+ 1997-01-01T00:00:00Z,glocations,ALASKA,2874,0.0,Casting  for  Silver  Salmon,  Renewing  a  Life 
+ 1997-01-01T00:00:00Z,glocations,IRAN,1194,0.0,Islamic  Militancy  vs.  Money-Making  in  Iran 

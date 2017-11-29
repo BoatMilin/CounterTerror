@@ -43,8 +43,8 @@ function init() {
     var region = getRegion().replace(/ /g,"_");
     path = "./data/nyt/wc_"+getYear()+".csv"
     path2 = "./data/wc_gtd/"+getYear()+"/wc_"+region+".csv"
-    update(path)
-    update(path2)
+    updateBubble(path)
+    updateBubble(path2)
 }
 
 function getYear(){
@@ -93,16 +93,16 @@ function updateClicked(){
     path = "./data/nyt/wc_"+getYear()+".csv"
     path2 = "./data/wc_gtd/"+getYear()+"/wc_"+region+".csv"
 
-    update(path)
+    updateBubble(path)
     try{
-        update(path2)
+        updateBubble(path2)
     }
     catch(err) {
         console.log("err")
     }
 }
 
-function update(path) {
+function updateBubble(path) {
     d3.csv(path, function(error, data){
             if(error) {
                 console.log("File not found");

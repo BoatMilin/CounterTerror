@@ -1,0 +1,143 @@
+pub_date,keyword_name,keyword_value,word_count,score,headline_main
+ 1994-12-31T00:00:00Z,glocations,NEWYORKCITY,612,0.0,State  Assails  Mistreatment  By  Hospital  In  Rape  Case 
+ 1994-12-27T00:00:00Z,glocations,LANCASTER(TEX),1322,0.0,Disaster  Leaves  Imprint  on  Town 
+ 1994-12-25T00:00:00Z,glocations,HAITI,1218,0.0,In  a  Harsh  Land,  Faith  at  Christmas 
+ 1994-12-25T00:00:00Z,glocations,NEWYORKCITY,1009,0.0,Terrorism:  Difficult  to  Prevent  or  Forget 
+ 1994-12-21T00:00:00Z,glocations,FAREAST,SOUTHANDSOUTHEASTASIAANDPACIFICAREAS,735,0.0,In  America;  Terror  In  Toyland 
+ 1994-12-20T00:00:00Z,glocations,GREATBRITAIN,532,0.0,Talks  on  Northern  Ireland  to  Continue  Despite  Planting  of  Bomb 
+ 1994-12-14T00:00:00Z,glocations,AYACUCHO(PERU),867,0.0,Ayacucho  Journal;  Shining  Path  Is  Shackled,  and  Joy  Is  Unconfined 
+ 1994-12-11T00:00:00Z,glocations,INDIA,428,0.0,The  World:  Bhopal's  Tragedy  Revisited;  10  Years  After  the  Gas,  No  End  to  Tears 
+ 1994-12-10T00:00:00Z,glocations,PENNSYLVANIA,551,0.0,USAir  Transcript  Shows  Terror  but  Offers  Few  Clues 
+ 1994-12-03T00:00:00Z,glocations,RUSSIA,837,0.0,NATO  Turns  From  Force  To  Diplomacy  in  Bosnia 
+ 1994-11-27T00:00:00Z,glocations,HADDONFIELD(NJ),617,0.0,Dinosaur  Site  Is  Made  a  Landmark 
+ 1994-11-23T00:00:00Z,glocations,MIDDLEEAST,931,0.0,Israelis  Ask  if  Gaza  Outpost  Is  Worth  Defending 
+ 1994-11-17T00:00:00Z,glocations,MIDDLEEAST,533,0.0,Israel  Is  Permitting  Harsher  Interrogation  of  Muslim  Militants 
+ 1994-11-11T00:00:00Z,glocations,SOMERS(NY),2236,0.0,Farm  Life  of  the  20's  For  Children  of  the  90's 
+ 1994-11-07T00:00:00Z,glocations,UNITEDSTATES,768,0.0,Essay;  '94  Concession  Speech 
+ 1994-11-06T00:00:00Z,glocations,HAITI,3584,0.0,'I  Never  Seen  Nothing  Like  That' 
+ 1994-11-06T00:00:00Z,glocations,SERBIA(YUGOSLAVIA),974,0.0,The  World;  Balkan  Moral  Order  Upset  As  Victim  Becomes  Victor 
+ 1994-11-06T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,1101,0.0,Bosnian  Shift:  Are  the  Serbs  Now  on  the  Run? 
+ 1994-11-06T00:00:00Z,glocations,NEWYORKCITY,603,0.0,When  Drugs  and  Terror  Stalk  a  Housing  Complex 
+ 1994-11-02T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,897,0.0,In  Bihac  Area,  Serbs  Now  Taste  War,  and  It's  Bitter 
+ 1994-10-31T00:00:00Z,glocations,ZAIRE,1657,0.0,Rwandans  Who  Massacred  Now  Terrorize  Camps 
+ 1994-10-30T00:00:00Z,glocations,MONTREAL(QUEBEC),1121,0.0,Paid  to  Panic 
+ 1994-10-30T00:00:00Z,glocations,NEWYORKCITY,240,0.0,Residents  Shrinking  as  Freedom  Place  Is  Slowly  Sinking 
+ 1994-10-28T00:00:00Z,glocations,NEWYORKCITYMETROPOLITANAREA,2165,0.0,For  Children 
+ 1994-10-26T00:00:00Z,glocations,ETHIOPIA,1134,0.0,Hunger  and  Dissent  Stalk  a  Struggling  Ethiopia 
+ 1994-10-23T00:00:00Z,glocations,TEXAS,249,0.0,Oct.  16-22:  Flood  and  Fire;  Deluges  in  Southeast  Texas  Are  Prelude  to  Pipeline  Woes  And  Higher  Fuel-Prices 
+ 1994-10-21T00:00:00Z,glocations,SYRIA,724,0.0,On  My  Mind;  Terror  And  the  West 
+ 1994-10-20T00:00:00Z,glocations,MIDDLEEAST,126,0.0,Israeli  Soldier  Died  As  a  Peace  Stand-In 
+ 1994-10-20T00:00:00Z,glocations,TELAVIV(ISRAEL),973,0.0,On  the  No.  5  Bus  Line,  A  Thud,  Then  Silence 
+ 1994-10-13T00:00:00Z,glocations,GERMANY,494,0.0,Officials  in  Germany  Denounce  Sect  as  a  Menace  to  Democracy 
+ 1994-10-09T00:00:00Z,glocations,NEWYORKCITY,442,0.0,Changing  Longwood  to  Save  It 
+ 1994-10-09T00:00:00Z,glocations,HAITI,1027,0.0,Hit  or  Miss,  U.S.  Presses  Hunt  for  Arms  in  Haiti 
+ 1994-10-09T00:00:00Z,glocations,NEWYORKCITY,841,0.0,Disney  Does  Broadway 
+ 1994-10-09T00:00:00Z,glocations,NEWYORKCITY,2745,0.0,Touring  the  Cyberhood 
+ 1994-10-07T00:00:00Z,glocations,HAITI,516,0.0,Haiti:  How  Broad  an  Amnesty? 
+ 1994-10-04T00:00:00Z,glocations,HAITI,1367,0.0,To  Cheers,  U.S.  Troops  Clear  Haitian  Gunmen's  Clubhouse 
+ 1994-10-03T00:00:00Z,glocations,GREATBRITAIN,702,0.0,Essay;  No  Yanks  Need  Apply 
+ 1994-10-02T00:00:00Z,glocations,EGYPT,558,0.0,Tourist  Area  In  Egypt  Feels  Endangered  By  Violence 
+ 1994-09-19T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,1116,0.0,Bosnia's  Cruelest  Siege:  Boredom,  Stress,  Anxiety 
+ 1994-09-19T00:00:00Z,glocations,ALGERIA,436,0.0,A  Hopeful  Turn  in  Algeria 
+ 1994-09-18T00:00:00Z,glocations,HAITI,679,0.0,In  America;  The  Reluctant  Rescue 
+ 1994-09-18T00:00:00Z,glocations,HAITI,1017,0.0,The  Only  Choice  In  Haiti 
+ 1994-09-14T00:00:00Z,glocations,HAITI,1024,0.0,Haiti's  Forces:  Poorly  Armed  And  Seasoned  Only  in  Terror 
+ 1994-09-11T00:00:00Z,glocations,NEWYORKCITY,2674,0.0,Once  and  Again,  a  Flatiron  Boom 
+ 1994-09-10T00:00:00Z,glocations,PENNSYLVANIA,1469,0.0,For  Many  on  Jet,  Day  Began  With  Routine  Business  and  Ended  With  Terror 
+ 1994-09-09T00:00:00Z,glocations,NORTHERNIRELAND,498,0.0,Protestant  Militants  Weighing  Response  to  I.R.A.  Cease-Fire 
+ 1994-09-06T00:00:00Z,glocations,GREATBRITAIN,1030,0.0,In  Belfast,  Prosperity  Eases  Catholic  Nationalism 
+ 1994-09-01T00:00:00Z,glocations,GREATBRITAIN,1237,0.0,CEASE-FIRE  IN  NORTHERN  IRELAND:  THE  LONG  VIEW  End  of  'The  Troubles'?;  Trying  to  Exchange  Old  Hatreds  for  Peace  On  a  Battlefield  With  Little  Middle  Ground 
+ 1994-08-30T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,1213,0.0,Bosnian  Serbs  Force  More  Than  2,000  Muslims  to  Leave  Their  Homes 
+ 1994-08-29T00:00:00Z,glocations,WESTBANK,983,0.0,A  Tinderbox  in  Gaza:  Migrant  Labor 
+ 1994-08-28T00:00:00Z,glocations,RWANDA,1323,0.0,Rwanda  Villagers  Fear  Politicians,  Not  Neighbors 
+ 1994-08-25T00:00:00Z,glocations,RWANDA,622,0.0,U.N.  Rwanda  Rights  Effort  Is  Hurt  by  Understaffing 
+ 1994-08-21T00:00:00Z,glocations,GERMANY,1357,0.0,The  World:  Who  Will  Buy?;  Plutonium  For  Sale.  Call  1-800-TERROR 
+ 1994-08-10T00:00:00Z,glocations,ALGERIA,788,0.0,French  Bind:  Algerian  Ties 
+ 1994-08-03T00:00:00Z,glocations,SOUTHERNSTATES(US),3047,0.0,From  Atlanta  to  Birmingham,  Blur  of  Progress  and  Stagnation 
+ 1994-07-31T00:00:00Z,glocations,ADIRONDACKMOUNTAINS,1513,0.0,On  Rafting  Trip,  Running  Into  Trouble 
+ 1994-07-31T00:00:00Z,glocations,MIDDLEEAST,1364,0.0,Beyond  Security;The  Hopes  for  Peace  Begin  To  Build  Upon  Themselves 
+ 1994-07-31T00:00:00Z,glocations,CAPECOD(MASS),2821,0.0,Cape  Cod,  Seen  Through  Field  Glasses 
+ 1994-07-24T00:00:00Z,glocations,MIDDLEEAST,227,0.0,July  17-23:  Terrorism  in  Argentina;  Car  Bomb  Kills  46  People  In  Buenos  Aires 
+ 1994-07-24T00:00:00Z,glocations,HAITI,494,0.0,War  Fever  Over  Haiti 
+ 1994-07-21T00:00:00Z,glocations,MIDDLEEAST,1083,0.0,Argentina's  Jews  Cry  for  Their  Torn  Heart 
+ 1994-07-20T00:00:00Z,glocations,FRANCE,487,0.0,Two  Million  Refugees 
+ 1994-07-17T00:00:00Z,glocations,RWANDA,1050,0.0,Vicious  Circle;  Hate  Returns  to  Haunt  Those  Who  Cradled  It 
+ 1994-07-14T00:00:00Z,glocations,HAITI,791,0.0,Haitians  Fear  Upheaval  as  Monitors  Leave 
+ 1994-07-12T00:00:00Z,glocations,KIGALI(RWANDA),1063,0.0,Rwanda's  Capital  Calm  After  War  Moves  On 
+ 1994-07-10T00:00:00Z,glocations,NEWYORKCITY,756,0.0,On  Sunday;  On  the  Radio,  A  Lifeline  For  Haitians 
+ 1994-07-08T00:00:00Z,glocations,GLENWOODSPRINGS(COLO),664,0.0,Decades  Later,  Echo  of  Montana  Firestorm 
+ 1994-07-08T00:00:00Z,glocations,ITALY,653,0.0,Seven  Italian  Seamen  Are  Found  Slain  on  Vessel  Docked  in  Algeria 
+ 1994-07-06T00:00:00Z,glocations,HAITI,658,0.0,Drownings  of  Haitians  Rise  As  Island  Exodus  Continues 
+ 1994-07-06T00:00:00Z,glocations,BANJALUKA(BOSNIA),374,0.0,U.N.  Reports  New  Cases  Of  Harassment  by  Serbs 
+ 1994-07-03T00:00:00Z,glocations,NEWYORKCITY,2199,0.0,Postcards  From  Home 
+ 1994-06-30T00:00:00Z,glocations,HAITI,948,0.0,Fleeing  Haiti:  For  the  Poor,  Choices  Are  Limited 
+ 1994-06-27T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,705,0.0,Abroad  at  Home;  'The  Level  of  Beasts' 
+ 1994-06-26T00:00:00Z,glocations,HAITI,948,0.0,Haitian  Dissident  Tells  Of  Rape  by  Police  Agents 
+ 1994-06-24T00:00:00Z,glocations,COLOMBIA,645,0.0,Colombia's  2  Defeats  Stretch  Belief 
+ 1994-06-23T00:00:00Z,glocations,HAITI,606,0.0,Retiring  Haiti's  Junta 
+ 1994-06-17T00:00:00Z,glocations,NEWYORKCITY,2280,0.0,A  Gay  Festival  Banishes  Silence 
+ 1994-06-12T00:00:00Z,glocations,ICELAND,1205,0.0,72  Hours  of  Iceland  (On  New  York  Time) 
+ 1994-06-11T00:00:00Z,glocations,EASTTIMOR,291,0.0,The  Manila  Folder 
+ 1994-06-10T00:00:00Z,glocations,RUSSIA,822,0.0,New  Moscow  Mob  Terror:  Car  Bombs 
+ 1994-06-08T00:00:00Z,glocations,NEWYORKSTATE,744,0.0,Public  &  Private;  The  Baby  Bill 
+ 1994-06-08T00:00:00Z,glocations,NORMANDY(FRANCE),1102,0.0,Wine  Talk;  Onto  the  beaches,  and  into  the  barrels. 
+ 1994-06-08T00:00:00Z,glocations,NEWYORKCITY,1369,0.0,A  Dangerous  Form  of  Strep  Stirs  Concern  in  Resurgence 
+ 1994-06-05T00:00:00Z,glocations,BENAKO(TANZANIA),3432,0.0,'A  Killer  in  the  Eye' 
+ 1994-06-03T00:00:00Z,glocations,PRIJEDOR(BOSNIA),814,0.0,U.N.  Report  Accuses  Serbs  of  'Crimes  Against  Humanity' 
+ 1994-05-29T00:00:00Z,glocations,MARCUSGARVEYPARK,774,0.0,Streetscapes/The  Mount  Morris  Fire  Bell  Tower;  Stabilizing  a  Relic  of  the  Early-Warning  System 
+ 1994-05-29T00:00:00Z,glocations,SOUTHKOREA,1915,0.0,It's  Small,  Cheap  and  Not  a  Hyundai 
+ 1994-05-23T00:00:00Z,glocations,VIETNAM,1660,0.0,Vietnam  Revisited:  A  periodic  report.;  Security  Tactics  in  Vietnam  Still  Inspire  Widespread  Fear 
+ 1994-05-22T00:00:00Z,glocations,MANASSAS(VA),957,0.0,Packaging  America's  Killing  Fields 
+ 1994-05-20T00:00:00Z,glocations,CHINA,674,0.0,On  My  Mind;  License  for  Torture 
+ 1994-05-14T00:00:00Z,glocations,UNITEDSTATES,384,0.0,A  Victory  for  Abortion  Rights 
+ 1994-05-11T00:00:00Z,glocations,NEWYORKCITY,670,0.0,In  Central  Park,  Volunteer  Unit  Aids  the  Hapless  of  In-Line  Skating 
+ 1994-04-26T00:00:00Z,glocations,GERMISTON(SOUTHAFRICA),1126,0.0,More  Bombings  Rattle  South  Africans 
+ 1994-04-25T00:00:00Z,glocations,GORAZDE(BOSNIA),714,0.0,Abroad  at  Home;  Crimes  of  War 
+ 1994-04-24T00:00:00Z,glocations,SOUTHAFRICA,1755,0.0,Can  South  Africa  Do  It?  No.  Yes. 
+ 1994-04-24T00:00:00Z,glocations,NEWYORKCITY,1028,0.0,Can  Closer  Links  Deter  Corruption? 
+ 1994-04-21T00:00:00Z,glocations,GORAZDE(BOSNIA),913,0.0,SERB  GUNNERS  HIT  GORAZDE  HOSPITAL  AND  REFUGEE  SITES 
+ 1994-04-19T00:00:00Z,glocations,CHICAGO(ILL),697,0.0,On  My  Mind;  Domestic  Tranquillity 
+ 1994-04-15T00:00:00Z,glocations,RWANDA,927,0.0,For  West,  Rwanda  Is  Not  Worth  the  Political  Candle 
+ 1994-04-14T00:00:00Z,glocations,BELGIUM,1639,0.0,Anarchy  Rules  Rwanda's  Capital  And  Drunken  Soldiers  Roam  City 
+ 1994-04-13T00:00:00Z,glocations,BELGIUM,1069,0.0,RWANDAN  REBELS  PUSH  INTO  CAPITAL 
+ 1994-04-12T00:00:00Z,glocations,RWANDA,1147,0.0,Refugee  Missionaries  From  Rwanda  Speak  of  Their  Terror,  Grief  and  Guilt 
+ 1994-04-11T00:00:00Z,glocations,RWANDA,757,0.0,U.N.  Forces  Shelter  Thousands  In  Rwanda 
+ 1994-04-11T00:00:00Z,glocations,RWANDA,1286,0.0,American  Evacuees  Describe  Horrors  Faced  by  Rwandans 
+ 1994-04-11T00:00:00Z,glocations,GORAZDE(BOSNIA),711,0.0,Abroad  at  Home;  Words  and  Deeds 
+ 1994-04-10T00:00:00Z,glocations,BELGIUM,1596,0.0,WESTERN  TROOPS  ARRIVE  IN  RWANDA  TO  AID  FOREIGNERS 
+ 1994-04-09T00:00:00Z,glocations,BELGIUM,1404,0.0,TERROR  CONVULSES  RWANDAN  CAPITAL  AS  TRIBES  BATTLE 
+ 1994-04-07T00:00:00Z,glocations,RUSSIA,676,0.0,Russia  Blocks  U.N.  Criticism  of  Serbs'  Attack 
+ 1994-04-05T00:00:00Z,glocations,NEWYORKCITY,758,0.0,On  My  Mind  God  Help  New  York 
+ 1994-04-04T00:00:00Z,glocations,NEWYORKCITY,1064,0.0,21  Injured  in  Greenpoint  Tenement  Fire 
+ 1994-04-01T00:00:00Z,glocations,WESTBANK,687,0.0,Abroad  at  Home;  Self-Inflicted  Wounds 
+ 1994-03-28T00:00:00Z,glocations,UGANDA,854,0.0,Ugandans  Relish  the  First  Chance  at  a  National  Vote  in  14  Years 
+ 1994-03-27T00:00:00Z,glocations,NEWYORKCITY,216,0.0,Topics  of  The  Times;  The  Man  in  the  Lobby 
+ 1994-03-27T00:00:00Z,glocations,BANJALUKA(BOSNIA),1965,0.0,In  North  Bosnia,  a  Rising  Tide  of  Serbian  Violence 
+ 1994-03-25T00:00:00Z,glocations,EDISON(NJ),1756,0.0,EXPLOSION  IN  EDISON:  The  Overview;  New  Jersey  Pipeline  Explosion  Sets  Off  Panic,  Chaos  and  Fear 
+ 1994-03-20T00:00:00Z,glocations,LONGISLAND(NY),1771,0.0,Lawyers  Debate  the  Insurability  of  Bone-Marrow  Transplants 
+ 1994-03-20T00:00:00Z,glocations,SOUTHAFRICA,964,0.0,Terror  Network  Was  Born  in  Defense  of  Apartheid 
+ 1994-03-19T00:00:00Z,glocations,CROATIA,720,0.0,U.N.  Says  Bosnian  Serbs  Press  'Ethnic  Cleansing' 
+ 1994-03-15T00:00:00Z,glocations,NORTHERNIRELAND,667,0.0,Flight  Service  Back  to  Normal  at  London  Airports 
+ 1994-03-13T00:00:00Z,glocations,LOSANGELES(CALIF),1362,0.0,In  a  City  of  Graffiti,  Gangs  Turn  to  Violence  to  Protect  Their  Art 
+ 1994-03-13T00:00:00Z,glocations,USSR(FORMERSOVIETUNION),3088,0.0,Blowback  From  the  Afghan  Battlefield 
+ 1994-03-08T00:00:00Z,glocations,WESTBANK,1348,0.0,For  a  Number  of  Israelis,  It's  'Next  Year  in  Hebron' 
+ 1994-03-06T00:00:00Z,glocations,NEWYORKCITY,1125,0.0,The  Nation;  How  Does  the  World  Look  Through  the  Eyes  Of  Aspiring  Terrorists? 
+ 1994-03-02T00:00:00Z,glocations,NEWYORKCITY,908,0.0,Determined  Attacker  Stalks  His  Prey  Before  Disappearing  in  Traffic 
+ 1994-02-27T00:00:00Z,glocations,NEWYORKCITY,832,0.0,The  Nation:  Film  Noir  It  Isn't;  Is  Paris  Burning?  Not  in  My  Movie! 
+ 1994-02-24T00:00:00Z,glocations,WACO(TEX),1147,0.0,Murder  Case  Against  11  Cult  Members  Goes  to  Jury 
+ 1994-02-20T00:00:00Z,glocations,NEWYORKCITY,680,0.0,Reverberations:  Aftermath  of  a  Bombing  --  A  special  report.;  Trade  Center  Blast's  Legacy:  Security  Improved,  and  Lost 
+ 1994-02-17T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,1255,0.0,In  Bosnia  Again,  a  Grim  'Ethnic  Cleansing' 
+ 1994-02-12T00:00:00Z,glocations,NEWYORKCITY,1305,0.0,Stubborn  Guest  Makes  the  Common  Special 
+ 1994-02-09T00:00:00Z,glocations,SERBIA,344,0.0,RUSSIA  A  BARRIER  TO  NATO  AIR  STRIKE 
+ 1994-02-07T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,834,0.0,NATO  to  Hold  Emergency  Talks  on  Sarajevo  Attack 
+ 1994-02-07T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,919,0.0,Sarajevans  Mourn  and  Rage  While  Life  and  Death  Go  On 
+ 1994-02-07T00:00:00Z,glocations,BOSNIAANDHERZEGOVINA,497,0.0,U.S.  Airlifts  46  Sarajevo  Wounded  to  Germany 
+ 1994-02-06T00:00:00Z,glocations,NEWYORKCITY,805,0.0,On  Sunday;  Dr.  Telephone  Explains  It  All  For  You 
+ 1994-02-03T00:00:00Z,glocations,EGYPT,1574,0.0,Fundamentalists  Impose  Culture  on  Egypt 
+ 1994-01-25T00:00:00Z,glocations,NEWYORKCITY,520,0.0,N.Y.P.D.  Clean 
+ 1994-01-25T00:00:00Z,glocations,LOSANGELES(CALIF),1158,0.0,Fear  and  Prayer  in  a  Quake  Tent  City 
+ 1994-01-23T00:00:00Z,glocations,LOSANGELES(CALIF),1442,0.0,Los  Angeles  Is  Soldiering  On,  Even  Though  Picking  Up  Does  Little  Good 
+ 1994-01-23T00:00:00Z,glocations,NEWYORKCITY,479,0.0,Rider  Unease  Belies  Statistics 
+ 1994-01-19T00:00:00Z,glocations,LOSANGELES(CALIF),1083,0.0,THE  EARTHQUAKE:  Coping;  Aftershocks  in  Paradise:  Hearts  Are  Trembling  Too 
+ 1994-01-18T00:00:00Z,glocations,LOSANGELES(CALIF),309,0.0,Aftershock 
+ 1994-01-17T00:00:00Z,glocations,EUROPE,706,0.0,Abroad  at  Home;  While  Rome  Burns 

@@ -1,0 +1,19 @@
+,country_txt,attacktype1_txt,counts
+0,Algeria,Armed Assault,4
+1,Algeria,Bombing/Explosion,10
+2,Algeria,Unknown,1
+3,Iran,Armed Assault,2
+4,Iran,Assassination,1
+5,Iran,Bombing/Explosion,2
+6,Iran,Unknown,1
+7,Iraq,Armed Assault,6
+8,Iraq,Assassination,3
+9,Iraq,Bombing/Explosion,54
+10,Turkey,Assassination,1
+11,Turkey,Facility/Infrastructure Attack,4
+12,Turkey,Unknown,1
+13,Yemen,Armed Assault,22
+14,Yemen,Assassination,8
+15,Yemen,Bombing/Explosion,16
+16,Yemen,Facility/Infrastructure Attack,1
+17,Yemen,Unknown,9

@@ -1,0 +1,18 @@
+,country_txt,attacktype1_txt,counts
+0,Algeria,Armed Assault,31
+1,Algeria,Assassination,10
+2,Algeria,Bombing/Explosion,62
+3,Algeria,Facility/Infrastructure Attack,1
+4,Algeria,Hostage Taking (Kidnapping),14
+5,Iraq,Armed Assault,1
+6,Iraq,Bombing/Explosion,3
+7,Israel,Armed Assault,1
+8,Israel,Bombing/Explosion,41
+9,Israel,Hostage Taking (Kidnapping),1
+10,Turkey,Armed Assault,3
+11,Turkey,Bombing/Explosion,13
+12,West Bank and Gaza Strip,Armed Assault,5
+13,West Bank and Gaza Strip,Assassination,1
+14,West Bank and Gaza Strip,Bombing/Explosion,6
+15,West Bank and Gaza Strip,Facility/Infrastructure Attack,3
+16,West Bank and Gaza Strip,Hostage Taking (Kidnapping),2
