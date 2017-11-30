@@ -1,5 +1,5 @@
 var bubbles;
-var diameter = 400, //max size of the bubbles
+var diameter = 500, //max size of the bubbles
 //color    = d3.scale.linear().domain([costMin,costMax]).range(['#0075B4', '#70B5DC'])
 //d3.scale.category20b(), //color category
 format = d3.format(",d")
@@ -112,7 +112,7 @@ function updateBubble(path) {
                 .style({
                     "fill":"black", 
                     "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-                    "font-size": "8px"
+                    "font-size": "12px"
                 })
                 .style("pointer-events", "none");
                 return;
@@ -184,7 +184,7 @@ function updateBubble(path) {
                 .style({
                     "fill":"black", 
                     "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-                    "font-size": "8px"
+                    "font-size": "12px"
                 })
                 .style("pointer-events", "none");
         })

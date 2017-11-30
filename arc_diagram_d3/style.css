@@ -149,11 +149,11 @@ b {
 #svg1 {
     position: absolute;
     left: 1050px;
-    top: 100px;
+    top: 120px;
 }
 
 #svg2 {
     position: absolute;
-    left: 1500px;
-    top: 100px;
+    left: 1050px;
+    top: 600px;
 }
