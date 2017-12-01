@@ -21,8 +21,8 @@
     <!-- Third party -->
     <script>
         /* GLOBALS */
-        var WIDTH = 960;           // width of svg image
-        var HEIGHT = 720;           // height of svg image
+        var WIDTH = 1300;           // width of svg image
+        var HEIGHT = 1080;           // height of svg image
         var MARGIN = 20;            // amount of margin around plot area
         var PAD = MARGIN / 2;       // actual padding amount
         var RADIUS = 30;             // fixed node radius
@@ -66,7 +66,7 @@
                 .attr("x", x)
                 .attr("y", y + 130)
                 .attr("dy", -r * 2)
-                .attr("id", "tooltip");
+                .attr("class", "tooltip");
 
             var offset = tooltip.node().getBBox().WIDTH / 2;
 
@@ -148,7 +148,8 @@
                 .attr("class", "node")
                 .attr("d", function (d, i) {
                     if (d.name in internalAttackPerRegionMap) {
-                        return internalArc.innerRadius(RADIUS - logScale(internalAttackPerRegionMap[d.name]))(d, i);
+                        var diff = logScale(internalAttackPerRegionMap[d.name]);
+                        return internalArc.innerRadius(RADIUS - diff)(d, i);
                     }
                     return internalArc.innerRadius(RADIUS)(d, i);
                 })
@@ -158,6 +159,14 @@
                 .attr("cy", function (d, i) { return d.y; })
                 .attr("r", function (d, i) { return RADIUS; })
                 .style("fill", "black")
+                .style("stroke-dasharray", function(d, i) {
+                    if (d.name in internalAttackPerRegionMap && logScale(internalAttackPerRegionMap[d.name]) > 1) {
+                        return ("1, 0")
+                    }
+                    else {
+                        return ("2, 4")
+                    }
+                })
                 .text(function (d) { addTooltip(d3.select(this)) })
 
         }
@@ -524,6 +533,15 @@
             */
         }
 
+        function filterInernalArcs(links) {
+            var filteredLinks = []
+            for (var link of links) {
+                if (link.source.name != link.target.name) {
+                    filteredLinks.push(link)
+                }
+            }
+            return filteredLinks;
+        }
         // Draws nodes on plot
         function drawNodes(nodes) {
             // used to assign nodes color by group
@@ -572,16 +590,18 @@
                     d3.rgb("#252525"),
                     d3.rgb("#000000")]);
 
-            filteredLinks = links
+            filteredLinks = filterInernalArcs(links)
             if (FILTER_GROUP != null) {
-                filteredLinks = filterLinksByGroup(links);
+                filteredLinks = filterLinksByGroup(filteredLinks);
             } else if (FILTER_NODE != null) {
-                filteredLinks = filterByNode(links);
+                filteredLinks = filterByNode(filteredLinks);
             }
 
-            d3.select("#plot").selectAll(".link")
+            var linkDiv = d3.select("#plot").selectAll(".link")
                 .data(filteredLinks)
-                .enter()
+                .enter();
+
+            linkDiv
                 .append("path")
                 .attr("class", "link")
                 .style("stroke-width", function (d) {
@@ -618,7 +638,36 @@
                     radians.domain([0, points.length - 1]);
                     // return path for arc
                     return arc(points);
+                })
+                .on("mouseover", function(d) {
+                    var valueTextDiv = document.getElementById("link_text-" + d.source.x + "_" + d.target.x);
+                    valueTextDiv.style.fontSize = "10pt";
+                })
+                .on("mouseout", function(d) {
+                    var valueTextDiv = document.getElementById("link_text-" + d.source.x + "_" + d.target.x);
+                    valueTextDiv.style.fontSize = "0pt";
                 });
+
+            linkDiv.append("text")
+                .attr("x", function(d) {
+                    // var xdist = Math.abs(d.source.x - d.target.x);
+                    return (d.source.x + d.target.x)/2
+                })
+                .attr("y", function(d) {
+                    var xdist = Math.abs(d.source.x - d.target.x)
+                    if (d.source.x < d.target.x) {
+                        return Y_FIXED - ((xdist + RADIUS) / 2) - 4;
+                    } else {
+                        return Y_FIXED - ((xdist - RADIUS) / 2) - 4;
+                    }
+                })
+                .attr("class", "link_text")
+                .attr("id", function(d) {
+                    return "link_text-" + d.source.x + "_" + d.target.x;
+                })
+                .text(function(d) { return d.value })
+                .attr("text-anchor", "middle")
+                .attr("font-size", 10)   
         }
 
         function updateYearFromSlider(slider) {
@@ -648,6 +697,7 @@
 
         function updateYear(year) {
             d3.select("#plot").selectAll(".link").remove();
+            d3.select("#plot").selectAll(".link_text").remove();
             d3.select("#plot").selectAll(".node").remove();
             drawLinks(GRAPH.links[year])
             drawArcNodes(GRAPH.nodes, GRAPH.links[year])
