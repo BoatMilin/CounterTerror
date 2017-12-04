@@ -1,0 +1,159 @@
+{
+    "nodes": [
+        {
+            "name": "Japan",
+            "x": 0
+        },
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Anti-Police extremists",
+            "x": 1
+        },
+        {
+            "name": "Uighur Separatists",
+            "x": 1
+        },
+        {
+            "name": "Eastern Turkistan Islamic Movement (ETIM)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Eastern Turkistan Islamic Movement (ETIM)",
+            "value": 3
+        },
+        {
+            "source": "China",
+            "target": "Uighur Separatists",
+            "value": 11
+        },
+        {
+            "source": "Japan",
+            "target": "Anti-Police extremists",
+            "value": 5
+        },
+        {
+            "source": "Anti-Police extremists",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Anti-Police extremists",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 1
+        }
+    ]
+}

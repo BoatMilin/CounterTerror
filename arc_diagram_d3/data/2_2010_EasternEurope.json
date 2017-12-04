@@ -1,0 +1,93 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Russia",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Russia",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

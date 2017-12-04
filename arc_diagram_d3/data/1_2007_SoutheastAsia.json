@@ -1,0 +1,225 @@
+{
+    "nodes": [
+        {
+            "name": "Philippines",
+            "x": 0
+        },
+        {
+            "name": "Thailand",
+            "x": 0
+        },
+        {
+            "name": "Jemaah Islamiya (JI)",
+            "x": 1
+        },
+        {
+            "name": "Separatists",
+            "x": 1
+        },
+        {
+            "name": "New People's Army (NPA)",
+            "x": 1
+        },
+        {
+            "name": "Abu Sayyaf Group (ASG)",
+            "x": 1
+        },
+        {
+            "name": "Moro Islamic Liberation Front (MILF)",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Philippines",
+            "target": "Abu Sayyaf Group (ASG)",
+            "value": 5
+        },
+        {
+            "source": "Philippines",
+            "target": "Jemaah Islamiya (JI)",
+            "value": 6
+        },
+        {
+            "source": "Philippines",
+            "target": "Moro Islamic Liberation Front (MILF)",
+            "value": 2
+        },
+        {
+            "source": "Philippines",
+            "target": "New People's Army (NPA)",
+            "value": 11
+        },
+        {
+            "source": "Thailand",
+            "target": "Separatists",
+            "value": 5
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Jemaah Islamiya (JI)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Jemaah Islamiya (JI)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Jemaah Islamiya (JI)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Jemaah Islamiya (JI)",
+            "target": "Transportation",
+            "value": 3
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Separatists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Separatists",
+            "target": "Private Citizens & Property",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 3
+        }
+    ]
+}

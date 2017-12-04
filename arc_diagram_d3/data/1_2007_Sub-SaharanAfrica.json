@@ -1,0 +1,251 @@
+{
+    "nodes": [
+        {
+            "name": "Nigeria",
+            "x": 0
+        },
+        {
+            "name": "Somalia",
+            "x": 0
+        },
+        {
+            "name": "Niger",
+            "x": 0
+        },
+        {
+            "name": "Sudan",
+            "x": 0
+        },
+        {
+            "name": "Ethiopia",
+            "x": 0
+        },
+        {
+            "name": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "x": 1
+        },
+        {
+            "name": "Mujahideen Youth Movement (MYM)",
+            "x": 1
+        },
+        {
+            "name": "Movement of Niger People for Justice (MNJ)",
+            "x": 1
+        },
+        {
+            "name": "Justice and Equality Movement (JEM)",
+            "x": 1
+        },
+        {
+            "name": "Al-Shabaab",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Ethiopia",
+            "target": "Al-Shabaab",
+            "value": 1
+        },
+        {
+            "source": "Niger",
+            "target": "Movement of Niger People for Justice (MNJ)",
+            "value": 4
+        },
+        {
+            "source": "Nigeria",
+            "target": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "value": 9
+        },
+        {
+            "source": "Somalia",
+            "target": "Al-Shabaab",
+            "value": 5
+        },
+        {
+            "source": "Somalia",
+            "target": "Mujahideen Youth Movement (MYM)",
+            "value": 14
+        },
+        {
+            "source": "Sudan",
+            "target": "Justice and Equality Movement (JEM)",
+            "value": 4
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Military",
+            "value": 6
+        },
+        {
+            "source": "Justice and Equality Movement (JEM)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Justice and Equality Movement (JEM)",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Business",
+            "value": 5
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Movement of Niger People for Justice (MNJ)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Movement of Niger People for Justice (MNJ)",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Mujahideen Youth Movement (MYM)",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Mujahideen Youth Movement (MYM)",
+            "target": "Military",
+            "value": 7
+        },
+        {
+            "source": "Mujahideen Youth Movement (MYM)",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 8
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        }
+    ]
+}

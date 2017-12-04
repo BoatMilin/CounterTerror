@@ -1,0 +1,278 @@
+{
+    "nodes": [
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Algeria",
+            "x": 0
+        },
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "West Bank and Gaza Strip",
+            "x": 0
+        },
+        {
+            "name": "Al-Qaida in Iraq",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "x": 1
+        },
+        {
+            "name": "Popular Front for the Liberation of Palestine (PFLP)",
+            "x": 1
+        },
+        {
+            "name": "Algerian Islamic Extremists",
+            "x": 1
+        },
+        {
+            "name": "Palestinian Islamic Jihad (PIJ)",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Terrorists/Non-State Militia",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Algeria",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 34
+        },
+        {
+            "source": "Algeria",
+            "target": "Algerian Islamic Extremists",
+            "value": 34
+        },
+        {
+            "source": "Iraq",
+            "target": "Al-Qaida in Iraq",
+            "value": 32
+        },
+        {
+            "source": "Israel",
+            "target": "Palestinian Islamic Jihad (PIJ)",
+            "value": 25
+        },
+        {
+            "source": "Israel",
+            "target": "Popular Front for the Liberation of Palestine (PFLP)",
+            "value": 19
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Palestinian Islamic Jihad (PIJ)",
+            "value": 1
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Popular Front for the Liberation of Palestine (PFLP)",
+            "value": 2
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Private Citizens & Property",
+            "value": 24
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Terrorists/Non-State Militia",
+            "value": 5
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Military",
+            "value": 16
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Police",
+            "value": 11
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Military",
+            "value": 10
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Police",
+            "value": 11
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Terrorists/Non-State Militia",
+            "value": 2
+        },
+        {
+            "source": "Palestinian Islamic Jihad (PIJ)",
+            "target": "Military",
+            "value": 5
+        },
+        {
+            "source": "Palestinian Islamic Jihad (PIJ)",
+            "target": "Private Citizens & Property",
+            "value": 21
+        },
+        {
+            "source": "Popular Front for the Liberation of Palestine (PFLP)",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Popular Front for the Liberation of Palestine (PFLP)",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Popular Front for the Liberation of Palestine (PFLP)",
+            "target": "Private Citizens & Property",
+            "value": 16
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 28
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 19
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 13
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 56
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 5
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

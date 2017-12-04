@@ -1,0 +1,215 @@
+{
+    "nodes": [
+        {
+            "name": "Ukraine",
+            "x": 0
+        },
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Bosnia-Herzegovina",
+            "x": 0
+        },
+        {
+            "name": "Luhansk People's Republic",
+            "x": 1
+        },
+        {
+            "name": "Donetsk People's Republic",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Pro-Russia Militia",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Bosnia-Herzegovina",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "Donetsk People's Republic",
+            "value": 252
+        },
+        {
+            "source": "Ukraine",
+            "target": "Luhansk People's Republic",
+            "value": 85
+        },
+        {
+            "source": "Ukraine",
+            "target": "Pro-Russia Militia",
+            "value": 3
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Business",
+            "value": 6
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Military",
+            "value": 191
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Private Citizens & Property",
+            "value": 47
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Transportation",
+            "value": 5
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Utilities",
+            "value": 3
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Military",
+            "value": 33
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Private Citizens & Property",
+            "value": 45
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Utilities",
+            "value": 3
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Pro-Russia Militia",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Pro-Russia Militia",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 8
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 95
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 128
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 13
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 78
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 6
+        }
+    ]
+}

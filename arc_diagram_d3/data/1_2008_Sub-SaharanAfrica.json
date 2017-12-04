@@ -1,0 +1,274 @@
+{
+    "nodes": [
+        {
+            "name": "Nigeria",
+            "x": 0
+        },
+        {
+            "name": "Niger",
+            "x": 0
+        },
+        {
+            "name": "Sudan",
+            "x": 0
+        },
+        {
+            "name": "Mali",
+            "x": 0
+        },
+        {
+            "name": "Uganda",
+            "x": 0
+        },
+        {
+            "name": "Somalia",
+            "x": 0
+        },
+        {
+            "name": "Democratic Republic of the Congo",
+            "x": 0
+        },
+        {
+            "name": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "x": 1
+        },
+        {
+            "name": "Movement of Niger People for Justice (MNJ)",
+            "x": 1
+        },
+        {
+            "name": "Tuareg extremists",
+            "x": 1
+        },
+        {
+            "name": "Lord's Resistance Army (LRA)",
+            "x": 1
+        },
+        {
+            "name": "Al-Shabaab",
+            "x": 1
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Democratic Republic of the Congo",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 9
+        },
+        {
+            "source": "Mali",
+            "target": "Tuareg extremists",
+            "value": 6
+        },
+        {
+            "source": "Niger",
+            "target": "Movement of Niger People for Justice (MNJ)",
+            "value": 4
+        },
+        {
+            "source": "Niger",
+            "target": "Tuareg extremists",
+            "value": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "value": 16
+        },
+        {
+            "source": "Nigeria",
+            "target": "Movement of Niger People for Justice (MNJ)",
+            "value": 1
+        },
+        {
+            "source": "Somalia",
+            "target": "Al-Shabaab",
+            "value": 14
+        },
+        {
+            "source": "Sudan",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 2
+        },
+        {
+            "source": "Uganda",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 2
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Government (General)",
+            "value": 10
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Private Citizens & Property",
+            "value": 4
+        },
+        {
+            "source": "Lord's Resistance Army (LRA)",
+            "target": "Private Citizens & Property",
+            "value": 13
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Business",
+            "value": 6
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Utilities",
+            "value": 7
+        },
+        {
+            "source": "Movement of Niger People for Justice (MNJ)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Movement of Niger People for Justice (MNJ)",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Movement of Niger People for Justice (MNJ)",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Tuareg extremists",
+            "target": "Military",
+            "value": 6
+        },
+        {
+            "source": "Tuareg extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 16
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 5
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Utilities",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

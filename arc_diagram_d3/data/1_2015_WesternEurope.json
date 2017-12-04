@@ -1,0 +1,256 @@
+{
+    "nodes": [
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "Germany",
+            "x": 0
+        },
+        {
+            "name": "Finland",
+            "x": 0
+        },
+        {
+            "name": "Sweden",
+            "x": 0
+        },
+        {
+            "name": "France",
+            "x": 0
+        },
+        {
+            "name": "Dissident Republicans",
+            "x": 1
+        },
+        {
+            "name": "Anti-Immigrant extremists",
+            "x": 1
+        },
+        {
+            "name": "Right-wing extremists",
+            "x": 1
+        },
+        {
+            "name": "The New Irish Republican Army",
+            "x": 1
+        },
+        {
+            "name": "Islamic State of Iraq and the Levant (ISIL)",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Other",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Finland",
+            "target": "Anti-Immigrant extremists",
+            "value": 1
+        },
+        {
+            "source": "France",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 8
+        },
+        {
+            "source": "Germany",
+            "target": "Anti-Immigrant extremists",
+            "value": 2
+        },
+        {
+            "source": "Germany",
+            "target": "Right-wing extremists",
+            "value": 5
+        },
+        {
+            "source": "Sweden",
+            "target": "Anti-Immigrant extremists",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Dissident Republicans",
+            "value": 16
+        },
+        {
+            "source": "United Kingdom",
+            "target": "The New Irish Republican Army",
+            "value": 5
+        },
+        {
+            "source": "Anti-Immigrant extremists",
+            "target": "Other",
+            "value": 3
+        },
+        {
+            "source": "Anti-Immigrant extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Private Citizens & Property",
+            "value": 7
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Business",
+            "value": 8
+        },
+        {
+            "source": "Right-wing extremists",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Right-wing extremists",
+            "target": "Other",
+            "value": 2
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 4
+        },
+        {
+            "source": "Other",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Other",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        }
+    ]
+}

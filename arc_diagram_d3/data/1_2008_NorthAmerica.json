@@ -1,0 +1,129 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Animal Liberation Front (ALF)",
+            "x": 1
+        },
+        {
+            "name": "Neo-Nazi extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Abortion extremists",
+            "x": 1
+        },
+        {
+            "name": "Earth Liberation Front (ELF)",
+            "x": 1
+        },
+        {
+            "name": "White extremists",
+            "x": 1
+        },
+        {
+            "name": "Educational Institution",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Abortion Related",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "United States",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 3
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Abortion extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Earth Liberation Front (ELF)",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Neo-Nazi extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "White extremists",
+            "value": 1
+        },
+        {
+            "source": "Animal Liberation Front (ALF)",
+            "target": "Educational Institution",
+            "value": 3
+        },
+        {
+            "source": "Anti-Abortion extremists",
+            "target": "Abortion Related",
+            "value": 1
+        },
+        {
+            "source": "Earth Liberation Front (ELF)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Neo-Nazi extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "White extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Abortion Related",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

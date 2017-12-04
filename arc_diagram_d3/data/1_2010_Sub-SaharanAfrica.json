@@ -1,0 +1,297 @@
+{
+    "nodes": [
+        {
+            "name": "Somalia",
+            "x": 0
+        },
+        {
+            "name": "Democratic Republic of the Congo",
+            "x": 0
+        },
+        {
+            "name": "Central African Republic",
+            "x": 0
+        },
+        {
+            "name": "Kenya",
+            "x": 0
+        },
+        {
+            "name": "Sudan",
+            "x": 0
+        },
+        {
+            "name": "Burundi",
+            "x": 0
+        },
+        {
+            "name": "Uganda",
+            "x": 0
+        },
+        {
+            "name": "Nigeria",
+            "x": 0
+        },
+        {
+            "name": "Al-Shabaab",
+            "x": 1
+        },
+        {
+            "name": "Lord's Resistance Army (LRA)",
+            "x": 1
+        },
+        {
+            "name": "Hizbul al Islam (Somalia)",
+            "x": 1
+        },
+        {
+            "name": "National Liberation Front (FNL) (Burundi)",
+            "x": 1
+        },
+        {
+            "name": "Boko Haram",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Journalists & Media",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Burundi",
+            "target": "National Liberation Front (FNL) (Burundi)",
+            "value": 21
+        },
+        {
+            "source": "Central African Republic",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 8
+        },
+        {
+            "source": "Democratic Republic of the Congo",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 2
+        },
+        {
+            "source": "Kenya",
+            "target": "Al-Shabaab",
+            "value": 5
+        },
+        {
+            "source": "Nigeria",
+            "target": "Boko Haram",
+            "value": 11
+        },
+        {
+            "source": "Somalia",
+            "target": "Al-Shabaab",
+            "value": 43
+        },
+        {
+            "source": "Somalia",
+            "target": "Hizbul al Islam (Somalia)",
+            "value": 8
+        },
+        {
+            "source": "Sudan",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 6
+        },
+        {
+            "source": "Uganda",
+            "target": "Al-Shabaab",
+            "value": 2
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Business",
+            "value": 5
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Government (General)",
+            "value": 13
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Journalists & Media",
+            "value": 9
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Military",
+            "value": 5
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Private Citizens & Property",
+            "value": 18
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Government (General)",
+            "value": 4
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Private Citizens & Property",
+            "value": 6
+        },
+        {
+            "source": "Hizbul al Islam (Somalia)",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Lord's Resistance Army (LRA)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Lord's Resistance Army (LRA)",
+            "target": "Private Citizens & Property",
+            "value": 15
+        },
+        {
+            "source": "National Liberation Front (FNL) (Burundi)",
+            "target": "Business",
+            "value": 4
+        },
+        {
+            "source": "National Liberation Front (FNL) (Burundi)",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "National Liberation Front (FNL) (Burundi)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "National Liberation Front (FNL) (Burundi)",
+            "target": "Private Citizens & Property",
+            "value": 9
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 7
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 12
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Journalists & Media",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Journalists & Media",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 8
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 25
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 13
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 13
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 3
+        }
+    ]
+}

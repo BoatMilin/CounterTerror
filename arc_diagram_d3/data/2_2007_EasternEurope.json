@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Russia",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

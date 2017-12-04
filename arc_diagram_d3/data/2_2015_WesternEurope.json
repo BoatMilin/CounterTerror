@@ -1,0 +1,227 @@
+{
+    "nodes": [
+        {
+            "name": "Spain",
+            "x": 0
+        },
+        {
+            "name": "Ireland",
+            "x": 0
+        },
+        {
+            "name": "Germany",
+            "x": 0
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Germany",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Germany",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Germany",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Ireland",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Ireland",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Ireland",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Ireland",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Ireland",
+            "target": "Private Citizens & Property",
+            "value": 9
+        },
+        {
+            "source": "Spain",
+            "target": "Business",
+            "value": 12
+        },
+        {
+            "source": "Spain",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Spain",
+            "target": "Military",
+            "value": 14
+        },
+        {
+            "source": "Spain",
+            "target": "Police",
+            "value": 12
+        },
+        {
+            "source": "Spain",
+            "target": "Private Citizens & Property",
+            "value": 11
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 13
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 8
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 8
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 11
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        }
+    ]
+}

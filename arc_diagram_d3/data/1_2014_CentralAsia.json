@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Turkmenistan",
+            "x": 0
+        },
+        {
+            "name": "Taliban",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Turkmenistan",
+            "target": "Taliban",
+            "value": 1
+        },
+        {
+            "source": "Taliban",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 1
+        }
+    ]
+}

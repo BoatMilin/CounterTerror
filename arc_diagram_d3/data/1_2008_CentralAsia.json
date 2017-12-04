@@ -1,0 +1,83 @@
+{
+    "nodes": [
+        {
+            "name": "Georgia",
+            "x": 0
+        },
+        {
+            "name": "South Ossetian Separatists",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "NGO",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Georgia",
+            "target": "South Ossetian Separatists",
+            "value": 9
+        },
+        {
+            "source": "South Ossetian Separatists",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "South Ossetian Separatists",
+            "target": "NGO",
+            "value": 4
+        },
+        {
+            "source": "South Ossetian Separatists",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "South Ossetian Separatists",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "NGO",
+            "target": "Bombing/Explosion",
+            "value": 4
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 2
+        }
+    ]
+}

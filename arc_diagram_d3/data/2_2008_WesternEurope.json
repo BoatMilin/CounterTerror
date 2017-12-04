@@ -1,0 +1,202 @@
+{
+    "nodes": [
+        {
+            "name": "Spain",
+            "x": 0
+        },
+        {
+            "name": "France",
+            "x": 0
+        },
+        {
+            "name": "Greece",
+            "x": 0
+        },
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "France",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "France",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "France",
+            "target": "Military",
+            "value": 10
+        },
+        {
+            "source": "France",
+            "target": "Police",
+            "value": 11
+        },
+        {
+            "source": "France",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Greece",
+            "target": "Business",
+            "value": 13
+        },
+        {
+            "source": "Spain",
+            "target": "Business",
+            "value": 12
+        },
+        {
+            "source": "Spain",
+            "target": "Government (General)",
+            "value": 5
+        },
+        {
+            "source": "Spain",
+            "target": "Military",
+            "value": 18
+        },
+        {
+            "source": "Spain",
+            "target": "Police",
+            "value": 18
+        },
+        {
+            "source": "Spain",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 11
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 14
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 21
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 21
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        }
+    ]
+}

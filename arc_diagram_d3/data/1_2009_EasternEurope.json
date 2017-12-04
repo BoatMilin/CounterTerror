@@ -1,0 +1,116 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Caucasus Emirate",
+            "x": 1
+        },
+        {
+            "name": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Caucasus Emirate",
+            "value": 7
+        },
+        {
+            "source": "Russia",
+            "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "value": 2
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Government (General)",
+            "value": 4
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "China",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 1
+        }
+    ]
+}

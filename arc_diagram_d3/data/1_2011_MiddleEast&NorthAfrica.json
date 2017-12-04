@@ -1,0 +1,351 @@
+{
+    "nodes": [
+        {
+            "name": "Yemen",
+            "x": 0
+        },
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Algeria",
+            "x": 0
+        },
+        {
+            "name": "Turkey",
+            "x": 0
+        },
+        {
+            "name": "Morocco",
+            "x": 0
+        },
+        {
+            "name": "Tunisia",
+            "x": 0
+        },
+        {
+            "name": "Syria",
+            "x": 0
+        },
+        {
+            "name": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "x": 1
+        },
+        {
+            "name": "Palestinian Islamic Jihad (PIJ)",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in Iraq",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "x": 1
+        },
+        {
+            "name": "Kurdistan Workers' Party (PKK)",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Algeria",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 5
+        },
+        {
+            "source": "Iraq",
+            "target": "Al-Qaida in Iraq",
+            "value": 24
+        },
+        {
+            "source": "Israel",
+            "target": "Palestinian Islamic Jihad (PIJ)",
+            "value": 7
+        },
+        {
+            "source": "Morocco",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 1
+        },
+        {
+            "source": "Syria",
+            "target": "Al-Qaida in Iraq",
+            "value": 2
+        },
+        {
+            "source": "Tunisia",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 2
+        },
+        {
+            "source": "Turkey",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 23
+        },
+        {
+            "source": "Yemen",
+            "target": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "value": 64
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Private Citizens & Property",
+            "value": 14
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Government (General)",
+            "value": 12
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Military",
+            "value": 30
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Police",
+            "value": 14
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Business",
+            "value": 8
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Government (General)",
+            "value": 4
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Private Citizens & Property",
+            "value": 7
+        },
+        {
+            "source": "Palestinian Islamic Jihad (PIJ)",
+            "target": "Private Citizens & Property",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 6
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 7
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 6
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 9
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 17
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 6
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 14
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 26
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        }
+    ]
+}

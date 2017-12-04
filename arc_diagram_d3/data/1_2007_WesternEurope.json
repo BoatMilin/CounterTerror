@@ -1,0 +1,199 @@
+{
+    "nodes": [
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "France",
+            "x": 0
+        },
+        {
+            "name": "Spain",
+            "x": 0
+        },
+        {
+            "name": "Oglaigh na hEireann",
+            "x": 1
+        },
+        {
+            "name": "Corsican National Liberation Front (FLNC)",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in Iraq",
+            "x": 1
+        },
+        {
+            "name": "Basque Fatherland and Freedom (ETA)",
+            "x": 1
+        },
+        {
+            "name": "Real Irish Republican Army (RIRA)",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Airports & Aircraft",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "France",
+            "target": "Basque Fatherland and Freedom (ETA)",
+            "value": 2
+        },
+        {
+            "source": "France",
+            "target": "Corsican National Liberation Front (FLNC)",
+            "value": 6
+        },
+        {
+            "source": "Spain",
+            "target": "Basque Fatherland and Freedom (ETA)",
+            "value": 6
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Al-Qaida in Iraq",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Oglaigh na hEireann",
+            "value": 3
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Real Irish Republican Army (RIRA)",
+            "value": 2
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Airports & Aircraft",
+            "value": 1
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Corsican National Liberation Front (FLNC)",
+            "target": "Government (General)",
+            "value": 4
+        },
+        {
+            "source": "Corsican National Liberation Front (FLNC)",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Real Irish Republican Army (RIRA)",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Airports & Aircraft",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Anti-Abortion extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "White extremists",
+            "x": 1
+        },
+        {
+            "name": "Iraqi extremists",
+            "x": 1
+        },
+        {
+            "name": "Abortion Related",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "United States",
+            "target": "Anti-Abortion extremists",
+            "value": 2
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Muslim extremists",
+            "value": 7
+        },
+        {
+            "source": "United States",
+            "target": "Iraqi extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "White extremists",
+            "value": 2
+        },
+        {
+            "source": "Anti-Abortion extremists",
+            "target": "Abortion Related",
+            "value": 2
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 5
+        },
+        {
+            "source": "Iraqi extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "White extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 2
+        },
+        {
+            "source": "Abortion Related",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 6
+        }
+    ]
+}

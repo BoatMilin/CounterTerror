@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Australia",
+            "x": 0
+        },
+        {
+            "name": "Informal Anarchist Federation",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Australia",
+            "target": "Informal Anarchist Federation",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

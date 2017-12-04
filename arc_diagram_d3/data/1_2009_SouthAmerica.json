@@ -1,0 +1,243 @@
+{
+    "nodes": [
+        {
+            "name": "Colombia",
+            "x": 0
+        },
+        {
+            "name": "Peru",
+            "x": 0
+        },
+        {
+            "name": "Venezuela",
+            "x": 0
+        },
+        {
+            "name": "Revolutionary Armed Forces of Colombia (FARC)",
+            "x": 1
+        },
+        {
+            "name": "National Liberation Army of Colombia (ELN)",
+            "x": 1
+        },
+        {
+            "name": "United Self Defense Units of Colombia (AUC)",
+            "x": 1
+        },
+        {
+            "name": "Shining Path (SL)",
+            "x": 1
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Colombia",
+            "target": "National Liberation Army of Colombia (ELN)",
+            "value": 5
+        },
+        {
+            "source": "Colombia",
+            "target": "Revolutionary Armed Forces of Colombia (FARC)",
+            "value": 91
+        },
+        {
+            "source": "Colombia",
+            "target": "United Self Defense Units of Colombia (AUC)",
+            "value": 1
+        },
+        {
+            "source": "Peru",
+            "target": "Shining Path (SL)",
+            "value": 1
+        },
+        {
+            "source": "Venezuela",
+            "target": "National Liberation Army of Colombia (ELN)",
+            "value": 1
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Business",
+            "value": 21
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Government (General)",
+            "value": 19
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Private Citizens & Property",
+            "value": 26
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Transportation",
+            "value": 15
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Utilities",
+            "value": 10
+        },
+        {
+            "source": "Shining Path (SL)",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "United Self Defense Units of Colombia (AUC)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 17
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 9
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 13
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        },
+        {
+            "source": "Transportation",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 8
+        },
+        {
+            "source": "Transportation",
+            "target": "Hijacking",
+            "value": 4
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Utilities",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        }
+    ]
+}

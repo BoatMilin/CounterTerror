@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        }
+    ]
+}

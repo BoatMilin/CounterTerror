@@ -1,0 +1,148 @@
+{
+    "nodes": [
+        {
+            "name": "Canada",
+            "x": 0
+        },
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "White extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Police extremists",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Canada",
+            "target": "Anti-Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Canada",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Police extremists",
+            "value": 4
+        },
+        {
+            "source": "United States",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "White extremists",
+            "value": 2
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 3
+        },
+        {
+            "source": "Anti-Police extremists",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "White extremists",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        }
+    ]
+}

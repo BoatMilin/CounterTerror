@@ -1,0 +1,227 @@
+{
+    "nodes": [
+        {
+            "name": "Philippines",
+            "x": 0
+        },
+        {
+            "name": "Indonesia",
+            "x": 0
+        },
+        {
+            "name": "Thailand",
+            "x": 0
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Indonesia",
+            "target": "Military",
+            "value": 4
+        },
+        {
+            "source": "Indonesia",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Philippines",
+            "target": "Business",
+            "value": 66
+        },
+        {
+            "source": "Philippines",
+            "target": "Government (General)",
+            "value": 38
+        },
+        {
+            "source": "Philippines",
+            "target": "Military",
+            "value": 203
+        },
+        {
+            "source": "Philippines",
+            "target": "Police",
+            "value": 23
+        },
+        {
+            "source": "Philippines",
+            "target": "Private Citizens & Property",
+            "value": 40
+        },
+        {
+            "source": "Thailand",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Thailand",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Thailand",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Thailand",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 14
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 34
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 11
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 7
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 12
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 9
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 9
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 151
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 48
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 9
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 16
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 19
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 8
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 12
+        }
+    ]
+}

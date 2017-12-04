@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

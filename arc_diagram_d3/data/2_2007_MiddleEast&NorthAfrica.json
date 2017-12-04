@@ -1,0 +1,217 @@
+{
+    "nodes": [
+        {
+            "name": "Egypt",
+            "x": 0
+        },
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Lebanon",
+            "x": 0
+        },
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 1
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Egypt",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Egypt",
+            "target": "Military",
+            "value": 8
+        },
+        {
+            "source": "Egypt",
+            "target": "Police",
+            "value": 9
+        },
+        {
+            "source": "Egypt",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "Iraq",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Iraq",
+            "target": "Military",
+            "value": 6
+        },
+        {
+            "source": "Iraq",
+            "target": "Police",
+            "value": 12
+        },
+        {
+            "source": "Iraq",
+            "target": "Private Citizens & Property",
+            "value": 20
+        },
+        {
+            "source": "Iraq",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Israel",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Israel",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Israel",
+            "target": "Private Citizens & Property",
+            "value": 12
+        },
+        {
+            "source": "Lebanon",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Lebanon",
+            "target": "Private Citizens & Property",
+            "value": 24
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 14
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 12
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 16
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 42
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

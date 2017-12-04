@@ -1,0 +1,133 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Caucasus Emirate",
+            "x": 1
+        },
+        {
+            "name": "Neo-Nazi extremists",
+            "x": 1
+        },
+        {
+            "name": "Educational Institution",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Caucasus Emirate",
+            "value": 5
+        },
+        {
+            "source": "Russia",
+            "target": "Muslim extremists",
+            "value": 4
+        },
+        {
+            "source": "Russia",
+            "target": "Neo-Nazi extremists",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Educational Institution",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Neo-Nazi extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

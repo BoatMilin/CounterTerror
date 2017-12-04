@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "name": "Philippines",
+            "x": 0
+        },
+        {
+            "name": "Thailand",
+            "x": 0
+        },
+        {
+            "name": "Malaysia",
+            "x": 0
+        },
+        {
+            "name": "Indonesia",
+            "x": 0
+        },
+        {
+            "name": "Myanmar",
+            "x": 0
+        },
+        {
+            "name": "Bangsamoro Islamic Freedom Movement (BIFM)",
+            "x": 1
+        },
+        {
+            "name": "New People's Army (NPA)",
+            "x": 1
+        },
+        {
+            "name": "Abu Sayyaf Group (ASG)",
+            "x": 1
+        },
+        {
+            "name": "Runda Kumpulan Kecil (RKK)",
+            "x": 1
+        },
+        {
+            "name": "Separatists",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Indonesia",
+            "target": "Separatists",
+            "value": 2
+        },
+        {
+            "source": "Malaysia",
+            "target": "Abu Sayyaf Group (ASG)",
+            "value": 1
+        },
+        {
+            "source": "Myanmar",
+            "target": "Separatists",
+            "value": 1
+        },
+        {
+            "source": "Philippines",
+            "target": "Abu Sayyaf Group (ASG)",
+            "value": 65
+        },
+        {
+            "source": "Philippines",
+            "target": "Bangsamoro Islamic Freedom Movement (BIFM)",
+            "value": 69
+        },
+        {
+            "source": "Philippines",
+            "target": "New People's Army (NPA)",
+            "value": 269
+        },
+        {
+            "source": "Thailand",
+            "target": "Runda Kumpulan Kecil (RKK)",
+            "value": 51
+        },
+        {
+            "source": "Thailand",
+            "target": "Separatists",
+            "value": 33
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Business",
+            "value": 17
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Military",
+            "value": 28
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Police",
+            "value": 10
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Private Citizens & Property",
+            "value": 11
+        },
+        {
+            "source": "Bangsamoro Islamic Freedom Movement (BIFM)",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Bangsamoro Islamic Freedom Movement (BIFM)",
+            "target": "Military",
+            "value": 44
+        },
+        {
+            "source": "Bangsamoro Islamic Freedom Movement (BIFM)",
+            "target": "Police",
+            "value": 5
+        },
+        {
+            "source": "Bangsamoro Islamic Freedom Movement (BIFM)",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "Bangsamoro Islamic Freedom Movement (BIFM)",
+            "target": "Utilities",
+            "value": 12
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Business",
+            "value": 52
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Military",
+            "value": 142
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Police",
+            "value": 32
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Private Citizens & Property",
+            "value": 43
+        },
+        {
+            "source": "Runda Kumpulan Kecil (RKK)",
+            "target": "Business",
+            "value": 7
+        },
+        {
+            "source": "Runda Kumpulan Kecil (RKK)",
+            "target": "Military",
+            "value": 6
+        },
+        {
+            "source": "Runda Kumpulan Kecil (RKK)",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Runda Kumpulan Kecil (RKK)",
+            "target": "Private Citizens & Property",
+            "value": 22
+        },
+        {
+            "source": "Runda Kumpulan Kecil (RKK)",
+            "target": "Utilities",
+            "value": 10
+        },
+        {
+            "source": "Separatists",
+            "target": "Business",
+            "value": 12
+        },
+        {
+            "source": "Separatists",
+            "target": "Military",
+            "value": 8
+        },
+        {
+            "source": "Separatists",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Separatists",
+            "target": "Private Citizens & Property",
+            "value": 7
+        },
+        {
+            "source": "Separatists",
+            "target": "Utilities",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 38
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 34
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 9
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 147
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 68
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 10
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 26
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 5
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 26
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 33
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 27
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 20
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 23
+        },
+        {
+            "source": "Utilities",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        }
+    ]
+}

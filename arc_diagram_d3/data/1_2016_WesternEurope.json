@@ -1,0 +1,302 @@
+{
+    "nodes": [
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "Netherlands",
+            "x": 0
+        },
+        {
+            "name": "Germany",
+            "x": 0
+        },
+        {
+            "name": "Austria",
+            "x": 0
+        },
+        {
+            "name": "Spain",
+            "x": 0
+        },
+        {
+            "name": "Belgium",
+            "x": 0
+        },
+        {
+            "name": "Ireland",
+            "x": 0
+        },
+        {
+            "name": "Dissident Republicans",
+            "x": 1
+        },
+        {
+            "name": "Right-wing extremists",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Kurdistan Workers' Party (PKK)",
+            "x": 1
+        },
+        {
+            "name": "Neo-Nazi extremists",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Austria",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 1
+        },
+        {
+            "source": "Belgium",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Germany",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 1
+        },
+        {
+            "source": "Germany",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Germany",
+            "target": "Neo-Nazi extremists",
+            "value": 4
+        },
+        {
+            "source": "Germany",
+            "target": "Right-wing extremists",
+            "value": 1
+        },
+        {
+            "source": "Ireland",
+            "target": "Dissident Republicans",
+            "value": 1
+        },
+        {
+            "source": "Netherlands",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 2
+        },
+        {
+            "source": "Netherlands",
+            "target": "Right-wing extremists",
+            "value": 2
+        },
+        {
+            "source": "Spain",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Dissident Republicans",
+            "value": 13
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Neo-Nazi extremists",
+            "value": 1
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Religious Figures/Institutions",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "Neo-Nazi extremists",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Neo-Nazi extremists",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Neo-Nazi extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "Right-wing extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Right-wing extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 9
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 4
+        }
+    ]
+}

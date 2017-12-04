@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        }
+    ]
+}

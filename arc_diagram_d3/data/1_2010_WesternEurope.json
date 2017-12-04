@@ -1,0 +1,222 @@
+{
+    "nodes": [
+        {
+            "name": "Greece",
+            "x": 0
+        },
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "Ireland",
+            "x": 0
+        },
+        {
+            "name": "Germany",
+            "x": 0
+        },
+        {
+            "name": "Italy",
+            "x": 0
+        },
+        {
+            "name": "Conspiracy of Cells of Fire",
+            "x": 1
+        },
+        {
+            "name": "Irish Republican Extremists",
+            "x": 1
+        },
+        {
+            "name": "Real Irish Republican Army (RIRA)",
+            "x": 1
+        },
+        {
+            "name": "Oglaigh na hEireann",
+            "x": 1
+        },
+        {
+            "name": "Informal Anarchist Federation",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (Diplomatic)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Germany",
+            "target": "Conspiracy of Cells of Fire",
+            "value": 1
+        },
+        {
+            "source": "Greece",
+            "target": "Conspiracy of Cells of Fire",
+            "value": 17
+        },
+        {
+            "source": "Ireland",
+            "target": "Real Irish Republican Army (RIRA)",
+            "value": 2
+        },
+        {
+            "source": "Italy",
+            "target": "Conspiracy of Cells of Fire",
+            "value": 1
+        },
+        {
+            "source": "Italy",
+            "target": "Informal Anarchist Federation",
+            "value": 4
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Irish Republican Extremists",
+            "value": 7
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Oglaigh na hEireann",
+            "value": 4
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Government (Diplomatic)",
+            "value": 9
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Government (General)",
+            "value": 8
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Government (Diplomatic)",
+            "value": 3
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Irish Republican Extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Irish Republican Extremists",
+            "target": "Police",
+            "value": 5
+        },
+        {
+            "source": "Irish Republican Extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Real Irish Republican Army (RIRA)",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Bombing/Explosion",
+            "value": 12
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

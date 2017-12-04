@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Uighur Separatists",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Airports & Aircraft",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Uighur Separatists",
+            "value": 2
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Airports & Aircraft",
+            "value": 1
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Airports & Aircraft",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        }
+    ]
+}

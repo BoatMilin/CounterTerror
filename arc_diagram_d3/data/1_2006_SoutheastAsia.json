@@ -1,0 +1,220 @@
+{
+    "nodes": [
+        {
+            "name": "Philippines",
+            "x": 0
+        },
+        {
+            "name": "Indonesia",
+            "x": 0
+        },
+        {
+            "name": "Thailand",
+            "x": 0
+        },
+        {
+            "name": "New People's Army (NPA)",
+            "x": 1
+        },
+        {
+            "name": "Abu Sayyaf Group (ASG)",
+            "x": 1
+        },
+        {
+            "name": "Free Papua Movement (OPM-Organisasi Papua Merdeka)",
+            "x": 1
+        },
+        {
+            "name": "Thai Islamic Militants",
+            "x": 1
+        },
+        {
+            "name": "Moro Islamic Liberation Front (MILF)",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Telecommunication",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Indonesia",
+            "target": "Free Papua Movement (OPM-Organisasi Papua Merdeka)",
+            "value": 1
+        },
+        {
+            "source": "Philippines",
+            "target": "Abu Sayyaf Group (ASG)",
+            "value": 7
+        },
+        {
+            "source": "Philippines",
+            "target": "Moro Islamic Liberation Front (MILF)",
+            "value": 2
+        },
+        {
+            "source": "Philippines",
+            "target": "New People's Army (NPA)",
+            "value": 12
+        },
+        {
+            "source": "Thailand",
+            "target": "Thai Islamic Militants",
+            "value": 1
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Private Citizens & Property",
+            "value": 4
+        },
+        {
+            "source": "Free Papua Movement (OPM-Organisasi Papua Merdeka)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Telecommunication",
+            "value": 3
+        },
+        {
+            "source": "Thai Islamic Militants",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Telecommunication",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Telecommunication",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        }
+    ]
+}

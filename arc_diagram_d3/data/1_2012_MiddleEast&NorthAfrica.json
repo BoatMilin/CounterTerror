@@ -1,0 +1,335 @@
+{
+    "nodes": [
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Syria",
+            "x": 0
+        },
+        {
+            "name": "Yemen",
+            "x": 0
+        },
+        {
+            "name": "Turkey",
+            "x": 0
+        },
+        {
+            "name": "Egypt",
+            "x": 0
+        },
+        {
+            "name": "Libya",
+            "x": 0
+        },
+        {
+            "name": "Saudi Arabia",
+            "x": 0
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Al-Nusrah Front",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "x": 1
+        },
+        {
+            "name": "Kurdistan Workers' Party (PKK)",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in Iraq",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Egypt",
+            "target": "Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "Iraq",
+            "target": "Al-Qaida in Iraq",
+            "value": 253
+        },
+        {
+            "source": "Iraq",
+            "target": "Muslim extremists",
+            "value": 7
+        },
+        {
+            "source": "Libya",
+            "target": "Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "Saudi Arabia",
+            "target": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "value": 1
+        },
+        {
+            "source": "Syria",
+            "target": "Al-Nusrah Front",
+            "value": 17
+        },
+        {
+            "source": "Turkey",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 102
+        },
+        {
+            "source": "Yemen",
+            "target": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "value": 164
+        },
+        {
+            "source": "Yemen",
+            "target": "Muslim extremists",
+            "value": 2
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Military",
+            "value": 4
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Government (General)",
+            "value": 19
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Military",
+            "value": 31
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Police",
+            "value": 75
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Private Citizens & Property",
+            "value": 127
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Government (General)",
+            "value": 28
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Military",
+            "value": 84
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Police",
+            "value": 21
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Private Citizens & Property",
+            "value": 16
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Utilities",
+            "value": 16
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Government (General)",
+            "value": 10
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Military",
+            "value": 57
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Police",
+            "value": 22
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Private Citizens & Property",
+            "value": 4
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Utilities",
+            "value": 9
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 9
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Utilities",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 17
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 13
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 30
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 5
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 79
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 8
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 80
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 9
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 38
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 9
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 75
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 10
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 147
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Utilities",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 26
+        }
+    ]
+}

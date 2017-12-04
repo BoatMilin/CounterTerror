@@ -1,0 +1,247 @@
+{
+    "nodes": [
+        {
+            "name": "Philippines",
+            "x": 0
+        },
+        {
+            "name": "Thailand",
+            "x": 0
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 2
+        },
+        {
+            "name": "Hijacking",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Philippines",
+            "target": "Business",
+            "value": 72
+        },
+        {
+            "source": "Philippines",
+            "target": "Government (General)",
+            "value": 29
+        },
+        {
+            "source": "Philippines",
+            "target": "Military",
+            "value": 214
+        },
+        {
+            "source": "Philippines",
+            "target": "Police",
+            "value": 47
+        },
+        {
+            "source": "Philippines",
+            "target": "Private Citizens & Property",
+            "value": 59
+        },
+        {
+            "source": "Thailand",
+            "target": "Business",
+            "value": 7
+        },
+        {
+            "source": "Thailand",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Thailand",
+            "target": "Military",
+            "value": 6
+        },
+        {
+            "source": "Thailand",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Thailand",
+            "target": "Private Citizens & Property",
+            "value": 22
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 27
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 34
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 9
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 13
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 6
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 143
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 66
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 8
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 24
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 4
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 23
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 27
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 26
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 20
+        }
+    ]
+}

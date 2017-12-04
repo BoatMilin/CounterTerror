@@ -1,0 +1,293 @@
+{
+    "nodes": [
+        {
+            "name": "Algeria",
+            "x": 0
+        },
+        {
+            "name": "West Bank and Gaza Strip",
+            "x": 0
+        },
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "Algerian Islamic Extremists",
+            "x": 1
+        },
+        {
+            "name": "Salafist Group for Preaching and Fighting (GSPC)",
+            "x": 1
+        },
+        {
+            "name": "Hamas (Islamic Resistance Movement)",
+            "x": 1
+        },
+        {
+            "name": "Palestinian Islamic Jihad (PIJ)",
+            "x": 1
+        },
+        {
+            "name": "Al-Aqsa Martyrs Brigade",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Algeria",
+            "target": "Algerian Islamic Extremists",
+            "value": 61
+        },
+        {
+            "source": "Algeria",
+            "target": "Salafist Group for Preaching and Fighting (GSPC)",
+            "value": 56
+        },
+        {
+            "source": "Israel",
+            "target": "Al-Aqsa Martyrs Brigade",
+            "value": 8
+        },
+        {
+            "source": "Israel",
+            "target": "Hamas (Islamic Resistance Movement)",
+            "value": 8
+        },
+        {
+            "source": "Israel",
+            "target": "Palestinian Islamic Jihad (PIJ)",
+            "value": 14
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Al-Aqsa Martyrs Brigade",
+            "value": 4
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Hamas (Islamic Resistance Movement)",
+            "value": 9
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Palestinian Islamic Jihad (PIJ)",
+            "value": 2
+        },
+        {
+            "source": "Al-Aqsa Martyrs Brigade",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Al-Aqsa Martyrs Brigade",
+            "target": "Private Citizens & Property",
+            "value": 11
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Military",
+            "value": 18
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Police",
+            "value": 24
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Private Citizens & Property",
+            "value": 14
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Transportation",
+            "value": 3
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Military",
+            "value": 4
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Palestinian Islamic Jihad (PIJ)",
+            "target": "Private Citizens & Property",
+            "value": 16
+        },
+        {
+            "source": "Salafist Group for Preaching and Fighting (GSPC)",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Salafist Group for Preaching and Fighting (GSPC)",
+            "target": "Military",
+            "value": 16
+        },
+        {
+            "source": "Salafist Group for Preaching and Fighting (GSPC)",
+            "target": "Police",
+            "value": 13
+        },
+        {
+            "source": "Salafist Group for Preaching and Fighting (GSPC)",
+            "target": "Private Citizens & Property",
+            "value": 20
+        },
+        {
+            "source": "Salafist Group for Preaching and Fighting (GSPC)",
+            "target": "Transportation",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 30
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 19
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 19
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 8
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 40
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 15
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

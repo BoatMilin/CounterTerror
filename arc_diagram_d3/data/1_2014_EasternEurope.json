@@ -1,0 +1,322 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Ukraine",
+            "x": 0
+        },
+        {
+            "name": "Caucasus Emirate",
+            "x": 1
+        },
+        {
+            "name": "Pro-Russia Militia",
+            "x": 1
+        },
+        {
+            "name": "Donetsk People's Republic",
+            "x": 1
+        },
+        {
+            "name": "Luhansk People's Republic",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Journalists & Media",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Caucasus Emirate",
+            "value": 4
+        },
+        {
+            "source": "Russia",
+            "target": "Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "Ukraine",
+            "target": "Donetsk People's Republic",
+            "value": 270
+        },
+        {
+            "source": "Ukraine",
+            "target": "Luhansk People's Republic",
+            "value": 90
+        },
+        {
+            "source": "Ukraine",
+            "target": "Pro-Russia Militia",
+            "value": 9
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Journalists & Media",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Government (General)",
+            "value": 28
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Journalists & Media",
+            "value": 16
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Military",
+            "value": 165
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Police",
+            "value": 21
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Private Citizens & Property",
+            "value": 40
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Government (General)",
+            "value": 8
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Journalists & Media",
+            "value": 4
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Military",
+            "value": 59
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Police",
+            "value": 5
+        },
+        {
+            "source": "Luhansk People's Republic",
+            "target": "Private Citizens & Property",
+            "value": 14
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Pro-Russia Militia",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Pro-Russia Militia",
+            "target": "Military",
+            "value": 4
+        },
+        {
+            "source": "Pro-Russia Militia",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Pro-Russia Militia",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 18
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 11
+        },
+        {
+            "source": "Government (General)",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Journalists & Media",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Journalists & Media",
+            "target": "Facility/Infrastructure Attack",
+            "value": 5
+        },
+        {
+            "source": "Journalists & Media",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 13
+        },
+        {
+            "source": "Journalists & Media",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 109
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 109
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 8
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 9
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 7
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 8
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 29
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 20
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        }
+    ]
+}

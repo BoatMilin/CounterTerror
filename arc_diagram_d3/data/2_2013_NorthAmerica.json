@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "United States",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,339 @@
+{
+    "nodes": [
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Yemen",
+            "x": 0
+        },
+        {
+            "name": "Turkey",
+            "x": 0
+        },
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 2
+        },
+        {
+            "name": "Hijacking",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Iraq",
+            "target": "Business",
+            "value": 76
+        },
+        {
+            "source": "Iraq",
+            "target": "Government (General)",
+            "value": 47
+        },
+        {
+            "source": "Iraq",
+            "target": "Military",
+            "value": 363
+        },
+        {
+            "source": "Iraq",
+            "target": "Police",
+            "value": 133
+        },
+        {
+            "source": "Iraq",
+            "target": "Private Citizens & Property",
+            "value": 653
+        },
+        {
+            "source": "Israel",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Israel",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Israel",
+            "target": "Military",
+            "value": 75
+        },
+        {
+            "source": "Israel",
+            "target": "Police",
+            "value": 38
+        },
+        {
+            "source": "Israel",
+            "target": "Private Citizens & Property",
+            "value": 50
+        },
+        {
+            "source": "Turkey",
+            "target": "Business",
+            "value": 10
+        },
+        {
+            "source": "Turkey",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Turkey",
+            "target": "Military",
+            "value": 107
+        },
+        {
+            "source": "Turkey",
+            "target": "Police",
+            "value": 121
+        },
+        {
+            "source": "Turkey",
+            "target": "Private Citizens & Property",
+            "value": 32
+        },
+        {
+            "source": "Yemen",
+            "target": "Business",
+            "value": 17
+        },
+        {
+            "source": "Yemen",
+            "target": "Government (General)",
+            "value": 24
+        },
+        {
+            "source": "Yemen",
+            "target": "Military",
+            "value": 37
+        },
+        {
+            "source": "Yemen",
+            "target": "Police",
+            "value": 15
+        },
+        {
+            "source": "Yemen",
+            "target": "Private Citizens & Property",
+            "value": 156
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 13
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 80
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 5
+        },
+        {
+            "source": "Business",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 10
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 21
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 25
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 22
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 160
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 15
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 364
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 5
+        },
+        {
+            "source": "Military",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 21
+        },
+        {
+            "source": "Military",
+            "target": "Unarmed Assault",
+            "value": 14
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 110
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 166
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 19
+        },
+        {
+            "source": "Police",
+            "target": "Unarmed Assault",
+            "value": 8
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 263
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 7
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 453
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 20
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 140
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 3
+        }
+    ]
+}

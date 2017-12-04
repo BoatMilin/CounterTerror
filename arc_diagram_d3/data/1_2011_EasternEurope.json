@@ -1,0 +1,129 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Caucasus Emirate",
+            "x": 1
+        },
+        {
+            "name": "Islamist extremists",
+            "x": 1
+        },
+        {
+            "name": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "x": 1
+        },
+        {
+            "name": "Muslim Separatists",
+            "x": 1
+        },
+        {
+            "name": "Airports & Aircraft",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Educational Institution",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Caucasus Emirate",
+            "value": 4
+        },
+        {
+            "source": "Russia",
+            "target": "Islamist extremists",
+            "value": 2
+        },
+        {
+            "source": "Russia",
+            "target": "Muslim Separatists",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Airports & Aircraft",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Islamist extremists",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Muslim Separatists",
+            "target": "Educational Institution",
+            "value": 1
+        },
+        {
+            "source": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Airports & Aircraft",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        }
+    ]
+}

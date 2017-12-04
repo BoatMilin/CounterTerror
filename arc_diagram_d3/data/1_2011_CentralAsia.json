@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Kazakhstan",
+            "x": 0
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Kazakhstan",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        }
+    ]
+}

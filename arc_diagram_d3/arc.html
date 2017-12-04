@@ -13,15 +13,17 @@
     <!-- JavaScript Libraries //-->
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="d3.slider.js"></script>
-    <script src="lib/sankey.js"></script>
     <script src="lib/d3.tip.v0.6.3.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    <script src="sankey.js"></script>
+
     <!-- CSS Style //-->
-    <link href="style.css" rel="stylesheet" type="text/css">
     <link href="d3.slider.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="style.css" rel="stylesheet" type="text/css">
     <!-- Third party -->
     <script>
         /* GLOBALS */
-        var WIDTH = 1300;           // width of svg image
+        var WIDTH = 1500;           // width of svg image
         var HEIGHT = 1080;           // height of svg image
         var MARGIN = 20;            // amount of margin around plot area
         var PAD = MARGIN / 2;       // actual padding amount
@@ -40,7 +42,10 @@
             4: "Oceania & Australia",
             5: "Europe"
         }
-    
+
+        var groupingToDefaultNodeMap = {
+
+        }
 
         var logScale = d3.scale.log()
             .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
@@ -83,7 +88,7 @@
                 tooltip.attr("dx", 0);
             }
         }
-        
+
         /* MAIN DRAW METHOD */
         // Draws an arc diagram for the provided undirected graph
         function arcDiagram(graph) {
@@ -93,7 +98,7 @@
                 .attr("id", "arc")
                 .attr("width", WIDTH)
                 .attr("height", HEIGHT);
-            
+
             // create plot area within svg image
             var plot = svg.append("g")
                 .attr("id", "plot")
@@ -159,7 +164,7 @@
                 .attr("cy", function (d, i) { return d.y; })
                 .attr("r", function (d, i) { return RADIUS; })
                 .style("fill", "black")
-                .style("stroke-dasharray", function(d, i) {
+                .style("stroke-dasharray", function (d, i) {
                     if (d.name in internalAttackPerRegionMap && logScale(internalAttackPerRegionMap[d.name]) > 1) {
                         return ("1, 0")
                     }
@@ -388,8 +393,7 @@
 
             var nodeDiv = d3.select("#plot").selectAll(".node")
                 .data(nodes)
-                .enter();
-
+                .enter()
 
             var atkSrcColorScale = d3.scale.linear()
                 .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
@@ -421,7 +425,7 @@
 
             var atkSrcCountMap = getExternalAttackSourceCountMap(links)
             var atkTargetCountMap = getExternalAttackTargetCountMap(links)
-            nodeDiv                         // started 
+            nodeDiv
                 .append("path")
                 .attr("class", "node")
                 .attr("d", atkSrcArc)
@@ -442,7 +446,6 @@
                     }
                     updateRegionDropdown();
                     redrawArcs();
-                    call_update();
                 });
 
             nodeDiv
@@ -466,12 +469,13 @@
                     }
                     updateRegionDropdown();
                     redrawArcs();
-                    call_update();
                 });
 
 
             drawInternalArcs(nodeDiv, nodes, links);
             drawGroupingBrackets(nodeDiv, nodes);
+
+            // nodeDiv.exit().remove();
         }
 
         // assumes that nodes are sorted by grouping
@@ -599,9 +603,9 @@
 
             var linkDiv = d3.select("#plot").selectAll(".link")
                 .data(filteredLinks)
-                .enter();
+                ;
 
-            linkDiv
+            linkDiv.enter()
                 .append("path")
                 .attr("class", "link")
                 .style("stroke-width", function (d) {
@@ -611,9 +615,33 @@
                         return (logScale(d.value));
                     }
                 })
+                .on("mouseover", function (d) {
+                    var valueTextDiv = document.getElementById("link_text-" + d.source.x + "_" + d.target.x);
+                    valueTextDiv.style.fontSize = "10pt";
+                })
+                .on("mouseout", function (d) {
+                    var valueTextDiv = document.getElementById("link_text-" + d.source.x + "_" + d.target.x);
+                    valueTextDiv.style.fontSize = "0pt";
+                })
                 .style("stroke", function (d) {
                     return colorScale(d.value);
                 })
+                .attr("transform", function (d, i) {
+                    // arc will always be drawn around (0, 0)
+                    // shift so (0, 0) will be between source and target
+                    var xshift = d.source.x + (d.target.x - d.source.x) / 2;
+                    var yshift = Y_FIXED;
+                    return "translate(" + WIDTH / 2 + ", " + yshift + ")";
+                })
+                .attr("d", function (d, i) {
+                    arc.radius(0);
+                    // want to generate 1/3 as many points per pixel in x direction
+                    var points = d3.range(0, 0);
+                    // set radian scale domain
+                    // return path for arc
+                    return arc(points);
+                })
+                .transition()
                 .attr("transform", function (d, i) {
                     // arc will always be drawn around (0, 0)
                     // shift so (0, 0) will be between source and target
@@ -625,7 +653,6 @@
                     // get x distance between source and target
                     var xdist = Math.abs(d.source.x - d.target.x);
                     // set arc radius based on x distance
-
                     if (d.source.x < d.target.x) {
                         arc.radius((xdist + RADIUS) / 2);
                     } else {
@@ -639,21 +666,15 @@
                     // return path for arc
                     return arc(points);
                 })
-                .on("mouseover", function(d) {
-                    var valueTextDiv = document.getElementById("link_text-" + d.source.x + "_" + d.target.x);
-                    valueTextDiv.style.fontSize = "10pt";
-                })
-                .on("mouseout", function(d) {
-                    var valueTextDiv = document.getElementById("link_text-" + d.source.x + "_" + d.target.x);
-                    valueTextDiv.style.fontSize = "0pt";
-                });
+                ;
 
-            linkDiv.append("text")
-                .attr("x", function(d) {
+            // linkDiv.exit().transition().remove();
+            linkDiv.enter().append("text")
+                .attr("x", function (d) {
                     // var xdist = Math.abs(d.source.x - d.target.x);
-                    return (d.source.x + d.target.x)/2
+                    return (d.source.x + d.target.x) / 2
                 })
-                .attr("y", function(d) {
+                .attr("y", function (d) {
                     var xdist = Math.abs(d.source.x - d.target.x)
                     if (d.source.x < d.target.x) {
                         return Y_FIXED - ((xdist + RADIUS) / 2) - 4;
@@ -662,26 +683,18 @@
                     }
                 })
                 .attr("class", "link_text")
-                .attr("id", function(d) {
+                .attr("id", function (d) {
                     return "link_text-" + d.source.x + "_" + d.target.x;
                 })
-                .text(function(d) { return d.value })
+                .text(function (d) { return d.value })
                 .attr("text-anchor", "middle")
-                .attr("font-size", 10)   
+                .attr("font-size", 10)
+
         }
 
         function updateYearFromSlider(slider) {
             var year = slider.value();
             updateYear(year);
-
-            var s = document.getElementById('xdropdown');
-
-            for (var i = 0; i < s.options.length; i++) {
-                if (s.options[i].text == '' + year) {
-                    s.options[i].selected = true;
-                    break;
-                }
-            }
 
             s = document.getElementById('yeardropdown');
             for (var i = 0; i < s.options.length; i++) {
@@ -691,15 +704,38 @@
                 }
             }
 
-            call_update();
+            redrawSankey(year);
             updateClicked();
         }
+        function endall(transition, callback) {
+            if (typeof callback !== "function") throw new Error("Wrong callback in endall");
+            if (transition.size() === 0) { callback() }
+            var n = 0;
+            transition
+                .each(function () { ++n; })
+                .each("end", function () { if (!--n) callback.apply(this, arguments); });
+        }
+
 
         function updateYear(year) {
-            d3.select("#plot").selectAll(".link").remove();
-            d3.select("#plot").selectAll(".link_text").remove();
-            d3.select("#plot").selectAll(".node").remove();
-            drawLinks(GRAPH.links[year])
+            d3.select("#plot").selectAll(".link")
+                .transition().duration(250).call(endall, function () {
+                    drawLinks(GRAPH.links[year])
+                })
+
+                .attr("transform", function (d, i) {
+                    // arc will always be drawn around (0, 0)
+                    // shift so (0, 0) will be between source and target
+                    var xshift = d.source.x + (d.target.x - d.source.x) / 2;
+                    var yshift = Y_FIXED;
+                    return "translate(" + WIDTH / 2 + ", " + yshift + ")";
+                })
+                .remove()
+
+
+            // d3.select("#plot").selectAll(".link").remove().transition();
+            d3.select("#plot").selectAll(".link_text").remove().transition();
+            // d3.select("#plot").selectAll(".node").remove();
             drawArcNodes(GRAPH.nodes, GRAPH.links[year])
         }
 
@@ -747,13 +783,13 @@
         }
 
         function updateRegionDropdown() {
-            var s = document.getElementById('ydropdown');
-            for (var i = 0; i < s.options.length; i++) {
-                if (s.options[i].text == FILTER_NODE) {
-                    s.options[i].selected = true;
-                    break;
-                }
-            }
+            // var s = document.getElementById('ydropdown');
+            // for (var i = 0; i < s.options.length; i++) {
+            //     if (s.options[i].text == FILTER_NODE) {
+            //         s.options[i].selected = true;
+            //         break;
+            //     }
+            // }
 
             s = document.getElementById('regiondropdown');
             for (var i = 0; i < s.options.length; i++) {
@@ -764,192 +800,80 @@
             }
         }
 
-    </script>
-
-    <script>
-
-        // sources used for reference: 
-        // http://bl.ocks.org/tjdecke/5558084  
-        // https://bl.ocks.org/Bl3f/cdb5ad854b376765fa99
-        // http://bl.ocks.org/mbostock/3202354
-
-        var margin = { top: 50, right: 100, bottom: 100, left: 40 };
-        var width = 900 - margin.left - margin.right;
-        var height = 450 - margin.top - margin.bottom;
-        var chart;
-        var file1, file2;
-        var color = d3.scale.category20();
-        var sankey;
-        var path;
-        var graph;
-
         function init() {
-            initSankey();
             initBubbles();
-        }
 
-        function initSankey() {
-            chart = d3.select('#chart1')
-                .append('svg').attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
+            var sankey = d3.sankey()
+                .nodeWidth(12)
+                .nodePadding(10)
+                .size([sankeyWidth, sankeyHeight]);
+
+            var svg1 = d3.select("#chart1").append("svg")
+                .attr("width", sankeyWidth + sankeyMargin.left + sankeyMargin.right)
+                .attr("height", sankeyHeight + sankeyMargin.top + sankeyMargin.bottom)
+                .style("padding-right", "300px")
                 .append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                .attr("transform",
+                "translate(" + sankeyMargin.left + "," + sankeyMargin.top + ")");
 
-            call_update();
+            var svg2 = d3.select("#chart2").append("svg")
+                .attr("width", sankeyWidth + sankeyMargin.left + sankeyMargin.right)
+                .attr("height", sankeyHeight + sankeyMargin.top + sankeyMargin.bottom)
+                .style("padding-right", "300px")
+                .append("g")
+                .attr("transform",
+                "translate(" + sankeyMargin.left + "," + sankeyMargin.top + ")");
+
+
+            updateSankey(sankey, svg1, DEFAULT_YEAR, "South America", 1)
+            updateSankey(sankey, svg2, DEFAULT_YEAR, "South America", 2)
         }
 
-        function call_update() {
+        function redrawSankey(year) {
             sankey = d3.sankey()
-                .nodeWidth(10)
-                .nodePadding(5)
-                .size([width, height]);
+                .nodeWidth(12)
+                .nodePadding(10)
+                .size([sankeyWidth, sankeyHeight]);
 
-            sankeyPath = sankey.link();
 
-            graph = { "nodes": [], "links": [] };
+            d3.select('#chart1').selectAll('svg').transition()
+                .call(endall, function () {
+                    svg1 = d3.select("#chart1").append("svg")
+                        .attr("width", sankeyWidth + sankeyMargin.left + sankeyMargin.right)
+                        .attr("height", sankeyHeight + sankeyMargin.top + sankeyMargin.bottom)
+                        .style("padding-right", "300px")
+                        .append("g")
+                        .attr("transform",
+                        "translate(" + sankeyMargin.left + "," + sankeyMargin.top + ")");
 
-            var year = getxSelectedOption().replace(/ /g, '');
-            var region = getySelectedOption().replace(/ /g, '');
-
-            var path1 = './Sankey/data/';
-            file1 = path1 + year + '_' + region + '_test2.csv';
-            file2 = path1 + year + '_' + region + '_test1.csv';
-            // console.log(file1);
-            // console.log(file2);
-            d3.select('#chart1').selectAll('svg').remove();
-            d3.select('#head').selectAll('svg').remove();
-
-            chart = d3.select('#chart1')
-                .append('svg').attr("width", width + 100 + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-            d3.csv(file1, updateSankey);
-        }
-
-        function updateSankey(d) {
-
-            d.forEach(function (d) {
-                graph.nodes.push({ "name": d.targtype1_txt });
-                graph.nodes.push({ "name": d.attacktype1_txt });
-                graph.links.push({
-                    "source": d.attacktype1_txt,
-                    "target": d.targtype1_txt,
-                    "value": +d.counts
-                });
-            });
-
-            d3.csv(file2, update1);
-
-            function update1(d1) {
-                d1.forEach(function (d) {
-                    graph.nodes.push({ "name": d.country_txt });
-                    graph.nodes.push({ "name": d.attacktype1_txt });
-                    graph.links.push({
-                        "source": d.country_txt,
-                        "target": d.attacktype1_txt,
-                        "value": +d.counts
-                    });
-                });
-
-                graph.nodes = d3.keys(d3.nest()
-                    .key(function (d) { return d.name; })
-                    .map(graph.nodes));
-
-                graph.links.sort(function (a, b) {
-                    return a.value - b.value;
+                    if (FILTER_NODE == null) {
+                        updateSankey(sankey, svg1, year, "South America", 1)
+                    } else {
+                        updateSankey(sankey, svg1, year, FILTER_NODE, 1)
+                    }
                 })
-
-                graph.links.forEach(function (d, i) {
-                    graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
-                    graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
-                });
-
-
-                graph.nodes.forEach(function (d, i) {
-                    graph.nodes[i] = { "name": d };
-                });
-
-                // console.log(graph.nodes);
-                // console.log(graph.links);
+                .remove();
+            d3.select('#chart2').selectAll('svg').transition()
+                .call(endall, function () {
+                    svg2 = d3.select("#chart2").append("svg")
+                        .attr("width", sankeyWidth + sankeyMargin.left + sankeyMargin.right)
+                        .attr("height", sankeyHeight + sankeyMargin.top + sankeyMargin.bottom)
+                        .style("padding-right", "300px")
+                        .append("g")
+                        .attr("transform",
+                        "translate(" + sankeyMargin.left + "," + sankeyMargin.top + ")");
 
 
-                // var tip1 = d3.tip()
-                //          .attr('class', 'tip-class')
-                //          .html(function(d) {
-                //            return d.source.name+" - "+d.target.name+" - "+d.value+" points";
-                //          });
-                //  var tip2 = d3.tip()
-                //          .attr('class', 'tip-class')
-                //          .html(function(d) {
-                //            return d.name+" "+d.value+" points";
-                //          });        
-
-                // svg.call(tip1); 
-                // svg.call(tip2);       
-
-                sankey
-                    .nodes(graph.nodes)
-                    .links(graph.links)
-                    .layout(100);
-
-
-                var link = chart.append("g").selectAll(".sankey_link")
-                    .data(graph.links)
-                    .enter().append("path")
-                    .attr("class", "sankey_link")
-                    .attr("d", sankeyPath)
-                    .style('stroke', "#FD812C")
-                    .style("stroke-width", function (d) { return Math.max(1, d.dy); })
-                    .sort(function (a, b) { return b.dy - a.dy; });
-                // .on('mouseover', tip1.show)
-                // .on('mouseout', tip1.hide);
-
-                // console.log(graph.nodes);
-                var node = chart.append("g").selectAll(".nsankey_ode")
-                    .data(graph.nodes)
-                    .enter().append("g")
-                    .attr("class", "sankey_node")
-                    .attr("transform", function (d) {
-                        return "translate(" + d.x + "," + d.y + ")";
-                    })
-
-
-                node.append("rect")
-                    .attr("height", function (d) { return d.dy; })
-                    .attr("width", sankey.nodeWidth())
-                    .style("fill", "black")
-                    .style("stroke", "black");
-                // .on('mouseover', tip2.show)
-                // .on('mouseout', tip2.hide);
-
-                node.append("text")
-                    .attr("y", function (d) { return d.dy / 2; })
-                    .attr("dy", ".35em")
-                    .attr("text-anchor", "end")
-                    .attr("transform", null)
-                    .text(function (d) { return d.name; })
-                    //.filter(function(d) { return d.x < width / 2; })
-                    .attr("x", sankey.nodeWidth() + 5)
-                    .attr("text-anchor", "start");
-
-            }
+                    if (FILTER_NODE == null) {
+                        updateSankey(sankey, svg2, year, "South America", 2)
+                    } else {
+                        updateSankey(sankey, svg2, year, FILTER_NODE, 2)
+                    }
+                })
+                .remove();
         }
-
-        function getxSelectedOption() {
-            var node = d3.select('#xdropdown').node();
-            var i = node.selectedIndex;
-            return node[i].value;
-        }
-
-        function getySelectedOption() {
-            var node = d3.select('#ydropdown').node();
-            var i = node.selectedIndex;
-            return node[i].value;
-        }
-
     </script>
+
 </head>
 
 <body onload="init()">
@@ -961,48 +885,12 @@
         <div id="slider" style="float: left;"></div>
     </div>
 
-    <img src="images/legend.png" style="width: 298px; height: 62px"/>
+    <img src="images/legend.png" style="width: 298px; height: 62px" />
     <div id="head"></div>
 
-    <!-- sankey -->
-    <div id="selectbox1">
-        <div style="display: none; width: 120;" class="absolute">
-            <label for="xdropdown">Year: </label>
-            <select id="xdropdown" onchange="call_update();">
-                <option val="2010" selected>2008</option>
-                <option val="2010">2009</option>
-                <option val="2010">2010</option>
-                <option val="2011">2011</option>
-                <option val="2012">2012</option>
-                <option val="2013">2013</option>
-                <option val="2014">2014</option>
-                <option val="2015">2015</option>
-                <option val="2016">2016</option>
-            </select>
-        </div>
-    </div>
-
-    <div id="selectbox2">
-
-        <div style="display: none; width: 120;" class="absolute">
-            <label for="ydropdown">Region: </label>
-            <select id="ydropdown" onchange="call_update();">
-                <option val="CentralAmerica&Caribbean">Central America &amp; Caribbean</option>
-                <option val="SouthAmerica" selected>South America</option>
-                <option val="NorthAmerica">North America</option>
-                <option val="Sub-SaharanAfrica">Sub-Saharan Africa</option>
-                <option val="MiddleEast&NorthAfrica">Middle East & North Africa</option>
-                <option val="SouthAsia">South Asia</option>
-                <option val="SouthEastAsia">Southeast Asia</option>
-                <option val="EastAsia">East Asia</option>
-                <option val="CentralAsia">Central Asia</option>
-                <option val="Australasia&Oceania">Australia & Oceania</option>
-                <option val="EasternEurope">Eastern Europe</option>
-                <option val="WesternEurope">Western Europe</option>
-            </select>
-        </div>
-    </div>
-    <div id="chart1"></div>
+    <p id="sankeyTitle">Global Terrorist Behavior</p>
+    <p id="chart1" class="sankeyChart" />
+    <p id="chart2" class="sankeyChart" />
 
     <!-- bubbles -->
     <div style="margin:30;">
@@ -1035,7 +923,6 @@
                 <option val="South America" selected>South America</option>
                 <option val="Middle East & North Africa">Middle East & North Africa</option>
                 <option val="Sub-Saharan Africa">Sub-Saharan Africa</option>
-
             </select>
         </div>
         <div style="display: none">
@@ -1059,6 +946,7 @@
             isPlaying = !isPlaying;
         });
         setInterval(incrementSlider, SLIDE_UPDATE_INTERVAL);
+        
     </script>
     <script src="bubbles/js/bubble.js"></script>
 </body>

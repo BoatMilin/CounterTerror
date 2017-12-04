@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Eastern Turkistan Islamic Movement (ETIM)",
+            "x": 1
+        },
+        {
+            "name": "Uighur Separatists",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Eastern Turkistan Islamic Movement (ETIM)",
+            "value": 1
+        },
+        {
+            "source": "China",
+            "target": "Uighur Separatists",
+            "value": 1
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        }
+    ]
+}

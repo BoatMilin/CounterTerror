@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Chechen Rebels",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Chechen Rebels",
+            "value": 4
+        },
+        {
+            "source": "Chechen Rebels",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Chechen Rebels",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

@@ -1,0 +1,379 @@
+{
+    "nodes": [
+        {
+            "name": "India",
+            "x": 0
+        },
+        {
+            "name": "Pakistan",
+            "x": 0
+        },
+        {
+            "name": "Afghanistan",
+            "x": 0
+        },
+        {
+            "name": "Sri Lanka",
+            "x": 0
+        },
+        {
+            "name": "United Liberation Front of Assam (ULFA)",
+            "x": 1
+        },
+        {
+            "name": "Tehrik-i-Taliban Pakistan (TTP)",
+            "x": 1
+        },
+        {
+            "name": "Taliban",
+            "x": 1
+        },
+        {
+            "name": "Liberation Tigers of Tamil Eelam (LTTE)",
+            "x": 1
+        },
+        {
+            "name": "Communist Party of India - Maoist (CPI-Maoist)",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Educational Institution",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Afghanistan",
+            "target": "Taliban",
+            "value": 217
+        },
+        {
+            "source": "India",
+            "target": "Communist Party of India - Maoist (CPI-Maoist)",
+            "value": 281
+        },
+        {
+            "source": "India",
+            "target": "United Liberation Front of Assam (ULFA)",
+            "value": 14
+        },
+        {
+            "source": "Pakistan",
+            "target": "Taliban",
+            "value": 3
+        },
+        {
+            "source": "Pakistan",
+            "target": "Tehrik-i-Taliban Pakistan (TTP)",
+            "value": 119
+        },
+        {
+            "source": "Sri Lanka",
+            "target": "Liberation Tigers of Tamil Eelam (LTTE)",
+            "value": 12
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Business",
+            "value": 22
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Educational Institution",
+            "value": 19
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Government (General)",
+            "value": 74
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Police",
+            "value": 91
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Private Citizens & Property",
+            "value": 75
+        },
+        {
+            "source": "Liberation Tigers of Tamil Eelam (LTTE)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Liberation Tigers of Tamil Eelam (LTTE)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Liberation Tigers of Tamil Eelam (LTTE)",
+            "target": "Private Citizens & Property",
+            "value": 10
+        },
+        {
+            "source": "Taliban",
+            "target": "Business",
+            "value": 33
+        },
+        {
+            "source": "Taliban",
+            "target": "Educational Institution",
+            "value": 10
+        },
+        {
+            "source": "Taliban",
+            "target": "Government (General)",
+            "value": 60
+        },
+        {
+            "source": "Taliban",
+            "target": "Police",
+            "value": 26
+        },
+        {
+            "source": "Taliban",
+            "target": "Private Citizens & Property",
+            "value": 91
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Business",
+            "value": 13
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Educational Institution",
+            "value": 41
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Government (General)",
+            "value": 10
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Private Citizens & Property",
+            "value": 49
+        },
+        {
+            "source": "United Liberation Front of Assam (ULFA)",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "United Liberation Front of Assam (ULFA)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "United Liberation Front of Assam (ULFA)",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "United Liberation Front of Assam (ULFA)",
+            "target": "Private Citizens & Property",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 15
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 33
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 13
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 6
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Bombing/Explosion",
+            "value": 58
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Facility/Infrastructure Attack",
+            "value": 6
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Unarmed Assault",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 56
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 17
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 48
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 13
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 11
+        },
+        {
+            "source": "Government (General)",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 51
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 9
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 52
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 4
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 11
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 96
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 10
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 72
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 14
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hijacking",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 36
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 2
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "United States",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

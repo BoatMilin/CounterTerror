@@ -1,0 +1,181 @@
+{
+    "nodes": [
+        {
+            "name": "Ukraine",
+            "x": 0
+        },
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Albania",
+            "x": 0
+        },
+        {
+            "name": "Donetsk People's Republic",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Islamic State of Iraq and the Levant (ISIL)",
+            "x": 1
+        },
+        {
+            "name": "Caucasus Emirate",
+            "x": 1
+        },
+        {
+            "name": "Government (Diplomatic)",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Albania",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Caucasus Emirate",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 2
+        },
+        {
+            "source": "Russia",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "Donetsk People's Republic",
+            "value": 9
+        },
+        {
+            "source": "Ukraine",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Government (Diplomatic)",
+            "value": 4
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Donetsk People's Republic",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        }
+    ]
+}

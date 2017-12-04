@@ -1,0 +1,407 @@
+{
+    "nodes": [
+        {
+            "name": "Syria",
+            "x": 0
+        },
+        {
+            "name": "Yemen",
+            "x": 0
+        },
+        {
+            "name": "Libya",
+            "x": 0
+        },
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Tunisia",
+            "x": 0
+        },
+        {
+            "name": "Egypt",
+            "x": 0
+        },
+        {
+            "name": "Turkey",
+            "x": 0
+        },
+        {
+            "name": "Lebanon",
+            "x": 0
+        },
+        {
+            "name": "Algeria",
+            "x": 0
+        },
+        {
+            "name": "Al-Nusrah Front",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in Iraq",
+            "x": 1
+        },
+        {
+            "name": "Islamic State of Iraq and the Levant (ISIL)",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Algeria",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Egypt",
+            "target": "Muslim extremists",
+            "value": 32
+        },
+        {
+            "source": "Iraq",
+            "target": "Al-Nusrah Front",
+            "value": 1
+        },
+        {
+            "source": "Iraq",
+            "target": "Al-Qaida in Iraq",
+            "value": 73
+        },
+        {
+            "source": "Iraq",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 318
+        },
+        {
+            "source": "Iraq",
+            "target": "Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "Lebanon",
+            "target": "Muslim extremists",
+            "value": 2
+        },
+        {
+            "source": "Libya",
+            "target": "Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "Syria",
+            "target": "Al-Nusrah Front",
+            "value": 27
+        },
+        {
+            "source": "Syria",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 12
+        },
+        {
+            "source": "Syria",
+            "target": "Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "Tunisia",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 1
+        },
+        {
+            "source": "Tunisia",
+            "target": "Muslim extremists",
+            "value": 5
+        },
+        {
+            "source": "Turkey",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 2
+        },
+        {
+            "source": "Yemen",
+            "target": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "value": 107
+        },
+        {
+            "source": "Yemen",
+            "target": "Muslim extremists",
+            "value": 5
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Military",
+            "value": 14
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Police",
+            "value": 5
+        },
+        {
+            "source": "Al-Nusrah Front",
+            "target": "Private Citizens & Property",
+            "value": 6
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Business",
+            "value": 9
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Government (General)",
+            "value": 9
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Military",
+            "value": 12
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Police",
+            "value": 13
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Private Citizens & Property",
+            "value": 30
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Business",
+            "value": 4
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Government (General)",
+            "value": 16
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Military",
+            "value": 61
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Police",
+            "value": 18
+        },
+        {
+            "source": "Al-Qaida in the Arabian Peninsula (AQAP)",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Business",
+            "value": 39
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Government (General)",
+            "value": 16
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Military",
+            "value": 24
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Police",
+            "value": 70
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Private Citizens & Property",
+            "value": 184
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Business",
+            "value": 4
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Government (General)",
+            "value": 5
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Military",
+            "value": 23
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Police",
+            "value": 15
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 49
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 10
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 12
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 27
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 51
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 14
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 64
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 4
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 24
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 6
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 85
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 11
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 9
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 207
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 6
+        }
+    ]
+}

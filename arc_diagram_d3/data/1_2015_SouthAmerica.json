@@ -1,0 +1,238 @@
+{
+    "nodes": [
+        {
+            "name": "Colombia",
+            "x": 0
+        },
+        {
+            "name": "Paraguay",
+            "x": 0
+        },
+        {
+            "name": "Peru",
+            "x": 0
+        },
+        {
+            "name": "National Liberation Army of Colombia (ELN)",
+            "x": 1
+        },
+        {
+            "name": "Paraguayan People's Army (EPP)",
+            "x": 1
+        },
+        {
+            "name": "Revolutionary Armed Forces of Colombia (FARC)",
+            "x": 1
+        },
+        {
+            "name": "Shining Path (SL)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Colombia",
+            "target": "National Liberation Army of Colombia (ELN)",
+            "value": 37
+        },
+        {
+            "source": "Colombia",
+            "target": "Revolutionary Armed Forces of Colombia (FARC)",
+            "value": 60
+        },
+        {
+            "source": "Paraguay",
+            "target": "Paraguayan People's Army (EPP)",
+            "value": 13
+        },
+        {
+            "source": "Peru",
+            "target": "Shining Path (SL)",
+            "value": 1
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Business",
+            "value": 8
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Military",
+            "value": 12
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Police",
+            "value": 10
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Utilities",
+            "value": 7
+        },
+        {
+            "source": "Paraguayan People's Army (EPP)",
+            "target": "Business",
+            "value": 8
+        },
+        {
+            "source": "Paraguayan People's Army (EPP)",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Paraguayan People's Army (EPP)",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Business",
+            "value": 6
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Military",
+            "value": 12
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Police",
+            "value": 12
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Transportation",
+            "value": 10
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Utilities",
+            "value": 20
+        },
+        {
+            "source": "Shining Path (SL)",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 9
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 7
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 8
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 14
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 13
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 12
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 5
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 27
+        },
+        {
+            "source": "Utilities",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        }
+    ]
+}

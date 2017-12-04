@@ -1,0 +1,248 @@
+{
+    "nodes": [
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "Greece",
+            "x": 0
+        },
+        {
+            "name": "Italy",
+            "x": 0
+        },
+        {
+            "name": "Dissident Republicans",
+            "x": 1
+        },
+        {
+            "name": "Oglaigh na hEireann",
+            "x": 1
+        },
+        {
+            "name": "Informal Anarchist Federation",
+            "x": 1
+        },
+        {
+            "name": "White extremists",
+            "x": 1
+        },
+        {
+            "name": "The New Irish Republican Army",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Greece",
+            "target": "Informal Anarchist Federation",
+            "value": 2
+        },
+        {
+            "source": "Italy",
+            "target": "Informal Anarchist Federation",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Dissident Republicans",
+            "value": 25
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Informal Anarchist Federation",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Oglaigh na hEireann",
+            "value": 9
+        },
+        {
+            "source": "United Kingdom",
+            "target": "The New Irish Republican Army",
+            "value": 4
+        },
+        {
+            "source": "United Kingdom",
+            "target": "White extremists",
+            "value": 4
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Business",
+            "value": 4
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Police",
+            "value": 17
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "White extremists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "White extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 6
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 16
+        },
+        {
+            "source": "Police",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Bombing/Explosion",
+            "value": 3
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+{
+    "nodes": [
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Algeria",
+            "x": 0
+        },
+        {
+            "name": "Democratic Front for the Liberation of Palestine (DFLP)",
+            "x": 1
+        },
+        {
+            "name": "Islamic State of Iraq (ISI)",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in Iraq",
+            "x": 1
+        },
+        {
+            "name": "Asa'ib Ahl al-Haqq",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Algeria",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 14
+        },
+        {
+            "source": "Iraq",
+            "target": "Al-Qaida in Iraq",
+            "value": 16
+        },
+        {
+            "source": "Iraq",
+            "target": "Asa'ib Ahl al-Haqq",
+            "value": 3
+        },
+        {
+            "source": "Iraq",
+            "target": "Islamic State of Iraq (ISI)",
+            "value": 54
+        },
+        {
+            "source": "Israel",
+            "target": "Democratic Front for the Liberation of Palestine (DFLP)",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Government (General)",
+            "value": 6
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Police",
+            "value": 7
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Asa'ib Ahl al-Haqq",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Asa'ib Ahl al-Haqq",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Democratic Front for the Liberation of Palestine (DFLP)",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Islamic State of Iraq (ISI)",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Islamic State of Iraq (ISI)",
+            "target": "Government (General)",
+            "value": 14
+        },
+        {
+            "source": "Islamic State of Iraq (ISI)",
+            "target": "Police",
+            "value": 8
+        },
+        {
+            "source": "Islamic State of Iraq (ISI)",
+            "target": "Private Citizens & Property",
+            "value": 18
+        },
+        {
+            "source": "Islamic State of Iraq (ISI)",
+            "target": "Religious Figures/Institutions",
+            "value": 12
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 17
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 9
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 29
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Bombing/Explosion",
+            "value": 12
+        }
+    ]
+}

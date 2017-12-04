@@ -1,0 +1,203 @@
+{
+    "nodes": [
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "France",
+            "x": 0
+        },
+        {
+            "name": "Ireland",
+            "x": 0
+        },
+        {
+            "name": "Italy",
+            "x": 0
+        },
+        {
+            "name": "Oglaigh na hEireann",
+            "x": 1
+        },
+        {
+            "name": "Dissident Republicans",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Informal Anarchist Federation",
+            "x": 1
+        },
+        {
+            "name": "Corsican National Liberation Front (FLNC)",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "France",
+            "target": "Corsican National Liberation Front (FLNC)",
+            "value": 58
+        },
+        {
+            "source": "France",
+            "target": "Muslim extremists",
+            "value": 2
+        },
+        {
+            "source": "Ireland",
+            "target": "Dissident Republicans",
+            "value": 1
+        },
+        {
+            "source": "Italy",
+            "target": "Informal Anarchist Federation",
+            "value": 2
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Dissident Republicans",
+            "value": 5
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Oglaigh na hEireann",
+            "value": 7
+        },
+        {
+            "source": "Corsican National Liberation Front (FLNC)",
+            "target": "Business",
+            "value": 7
+        },
+        {
+            "source": "Corsican National Liberation Front (FLNC)",
+            "target": "Private Citizens & Property",
+            "value": 51
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Oglaigh na hEireann",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 54
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "United States",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Unarmed Assault",
+            "value": 1
+        }
+    ]
+}

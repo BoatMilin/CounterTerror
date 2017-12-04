@@ -1,0 +1,351 @@
+{
+    "nodes": [
+        {
+            "name": "Somalia",
+            "x": 0
+        },
+        {
+            "name": "Kenya",
+            "x": 0
+        },
+        {
+            "name": "Nigeria",
+            "x": 0
+        },
+        {
+            "name": "Cameroon",
+            "x": 0
+        },
+        {
+            "name": "Niger",
+            "x": 0
+        },
+        {
+            "name": "Chad",
+            "x": 0
+        },
+        {
+            "name": "Mozambique",
+            "x": 0
+        },
+        {
+            "name": "Central African Republic",
+            "x": 0
+        },
+        {
+            "name": "Al-Shabaab",
+            "x": 1
+        },
+        {
+            "name": "Fulani extremists",
+            "x": 1
+        },
+        {
+            "name": "Boko Haram",
+            "x": 1
+        },
+        {
+            "name": "Mozambique National Resistance Movement (MNR)",
+            "x": 1
+        },
+        {
+            "name": "Niger Delta Avengers (NDA)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Cameroon",
+            "target": "Boko Haram",
+            "value": 30
+        },
+        {
+            "source": "Central African Republic",
+            "target": "Fulani extremists",
+            "value": 2
+        },
+        {
+            "source": "Chad",
+            "target": "Boko Haram",
+            "value": 3
+        },
+        {
+            "source": "Kenya",
+            "target": "Al-Shabaab",
+            "value": 40
+        },
+        {
+            "source": "Mozambique",
+            "target": "Mozambique National Resistance Movement (MNR)",
+            "value": 36
+        },
+        {
+            "source": "Niger",
+            "target": "Boko Haram",
+            "value": 12
+        },
+        {
+            "source": "Nigeria",
+            "target": "Boko Haram",
+            "value": 125
+        },
+        {
+            "source": "Nigeria",
+            "target": "Fulani extremists",
+            "value": 146
+        },
+        {
+            "source": "Nigeria",
+            "target": "Niger Delta Avengers (NDA)",
+            "value": 48
+        },
+        {
+            "source": "Somalia",
+            "target": "Al-Shabaab",
+            "value": 400
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Government (General)",
+            "value": 74
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Military",
+            "value": 230
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Police",
+            "value": 41
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Private Citizens & Property",
+            "value": 95
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Government (General)",
+            "value": 4
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Military",
+            "value": 42
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Private Citizens & Property",
+            "value": 121
+        },
+        {
+            "source": "Fulani extremists",
+            "target": "Government (General)",
+            "value": 5
+        },
+        {
+            "source": "Fulani extremists",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Fulani extremists",
+            "target": "Private Citizens & Property",
+            "value": 139
+        },
+        {
+            "source": "Mozambique National Resistance Movement (MNR)",
+            "target": "Government (General)",
+            "value": 11
+        },
+        {
+            "source": "Mozambique National Resistance Movement (MNR)",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Mozambique National Resistance Movement (MNR)",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Mozambique National Resistance Movement (MNR)",
+            "target": "Private Citizens & Property",
+            "value": 19
+        },
+        {
+            "source": "Niger Delta Avengers (NDA)",
+            "target": "Utilities",
+            "value": 48
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 19
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 39
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 30
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 117
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 10
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 137
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 7
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 19
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 4
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 24
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 211
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 14
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 56
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 26
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hijacking",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 4
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 60
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 48
+        }
+    ]
+}

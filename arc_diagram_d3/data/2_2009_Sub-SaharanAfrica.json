@@ -1,0 +1,211 @@
+{
+    "nodes": [
+        {
+            "name": "Somalia",
+            "x": 0
+        },
+        {
+            "name": "Uganda",
+            "x": 0
+        },
+        {
+            "name": "Nigeria",
+            "x": 0
+        },
+        {
+            "name": "Rwanda",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 1
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Nigeria",
+            "target": "Business",
+            "value": 8
+        },
+        {
+            "source": "Nigeria",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Rwanda",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Rwanda",
+            "target": "Private Citizens & Property",
+            "value": 16
+        },
+        {
+            "source": "Rwanda",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Somalia",
+            "target": "Government (General)",
+            "value": 18
+        },
+        {
+            "source": "Somalia",
+            "target": "Police",
+            "value": 5
+        },
+        {
+            "source": "Somalia",
+            "target": "Private Citizens & Property",
+            "value": 14
+        },
+        {
+            "source": "Uganda",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Uganda",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Uganda",
+            "target": "Private Citizens & Property",
+            "value": 25
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 12
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 22
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 12
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 14
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Armed Assault",
+            "value": 1
+        }
+    ]
+}

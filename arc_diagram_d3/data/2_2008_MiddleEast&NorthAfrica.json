@@ -1,0 +1,188 @@
+{
+    "nodes": [
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Syria",
+            "x": 0
+        },
+        {
+            "name": "Turkey",
+            "x": 0
+        },
+        {
+            "name": "Lebanon",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Iraq",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Iraq",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Iraq",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Iraq",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Iraq",
+            "target": "Private Citizens & Property",
+            "value": 29
+        },
+        {
+            "source": "Lebanon",
+            "target": "Military",
+            "value": 5
+        },
+        {
+            "source": "Lebanon",
+            "target": "Private Citizens & Property",
+            "value": 21
+        },
+        {
+            "source": "Syria",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Syria",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Syria",
+            "target": "Private Citizens & Property",
+            "value": 16
+        },
+        {
+            "source": "Turkey",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Turkey",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Turkey",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Turkey",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Turkey",
+            "target": "Private Citizens & Property",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 10
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 54
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 9
+        }
+    ]
+}

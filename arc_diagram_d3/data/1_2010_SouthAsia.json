@@ -1,0 +1,362 @@
+{
+    "nodes": [
+        {
+            "name": "Afghanistan",
+            "x": 0
+        },
+        {
+            "name": "Pakistan",
+            "x": 0
+        },
+        {
+            "name": "India",
+            "x": 0
+        },
+        {
+            "name": "Taliban",
+            "x": 1
+        },
+        {
+            "name": "Tehrik-i-Taliban Pakistan (TTP)",
+            "x": 1
+        },
+        {
+            "name": "Communist Party of India - Maoist (CPI-Maoist)",
+            "x": 1
+        },
+        {
+            "name": "Haqqani Network",
+            "x": 1
+        },
+        {
+            "name": "National Democratic Front of Bodoland (NDFB)",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Educational Institution",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Afghanistan",
+            "target": "Haqqani Network",
+            "value": 9
+        },
+        {
+            "source": "Afghanistan",
+            "target": "Taliban",
+            "value": 230
+        },
+        {
+            "source": "Afghanistan",
+            "target": "Tehrik-i-Taliban Pakistan (TTP)",
+            "value": 1
+        },
+        {
+            "source": "India",
+            "target": "Communist Party of India - Maoist (CPI-Maoist)",
+            "value": 393
+        },
+        {
+            "source": "India",
+            "target": "National Democratic Front of Bodoland (NDFB)",
+            "value": 11
+        },
+        {
+            "source": "Pakistan",
+            "target": "Taliban",
+            "value": 3
+        },
+        {
+            "source": "Pakistan",
+            "target": "Tehrik-i-Taliban Pakistan (TTP)",
+            "value": 126
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Business",
+            "value": 47
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Educational Institution",
+            "value": 21
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Government (General)",
+            "value": 94
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Police",
+            "value": 79
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Private Citizens & Property",
+            "value": 152
+        },
+        {
+            "source": "Haqqani Network",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Haqqani Network",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Haqqani Network",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "National Democratic Front of Bodoland (NDFB)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "National Democratic Front of Bodoland (NDFB)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "National Democratic Front of Bodoland (NDFB)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "National Democratic Front of Bodoland (NDFB)",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Taliban",
+            "target": "Business",
+            "value": 20
+        },
+        {
+            "source": "Taliban",
+            "target": "Educational Institution",
+            "value": 14
+        },
+        {
+            "source": "Taliban",
+            "target": "Government (General)",
+            "value": 97
+        },
+        {
+            "source": "Taliban",
+            "target": "Police",
+            "value": 23
+        },
+        {
+            "source": "Taliban",
+            "target": "Private Citizens & Property",
+            "value": 79
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Business",
+            "value": 7
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Educational Institution",
+            "value": 49
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Government (General)",
+            "value": 6
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Police",
+            "value": 7
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Private Citizens & Property",
+            "value": 58
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 11
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 20
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 34
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 12
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Bombing/Explosion",
+            "value": 61
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Facility/Infrastructure Attack",
+            "value": 10
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Unarmed Assault",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 40
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 28
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 78
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 14
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 40
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 41
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 8
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 45
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 12
+        },
+        {
+            "source": "Police",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 125
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 66
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 15
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 85
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 6
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {
+            "name": "Mexico",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Mexico",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        }
+    ]
+}

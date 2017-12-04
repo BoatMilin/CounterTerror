@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "name": "New Zealand",
+            "x": 0
+        },
+        {
+            "name": "Australia",
+            "x": 0
+        },
+        {
+            "name": "Animal Liberation Front (ALF)",
+            "x": 1
+        },
+        {
+            "name": "Informal Anarchist Federation",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Australia",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "Australia",
+            "target": "Informal Anarchist Federation",
+            "value": 2
+        },
+        {
+            "source": "New Zealand",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "Animal Liberation Front (ALF)",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        }
+    ]
+}

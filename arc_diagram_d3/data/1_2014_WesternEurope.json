@@ -1,0 +1,234 @@
+{
+    "nodes": [
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "Greece",
+            "x": 0
+        },
+        {
+            "name": "Ireland",
+            "x": 0
+        },
+        {
+            "name": "France",
+            "x": 0
+        },
+        {
+            "name": "Informal Anarchist Federation",
+            "x": 1
+        },
+        {
+            "name": "The New Irish Republican Army",
+            "x": 1
+        },
+        {
+            "name": "Dissident Republicans",
+            "x": 1
+        },
+        {
+            "name": "Conspiracy of Cells of Fire",
+            "x": 1
+        },
+        {
+            "name": "Breton Liberation Front (FLB)",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "France",
+            "target": "Breton Liberation Front (FLB)",
+            "value": 2
+        },
+        {
+            "source": "Greece",
+            "target": "Conspiracy of Cells of Fire",
+            "value": 1
+        },
+        {
+            "source": "Greece",
+            "target": "Informal Anarchist Federation",
+            "value": 1
+        },
+        {
+            "source": "Ireland",
+            "target": "Dissident Republicans",
+            "value": 1
+        },
+        {
+            "source": "Ireland",
+            "target": "The New Irish Republican Army",
+            "value": 1
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Dissident Republicans",
+            "value": 10
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Informal Anarchist Federation",
+            "value": 5
+        },
+        {
+            "source": "United Kingdom",
+            "target": "The New Irish Republican Army",
+            "value": 13
+        },
+        {
+            "source": "Breton Liberation Front (FLB)",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Police",
+            "value": 5
+        },
+        {
+            "source": "Dissident Republicans",
+            "target": "Private Citizens & Property",
+            "value": 6
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Military",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Military",
+            "value": 7
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "The New Irish Republican Army",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 9
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        }
+    ]
+}

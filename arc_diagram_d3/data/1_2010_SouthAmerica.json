@@ -1,0 +1,206 @@
+{
+    "nodes": [
+        {
+            "name": "Colombia",
+            "x": 0
+        },
+        {
+            "name": "Revolutionary Armed Forces of Colombia (FARC)",
+            "x": 1
+        },
+        {
+            "name": "National Liberation Army of Colombia (ELN)",
+            "x": 1
+        },
+        {
+            "name": "Paraguayan People's Army (EPP)",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Colombia",
+            "target": "National Liberation Army of Colombia (ELN)",
+            "value": 3
+        },
+        {
+            "source": "Colombia",
+            "target": "Paraguayan People's Army (EPP)",
+            "value": 1
+        },
+        {
+            "source": "Colombia",
+            "target": "Revolutionary Armed Forces of Colombia (FARC)",
+            "value": 98
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Paraguayan People's Army (EPP)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Business",
+            "value": 28
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Government (General)",
+            "value": 18
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Private Citizens & Property",
+            "value": 25
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Transportation",
+            "value": 10
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Utilities",
+            "value": 17
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 15
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 9
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 8
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 9
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 16
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 17
+        }
+    ]
+}

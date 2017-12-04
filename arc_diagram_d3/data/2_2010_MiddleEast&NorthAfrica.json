@@ -1,0 +1,184 @@
+{
+    "nodes": [
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Turkey",
+            "x": 0
+        },
+        {
+            "name": "Yemen",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Iraq",
+            "target": "Business",
+            "value": 22
+        },
+        {
+            "source": "Iraq",
+            "target": "Government (General)",
+            "value": 20
+        },
+        {
+            "source": "Iraq",
+            "target": "Police",
+            "value": 13
+        },
+        {
+            "source": "Iraq",
+            "target": "Private Citizens & Property",
+            "value": 19
+        },
+        {
+            "source": "Iraq",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Turkey",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Turkey",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Turkey",
+            "target": "Transportation",
+            "value": 4
+        },
+        {
+            "source": "Yemen",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Yemen",
+            "target": "Government (General)",
+            "value": 10
+        },
+        {
+            "source": "Yemen",
+            "target": "Police",
+            "value": 6
+        },
+        {
+            "source": "Yemen",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 22
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 8
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 7
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 15
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 7
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 15
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 4
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,380 @@
+{
+    "nodes": [
+        {
+            "name": "Afghanistan",
+            "x": 0
+        },
+        {
+            "name": "India",
+            "x": 0
+        },
+        {
+            "name": "Pakistan",
+            "x": 0
+        },
+        {
+            "name": "Taliban",
+            "x": 1
+        },
+        {
+            "name": "Maoists",
+            "x": 1
+        },
+        {
+            "name": "Tehrik-i-Taliban Pakistan (TTP)",
+            "x": 1
+        },
+        {
+            "name": "Baloch Republican Army (BRA)",
+            "x": 1
+        },
+        {
+            "name": "Communist Party of India - Maoist (CPI-Maoist)",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Afghanistan",
+            "target": "Taliban",
+            "value": 791
+        },
+        {
+            "source": "Afghanistan",
+            "target": "Tehrik-i-Taliban Pakistan (TTP)",
+            "value": 4
+        },
+        {
+            "source": "India",
+            "target": "Communist Party of India - Maoist (CPI-Maoist)",
+            "value": 56
+        },
+        {
+            "source": "India",
+            "target": "Maoists",
+            "value": 203
+        },
+        {
+            "source": "Pakistan",
+            "target": "Baloch Republican Army (BRA)",
+            "value": 42
+        },
+        {
+            "source": "Pakistan",
+            "target": "Tehrik-i-Taliban Pakistan (TTP)",
+            "value": 124
+        },
+        {
+            "source": "Baloch Republican Army (BRA)",
+            "target": "Business",
+            "value": 12
+        },
+        {
+            "source": "Baloch Republican Army (BRA)",
+            "target": "Military",
+            "value": 18
+        },
+        {
+            "source": "Baloch Republican Army (BRA)",
+            "target": "Police",
+            "value": 11
+        },
+        {
+            "source": "Baloch Republican Army (BRA)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Business",
+            "value": 12
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Government (General)",
+            "value": 6
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Police",
+            "value": 21
+        },
+        {
+            "source": "Communist Party of India - Maoist (CPI-Maoist)",
+            "target": "Private Citizens & Property",
+            "value": 17
+        },
+        {
+            "source": "Maoists",
+            "target": "Business",
+            "value": 26
+        },
+        {
+            "source": "Maoists",
+            "target": "Government (General)",
+            "value": 50
+        },
+        {
+            "source": "Maoists",
+            "target": "Military",
+            "value": 28
+        },
+        {
+            "source": "Maoists",
+            "target": "Police",
+            "value": 59
+        },
+        {
+            "source": "Maoists",
+            "target": "Private Citizens & Property",
+            "value": 40
+        },
+        {
+            "source": "Taliban",
+            "target": "Business",
+            "value": 14
+        },
+        {
+            "source": "Taliban",
+            "target": "Government (General)",
+            "value": 120
+        },
+        {
+            "source": "Taliban",
+            "target": "Military",
+            "value": 168
+        },
+        {
+            "source": "Taliban",
+            "target": "Police",
+            "value": 329
+        },
+        {
+            "source": "Taliban",
+            "target": "Private Citizens & Property",
+            "value": 160
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Business",
+            "value": 6
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Government (General)",
+            "value": 11
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Military",
+            "value": 59
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Police",
+            "value": 36
+        },
+        {
+            "source": "Tehrik-i-Taliban Pakistan (TTP)",
+            "target": "Private Citizens & Property",
+            "value": 16
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 12
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 27
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 19
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 9
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 19
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 33
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 81
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 25
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 26
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 86
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 173
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 8
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 210
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 18
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 196
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 28
+        },
+        {
+            "source": "Police",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 42
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 13
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 105
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 7
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 66
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        }
+    ]
+}

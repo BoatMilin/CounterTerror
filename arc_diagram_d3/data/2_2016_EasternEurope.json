@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "name": "Ukraine",
+            "x": 0
+        },
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Ukraine",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Ukraine",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        }
+    ]
+}

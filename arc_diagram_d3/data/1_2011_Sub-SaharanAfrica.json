@@ -1,0 +1,350 @@
+{
+    "nodes": [
+        {
+            "name": "Nigeria",
+            "x": 0
+        },
+        {
+            "name": "Somalia",
+            "x": 0
+        },
+        {
+            "name": "Sudan",
+            "x": 0
+        },
+        {
+            "name": "Mauritania",
+            "x": 0
+        },
+        {
+            "name": "Democratic Republic of the Congo",
+            "x": 0
+        },
+        {
+            "name": "Senegal",
+            "x": 0
+        },
+        {
+            "name": "Central African Republic",
+            "x": 0
+        },
+        {
+            "name": "Kenya",
+            "x": 0
+        },
+        {
+            "name": "Niger",
+            "x": 0
+        },
+        {
+            "name": "Mali",
+            "x": 0
+        },
+        {
+            "name": "Boko Haram",
+            "x": 1
+        },
+        {
+            "name": "Al-Shabaab",
+            "x": 1
+        },
+        {
+            "name": "Lord's Resistance Army (LRA)",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "x": 1
+        },
+        {
+            "name": "Movement of Democratic Forces of Casamance",
+            "x": 1
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Central African Republic",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 1
+        },
+        {
+            "source": "Democratic Republic of the Congo",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 1
+        },
+        {
+            "source": "Kenya",
+            "target": "Al-Shabaab",
+            "value": 25
+        },
+        {
+            "source": "Mali",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 1
+        },
+        {
+            "source": "Mauritania",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 3
+        },
+        {
+            "source": "Niger",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 1
+        },
+        {
+            "source": "Nigeria",
+            "target": "Boko Haram",
+            "value": 108
+        },
+        {
+            "source": "Senegal",
+            "target": "Movement of Democratic Forces of Casamance",
+            "value": 4
+        },
+        {
+            "source": "Somalia",
+            "target": "Al-Shabaab",
+            "value": 103
+        },
+        {
+            "source": "Sudan",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 3
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Government (General)",
+            "value": 14
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Military",
+            "value": 20
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Police",
+            "value": 15
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Private Citizens & Property",
+            "value": 76
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Religious Figures/Institutions",
+            "value": 3
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Government (General)",
+            "value": 17
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Military",
+            "value": 9
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Police",
+            "value": 30
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Private Citizens & Property",
+            "value": 30
+        },
+        {
+            "source": "Boko Haram",
+            "target": "Religious Figures/Institutions",
+            "value": 22
+        },
+        {
+            "source": "Lord's Resistance Army (LRA)",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "Movement of Democratic Forces of Casamance",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Movement of Democratic Forces of Casamance",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 11
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 5
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 14
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 14
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 15
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 23
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 21
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 42
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 24
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 43
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 3
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Armed Assault",
+            "value": 9
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Bombing/Explosion",
+            "value": 13
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        }
+    ]
+}

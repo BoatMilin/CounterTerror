@@ -1,0 +1,312 @@
+{
+    "nodes": [
+        {
+            "name": "West Bank and Gaza Strip",
+            "x": 0
+        },
+        {
+            "name": "Algeria",
+            "x": 0
+        },
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "Hamas (Islamic Resistance Movement)",
+            "x": 1
+        },
+        {
+            "name": "Algerian Islamic Extremists",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in Iraq",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "x": 1
+        },
+        {
+            "name": "Palestinian Islamic Jihad (PIJ)",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Terrorists/Non-State Militia",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Algeria",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 57
+        },
+        {
+            "source": "Algeria",
+            "target": "Algerian Islamic Extremists",
+            "value": 32
+        },
+        {
+            "source": "Iraq",
+            "target": "Al-Qaida in Iraq",
+            "value": 34
+        },
+        {
+            "source": "Israel",
+            "target": "Hamas (Islamic Resistance Movement)",
+            "value": 3
+        },
+        {
+            "source": "Israel",
+            "target": "Palestinian Islamic Jihad (PIJ)",
+            "value": 23
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Hamas (Islamic Resistance Movement)",
+            "value": 28
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Palestinian Islamic Jihad (PIJ)",
+            "value": 4
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Government (General)",
+            "value": 6
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Military",
+            "value": 5
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Police",
+            "value": 7
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Private Citizens & Property",
+            "value": 11
+        },
+        {
+            "source": "Al-Qaida in Iraq",
+            "target": "Terrorists/Non-State Militia",
+            "value": 5
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Military",
+            "value": 14
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Police",
+            "value": 25
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Private Citizens & Property",
+            "value": 9
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Terrorists/Non-State Militia",
+            "value": 2
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Military",
+            "value": 11
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Police",
+            "value": 12
+        },
+        {
+            "source": "Algerian Islamic Extremists",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Military",
+            "value": 8
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Police",
+            "value": 9
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Private Citizens & Property",
+            "value": 5
+        },
+        {
+            "source": "Hamas (Islamic Resistance Movement)",
+            "target": "Terrorists/Non-State Militia",
+            "value": 2
+        },
+        {
+            "source": "Palestinian Islamic Jihad (PIJ)",
+            "target": "Military",
+            "value": 3
+        },
+        {
+            "source": "Palestinian Islamic Jihad (PIJ)",
+            "target": "Private Citizens & Property",
+            "value": 24
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 11
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 8
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 33
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 20
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 30
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 12
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 6
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 39
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        }
+    ]
+}

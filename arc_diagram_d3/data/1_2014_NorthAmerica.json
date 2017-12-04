@@ -1,0 +1,83 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "White extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Police extremists",
+            "x": 1
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "United States",
+            "target": "Anti-Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Police extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "White extremists",
+            "value": 2
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "Anti-Police extremists",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "White extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

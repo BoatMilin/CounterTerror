@@ -1,0 +1,74 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Chechen Rebels",
+            "x": 1
+        },
+        {
+            "name": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Chechen Rebels",
+            "value": 3
+        },
+        {
+            "source": "Russia",
+            "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "value": 2
+        },
+        {
+            "source": "Chechen Rebels",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Chechen Rebels",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

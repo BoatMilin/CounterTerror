@@ -1,3 +1,25 @@
+/* preloader */
+#labelYear{
+    position:absolute;
+    top:-240%;
+    left:-30%;
+}
+#labelRegion{
+    position:absolute;
+    top:30%;
+    left:-60%;
+}
+#labelAttack{
+    position:absolute;
+    top:200%;
+    left:-60%;
+}
+#labelText{
+    position:absolute;
+    right: -40%;
+}
+
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -87,42 +109,64 @@ b {
 }
 
 /* Sankey */
-#chart1 {
-    position: absolute;
-    top: 870px;
-    width: 800px;
-    padding-right: 50px;
-}
-.sankey_node rect {
+.sankeyNode1 rect {
     cursor: move;
-
     fill-opacity: .9;
     shape-rendering: crispEdges;
 }
 
-.sankey_node text {
+.sankeyNode1 text {
     pointer-events: none;
     text-shadow: 0 1px 0 #fff;
 }
 
-.sankey_link {
+.sankeyLink1 {
     fill: none;
-    stroke: #000;
+    stroke: #BB5616;
     stroke-opacity: .2;
 }
 
-.sankey_link:hover {
-    stroke-opacity: 0.4;
+.sankeyLink1:hover {
+    stroke-opacity: .5;
 }
 
-.tip-class {
-    line-height: 1;
-    font-weight: bold;
-    padding: 12px;
-    background: black;
+.sankeyNode2 rect {
+    cursor: move;
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+}
 
-    color: #fff;
-    border-radius: 4px;
+.sankeyNode2 text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.sankeyLink2 {
+    fill: none;
+    stroke: #0C665E;
+    stroke-opacity: .2;
+}
+
+.sankeyLink2:hover {
+    stroke-opacity: .5;
+}
+
+#chart1 {
+    position: absolute;
+    top: 900px;
+}
+
+#chart2 {
+    position: absolute;
+    top: 900px;
+    left: 1200px;
+}
+
+#sankeyTitle {
+    position: absolute;
+    top: 850px;
+    left: 20px;
+    font-size: 20pt;
 }
 
 /* Bubbles */

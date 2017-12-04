@@ -1,0 +1,286 @@
+{
+    "nodes": [
+        {
+            "name": "Afghanistan",
+            "x": 0
+        },
+        {
+            "name": "Pakistan",
+            "x": 0
+        },
+        {
+            "name": "India",
+            "x": 0
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Afghanistan",
+            "target": "Business",
+            "value": 25
+        },
+        {
+            "source": "Afghanistan",
+            "target": "Government (General)",
+            "value": 80
+        },
+        {
+            "source": "Afghanistan",
+            "target": "Military",
+            "value": 248
+        },
+        {
+            "source": "Afghanistan",
+            "target": "Police",
+            "value": 255
+        },
+        {
+            "source": "Afghanistan",
+            "target": "Private Citizens & Property",
+            "value": 135
+        },
+        {
+            "source": "India",
+            "target": "Business",
+            "value": 32
+        },
+        {
+            "source": "India",
+            "target": "Government (General)",
+            "value": 33
+        },
+        {
+            "source": "India",
+            "target": "Military",
+            "value": 12
+        },
+        {
+            "source": "India",
+            "target": "Police",
+            "value": 71
+        },
+        {
+            "source": "India",
+            "target": "Private Citizens & Property",
+            "value": 34
+        },
+        {
+            "source": "Pakistan",
+            "target": "Business",
+            "value": 5
+        },
+        {
+            "source": "Pakistan",
+            "target": "Government (General)",
+            "value": 6
+        },
+        {
+            "source": "Pakistan",
+            "target": "Military",
+            "value": 48
+        },
+        {
+            "source": "Pakistan",
+            "target": "Police",
+            "value": 37
+        },
+        {
+            "source": "Pakistan",
+            "target": "Private Citizens & Property",
+            "value": 30
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 16
+        },
+        {
+            "source": "Business",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 19
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 16
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 18
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 33
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 36
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 17
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 15
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 112
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 173
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 11
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 11
+        },
+        {
+            "source": "Military",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 152
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 11
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 178
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 18
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 48
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 8
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 121
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 19
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        }
+    ]
+}

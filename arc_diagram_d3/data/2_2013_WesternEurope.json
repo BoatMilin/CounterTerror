@@ -1,0 +1,222 @@
+{
+    "nodes": [
+        {
+            "name": "Spain",
+            "x": 0
+        },
+        {
+            "name": "Ireland",
+            "x": 0
+        },
+        {
+            "name": "Italy",
+            "x": 0
+        },
+        {
+            "name": "Business",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 1
+        },
+        {
+            "name": "Military",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 1
+        },
+        {
+            "name": "Government (General)",
+            "x": 1
+        },
+        {
+            "name": "Armed Assault",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 2
+        },
+        {
+            "name": "Assassination",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 2
+        },
+        {
+            "name": "Hijacking",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Ireland",
+            "target": "Business",
+            "value": 7
+        },
+        {
+            "source": "Ireland",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Ireland",
+            "target": "Police",
+            "value": 18
+        },
+        {
+            "source": "Ireland",
+            "target": "Private Citizens & Property",
+            "value": 7
+        },
+        {
+            "source": "Italy",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Italy",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Italy",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Spain",
+            "target": "Business",
+            "value": 12
+        },
+        {
+            "source": "Spain",
+            "target": "Government (General)",
+            "value": 13
+        },
+        {
+            "source": "Spain",
+            "target": "Military",
+            "value": 32
+        },
+        {
+            "source": "Spain",
+            "target": "Police",
+            "value": 23
+        },
+        {
+            "source": "Spain",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 11
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 7
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 8
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 23
+        },
+        {
+            "source": "Military",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 11
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 28
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        }
+    ]
+}

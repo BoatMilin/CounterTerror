@@ -1,0 +1,467 @@
+{
+    "nodes": [
+        {
+            "name": "Iraq",
+            "x": 0
+        },
+        {
+            "name": "Syria",
+            "x": 0
+        },
+        {
+            "name": "Egypt",
+            "x": 0
+        },
+        {
+            "name": "Saudi Arabia",
+            "x": 0
+        },
+        {
+            "name": "Yemen",
+            "x": 0
+        },
+        {
+            "name": "Turkey",
+            "x": 0
+        },
+        {
+            "name": "Lebanon",
+            "x": 0
+        },
+        {
+            "name": "Israel",
+            "x": 0
+        },
+        {
+            "name": "West Bank and Gaza Strip",
+            "x": 0
+        },
+        {
+            "name": "Jordan",
+            "x": 0
+        },
+        {
+            "name": "Tunisia",
+            "x": 0
+        },
+        {
+            "name": "Islamic State of Iraq and the Levant (ISIL)",
+            "x": 1
+        },
+        {
+            "name": "Sinai Province of the Islamic State",
+            "x": 1
+        },
+        {
+            "name": "Houthi extremists (Ansar Allah)",
+            "x": 1
+        },
+        {
+            "name": "Kurdistan Workers' Party (PKK)",
+            "x": 1
+        },
+        {
+            "name": "Palestinian Extremists",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Terrorists/Non-State Militia",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Barricade Incident)",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Egypt",
+            "target": "Sinai Province of the Islamic State",
+            "value": 129
+        },
+        {
+            "source": "Iraq",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 711
+        },
+        {
+            "source": "Israel",
+            "target": "Palestinian Extremists",
+            "value": 24
+        },
+        {
+            "source": "Jordan",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 1
+        },
+        {
+            "source": "Lebanon",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 10
+        },
+        {
+            "source": "Saudi Arabia",
+            "target": "Houthi extremists (Ansar Allah)",
+            "value": 48
+        },
+        {
+            "source": "Saudi Arabia",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 7
+        },
+        {
+            "source": "Syria",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 136
+        },
+        {
+            "source": "Tunisia",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 1
+        },
+        {
+            "source": "Turkey",
+            "target": "Islamic State of Iraq and the Levant (ISIL)",
+            "value": 9
+        },
+        {
+            "source": "Turkey",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 272
+        },
+        {
+            "source": "West Bank and Gaza Strip",
+            "target": "Palestinian Extremists",
+            "value": 141
+        },
+        {
+            "source": "Yemen",
+            "target": "Houthi extremists (Ansar Allah)",
+            "value": 190
+        },
+        {
+            "source": "Houthi extremists (Ansar Allah)",
+            "target": "Business",
+            "value": 17
+        },
+        {
+            "source": "Houthi extremists (Ansar Allah)",
+            "target": "Military",
+            "value": 37
+        },
+        {
+            "source": "Houthi extremists (Ansar Allah)",
+            "target": "Police",
+            "value": 15
+        },
+        {
+            "source": "Houthi extremists (Ansar Allah)",
+            "target": "Private Citizens & Property",
+            "value": 156
+        },
+        {
+            "source": "Houthi extremists (Ansar Allah)",
+            "target": "Terrorists/Non-State Militia",
+            "value": 13
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Business",
+            "value": 54
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Military",
+            "value": 300
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Police",
+            "value": 118
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Private Citizens & Property",
+            "value": 341
+        },
+        {
+            "source": "Islamic State of Iraq and the Levant (ISIL)",
+            "target": "Terrorists/Non-State Militia",
+            "value": 62
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Business",
+            "value": 10
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Military",
+            "value": 107
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Police",
+            "value": 121
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Private Citizens & Property",
+            "value": 32
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Terrorists/Non-State Militia",
+            "value": 2
+        },
+        {
+            "source": "Palestinian Extremists",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Palestinian Extremists",
+            "target": "Military",
+            "value": 75
+        },
+        {
+            "source": "Palestinian Extremists",
+            "target": "Police",
+            "value": 38
+        },
+        {
+            "source": "Palestinian Extremists",
+            "target": "Private Citizens & Property",
+            "value": 50
+        },
+        {
+            "source": "Sinai Province of the Islamic State",
+            "target": "Business",
+            "value": 7
+        },
+        {
+            "source": "Sinai Province of the Islamic State",
+            "target": "Military",
+            "value": 50
+        },
+        {
+            "source": "Sinai Province of the Islamic State",
+            "target": "Police",
+            "value": 57
+        },
+        {
+            "source": "Sinai Province of the Islamic State",
+            "target": "Private Citizens & Property",
+            "value": 13
+        },
+        {
+            "source": "Sinai Province of the Islamic State",
+            "target": "Terrorists/Non-State Militia",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 9
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 67
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 8
+        },
+        {
+            "source": "Business",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 150
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 15
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 363
+        },
+        {
+            "source": "Military",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Hijacking",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 2
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 22
+        },
+        {
+            "source": "Military",
+            "target": "Unarmed Assault",
+            "value": 14
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 117
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 5
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 198
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 19
+        },
+        {
+            "source": "Police",
+            "target": "Unarmed Assault",
+            "value": 8
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 92
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 10
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 363
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 10
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Barricade Incident)",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 113
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 3
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Armed Assault",
+            "value": 12
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Assassination",
+            "value": 4
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Bombing/Explosion",
+            "value": 59
+        },
+        {
+            "source": "Terrorists/Non-State Militia",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 4
+        }
+    ]
+}

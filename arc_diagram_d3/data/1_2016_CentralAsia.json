@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Kyrgyzstan",
+            "x": 0
+        },
+        {
+            "name": "Eastern Turkistan Islamic Movement (ETIM)",
+            "x": 1
+        },
+        {
+            "name": "Government (Diplomatic)",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Kyrgyzstan",
+            "target": "Eastern Turkistan Islamic Movement (ETIM)",
+            "value": 1
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Government (Diplomatic)",
+            "value": 1
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        }
+    ]
+}

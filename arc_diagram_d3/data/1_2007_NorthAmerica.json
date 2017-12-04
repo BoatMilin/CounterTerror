@@ -1,0 +1,124 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Mexico",
+            "x": 0
+        },
+        {
+            "name": "Earth Liberation Front (ELF)",
+            "x": 1
+        },
+        {
+            "name": "Anti-Abortion extremists",
+            "x": 1
+        },
+        {
+            "name": "Popular Revolutionary Army (Mexico)",
+            "x": 1
+        },
+        {
+            "name": "Animal Liberation Front (ALF)",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Abortion Related",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Educational Institution",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Mexico",
+            "target": "Popular Revolutionary Army (Mexico)",
+            "value": 2
+        },
+        {
+            "source": "United States",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Abortion extremists",
+            "value": 3
+        },
+        {
+            "source": "United States",
+            "target": "Earth Liberation Front (ELF)",
+            "value": 3
+        },
+        {
+            "source": "Animal Liberation Front (ALF)",
+            "target": "Educational Institution",
+            "value": 1
+        },
+        {
+            "source": "Anti-Abortion extremists",
+            "target": "Abortion Related",
+            "value": 3
+        },
+        {
+            "source": "Earth Liberation Front (ELF)",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Popular Revolutionary Army (Mexico)",
+            "target": "Utilities",
+            "value": 2
+        },
+        {
+            "source": "Abortion Related",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Abortion Related",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Utilities",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

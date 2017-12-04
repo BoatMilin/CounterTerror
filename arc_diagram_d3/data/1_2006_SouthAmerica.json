@@ -1,0 +1,191 @@
+{
+    "nodes": [
+        {
+            "name": "Colombia",
+            "x": 0
+        },
+        {
+            "name": "Peru",
+            "x": 0
+        },
+        {
+            "name": "Revolutionary Armed Forces of Colombia (FARC)",
+            "x": 1
+        },
+        {
+            "name": "National Liberation Army of Colombia (ELN)",
+            "x": 1
+        },
+        {
+            "name": "Shining Path (SL)",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Colombia",
+            "target": "National Liberation Army of Colombia (ELN)",
+            "value": 2
+        },
+        {
+            "source": "Colombia",
+            "target": "Revolutionary Armed Forces of Colombia (FARC)",
+            "value": 26
+        },
+        {
+            "source": "Peru",
+            "target": "Shining Path (SL)",
+            "value": 1
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "National Liberation Army of Colombia (ELN)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Business",
+            "value": 5
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Government (General)",
+            "value": 7
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Private Citizens & Property",
+            "value": 4
+        },
+        {
+            "source": "Revolutionary Armed Forces of Colombia (FARC)",
+            "target": "Transportation",
+            "value": 7
+        },
+        {
+            "source": "Shining Path (SL)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 4
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        }
+    ]
+}

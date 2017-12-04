@@ -1,0 +1,102 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Caucasus Emirate",
+            "x": 1
+        },
+        {
+            "name": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Russia",
+            "target": "Caucasus Emirate",
+            "value": 6
+        },
+        {
+            "source": "Russia",
+            "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 2
+        }
+    ]
+}

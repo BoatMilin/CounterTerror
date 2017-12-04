@@ -1,0 +1,297 @@
+{
+    "nodes": [
+        {
+            "name": "Philippines",
+            "x": 0
+        },
+        {
+            "name": "Thailand",
+            "x": 0
+        },
+        {
+            "name": "Myanmar",
+            "x": 0
+        },
+        {
+            "name": "New People's Army (NPA)",
+            "x": 1
+        },
+        {
+            "name": "Abu Sayyaf Group (ASG)",
+            "x": 1
+        },
+        {
+            "name": "Moro Islamic Liberation Front (MILF)",
+            "x": 1
+        },
+        {
+            "name": "Runda Kumpulan Kecil (RKK)",
+            "x": 1
+        },
+        {
+            "name": "Karen National Union",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Telecommunication",
+            "x": 2
+        },
+        {
+            "name": "Utilities",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Myanmar",
+            "target": "Karen National Union",
+            "value": 3
+        },
+        {
+            "source": "Philippines",
+            "target": "Abu Sayyaf Group (ASG)",
+            "value": 13
+        },
+        {
+            "source": "Philippines",
+            "target": "Moro Islamic Liberation Front (MILF)",
+            "value": 45
+        },
+        {
+            "source": "Philippines",
+            "target": "New People's Army (NPA)",
+            "value": 60
+        },
+        {
+            "source": "Thailand",
+            "target": "Karen National Union",
+            "value": 1
+        },
+        {
+            "source": "Thailand",
+            "target": "Runda Kumpulan Kecil (RKK)",
+            "value": 13
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Business",
+            "value": 5
+        },
+        {
+            "source": "Abu Sayyaf Group (ASG)",
+            "target": "Private Citizens & Property",
+            "value": 8
+        },
+        {
+            "source": "Karen National Union",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Karen National Union",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Karen National Union",
+            "target": "Telecommunication",
+            "value": 1
+        },
+        {
+            "source": "Karen National Union",
+            "target": "Utilities",
+            "value": 1
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Business",
+            "value": 3
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Private Citizens & Property",
+            "value": 32
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Telecommunication",
+            "value": 3
+        },
+        {
+            "source": "Moro Islamic Liberation Front (MILF)",
+            "target": "Utilities",
+            "value": 5
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Business",
+            "value": 15
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Military",
+            "value": 6
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Private Citizens & Property",
+            "value": 11
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Telecommunication",
+            "value": 25
+        },
+        {
+            "source": "New People's Army (NPA)",
+            "target": "Utilities",
+            "value": 3
+        },
+        {
+            "source": "Runda Kumpulan Kecil (RKK)",
+            "target": "Business",
+            "value": 6
+        },
+        {
+            "source": "Runda Kumpulan Kecil (RKK)",
+            "target": "Utilities",
+            "value": 7
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 13
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 10
+        },
+        {
+            "source": "Business",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 3
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 4
+        },
+        {
+            "source": "Military",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Military",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 21
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 14
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 13
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Telecommunication",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Telecommunication",
+            "target": "Bombing/Explosion",
+            "value": 14
+        },
+        {
+            "source": "Telecommunication",
+            "target": "Facility/Infrastructure Attack",
+            "value": 13
+        },
+        {
+            "source": "Utilities",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Utilities",
+            "target": "Facility/Infrastructure Attack",
+            "value": 6
+        }
+    ]
+}

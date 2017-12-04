@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Eastern Turkistan Islamic Movement (ETIM)",
+            "x": 1
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Eastern Turkistan Islamic Movement (ETIM)",
+            "value": 4
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Police",
+            "value": 2
+        },
+        {
+            "source": "Eastern Turkistan Islamic Movement (ETIM)",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

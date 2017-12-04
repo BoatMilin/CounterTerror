@@ -1,0 +1,64 @@
+{
+    "nodes": [
+        {
+            "name": "Mexico",
+            "x": 0
+        },
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Earth Liberation Front (ELF)",
+            "x": 1
+        },
+        {
+            "name": "Animal Liberation Front (ALF)",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Mexico",
+            "target": "Earth Liberation Front (ELF)",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "Animal Liberation Front (ALF)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Earth Liberation Front (ELF)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

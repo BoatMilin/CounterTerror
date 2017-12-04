@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Georgia",
+            "x": 0
+        },
+        {
+            "name": "South Ossetian Separatists",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Georgia",
+            "target": "South Ossetian Separatists",
+            "value": 1
+        },
+        {
+            "source": "South Ossetian Separatists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        }
+    ]
+}

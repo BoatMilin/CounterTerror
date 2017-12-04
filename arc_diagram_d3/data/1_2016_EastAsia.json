@@ -1,0 +1,105 @@
+{
+    "nodes": [
+        {
+            "name": "Taiwan",
+            "x": 0
+        },
+        {
+            "name": "China",
+            "x": 0
+        },
+        {
+            "name": "Separatists",
+            "x": 1
+        },
+        {
+            "name": "Uighur Separatists",
+            "x": 1
+        },
+        {
+            "name": "Kachin Independence Army (KIA)",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "China",
+            "target": "Kachin Independence Army (KIA)",
+            "value": 2
+        },
+        {
+            "source": "China",
+            "target": "Uighur Separatists",
+            "value": 2
+        },
+        {
+            "source": "Taiwan",
+            "target": "Separatists",
+            "value": 1
+        },
+        {
+            "source": "Kachin Independence Army (KIA)",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Separatists",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Uighur Separatists",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Transportation",
+            "target": "Hijacking",
+            "value": 1
+        }
+    ]
+}

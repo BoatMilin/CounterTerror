@@ -1,0 +1,165 @@
+{
+    "nodes": [
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Canada",
+            "x": 0
+        },
+        {
+            "name": "Mexico",
+            "x": 0
+        },
+        {
+            "name": "Anti-Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Animal Liberation Front (ALF)",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Pagan Sect of the Mountain",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Military",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Canada",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "Mexico",
+            "target": "Pagan Sect of the Mountain",
+            "value": 9
+        },
+        {
+            "source": "United States",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Muslim extremists",
+            "value": 6
+        },
+        {
+            "source": "United States",
+            "target": "Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "Animal Liberation Front (ALF)",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 3
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Military",
+            "value": 2
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "Pagan Sect of the Mountain",
+            "target": "Transportation",
+            "value": 9
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Military",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Bombing/Explosion",
+            "value": 9
+        }
+    ]
+}

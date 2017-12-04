@@ -1,0 +1,316 @@
+{
+    "nodes": [
+        {
+            "name": "Somalia",
+            "x": 0
+        },
+        {
+            "name": "Democratic Republic of the Congo",
+            "x": 0
+        },
+        {
+            "name": "Sudan",
+            "x": 0
+        },
+        {
+            "name": "Nigeria",
+            "x": 0
+        },
+        {
+            "name": "Equatorial Guinea",
+            "x": 0
+        },
+        {
+            "name": "Cameroon",
+            "x": 0
+        },
+        {
+            "name": "Mauritania",
+            "x": 0
+        },
+        {
+            "name": "Uganda",
+            "x": 0
+        },
+        {
+            "name": "Central African Republic",
+            "x": 0
+        },
+        {
+            "name": "Al-Shabaab",
+            "x": 1
+        },
+        {
+            "name": "Lord's Resistance Army (LRA)",
+            "x": 1
+        },
+        {
+            "name": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "x": 1
+        },
+        {
+            "name": "Democratic Front for the Liberation of Rwanda (FDLR)",
+            "x": 1
+        },
+        {
+            "name": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "x": 1
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Government (Diplomatic)",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        },
+        {
+            "name": "Hostage Taking (Kidnapping)",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Cameroon",
+            "target": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "value": 1
+        },
+        {
+            "source": "Central African Republic",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 1
+        },
+        {
+            "source": "Democratic Republic of the Congo",
+            "target": "Democratic Front for the Liberation of Rwanda (FDLR)",
+            "value": 17
+        },
+        {
+            "source": "Democratic Republic of the Congo",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 15
+        },
+        {
+            "source": "Equatorial Guinea",
+            "target": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "value": 1
+        },
+        {
+            "source": "Mauritania",
+            "target": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "value": 2
+        },
+        {
+            "source": "Nigeria",
+            "target": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "value": 8
+        },
+        {
+            "source": "Somalia",
+            "target": "Al-Shabaab",
+            "value": 34
+        },
+        {
+            "source": "Sudan",
+            "target": "Lord's Resistance Army (LRA)",
+            "value": 11
+        },
+        {
+            "source": "Uganda",
+            "target": "Al-Shabaab",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Government (Diplomatic)",
+            "value": 1
+        },
+        {
+            "source": "Al-Qaida in the Islamic Maghreb (AQIM)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Government (Diplomatic)",
+            "value": 4
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Government (General)",
+            "value": 14
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Police",
+            "value": 4
+        },
+        {
+            "source": "Al-Shabaab",
+            "target": "Private Citizens & Property",
+            "value": 13
+        },
+        {
+            "source": "Democratic Front for the Liberation of Rwanda (FDLR)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Democratic Front for the Liberation of Rwanda (FDLR)",
+            "target": "Private Citizens & Property",
+            "value": 16
+        },
+        {
+            "source": "Lord's Resistance Army (LRA)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Lord's Resistance Army (LRA)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Lord's Resistance Army (LRA)",
+            "target": "Private Citizens & Property",
+            "value": 25
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Business",
+            "value": 8
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Movement for the Emancipation of the Niger Delta (MEND)",
+            "target": "Private Citizens & Property",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 7
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Government (General)",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Armed Assault",
+            "value": 22
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 12
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hostage Taking (Kidnapping)",
+            "value": 15
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Unarmed Assault",
+            "value": 1
+        }
+    ]
+}

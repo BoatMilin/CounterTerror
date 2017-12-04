@@ -1,0 +1,247 @@
+{
+    "nodes": [
+        {
+            "name": "Greece",
+            "x": 0
+        },
+        {
+            "name": "Spain",
+            "x": 0
+        },
+        {
+            "name": "United Kingdom",
+            "x": 0
+        },
+        {
+            "name": "Italy",
+            "x": 0
+        },
+        {
+            "name": "Revolutionary Struggle",
+            "x": 1
+        },
+        {
+            "name": "Conspiracy of Cells of Fire",
+            "x": 1
+        },
+        {
+            "name": "Basque Fatherland and Freedom (ETA)",
+            "x": 1
+        },
+        {
+            "name": "Irish Republican Extremists",
+            "x": 1
+        },
+        {
+            "name": "Informal Anarchist Federation",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Transportation",
+            "x": 2
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Hijacking",
+            "x": 3
+        },
+        {
+            "name": "Assassination",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Greece",
+            "target": "Conspiracy of Cells of Fire",
+            "value": 9
+        },
+        {
+            "source": "Greece",
+            "target": "Revolutionary Struggle",
+            "value": 11
+        },
+        {
+            "source": "Italy",
+            "target": "Informal Anarchist Federation",
+            "value": 1
+        },
+        {
+            "source": "Spain",
+            "target": "Basque Fatherland and Freedom (ETA)",
+            "value": 12
+        },
+        {
+            "source": "United Kingdom",
+            "target": "Irish Republican Extremists",
+            "value": 4
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Business",
+            "value": 4
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Transportation",
+            "value": 2
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Government (General)",
+            "value": 4
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Transportation",
+            "value": 1
+        },
+        {
+            "source": "Informal Anarchist Federation",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Irish Republican Extremists",
+            "target": "Government (General)",
+            "value": 1
+        },
+        {
+            "source": "Irish Republican Extremists",
+            "target": "Private Citizens & Property",
+            "value": 3
+        },
+        {
+            "source": "Revolutionary Struggle",
+            "target": "Business",
+            "value": 6
+        },
+        {
+            "source": "Revolutionary Struggle",
+            "target": "Government (General)",
+            "value": 2
+        },
+        {
+            "source": "Revolutionary Struggle",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 10
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 6
+        },
+        {
+            "source": "Government (General)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Assassination",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Hijacking",
+            "value": 3
+        },
+        {
+            "source": "Transportation",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Transportation",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}

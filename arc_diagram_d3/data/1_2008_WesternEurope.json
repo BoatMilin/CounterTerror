@@ -1,0 +1,225 @@
+{
+    "nodes": [
+        {
+            "name": "Greece",
+            "x": 0
+        },
+        {
+            "name": "Spain",
+            "x": 0
+        },
+        {
+            "name": "Italy",
+            "x": 0
+        },
+        {
+            "name": "Austria",
+            "x": 0
+        },
+        {
+            "name": "Finland",
+            "x": 0
+        },
+        {
+            "name": "Germany",
+            "x": 0
+        },
+        {
+            "name": "Netherlands",
+            "x": 0
+        },
+        {
+            "name": "Conspiracy of Cells of Fire",
+            "x": 1
+        },
+        {
+            "name": "Basque Fatherland and Freedom (ETA)",
+            "x": 1
+        },
+        {
+            "name": "Neo-Nazi extremists",
+            "x": 1
+        },
+        {
+            "name": "Kurdistan Workers' Party (PKK)",
+            "x": 1
+        },
+        {
+            "name": "Animal Liberation Front (ALF)",
+            "x": 1
+        },
+        {
+            "name": "Business",
+            "x": 2
+        },
+        {
+            "name": "Telecommunication",
+            "x": 2
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Government (General)",
+            "x": 2
+        },
+        {
+            "name": "Government (Diplomatic)",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Unarmed Assault",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Austria",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 4
+        },
+        {
+            "source": "Finland",
+            "target": "Kurdistan Workers' Party (PKK)",
+            "value": 1
+        },
+        {
+            "source": "Germany",
+            "target": "Neo-Nazi extremists",
+            "value": 1
+        },
+        {
+            "source": "Greece",
+            "target": "Conspiracy of Cells of Fire",
+            "value": 13
+        },
+        {
+            "source": "Italy",
+            "target": "Neo-Nazi extremists",
+            "value": 1
+        },
+        {
+            "source": "Netherlands",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "Spain",
+            "target": "Basque Fatherland and Freedom (ETA)",
+            "value": 23
+        },
+        {
+            "source": "Animal Liberation Front (ALF)",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Business",
+            "value": 9
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Government (General)",
+            "value": 3
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Police",
+            "value": 7
+        },
+        {
+            "source": "Basque Fatherland and Freedom (ETA)",
+            "target": "Telecommunication",
+            "value": 4
+        },
+        {
+            "source": "Conspiracy of Cells of Fire",
+            "target": "Business",
+            "value": 13
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Business",
+            "value": 2
+        },
+        {
+            "source": "Kurdistan Workers' Party (PKK)",
+            "target": "Government (Diplomatic)",
+            "value": 3
+        },
+        {
+            "source": "Neo-Nazi extremists",
+            "target": "Business",
+            "value": 1
+        },
+        {
+            "source": "Neo-Nazi extremists",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Business",
+            "target": "Bombing/Explosion",
+            "value": 8
+        },
+        {
+            "source": "Business",
+            "target": "Facility/Infrastructure Attack",
+            "value": 16
+        },
+        {
+            "source": "Business",
+            "target": "Unarmed Assault",
+            "value": 1
+        },
+        {
+            "source": "Government (Diplomatic)",
+            "target": "Facility/Infrastructure Attack",
+            "value": 3
+        },
+        {
+            "source": "Government (General)",
+            "target": "Bombing/Explosion",
+            "value": 3
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 5
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Telecommunication",
+            "target": "Bombing/Explosion",
+            "value": 4
+        }
+    ]
+}

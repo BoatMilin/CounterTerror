@@ -1,0 +1,101 @@
+{
+    "nodes": [
+        {
+            "name": "Russia",
+            "x": 0
+        },
+        {
+            "name": "Bulgaria",
+            "x": 0
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Hezbollah",
+            "x": 1
+        },
+        {
+            "name": "Caucasus Emirate",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Tourists",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Bulgaria",
+            "target": "Hezbollah",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Caucasus Emirate",
+            "value": 1
+        },
+        {
+            "source": "Russia",
+            "target": "Muslim extremists",
+            "value": 4
+        },
+        {
+            "source": "Caucasus Emirate",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Hezbollah",
+            "target": "Tourists",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Police",
+            "value": 3
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 2
+        },
+        {
+            "source": "Police",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Bombing/Explosion",
+            "value": 1
+        },
+        {
+            "source": "Tourists",
+            "target": "Bombing/Explosion",
+            "value": 1
+        }
+    ]
+}

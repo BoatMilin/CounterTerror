@@ -1,0 +1,151 @@
+{
+    "nodes": [
+        {
+            "name": "Canada",
+            "x": 0
+        },
+        {
+            "name": "United States",
+            "x": 0
+        },
+        {
+            "name": "Animal Liberation Front (ALF)",
+            "x": 1
+        },
+        {
+            "name": "Anti-Police extremists",
+            "x": 1
+        },
+        {
+            "name": "Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Muslim extremists",
+            "x": 1
+        },
+        {
+            "name": "Anti-Abortion extremists",
+            "x": 1
+        },
+        {
+            "name": "Police",
+            "x": 2
+        },
+        {
+            "name": "Private Citizens & Property",
+            "x": 2
+        },
+        {
+            "name": "Educational Institution",
+            "x": 2
+        },
+        {
+            "name": "Religious Figures/Institutions",
+            "x": 2
+        },
+        {
+            "name": "Abortion Related",
+            "x": 2
+        },
+        {
+            "name": "Facility/Infrastructure Attack",
+            "x": 3
+        },
+        {
+            "name": "Armed Assault",
+            "x": 3
+        },
+        {
+            "name": "Bombing/Explosion",
+            "x": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "Canada",
+            "target": "Animal Liberation Front (ALF)",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Abortion extremists",
+            "value": 2
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Muslim extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Anti-Police extremists",
+            "value": 1
+        },
+        {
+            "source": "United States",
+            "target": "Muslim extremists",
+            "value": 3
+        },
+        {
+            "source": "Animal Liberation Front (ALF)",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Anti-Abortion extremists",
+            "target": "Abortion Related",
+            "value": 2
+        },
+        {
+            "source": "Anti-Muslim extremists",
+            "target": "Religious Figures/Institutions",
+            "value": 1
+        },
+        {
+            "source": "Anti-Police extremists",
+            "target": "Police",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Educational Institution",
+            "value": 1
+        },
+        {
+            "source": "Muslim extremists",
+            "target": "Private Citizens & Property",
+            "value": 2
+        },
+        {
+            "source": "Abortion Related",
+            "target": "Facility/Infrastructure Attack",
+            "value": 2
+        },
+        {
+            "source": "Educational Institution",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Armed Assault",
+            "value": 1
+        },
+        {
+            "source": "Police",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        },
+        {
+            "source": "Private Citizens & Property",
+            "target": "Bombing/Explosion",
+            "value": 2
+        },
+        {
+            "source": "Religious Figures/Institutions",
+            "target": "Facility/Infrastructure Attack",
+            "value": 1
+        }
+    ]
+}
