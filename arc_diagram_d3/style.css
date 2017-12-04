@@ -1,25 +1,22 @@
 /* preloader */
+.preload {
+    width: 100%;
+    height: 100%;
+    color: #262626;
+}
+
 #labelYear{
-    position:absolute;
-    top:-240%;
-    left:-30%;
+    position: absolute;
 }
 #labelRegion{
-    position:absolute;
-    top:30%;
-    left:-60%;
+    position: absolute;
 }
 #labelAttack{
-    position:absolute;
-    top:200%;
-    left:-60%;
+    position: absolute;
 }
-#labelText{
-    position:absolute;
-    right: -40%;
+#labeltext{
+    position: absolute;
 }
-
-
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -81,7 +78,7 @@ b {
 
 #arc {
     padding-left: 40px;
-    padding-top: 125px;
+    padding-top: 205px;
 }
 /* play button related */
 .playpause label {
@@ -122,7 +119,7 @@ b {
 
 .sankeyLink1 {
     fill: none;
-    stroke: #BB5616;
+    stroke: #0C665E;
     stroke-opacity: .2;
 }
 
@@ -143,7 +140,7 @@ b {
 
 .sankeyLink2 {
     fill: none;
-    stroke: #0C665E;
+    stroke: #BB5616;
     stroke-opacity: .2;
 }
 
@@ -153,18 +150,19 @@ b {
 
 #chart1 {
     position: absolute;
-    top: 900px;
+    top: 980px;
 }
 
 #chart2 {
     position: absolute;
-    top: 900px;
+    top: 980px;
     left: 1200px;
+    
 }
 
 #sankeyTitle {
     position: absolute;
-    top: 850px;
+    top: 920px;
     left: 20px;
     font-size: 20pt;
 }
@@ -199,12 +197,14 @@ b {
 
 #svg1 {
     position: absolute;
-    left: 1500px;
-    top: 120px;
+    visibility: hidden;
+    left: 1700px;
+    top: 700px;  
 }
 
 #svg2 {
     position: absolute;
-    left: 1500px;
-    top: 700px;
+    left: 2000px;
+    top: 120px;
+  
 }
