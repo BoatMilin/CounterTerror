@@ -1,7 +1,5 @@
 var bubbles;
-var diameter = 500, //max size of the bubbles
-//color    = d3.scale.linear().domain([costMin,costMax]).range(['#0075B4', '#70B5DC'])
-//d3.scale.category20b(), //color category
+var diameter = 600, 
 format = d3.format(",d")
 var bubble = d3.layout.pack()
 .sort(null)
@@ -14,6 +12,7 @@ var tooltip = d3.select("body")
 .style("z-index", "10")
 .style("visibility", "hidden")
 .style("color", "white")
+.style("width", "300px")
 .style("padding", "8px")
 .style("background-color", "rgba(0, 0, 0, 0.75)")
 .style("border-radius", "6px")
@@ -21,13 +20,6 @@ var tooltip = d3.select("body")
 .text("tooltip")
 .attr("id","tooltip");
 
-
-var svg = d3.select("body")
-.append("svg")
-.attr("id",'svg1')
-.attr("width", diameter)
-.attr("height", diameter)
-.attr("class", "bubble");
 
 var svg2 = d3.select("body")
 .append("svg")
@@ -37,14 +29,12 @@ var svg2 = d3.select("body")
 .attr("class", "bubble");
 
 var path;
-var path2;
 
-function initBubbles() {
+function init() {
     var region = getRegion().replace(/ /g,"_");
-    path = "bubbles/data/nyt/wc_"+getYear()+".csv"
-    path2 = "bubbles/data/wc_gtd/"+getYear()+"/wc_"+region+".csv"
-    updateBubble(path)
-    updateBubble(path2)
+    path = "./data/proc/top_key/"+getYear()+"/"+region+".csv"
+    console.log(region)
+    update(path)
 }
 
 function getYear(){
@@ -61,15 +51,10 @@ function getRegion(){
 }
 
 function updateClicked(){
-    d3.select("#svg1").remove()
+
     d3.select("#svg2").remove()
     d3.select("#tooltip").remove()
-    svg = d3.select("body")
-    .append("svg")
-    .attr("id",'svg1')
-    .attr("width", diameter)
-    .attr("height", diameter)
-    .attr("class", "bubble");
+    
     svg2 = d3.select("body")
     .append("svg")
     .attr("id",'svg2')
@@ -79,6 +64,7 @@ function updateClicked(){
     tooltip = d3.select("body")
     .append("div")
     .style("position", "absolute")
+    .style("width", "300px")
     .style("z-index", "10")
     .style("visibility", "hidden")
     .style("color", "white")
@@ -90,102 +76,101 @@ function updateClicked(){
     .attr("id","tooltip");
 
     var region = getRegion().replace(/ /g,"_");
-    path = "bubbles/data/nyt/wc_"+getYear()+".csv"
-    path2 = "bubbles/data/wc_gtd/"+getYear()+"/wc_"+region+".csv"
-
-    updateBubble(path)
-    try{
-        updateBubble(path2)
-    }
-    catch(err) {
-        console.log("err")
-    }
+    path = "./data/proc/top_key/"+getYear()+"/"+region+".csv"
+    update(path)
 }
 
-function updateBubble(path) {
+function loadCSV(path) {
     d3.csv(path, function(error, data){
-            if(error) {
-                console.log("File not found");
-                bubbles.append("text")
-                .attr("text-anchor", "middle")
-                .text("no data")
-                .style({
-                    "fill":"black", 
-                    "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-                    "font-size": "12px"
-                })
-                .style("pointer-events", "none");
-                return;
-            }
-            
-            //convert numerical values from strings to numbers
-            data = data.map(function(d){
-                d.word = d["word"];
-                d.value = +d["count"]; 
-                return d; 
-            });
-            
-            var max = d3.max(data, function(d) { return d.value; });
-            var min = d3.min(data, function(d) { return d.value; });
-    
-            //bubbles needs very specific format, convert data to this.
-            var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
-        
-            
-            var isNYT = path.indexOf("nyt")!==-1;
-            if(isNYT) {
-                bubbles = svg.append("g")
-                .attr("transform", "translate(0,0)")
-                .selectAll(".bubble")
-                .data(nodes)
-                .enter();
-            }
-            else {
-                bubbles = svg2.append("g")
-                .attr("transform", "translate(0,0)")
-                .selectAll(".bubble")
-                .data(nodes)
-                .enter();
-            }
-            
-        
-            //create the bubbles
-            bubbles.append("circle")
-                .attr("r", function(d){ return d.r; })
-                .attr("cx", function(d){ return d.x; })
-                .attr("cy", function(d){ return d.y; })
-                .style("fill", function(d) {
-                    var color;
-                    if(isNYT) {
-                        color = function() {return '#BBE5DD'}
-                    }
-                    else {
-                        color = d3.scale.linear().domain([min,max]).range(['#FDB47B', '#C15412']) 
-                    }
-                    
-                    var x = color(d.value);
-                    return x;
-                })
-                .on("mouseover", function(d) {
-                    tooltip.text(d.word + ": " + format(d.value));
-                    tooltip.style("visibility", "visible");
-                })
-                .on("mousemove", function() {
-                return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
-                })
-                .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
-        
-            //format the text for each bubble
+        if(error) {
+            console.log("File not found");
             bubbles.append("text")
-                .attr("x", function(d){ return d.x; })
-                .attr("y", function(d){ return d.y + 5; })
-                .attr("text-anchor", "middle")
-                .text(function(d){ return d["word"]; })
-                .style({
-                    "fill":"black", 
-                    "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-                    "font-size": "12px"
-                })
-                .style("pointer-events", "none");
-        })
+            .attr("text-anchor", "middle")
+            .text("no data")
+            .style({
+                "fill":"black", 
+                "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
+                "font-size": "12px"
+            })
+            .style("pointer-events", "none");
+            return;
+        }
+        
+        data = data.map(function(d){
+            d.word = d["keyword"]
+            d.value = +d["score"]; 
+            d.date = d["date"];
+            d.gname = d["gname"];
+            d.nkill = +d["nkill"];
+            d.nwound = +d["nwound"];
+            summary = d["date"]+": "+d["summary"]+" Deaths: "+d.nkill+" , Wounded: "+d.nwound;
+            d.summary = summary;
+            return d; 
+        });
+        
+        var max = d3.max(data, function(d) { return d.value; });
+        var min = d3.min(data, function(d) { return d.value; });
+
+        var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
+    
+        bubbles = svg2.append("g")
+        .attr("transform", "translate(0,0)")
+        .selectAll(".bubble")
+        .data(nodes)
+        .enter();
+    
+        //create the bubbles
+        bubbles.append("circle")
+            .attr("r", function(d){ return d.r; })
+            .attr("cx", function(d){ return d.x; })
+            .attr("cy", function(d){ return d.y; })
+            .attr("class", function(d){ return d.gname;})
+            .style("fill", function(d) {
+                var color;
+                
+                //color = d3.scale.linear().domain([min,max]).range(['#FDB47B', '#C15412']) 
+                //var x = color(d.value);
+                x = '#FDB47B';
+                return x;
+            })
+            .on("mouseover", function(d) {
+                tooltip.text(d.summary);
+                tooltip.style("visibility", "visible");
+            })
+            .on("mousemove", function() {
+            twidth = (d3.event.pageX+10)
+            return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",twidth+"px");
+            })
+            .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+    
+        //format the text for each bubble
+        var font_size;
+        bubbles.append("text")
+            .attr("x", function(d){ return d.x; })
+            .attr("y", function(d){ return d.y + 5; })
+            .attr("text-anchor", "middle")
+            .attr("font-size", function(d){
+                font_size = 3.6*d.r/d.keyword.length;
+                if(font_size<=5)
+                    font_size = 0;
+                return font_size;
+            })//
+            .text(function(d){
+                phrase = d["word"]
+                if(d.r<20)
+                phrase=''
+            return phrase })
+            .style({
+                "fill":"black", 
+                "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
+                "max-width": "100px",
+                "word-wrap": "break-word"
+            })
+            .style("pointer-events", "none");
+        
+    })
+}
+
+function update(path) {
+    loadCSV(path);
 }

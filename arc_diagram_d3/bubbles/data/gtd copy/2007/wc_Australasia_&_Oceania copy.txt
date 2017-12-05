@@ -1,9 +1,0 @@
-word,count
-tribesmen,3
-National,2
-weapons,2
-released,2
-Guinea,2
-hostage,2
-Tribesmen,2
-police,2
