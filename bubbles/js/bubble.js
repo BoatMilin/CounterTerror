@@ -113,6 +113,7 @@ function loadCSV(path) {
         var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
     
         bubbles = svg2.append("g")
+        .attr("id", "#bubbleg")
         .attr("transform", "translate(0,0)")
         .selectAll(".bubble")
         .data(nodes)
