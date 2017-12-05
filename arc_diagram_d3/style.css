@@ -1,8 +1,13 @@
 /* preloader */
 .preload {
+    position: absolute;
     width: 100%;
     height: 100%;
-    color: #262626;
+    z-index: 1000;
+    background-color: #262626;
+    color: white;
+    opacity: 0.7;
+    font-size: 25px;
 }
 
 #labelYear{
@@ -11,12 +16,24 @@
 #labelRegion{
     position: absolute;
 }
+#labelBigRegion{
+    position: absolute;
+}
 #labelAttack{
     position: absolute;
 }
-#labeltext{
+#labelText{
     position: absolute;
 }
+#labelLink{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+#labelGroup{
+    position: absolute;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -206,5 +223,4 @@ b {
     position: absolute;
     left: 2000px;
     top: 120px;
-  
 }

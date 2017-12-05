@@ -16,7 +16,6 @@ import logging
 logging.basicConfig(format='%(asctime)s | %(levelname)s | %(message)s',
                     level=logging.DEBUG)
 
-NYT_KEY_LIST = ['d0b6e935ac3247ef8391f7f009eaeec6', '387a04a9f71e4ed5a2db9654c5b45845', 'dc6ecddf2bf142c380caf8811e533e5c']
 ###########################Settings##########################################################################################
 KEYWORD_Q = 'ISIL'
 START_YEAR = 1980
