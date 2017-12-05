@@ -166,7 +166,7 @@ b {
 
 .sankeyLink1 {
     fill: none;
-    stroke: #0C665E;
+    stroke: #BB5616;
     stroke-opacity: .2;
 }
 
@@ -187,7 +187,7 @@ b {
 
 .sankeyLink2 {
     fill: none;
-    stroke: #BB5616;
+    stroke: #0C665E;
     stroke-opacity: .2;
 }
 
@@ -198,12 +198,13 @@ b {
 #chart1 {
     position: absolute;
     top: 980px;
+    left: 1200px;
 }
 
 #chart2 {
     position: absolute;
     top: 980px;
-    left: 1200px;
+    
     
 }
 

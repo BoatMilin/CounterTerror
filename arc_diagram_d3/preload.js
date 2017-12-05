@@ -20,7 +20,7 @@ $(document).ready(function () {
         })
         $('#labelGroup').css({
             top: positionTitle.top + 60,
-            left: positionTitle.left + 350
+            left: positionTitle.left + 1550
         })
         $('#labelText').css({
             top: positionText.top,
