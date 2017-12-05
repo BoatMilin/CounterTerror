@@ -342,7 +342,20 @@ function updateSankey(sankey, svg, year, region, num) {
             .data(graph.links);
 
         link
-            .enter().append("path").transition()
+            .enter().append("path")
+            .on('click', function(d) {
+                console.log(d);
+                var elements = document.getElementsByClassName('terror_group');
+                for (var element of elements) {
+                    element.style.opacity = 0.2;
+                }
+
+                elements = document.getElementsByClassName(d.source.name);
+                for (var element of elements) {
+                    element.style.opacity = 0.7;
+                } 
+            })
+            .transition()
             .attr("class", "sankeyLink" + num)
             .attr("d", path)
             .style("stroke-width", function (d) { return Math.max(1, d.dy); })

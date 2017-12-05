@@ -892,10 +892,12 @@
     <div id="labelYear">Scroll year to explore more</div>
     <div id="labelRegion">Select region node to apply filtering</div>
     <div id="labelBigRegion">Select big region to apply filtering</div>
-    <div id="labelLink">Select links to update global terrorist behavior</div>
+    <div id="labelLink">Select links to update global terrorist behavior. Link thickness represents the number of attacks.</div>
     <div id="labelGroup">Select terror group to apply highlight to the bubble</div>
-    <!-- <div id="labelText">Hover over text</div> -->
+    <div id="labelText">Hover over text to view event detail</div>
 </div>
+<div id="labelInternal">Attacks originated</div>
+<div id="labelExternal">Attacks occured</div>
 <body onload="init()">
     <div>
         <div class="playpause" style="width: 15%; height: 100%;">
@@ -969,7 +971,7 @@
 
     </script>
     <script src="preload.js"></script>
-    <script src="bubbles/js/bubble.js"></script>
+    <script src="./js/bubble.js"></script>
 </body>
 
 </html>

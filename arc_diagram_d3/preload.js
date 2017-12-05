@@ -5,7 +5,7 @@ $(document).ready(function () {
         });
         var positionYear = $("#slider").position();
         var positionTitle = $("#sankeyTitle").position();
-        console.log(positionTitle)
+        var positionText = $('#svg2').position();
         $('#labelYear').css({
             top: positionYear.top + 80,
             left: positionYear.left + 300
@@ -21,6 +21,10 @@ $(document).ready(function () {
         $('#labelGroup').css({
             top: positionTitle.top + 60,
             left: positionTitle.left + 350
+        })
+        $('#labelText').css({
+            top: positionText.top,
+            left: positionText.left
         })
     });
 });

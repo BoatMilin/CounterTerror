@@ -33,7 +33,37 @@
 #labelGroup{
     position: absolute;
 }
-
+#labelInternal {
+    position: absolute;
+    top:940px;
+    left:400px;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    background: #D1e1df;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+}  
+#labelExternal {
+    position: absolute;
+    top:940px;
+    left:600px;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    background: #f1ded4;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+}
+/* preloader end */
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -215,12 +245,16 @@ b {
 #svg1 {
     position: absolute;
     visibility: hidden;
-    left: 1700px;
+    left: 1400px;
     top: 700px;  
 }
 
 #svg2 {
     position: absolute;
-    left: 2000px;
+    left: 1700px;
     top: 120px;
+}
+
+circle {
+    opacity: 0.2;
 }

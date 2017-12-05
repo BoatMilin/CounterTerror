@@ -33,7 +33,6 @@ var path;
 function init() {
     var region = getRegion().replace(/ /g,"_");
     path = "./data/proc/top_key/"+getYear()+"/"+region+".csv"
-    console.log(region)
     update(path)
 }
 
