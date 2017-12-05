@@ -31,7 +31,7 @@
     var PAD = MARGIN / 2;       // actual padding amount
     var RADIUS = 30;             // fixed node radius
     var Y_FIXED = PAD + RADIUS + 550;  // y position for all nodes
-    var DEFAULT_YEAR = 2007 // START_YEAR
+    var DEFAULT_YEAR = 2008 // START_YEAR
     var GRAPH = null;
     var FILTER_GROUP = null;
     var FILTER_NODE = null;
@@ -379,7 +379,7 @@
             .attr("font-size", 10)
             .style("fill", function(d) {
                 if (d.group == FILTER_GROUP) {
-                    return "red"
+                    return "#0066CC"
                 }
                 return "black"
             })
@@ -409,7 +409,7 @@
         var nodeDiv = d3.select("#plot").selectAll(".node")
             .data(nodes)
             .enter()
-
+        console.log(links);
         var atkSrcColorScale = d3.scale.linear()
             .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
             .interpolate(d3.interpolateHcl)
@@ -896,12 +896,12 @@
     }
 </script>
 <div class="preload">
-    <div id="labelYear">Scroll year to explore more</div>
-    <div id="labelRegion">Select region node to apply filtering</div>
-    <div id="labelBigRegion">Select big region to apply filtering</div>
-    <div id="labelLink">Select links to update global terrorist behavior. Link thickness represents the number of attacks.</div>
+    <div id="labelYear">Select a year to update all the diagrams</div>
+    <div id="labelRegion">Select region node to filter arcs and update terrorist behavior chart and update event description charts</div>
+    <div id="labelBigRegion">Select continent to filter arcs and update terrorist behavior chart</div>
+    <div id="labelLink">Select arcs to update global terrorist behavior. Arc thickness represents the number of attacks.</div>
     <div id="labelGroup">Select terror group to apply highlight to the bubble</div>
-    <div id="labelText">Hover over text to view event detail</div>
+    <div id="labelText">Hover over bubble to view full attack description</div>
 </div>
 <div id="labelInternal">Attacks originated</div>
 <div id="labelExternal">Attacks occured</div>
@@ -914,10 +914,10 @@
         <div id="slider" style="float: left;"></div>
     </div>
 
-    <img src="images/legend.png" style="width: 298px; height: 62px" />
+    <img src="images/legend.png" position: absolute, style="width: 500px; height: 100px" />
     <div id="head"></div>
-
-    <p id="sankeyTitle">Global Terrorist Behavior</p>
+    <p id="bubbleTitle">Attack Descriptions</p>
+    <p id="sankeyTitle">Terrorist Behavior</p>
     <p id="chart1" class="sankeyChart" />
     <p id="chart2" class="sankeyChart" />
 
@@ -965,7 +965,7 @@
             return d;
         }
 
-        var slider = d3.slider().min(DEFAULT_YEAR).max(2016).tickValues([2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]).stepValues([2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]).tickFormat(tickFormatter);
+        var slider = d3.slider().min(DEFAULT_YEAR).max(2016).tickValues([2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]).stepValues([2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]).tickFormat(tickFormatter);
 
         slider.callback(updateYearFromSlider);
         d3.select('#slider').call(slider);

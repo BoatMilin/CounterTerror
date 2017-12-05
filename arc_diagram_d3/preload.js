@@ -15,16 +15,16 @@ $(document).ready(function () {
             left: positionTitle.left + 40
         })
         $('#labelBigRegion').css({
-            top: positionTitle.top,
+            top: positionTitle.top - 20,
             left: positionTitle.left + 1125
         })
         $('#labelGroup').css({
-            top: positionTitle.top + 60,
+            top: positionTitle.top + 120,
             left: positionTitle.left + 1550
         })
         $('#labelText').css({
-            top: positionText.top,
-            left: positionText.left
+            top: positionText.top + 20,
+            left: positionText.left + 20
         })
     });
 });

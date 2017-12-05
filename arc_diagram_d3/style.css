@@ -10,6 +10,10 @@
     font-size: 25px;
 }
 
+#labelEvent {
+    position: absolute;
+}
+
 #labelYear{
     position: absolute;
 }
@@ -18,24 +22,35 @@
 }
 #labelBigRegion{
     position: absolute;
+    top: -500px;
 }
 #labelAttack{
     position: absolute;
 }
 #labelText{
+    position:absolute;
+    top: 500px;
+    left: 1900px;
+}
+#bubbleTitle{
     position: absolute;
+    font-size: 20pt;
+    font-weight: bold;
+    top: 90px;
+    left: 1850px;
 }
 #labelLink{
     position: absolute;
-    top: 300px;
+    top: 200px;
     left: 400px;
 }
 #labelGroup{
     position: absolute;
 }
+
 #labelInternal {
     position: absolute;
-    top:940px;
+    top:960px;
     left:400px;
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
@@ -50,7 +65,7 @@
 }  
 #labelExternal {
     position: absolute;
-    top:940px;
+    top:960px;
     left:600px;
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
@@ -197,20 +212,21 @@ b {
 
 #chart1 {
     position: absolute;
-    top: 980px;
-    left: 1200px;
+    top: 1000px;
+    left: 1300px;
 }
 
 #chart2 {
     position: absolute;
-    top: 980px;
+    top: 1000px;
     
     
 }
 
 #sankeyTitle {
     position: absolute;
-    top: 920px;
+    font-weight: bold;
+    top: 950px;
     left: 20px;
     font-size: 20pt;
 }
@@ -247,13 +263,13 @@ b {
     position: absolute;
     visibility: hidden;
     left: 1400px;
-    top: 700px;  
+    top: 1200px;  
 }
 
 #svg2 {
     position: absolute;
     left: 1700px;
-    top: 120px;
+    top: 200px;
 }
 
 circle {
