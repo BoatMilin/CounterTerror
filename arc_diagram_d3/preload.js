@@ -7,15 +7,15 @@ $(document).ready(function () {
         var positionTitle = $("#sankeyTitle").position();
         var positionText = $('#svg2').position();
         $('#labelYear').css({
-            top: positionYear.top + 80,
-            left: positionYear.left + 300
+            top: positionYear.top + 10,
+            left: positionYear.left + 450
         })
         $('#labelRegion').css({
             top: positionTitle.top -150,
             left: positionTitle.left + 40
         })
-        $('#labelBigRegion').css({
-            top: positionTitle.top - 20,
+        $('#labelContinent').css({
+            top: positionTitle.top - 70,
             left: positionTitle.left + 1125
         })
         $('#labelGroup').css({
@@ -23,7 +23,7 @@ $(document).ready(function () {
             left: positionTitle.left + 1550
         })
         $('#labelText').css({
-            top: positionText.top + 20,
+            top: positionText.top + 50,
             left: positionText.left + 20
         })
     });

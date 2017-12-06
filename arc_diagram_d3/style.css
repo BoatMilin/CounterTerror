@@ -20,9 +20,9 @@
 #labelRegion{
     position: absolute;
 }
-#labelBigRegion{
+#labelContinent{
     position: absolute;
-    top: -500px;
+    top: -300px;
 }
 #labelAttack{
     position: absolute;
@@ -36,7 +36,7 @@
     position: absolute;
     font-size: 20pt;
     font-weight: bold;
-    top: 90px;
+    top: 150px;
     left: 1850px;
 }
 #labelLink{
@@ -50,8 +50,8 @@
 
 #labelInternal {
     position: absolute;
-    top:960px;
-    left:400px;
+    top:1060px;
+    left:350px;
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
     border-radius: 6px;
@@ -65,8 +65,8 @@
 }  
 #labelExternal {
     position: absolute;
-    top:960px;
-    left:600px;
+    top:1060px;
+    left:550px;
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
     border-radius: 6px;
@@ -88,7 +88,12 @@ b {
     font-weight: 900;
 }
 
-
+#title{
+    left: 50%;
+    font-size: 20pt;
+    font-weight: bold;
+    
+}
 .outline {
     fill: none;
     stroke: #888888;
@@ -212,13 +217,13 @@ b {
 
 #chart1 {
     position: absolute;
-    top: 1000px;
+    top: 1090px;
     left: 1300px;
 }
 
 #chart2 {
     position: absolute;
-    top: 1000px;
+    top: 1090px;
     
     
 }
@@ -226,7 +231,7 @@ b {
 #sankeyTitle {
     position: absolute;
     font-weight: bold;
-    top: 950px;
+    top: 1040px;
     left: 20px;
     font-size: 20pt;
 }

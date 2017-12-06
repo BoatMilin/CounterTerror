@@ -9,7 +9,7 @@
     <!--<meta http-equiv="refresh" content="3" >-->
     <meta charset="utf-8">
     <title>COUNTERTERROR</title>
-
+    <p id='title'>Geography of Global Terrorism: A Visualization to Analyze Terrorist Behavior</div>
     <!-- JavaScript Libraries //-->
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="d3.slider.js"></script>
@@ -187,7 +187,7 @@
                     return 1;
                 }
 
-                return 0.3;
+                return 0.7;
             })
             .text(function (d) { addTooltip(d3.select(this)) })
 
@@ -409,7 +409,7 @@
         var nodeDiv = d3.select("#plot").selectAll(".node")
             .data(nodes)
             .enter()
-        console.log(links);
+      
         var atkSrcColorScale = d3.scale.linear()
             .domain([1e-6, 10, 50, 100, 200, 300, 400, 500, 600])
             .interpolate(d3.interpolateHcl)
@@ -454,7 +454,7 @@
                     return 1;
                 }
 
-                return 0.3;
+                return 0.7;
             })
             .style("fill", function (d, i) {
                 if (d.name in atkSrcCountMap) {
@@ -485,7 +485,7 @@
                     return 1;
                 }
 
-                return 0.3;
+                return 0.7;
             })
             .style("fill", function (d, i) {
                 if (d.name in atkTargetCountMap) {
@@ -897,9 +897,9 @@
 </script>
 <div class="preload">
     <div id="labelYear">Select a year to update all the diagrams</div>
-    <div id="labelRegion">Select region node to filter arcs and update terrorist behavior chart and update event description charts</div>
-    <div id="labelBigRegion">Select continent to filter arcs and update terrorist behavior chart</div>
-    <div id="labelLink">Select arcs to update global terrorist behavior. Arc thickness represents the number of attacks.</div>
+    <div id="labelRegion">Select region node to filter arcs and update attack characteristic and update event description charts</div>
+    <div id="labelContinent">Select continent to filter arcs and update attack characteristic chart</div>
+    <div id="labelLink">Select arcs to update attack characteristics. Arc thickness represents the number of attacks.</div>
     <div id="labelGroup">Select terror group to apply highlight to the bubble</div>
     <div id="labelText">Hover over bubble to view full attack description</div>
 </div>
@@ -916,8 +916,8 @@
 
     <img src="images/legend.png" position: absolute, style="width: 500px; height: 100px" />
     <div id="head"></div>
-    <p id="bubbleTitle">Attack Descriptions</p>
-    <p id="sankeyTitle">Terrorist Behavior</p>
+    <p id="bubbleTitle">Individual Attack Details</p>
+    <p id="sankeyTitle">Attack Characteristics</p>
     <p id="chart1" class="sankeyChart" />
     <p id="chart2" class="sankeyChart" />
 
