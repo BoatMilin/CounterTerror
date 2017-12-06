@@ -187,9 +187,34 @@
                     return 1;
                 }
 
-                return 0.7;
+                if (FILTER_NODE == null && HIGHLIGHT_SRC_NODE == null && HIGHLIGHT_TARGET_NODE == null && FILTER_GROUP == null) {
+                    return 1;
+                }
+                return 0.3;
+            })
+            .on("mouseover", function (d) {
+                var valueTextDiv = document.getElementById("link_text-" + d.x);
+                valueTextDiv.style.fontSize = "10pt";
+            })
+            .on("mouseout", function (d) {
+                var valueTextDiv = document.getElementById("link_text-" + d.x);
+                valueTextDiv.style.fontSize = "0pt";
             })
             .text(function (d) { addTooltip(d3.select(this)) })
+
+            nodeDiv.append("text")
+            .attr("x", function (d) {
+                return d.x
+            })
+            .attr("y", function (d) {
+                return Y_FIXED + RADIUS - 5
+            })
+            .attr("class", "link_text")
+            .attr("id", function (d) {
+                return "link_text-" + d.x;
+            })
+            .text(function (d) { return internalAttackPerRegionMap[d.name] })
+            .attr("text-anchor", "middle")
 
     }
 
@@ -454,7 +479,10 @@
                     return 1;
                 }
 
-                return 0.7;
+                if (FILTER_NODE == null && HIGHLIGHT_SRC_NODE == null && HIGHLIGHT_TARGET_NODE == null && FILTER_GROUP == null) {
+                    return 1;
+                }
+                return 0.3;
             })
             .style("fill", function (d, i) {
                 if (d.name in atkSrcCountMap) {
@@ -480,12 +508,15 @@
             .attr("r", function (d, i) { return RADIUS; })
             .style("opacity", function (d, i) {
                 if (d.name == FILTER_NODE
-                    || HIGHLIGHT_TARGET_NODE == d.name || HIGHLIGHT_SRC_NODE == d.name
-                    || FILTER_GROUP == d.group) {
-                    return 1;
-                }
+                || HIGHLIGHT_TARGET_NODE == d.name || HIGHLIGHT_SRC_NODE == d.name
+                || FILTER_GROUP == d.group) {
+                return 1;
+            }
 
-                return 0.7;
+            if (FILTER_NODE == null && HIGHLIGHT_SRC_NODE == null && HIGHLIGHT_TARGET_NODE == null && FILTER_GROUP == null) {
+                return 1;
+            }
+            return 0.3;
             })
             .style("fill", function (d, i) {
                 if (d.name in atkTargetCountMap) {
