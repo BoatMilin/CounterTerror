@@ -344,7 +344,7 @@ function updateSankey(sankey, svg, year, region, num) {
         link
             .enter().append("path")
             .on('click', function(d) {
-                console.log(d);
+                //console.log(d);
                 var elements = document.getElementsByClassName('terror_group');
                 for (var element of elements) {
                     element.style.opacity = 0.2;
