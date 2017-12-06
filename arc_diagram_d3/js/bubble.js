@@ -33,6 +33,7 @@ var path;
 function initBubbles() {
     var region = getRegion().replace(/ /g,"_");
     path = "./data/proc/target/"+getYear()+"/"+region+".csv"
+    // console.log(getYear())
     update(path)
 }
 
@@ -76,11 +77,14 @@ function updateClicked(){
 
     var region = getRegion().replace(/ /g,"_");
     path = "./data/proc/target/"+getYear()+"/"+region+".csv"
+    // console.log(path)
     update(path)
 }
 
 function loadCSV(path) {
+    // console.log(path);
     d3.csv(path, function(error, data){
+        // console.log(path);
         if(error) {
             console.log("File not found");
             bubbles.append("text")
@@ -97,6 +101,7 @@ function loadCSV(path) {
         
         data = data.map(function(d){
             d.keyword = d["keyword"]
+            // console.log(keyword)
             d.value = +d["score"]; 
             d.date = d["date"];
             d.gname = d["gname"];
@@ -107,8 +112,8 @@ function loadCSV(path) {
             return d; 
         });
         
-        var max = d3.max(data, function(d) { return d.value; });
-        var min = d3.min(data, function(d) { return d.value; });
+        // var max = d3.max(data, function(d) { return d.value; });
+        // var min = d3.min(data, function(d) { return d.value; });
 
         var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
     
@@ -117,7 +122,7 @@ function loadCSV(path) {
         .selectAll(".bubble")
         .data(nodes)
         .enter();
-    
+        
         //create the bubbles
         bubbles.append("circle")
             .attr("r", function(d){ return d.r; })
@@ -171,5 +176,8 @@ function loadCSV(path) {
 }
 
 function update(path) {
+    if(getYear()=='2010'&&getRegion()=='North America')
+        path = "./data/proc/target/2010/North_American.csv"
+
     loadCSV(path);
 }
