@@ -32,7 +32,7 @@ var path;
 
 function init() {
     var region = getRegion().replace(/ /g,"_");
-    path = "./data/proc/top_key/"+getYear()+"/"+region+".csv"
+    path = "./data/proc/target/"+getYear()+"/"+region+".csv"
     update(path)
 }
 
@@ -75,7 +75,7 @@ function updateClicked(){
     .attr("id","tooltip");
 
     var region = getRegion().replace(/ /g,"_");
-    path = "./data/proc/top_key/"+getYear()+"/"+region+".csv"
+    path = "./data/proc/target/"+getYear()+"/"+region+".csv"
     update(path)
 }
 
@@ -113,7 +113,6 @@ function loadCSV(path) {
         var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
     
         bubbles = svg2.append("g")
-        .attr("id", "#bubbleg")
         .attr("transform", "translate(0,0)")
         .selectAll(".bubble")
         .data(nodes)
@@ -148,6 +147,7 @@ function loadCSV(path) {
         bubbles.append("text")
             .attr("x", function(d){ return d.x; })
             .attr("y", function(d){ return d.y + 5; })
+            .attr("class", "bubble_text")
             .attr("text-anchor", "middle")
             .attr("font-size", function(d){
                 font_size = 3.6*d.r/d.keyword.length;

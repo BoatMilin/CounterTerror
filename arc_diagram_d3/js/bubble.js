@@ -32,8 +32,7 @@ var path;
 
 function initBubbles() {
     var region = getRegion().replace(/ /g,"_");
-    path = "./data/proc/top_key/"+getYear()+"/"+region+".csv"
-    console.log(region)
+    path = "./data/proc/target/"+getYear()+"/"+region+".csv"
     update(path)
 }
 
@@ -76,7 +75,7 @@ function updateClicked(){
     .attr("id","tooltip");
 
     var region = getRegion().replace(/ /g,"_");
-    path = "./data/proc/top_key/"+getYear()+"/"+region+".csv"
+    path = "./data/proc/target/"+getYear()+"/"+region+".csv"
     update(path)
 }
 
@@ -97,7 +96,7 @@ function loadCSV(path) {
         }
         
         data = data.map(function(d){
-            d.word = d["keyword"]
+            d.keyword = d["keyword"]
             d.value = +d["score"]; 
             d.date = d["date"];
             d.gname = d["gname"];
@@ -156,7 +155,7 @@ function loadCSV(path) {
                 return font_size;
             })//
             .text(function(d){
-                phrase = d["word"]
+                phrase = d.keyword
                 if(d.r<20)
                 phrase=''
             return phrase })
