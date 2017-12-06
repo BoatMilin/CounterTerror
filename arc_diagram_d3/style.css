@@ -37,7 +37,7 @@
     font-size: 20pt;
     font-weight: bold;
     top: 150px;
-    left: 1850px;
+    left: 1700px;
 }
 #labelLink{
     position: absolute;
@@ -273,7 +273,7 @@ b {
 
 #svg2 {
     position: absolute;
-    left: 1700px;
+    left: 1600px;
     top: 200px;
 }
 
