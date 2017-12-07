@@ -6,3 +6,6 @@
 
 ## How to run
 ```python -m SimpleHTTPServer 8000```
+
+## Quick Note:
+This visualization is optimized for Google Chrome browser
